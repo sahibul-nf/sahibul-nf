@@ -1,6 +1,8 @@
 <!-- ### Hi there 👋 -->
 
-[![Header](https://frontendjoe.com/images/wallpapers/squares.png)](https://sahibul-nf.github.io/)
+<a href="https://github.com/sahibul-nf/sahibul-nf">
+  <img align="center" src="https://frontendjoe.com/images/wallpapers/squares.png" />
+</a>
 
 # Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
