@@ -18,7 +18,6 @@ My name is Sahibul Nuzul Firdaus and I'm a Information Technology Student. I'm f
 <a href="https://github.com/sahibul-nf/sahibul-nf">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahibul-nf&exclude_repo=elearning-api,ecommerse-api&langs_count=3&border_radius=16&border_color=d1d5da" />
 </a>
-<br>
 <a href="https://github.com/sahibul-nf/sahibul-nf.github.io">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=sahibul-nf&repo=sahibul-nf.github.io&show_owner=true&border_radius=16&border_color=d1d5da" />
 </a>
