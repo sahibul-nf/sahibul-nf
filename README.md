@@ -43,7 +43,7 @@ My name is Sahibul Nuzul Firdaus and I'm a Information Technology Student. I'm f
 ![Flutter](https://img.shields.io/badge/Framework-Flutter-informational?style=flat&logo=flutter&logoColor=white&color=00add8)
 ![Vue](https://img.shields.io/badge/Framework-Vue-informational?style=flat&logo=vue-dot-js&logoColor=white&color=00add8)
 ![Laravel](https://img.shields.io/badge/Framework-Laravel-informational?style=flat&logo=laravel&logoColor=white&color=00add8)
-![Spring](https://img.shields.io/badge/Framework-Spring-Boot-informational?style=flat&logo=laravel&logoColor=white&color=00add8)
+![](https://img.shields.io/badge/Framework-Spring-Boot-informational?style=flat&logo=laravel&logoColor=white&color=00add8)
 ![Express](https://img.shields.io/badge/Framework-Express-informational?style=flat&logo=laravel&logoColor=white&color=00add8)
 
 ![Figma](https://img.shields.io/badge/Tools-Figma-informational?style=flat&logo=figma&logoColor=white&color=00add8)
@@ -51,7 +51,7 @@ My name is Sahibul Nuzul Firdaus and I'm a Information Technology Student. I'm f
 ![Docker](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=00add8)
 ![Apache](https://img.shields.io/badge/Tools-Apache-informational?style=flat&logo=apache&logoColor=white&color=00add8)
 ![Apache Maven](https://img.shields.io/badge/Tools-ApacheMaven-informational?style=flat&logo=apache-maven&logoColor=white&color=00add8)
-![Storm](https://img.shields.io/badge/Tools-Apache-Storm-informational?style=flat&logo=apache-storm&logoColor=white&color=00add8)
+![](https://img.shields.io/badge/Tools-Apache-Storm-informational?style=flat&logo=apache-storm&logoColor=white&color=00add8)
 
 ![Heroku](https://img.shields.io/badge/Cloud-Heroku-informational?style=flat&logo=heroku&logoColor=white&color=00add8)
 ![AlibabaCloud](https://img.shields.io/badge/Cloud-Alibaba-informational?style=flat&logo=alibaba-cloud&logoColor=white&color=00add8)
