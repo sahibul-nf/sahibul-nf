@@ -6,7 +6,7 @@
 
 # Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
-My name is **Sahibul Nuzul Firdaus** and I'm a **Information Technology** Student. I'm from Indonesia, living in Aceh and currently studying at UIN Ar-Raniry.
+<samp>My name is **Sahibul Nuzul Firdaus** and I'm a **Information Technology** Student. I'm from Indonesia, living in Aceh and currently studying at UIN Ar-Raniry.</samp>
 
 <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coder GIF" width="400">
 
@@ -88,13 +88,19 @@ My name is **Sahibul Nuzul Firdaus** and I'm a **Information Technology** Studen
 
 <h2 align="left">👨🏻‍💻 About Me:</h2>
 
-- :computer: I usually work with flutter for frontend and go, java, javascript or php for backend
-- :hourglass_flowing_sand:  Exploring Flutter, Machine Learning, Big Data
-- :rocket: Always ready to collaborate for Dev Experiments
-- :man_technologist: I'm in need and available for internship
-- :dart: Life Hack: "Explore :fire: and Explode :bomb: with knowledge"
-- :trophy: 3rd place "District Level National Science Olympiad" - National Science Olympiad 2017
-- :zap: Fun fact: I love to attend Meetups for learning & Conferences for Networking<br>
+<samp>- :computer: I usually work with flutter for frontend and go, java, javascript or php for backend</samp>
+<br>
+<samp>- :hourglass_flowing_sand:  Exploring Flutter, Machine Learning, Big Data</samp>
+<br>
+<samp>- :rocket: Always ready to collaborate for Dev Experiments</samp>
+<br>
+<samp>- :man_technologist: I'm in need and available for internship</samp>
+<br>
+<samp>- :dart: Life Hack: "Explore :fire: and Explode :bomb: with knowledge"</samp>
+<br>
+<samp>- :trophy: 3rd place "District Level National Science Olympiad" - National Science Olympiad 2017</samp>
+<br>
+<samp>- :zap: Fun fact: I love to attend Meetups for learning & Conferences for Networking</samp>
 
 <h2 align="left">:heart: Let's get connected:</h2>
 
