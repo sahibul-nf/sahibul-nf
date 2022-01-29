@@ -43,7 +43,7 @@
 <samp>- :zap: Fun fact: I love to attend Meetups for learning & Conferences for Networking</samp>
 
 ## ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko)
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=)
 
 ![](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
