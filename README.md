@@ -26,7 +26,7 @@
 [![wakatime](https://wakatime.com/badge/user/7d2580c0-5777-4d82-b8a9-e7b69b36d281.svg)](https://wakatime.com/@7d2580c0-5777-4d82-b8a9-e7b69b36d281)
 
 <br/>
-<figure><embed src="https://wakatime.com/share/@sahibul_nf/9d3b1d32-a9a9-453d-aaa4-1d9ee0736a6e.svg"></embed></figure>
+<a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/89532bfb-a847-426f-bb01-bd4ed26198d8.png" /></a>
 
 ## Technologies & Tools
 
