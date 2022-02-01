@@ -16,11 +16,17 @@
   <img align="center" height="220" src="https://github-readme-stats.vercel.app/api?username=sahibul-nf&count_private=true&show_icons=true&title_color=00add8&bg_color=24292e&text_color=f6f8fa&icon_color=00add8&border_radius=6" />
 </a>
 <a href="https://github.com/sahibul-nf/sahibul-nf">
-  <img align="center" height="220" font-size"12" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahibul-nf&langs_count=4&border_radius=16&border_color=d1d5da" />
+  <img align="center" height="220" font-size"12" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahibul-nf&langs_count=4&border_radius=16&border_color=d1d5da&hide=html,blade,css,cmake" />
 </a><br/>
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=sahibul-nf&theme=blue-green&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=24292E&currStreakLabel=F6F8FA&currStreakNum=F6F8FA)](https://git.io/streak-stats)
+<br/>
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=sahibul_nf)](https://github.com/anuraghazra/github-readme-stats)
+<br/>
+[![wakatime](https://wakatime.com/badge/user/7d2580c0-5777-4d82-b8a9-e7b69b36d281.svg)](https://wakatime.com/@7d2580c0-5777-4d82-b8a9-e7b69b36d281)
 
+<br/>
+<figure><embed src="https://wakatime.com/share/@sahibul_nf/9d3b1d32-a9a9-453d-aaa4-1d9ee0736a6e.svg"></embed></figure>
 
 ## Technologies & Tools
 
