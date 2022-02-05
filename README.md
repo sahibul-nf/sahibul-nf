@@ -24,7 +24,7 @@
   <br/>
 <img src="https://github-readme-stats.vercel.app/api/wakatime?username=sahibul_nf" />
 
-<a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/89532bfb-a847-426f-bb01-bd4ed26198d8.png" /></a>
+![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=sahibul-nf&theme=dracula&hide_border=true)
 </p>
 
 ## Technologies & Tools
