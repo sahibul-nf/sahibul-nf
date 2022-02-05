@@ -12,21 +12,20 @@
 
 ## Github Stats
 
+<p align="center">
 <a href="https://github.com/sahibul-nf/sahibul-nf">
   <img align="center" height="220" src="https://github-readme-stats.vercel.app/api?username=sahibul-nf&count_private=true&show_icons=true&title_color=00add8&bg_color=24292e&text_color=f6f8fa&icon_color=00add8&border_radius=6" />
 </a>
+  
 <a href="https://github.com/sahibul-nf/sahibul-nf">
   <img align="center" height="220" font-size"12" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahibul-nf&langs_count=4&border_radius=16&border_color=d1d5da&hide=html,blade,css,cmake" />
-</a><br/>
+</a>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=sahibul-nf&theme=blue-green&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=24292E&currStreakLabel=F6F8FA&currStreakNum=F6F8FA" />
+  <br/>
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=sahibul_nf" />
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=sahibul-nf&theme=blue-green&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=24292E&currStreakLabel=F6F8FA&currStreakNum=F6F8FA)](https://git.io/streak-stats)
-<br/>
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=sahibul_nf)](https://github.com/anuraghazra/github-readme-stats)
-<br/>
-[![wakatime](https://wakatime.com/badge/user/7d2580c0-5777-4d82-b8a9-e7b69b36d281.svg)](https://wakatime.com/@7d2580c0-5777-4d82-b8a9-e7b69b36d281)
-
-<br/>
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/89532bfb-a847-426f-bb01-bd4ed26198d8.png" /></a>
+</p>
 
 ## Technologies & Tools
 
@@ -34,25 +33,30 @@
 
 <h2 align="left">👨🏻‍💻 About Me:</h2>
 
-<samp>- :computer: I usually work with flutter for frontend and go, java, javascript or php for backend</samp>
-<br>
-<samp>- :hourglass_flowing_sand:  Exploring Flutter, Machine Learning, Big Data</samp>
-<br>
-<samp>- :rocket: Always ready to collaborate for Dev Experiments</samp>
-<br>
-<samp>- :man_technologist: I'm available for internship or remote working</samp>
-<br>
-<samp>- :dart: Life Hack: "Explore :fire: and Explode :bomb: with knowledge"</samp>
-<br>
-<samp>- :trophy: 3rd place "District Level National Science Olympiad" - National Science Olympiad 2017</samp>
-<br>
-<samp>- :zap: Fun fact: I love to attend Meetups for learning & Conferences for Networking</samp>
-
-## ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=)
-
-![](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
+<table>
+<tr>
+  <td align="left" >
+   :computer: I usually work with flutter for frontend and go, java, or javascript for backend
+   <br>
+   :hourglass_flowing_sand:  Exploring Flutter, Machine Learning, Big Data and UI Design
+   <br>
+   :rocket: Always ready to collaborate for Dev Experiments
+   <br>
+   :man_technologist: I'm available for internship or remote working
+   <br>
+   :dart: Life Hack: "Explore :fire: and Explode :bomb: with knowledge"
+   <br>
+   :zap: Fun fact: I love to attend Meetups for learning & Conferences for Networking
+   <br>
+   :trophy: 3rd place "District Level National Science Olympiad" - National Science Olympiad 2017
+  <td >
+    <a href="https://app.daily.dev/sahibul_nf"><img src="https://api.daily.dev/devcards/e2ddb827e9de4e2a8b58b017047b13ee.png?r=lxy" width="400" alt="Sahibul Nuzul Firdaus's Dev Card"/></a>
+  </td>
+</tr>
+</table>
 
 <h2 align="left">:heart: Let's get connected:</h2>
 
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/sahibul) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/sahibul_nf) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/sahibul_nf) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@sahibul_nf) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/sahibul_nf) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/c/UCdWVhgD6M7D5DhwT0jfFITw) 
+<br/>
+![](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
