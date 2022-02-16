@@ -6,7 +6,11 @@
 
 # Hello, folks! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
-<samp>My name is **Sahibul Nuzul Firdaus** and I'm a **Information Technology** Student. I'm from Indonesia, living in Aceh and currently studying at Universitas Islam Negeri Ar-Raniry.</samp>
+<samp>My name is **Sahibul Nuzul Firdaus** and I'm a **Information Technology** Student. I'm from Indonesia, living in Aceh and currently studying at Universitas Islam Negeri Ar-Raniry. I am passionate about software development.
+<br/>
+<br/>
+Also check out my other public repo at the following link <a href="https://github.com/sahibul-n-f">https://github.com/sahibul-n-f<a/>
+</samp>
 
 <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coder GIF" width="400">
 
