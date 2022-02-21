@@ -54,7 +54,7 @@ Also check out my other public repo at the following link <a href="https://githu
    <br>
    :trophy: 3rd place "District Level National Science Olympiad" - National Science Olympiad 2017
   <td >
-    <a href="https://app.daily.dev/sahibul_nf"><img src="https://api.daily.dev/devcards/e2ddb827e9de4e2a8b58b017047b13ee.png?r=iy5" width="400" alt="Sahibul Nuzul Firdaus's Dev Card"/></a>
+<!--     <a href="https://app.daily.dev/sahibul_nf"><img src="https://api.daily.dev/devcards/e2ddb827e9de4e2a8b58b017047b13ee.png?r=iy5" width="400" alt="Sahibul Nuzul Firdaus's Dev Card"/></a> -->
     <a href="https://app.daily.dev/sahibul_nf"><img src="https://github.com/sahibul-nf/sahibul-nf/blob/main/devcard.svg" width="400" alt="Sahibul Nuzul Firdaus's Dev Card"/></a>
   </td>
 </tr>
