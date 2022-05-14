@@ -74,9 +74,7 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 <a href="https://github.com/sahibul-nf" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahibul-nf&langs_count=5&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&hide=html,blade,css,cmake&custom_title=Top%20%Languages" alt="Top Languages" /></a>
   </td>
 </table>
-  
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+
 
 ### Support Me
 
@@ -85,3 +83,5 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 ![](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
   
 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
