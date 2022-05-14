@@ -1,7 +1,7 @@
 <!-- Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, my name is Sahibul Nuzul Firdaus -->
 <!-- ====================================== -->
 
-![](https://github.com/sahibul-nf/sahibul-nf/blob/main/header.png)
+![Header](https://github.com/sahibul-nf/sahibul-nf/blob/main/header.png)
 
 Software Engineer
 -----------------
@@ -25,6 +25,8 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 ### Skills
 
 <p align="left">
+<a href="https://flutter.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flutter-colored.svg" width="36" height="36" alt="Flutter" /></a>
+<a href="https://go.dev/doc/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/dart-colored.svg" width="36" height="36" alt="Dart" /></a>
 <a href="https://go.dev/doc/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/go-colored.svg" width="36" height="36" alt="Go" /></a>
 <a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" width="36" height="36" alt="Java" /></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="Javascript" /></a>
@@ -40,6 +42,7 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" width="36" height="36" alt="PostgreSQL" /></a>
 <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg" width="36" height="36" alt="Firebase" /></a>
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
+<a href="https://appwrite.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/appwrite-colored.svg" width="36" height="36" alt="Appwrite" /></a>
 </p>
 
 ### Socials
@@ -71,6 +74,9 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 <a href="https://github.com/sahibul-nf" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahibul-nf&langs_count=5&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&hide=html,blade,css,cmake&custom_title=Top%20%Languages" alt="Top Languages" /></a>
   </td>
 </table>
+  
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 ### Support Me
 
