@@ -75,6 +75,10 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
   </td>
 </table>
   
+  
+### WakaTime Stats
+  
+![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-316%20hrs%2027%20mins-blue)
@@ -143,6 +147,3 @@ PHP                      3 repos             ██░░░░░░░░░�
 
  Last Updated on 15/05/2022 01:03:34 UTC
 <!--END_SECTION:waka-->
-  
-
-![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
