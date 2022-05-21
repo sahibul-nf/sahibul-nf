@@ -3,10 +3,10 @@
 
 ![Header](https://github.com/sahibul-nf/sahibul-nf/blob/main/header.png)
 
-Software Engineer
+Software Developer
 -----------------
 
-I have been studying code for 4+ years full stack. I started with Frontend Web Development, but really found a passion for Mobile Development using Flutter and Backend Development.
+I have been studying code for 4+ years full stack. I started with Frontend Web Development, but really found a passion for Mobile Development using Flutter and familiar with Backend Development using Golang.
 
 Also check out my other public repo at the following link <a href="https://github.com/sahibul-n-f">https://github.com/sahibul-n-f<a/>
 <br/>
