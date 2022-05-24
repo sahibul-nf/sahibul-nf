@@ -91,7 +91,7 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 
 > 🏆 191 Contributions in the Year 2022
  > 
-> 📦 100.3 kB Used in GitHub's Storage 
+> 📦 99.3 kB Used in GitHub's Storage 
  > 
 > 💼 Opted to Hire
  > 
@@ -166,5 +166,5 @@ PHP                      3 repos             ██░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/charts/bar_graph.png) 
 
 
- Last Updated on 23/05/2022 20:15:36 UTC
+ Last Updated on 24/05/2022 00:58:18 UTC
 <!--END_SECTION:waka-->
