@@ -83,7 +83,7 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-369%20hrs%2054%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-15-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-13-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1%20Million%20lines%20of%20code-blue)
 
@@ -164,5 +164,5 @@ PHP                      3 repos             ██░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/charts/bar_graph.png) 
 
 
- Last Updated on 04/06/2022 00:50:17 UTC
+ Last Updated on 04/06/2022 04:16:58 UTC
 <!--END_SECTION:waka-->
