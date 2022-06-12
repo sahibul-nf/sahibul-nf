@@ -83,23 +83,22 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-406%20hrs%2045%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-2-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-2-orange)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1%20Million%20lines%20of%20code-blue)
 
-**🐱 My GitHub Data** 
+**📊 My GitHub data** 
 
-> 🏆 204 Contributions in the Year 2022
+```text
+🏆 204 contributions in 2022
+
+📦 157.7 kB used in GitHub's storage 
+
+📜 32 Public Repositories 
+
+🔑 4 Private Repositories  
  > 
-> 📦 157.7 kB Used in GitHub's Storage 
- > 
-> 💼 Opted to Hire
- > 
-> 📜 32 Public Repositories 
- > 
-> 🔑 4 Private Repositories  
- > 
-**I'm a Night 🦉** 
+**I'm a night 🦉** 
 
 ```text
 🌞 Morning    36 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   7.03% 
@@ -108,7 +107,7 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 🌙 Night      108 commits    █████░░░░░░░░░░░░░░░░░░░░   21.09%
 
 ```
-📅 **I'm Most Productive on Monday** 
+📅 **I'm most productive on Monday** 
 
 ```text
 Monday       157 commits    ███████░░░░░░░░░░░░░░░░░░   30.66% 
@@ -122,7 +121,7 @@ Sunday       74 commits     ███░░░░░░░░░░░░░░�
 ```
 
 
-📊 **This Week I Spent My Time On** 
+📊 **This week I spent my time on** 
 
 ```text
 ⌚︎ Time Zone: Asia/Jakarta
@@ -149,7 +148,7 @@ Mac                      35 hrs 41 mins      ███████████�
 
 ```
 
-**I Mostly Code in Dart** 
+**💻 I mostly code in Dart** 
 
 ```text
 Dart                     16 repos            ██████████░░░░░░░░░░░░░░░   43.24% 
@@ -166,5 +165,5 @@ PHP                      3 repos             ██░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/charts/bar_graph.png) 
 
 
- Last Updated on 12/06/2022 04:22:28 UTC
+ Last Updated on 12/06/2022 08:16:57 UTC
 <!--END_SECTION:waka-->
