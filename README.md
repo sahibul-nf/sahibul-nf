@@ -81,7 +81,7 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-651%20hrs%2041%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-651%20hrs%2044%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -104,17 +104,17 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 ```text
 🌞 Morning    32 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   6.04% 
 🌆 Daytime    160 commits    ███████░░░░░░░░░░░░░░░░░░   30.19% 
-🌃 Evening    231 commits    ███████████░░░░░░░░░░░░░░   43.58% 
-🌙 Night      107 commits    █████░░░░░░░░░░░░░░░░░░░░   20.19%
+🌃 Evening    226 commits    ██████████░░░░░░░░░░░░░░░   42.64% 
+🌙 Night      112 commits    █████░░░░░░░░░░░░░░░░░░░░   21.13%
 
 ```
 📅 **I'm Most Productive on Monday** 
 
 ```text
-Monday       140 commits    ██████░░░░░░░░░░░░░░░░░░░   26.42% 
-Tuesday      46 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   8.68% 
-Wednesday    77 commits     ███░░░░░░░░░░░░░░░░░░░░░░   14.53% 
-Thursday     41 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   7.74% 
+Monday       141 commits    ██████░░░░░░░░░░░░░░░░░░░   26.6% 
+Tuesday      38 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   7.17% 
+Wednesday    78 commits     ███░░░░░░░░░░░░░░░░░░░░░░   14.72% 
+Thursday     47 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   8.87% 
 Friday       46 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   8.68% 
 Saturday     97 commits     ████░░░░░░░░░░░░░░░░░░░░░   18.3% 
 Sunday       83 commits     ████░░░░░░░░░░░░░░░░░░░░░   15.66%
@@ -163,5 +163,5 @@ PHP                      3 repos             ██░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/charts/bar_graph.png) 
 
 
- Last Updated on 11/08/2022 12:27:33 UTC
+ Last Updated on 11/08/2022 16:20:11 UTC
 <!--END_SECTION:waka-->
