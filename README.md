@@ -81,7 +81,7 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-647%20hrs%2038%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -91,7 +91,7 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 
 > 🏆 249 Contributions in the Year 2022
  > 
-> 📦 161.3 kB Used in GitHub's Storage 
+> 📦 161.5 kB Used in GitHub's Storage 
  > 
 > 💼 Opted to Hire
  > 
@@ -128,22 +128,21 @@ Sunday       83 commits     ████░░░░░░░░░░░░░�
 ⌚︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     24 hrs 54 mins      ████████████████████████░   98.78% 
+Dart                     25 hrs 5 mins       ████████████████████████░   99.08% 
 Markdown                 8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.56% 
-Other                    5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.33% 
-YAML                     4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.32% 
-Groovy                   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.01%
+Other                    4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.27% 
+YAML                     1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   0.1%
 
 🔥 Editors: 
-VS Code                  25 hrs 8 mins       █████████████████████████   100.0%
+VS Code                  25 hrs 13 mins      █████████████████████████   100.0%
 
 🐱‍💻 Projects: 
-kopwar-customer-mobile   25 hrs 3 mins       ████████████████████████░   99.41% 
+kopwar-customer-mobile   25 hrs 8 mins       ████████████████████████░   99.41% 
 Scripts                  8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.56% 
 stable                   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.03%
 
 💻 Operating System: 
-Mac                      25 hrs 8 mins       █████████████████████████   100.0%
+Mac                      25 hrs 13 mins      █████████████████████████   100.0%
 
 ```
 
@@ -164,5 +163,5 @@ PHP                      3 repos             ██░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/charts/bar_graph.png) 
 
 
- Last Updated on 10/08/2022 16:19:18 UTC
+ Last Updated on 11/08/2022 00:58:27 UTC
 <!--END_SECTION:waka-->
