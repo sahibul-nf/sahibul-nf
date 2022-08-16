@@ -81,7 +81,7 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-659%20hrs%205%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-662%20hrs%2043%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -128,18 +128,18 @@ Sunday       83 commits     ████░░░░░░░░░░░░░�
 ⌚︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     16 hrs 15 mins      █████████████████████████   99.93% 
-YAML                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.07%
+Dart                     17 hrs 2 mins       █████████████████████████   99.91% 
+YAML                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.09%
 
 🔥 Editors: 
-VS Code                  16 hrs 8 mins       █████████████████████████   100.0%
+VS Code                  17 hrs 3 mins       █████████████████████████   100.0%
 
 🐱‍💻 Projects: 
-kopwar-customer-mobile   16 hrs 12 mins      █████████████████████████   99.93% 
+kopwar-customer-mobile   17 hrs 2 mins       █████████████████████████   99.93% 
 stable                   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.07%
 
 💻 Operating System: 
-Mac                      16 hrs 8 mins       █████████████████████████   100.0%
+Mac                      17 hrs 3 mins       █████████████████████████   100.0%
 
 ```
 
@@ -160,5 +160,5 @@ PHP                      3 repos             ██░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/charts/bar_graph.png) 
 
 
- Last Updated on 16/08/2022 04:39:30 UTC
+ Last Updated on 16/08/2022 16:20:11 UTC
 <!--END_SECTION:waka-->
