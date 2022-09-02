@@ -81,7 +81,7 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-694%20hrs%2019%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-697%20hrs%2038%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -91,7 +91,7 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 
 > 🏆 263 Contributions in the Year 2022
  > 
-> 📦 163.3 kB Used in GitHub's Storage 
+> 📦 163.5 kB Used in GitHub's Storage 
  > 
 > 💼 Opted to Hire
  > 
@@ -128,18 +128,19 @@ Sunday       84 commits     ███░░░░░░░░░░░░░░�
 ⌚︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Markdown                 21 mins             ████████████████████████░   99.32% 
-Dart                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.68%
+Dart                     3 hrs 9 mins        █████████████████████░░░░   86.2% 
+Markdown                 30 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.8%
 
 🔥 Editors: 
-VS Code                  21 mins             █████████████████████████   100.0%
+VS Code                  3 hrs 39 mins       █████████████████████████   100.0%
 
 🐱‍💻 Projects: 
-Scripts                  20 mins             ████████████████████████░   97.55% 
-flutter_chat_app         0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   2.45%
+kopwar-customer-mobile   3 hrs 9 mins        █████████████████████░░░░   86.2% 
+Scripts                  29 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.62% 
+flutter_chat_app         0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.17%
 
 💻 Operating System: 
-Mac                      21 mins             █████████████████████████   100.0%
+Mac                      3 hrs 39 mins       █████████████████████████   100.0%
 
 ```
 
@@ -160,5 +161,5 @@ PHP                      3 repos             █░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/charts/bar_graph.png) 
 
 
- Last Updated on 01/09/2022 20:21:28 UTC
+ Last Updated on 02/09/2022 01:03:56 UTC
 <!--END_SECTION:waka-->
