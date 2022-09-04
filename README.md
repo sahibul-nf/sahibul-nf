@@ -81,7 +81,7 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-699%20hrs%2040%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -99,51 +99,6 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
  > 
 > 🔑 4 Private Repositories  
  > 
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning    34 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   6.15% 
-🌆 Daytime    180 commits    ████████░░░░░░░░░░░░░░░░░   32.55% 
-🌃 Evening    223 commits    ██████████░░░░░░░░░░░░░░░   40.33% 
-🌙 Night      116 commits    █████░░░░░░░░░░░░░░░░░░░░   20.98%
-
-```
-📅 **I'm Most Productive on Monday** 
-
-```text
-Monday       142 commits    ██████░░░░░░░░░░░░░░░░░░░   25.68% 
-Tuesday      55 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   9.95% 
-Wednesday    76 commits     ███░░░░░░░░░░░░░░░░░░░░░░   13.74% 
-Thursday     55 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   9.95% 
-Friday       47 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   8.5% 
-Saturday     98 commits     ████░░░░░░░░░░░░░░░░░░░░░   17.72% 
-Sunday       80 commits     ███░░░░░░░░░░░░░░░░░░░░░░   14.47%
-
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-⌚︎ Time Zone: Asia/Jakarta
-
-💬 Programming Languages: 
-Dart                     5 hrs 11 mins       ████████████████████████░   96.81% 
-Markdown                 10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   3.19%
-
-🔥 Editors: 
-VS Code                  5 hrs 21 mins       █████████████████████████   100.0%
-
-🐱‍💻 Projects: 
-kopwar-customer-mobile   5 hrs 11 mins       ████████████████████████░   96.81% 
-Scripts                  10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   3.18% 
-flutter_chat_app         0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.01%
-
-💻 Operating System: 
-Mac                      5 hrs 21 mins       █████████████████████████   100.0%
-
-```
-
 **I Mostly Code in Dart** 
 
 ```text
@@ -161,5 +116,5 @@ PHP                      3 repos             █░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/charts/bar_graph.png) 
 
 
- Last Updated on 04/09/2022 05:08:05 UTC
+ Last Updated on 04/09/2022 08:17:09 UTC
 <!--END_SECTION:waka-->
