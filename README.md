@@ -91,7 +91,7 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 
 > 🏆 263 Contributions in the Year 2022
  > 
-> 📦 165.0 kB Used in GitHub's Storage 
+> 📦 165.3 kB Used in GitHub's Storage 
  > 
 > 💼 Opted to Hire
  > 
@@ -128,15 +128,15 @@ Sunday       80 commits     ███░░░░░░░░░░░░░░�
 ⌚︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     5 hrs 11 mins       ████████████████████████░   96.81% 
-Markdown                 10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   3.19%
+Dart                     5 hrs 11 mins       ████████████████████████░   96.86% 
+Markdown                 10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   3.14%
 
 🔥 Editors: 
 VS Code                  5 hrs 21 mins       █████████████████████████   100.0%
 
 🐱‍💻 Projects: 
-kopwar-customer-mobile   5 hrs 11 mins       ████████████████████████░   96.81% 
-Scripts                  10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   3.18% 
+kopwar-customer-mobile   5 hrs 11 mins       ████████████████████████░   96.86% 
+Scripts                  10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   3.13% 
 flutter_chat_app         0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.01%
 
 💻 Operating System: 
@@ -161,5 +161,5 @@ PHP                      3 repos             █░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/charts/bar_graph.png) 
 
 
- Last Updated on 06/09/2022 16:20:18 UTC
+ Last Updated on 06/09/2022 20:18:01 UTC
 <!--END_SECTION:waka-->
