@@ -81,7 +81,7 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-707%20hrs%2059%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-708%20hrs%2014%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -164,5 +164,5 @@ PHP                      3 repos             █░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/charts/bar_graph.png) 
 
 
- Last Updated on 13/09/2022 01:06:02 UTC
+ Last Updated on 13/09/2022 05:29:36 UTC
 <!--END_SECTION:waka-->
