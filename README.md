@@ -81,7 +81,7 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-707%20hrs%2059%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-708%20hrs%2014%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -91,7 +91,7 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 
 > 🏆 265 Contributions in the Year 2022
  > 
-> 📦 165.1 kB Used in GitHub's Storage 
+> 📦 165.3 kB Used in GitHub's Storage 
  > 
 > 💼 Opted to Hire
  > 
@@ -128,22 +128,23 @@ Sunday       80 commits     ███░░░░░░░░░░░░░░�
 ⌚︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     6 hrs 34 mins       ███████████████████░░░░░░   79.04% 
-Docker                   31 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   6.23% 
-Bash                     28 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   5.8% 
-Go                       28 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   5.79% 
-Git Config               4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.96%
+Dart                     6 hrs 34 mins       ███████████████████░░░░░░   76.74% 
+Docker                   31 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   6.05% 
+Bash                     28 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   5.63% 
+Go                       28 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   5.63% 
+Markdown                 14 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   2.91%
 
 🔥 Editors: 
-VS Code                  8 hrs 19 mins       █████████████████████████   100.0%
+VS Code                  8 hrs 34 mins       █████████████████████████   100.0%
 
 🐱‍💻 Projects: 
-kopwar-customer-mobile   6 hrs 37 mins       ████████████████████░░░░░   79.68% 
-aceh-dictionary-api      1 hr 38 mins        █████░░░░░░░░░░░░░░░░░░░░   19.75% 
-flutter_chat_app         2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.57%
+kopwar-customer-mobile   6 hrs 37 mins       ███████████████████░░░░░░   77.36% 
+aceh-dictionary-api      1 hr 38 mins        ████░░░░░░░░░░░░░░░░░░░░░   19.17% 
+Unknown Project          14 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   2.91% 
+flutter_chat_app         2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.56%
 
 💻 Operating System: 
-Mac                      8 hrs 19 mins       █████████████████████████   100.0%
+Mac                      8 hrs 34 mins       █████████████████████████   100.0%
 
 ```
 
@@ -164,5 +165,5 @@ PHP                      3 repos             █░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/charts/bar_graph.png) 
 
 
- Last Updated on 13/09/2022 20:19:12 UTC
+ Last Updated on 14/09/2022 01:06:21 UTC
 <!--END_SECTION:waka-->
