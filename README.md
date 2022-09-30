@@ -128,16 +128,17 @@ Sunday       80 commits     ███░░░░░░░░░░░░░░�
 ⌚︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+Dart                     18 mins             █████████████████████░░░░   85.42% 
+YAML                     3 mins              ███░░░░░░░░░░░░░░░░░░░░░░   14.58%
 
 🔥 Editors: 
-No Activity Tracked This Week
+VS Code                  21 mins             █████████████████████████   100.0%
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+acehnese_dictionary      21 mins             █████████████████████████   100.0%
 
 💻 Operating System: 
-No Activity Tracked This Week
+Mac                      21 mins             █████████████████████████   100.0%
 
 ```
 
@@ -158,5 +159,5 @@ PHP                      3 repos             █░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/charts/bar_graph.png) 
 
 
- Last Updated on 30/09/2022 16:24:48 UTC
+ Last Updated on 30/09/2022 20:17:17 UTC
 <!--END_SECTION:waka-->
