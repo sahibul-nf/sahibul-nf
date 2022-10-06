@@ -85,7 +85,7 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-711%20hrs%2019%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-7-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-10-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1%20Million%20lines%20of%20code-blue)
 
@@ -93,7 +93,7 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 
 > 🏆 268 Contributions in the Year 2022
  > 
-> 📦 164.0 kB Used in GitHub's Storage 
+> 📦 164.2 kB Used in GitHub's Storage 
  > 
 > 💼 Opted to Hire
  > 
@@ -168,5 +168,5 @@ PHP                      3 repos             █░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/charts/bar_graph.png) 
 
 
- Last Updated on 06/10/2022 12:33:40 UTC
+ Last Updated on 06/10/2022 16:23:32 UTC
 <!--END_SECTION:waka-->
