@@ -93,7 +93,7 @@ src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-th
 
 > 🏆 278 Contributions in the Year 2022
  > 
-> 📦 153.9 kB Used in GitHub's Storage 
+> 📦 154.1 kB Used in GitHub's Storage 
  > 
 > 💼 Opted to Hire
  > 
@@ -156,7 +156,7 @@ Mac                      8 hrs 45 mins       ███████████�
 ```text
 Dart                     18 repos            ██████████░░░░░░░░░░░░░░░   41.86% 
 Go                       6 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.95% 
-HTML                     5 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.63% 
+HTML                     4 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   9.3% 
 Java                     4 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   9.3% 
 PHP                      3 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   6.98%
 
@@ -168,5 +168,5 @@ PHP                      3 repos             █░░░░░░░░░░�
 ![Chart not found](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/charts/bar_graph.png) 
 
 
- Last Updated on 23/10/2022 12:26:42 UTC
+ Last Updated on 23/10/2022 16:23:11 UTC
 <!--END_SECTION:waka-->
