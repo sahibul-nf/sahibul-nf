@@ -19,8 +19,16 @@ Also check out my other public repo at the following link <a href="https://githu
 
 <a href="https://www.twitter.com/sahibul_nf" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/twitter/follow/sahibul_nf?logo=twitter&style=for-the-badge&color=0891b2&labelColor=1c1917"
-/></a><a href="https://www.github.com/sahibul-nf" target="_blank" rel="noreferrer"><img
+/></a>
+<a href="https://www.github.com/sahibul-nf" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
+<a href="https://www.github.com/sahibul-nf" target="_blank" rel="noreferrer"><img
+src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
+<br/>
+<a href="https://www.youtube.com/channel/UCdWVhgD6M7D5DhwT0jfFITw?sub_confirmation=1">
+    <img alt="YouTube Channel Subscribers" title="Youtube Subscribers" src="https://staging.shields.io/youtube/channel/subscribers/UCdWVhgD6M7D5DhwT0jfFITw?logo=youtube&style=for-the-badge&color=0891b2&labelColor=1c1917"></a>
+<a href="https://www.youtube.com/channel/UCdWVhgD6M7D5DhwT0jfFITw">
+    <img alt="YouTube Channel Views" title="Youtube Views" src="https://staging.shields.io/youtube/channel/views/UCdWVhgD6M7D5DhwT0jfFITw?logo=Youtube&style=for-the-badge&color=0891b2&labelColor=1c1917"></a> 
 
 ### Skills
 
