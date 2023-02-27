@@ -65,7 +65,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 
 <table>
   <td>
-    <a href="http://www.github.com/sahibul-nf"><img src="https://github-readme-stats.vercel.app/api?username=sahibul-nf&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="sahibul-nf's GitHub stats" /></a>
+    <a href="http://www.github.com/sahibul-nf"><img src="https://github-readme-stats-sigma-five.vercel.app/api?username=sahibul-nf&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="sahibul-nf's GitHub stats" /></a>
 
 <a href="http://www.github.com/sahibul-nf"><img src="https://github-readme-streak-stats.herokuapp.com/?user=sahibul-nf&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
   </td>
@@ -74,14 +74,14 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
   </td>
 </table>
 
-<a href="http://www.github.com/sahibul-nf"><img src="https://activity-graph.herokuapp.com/graph?username=sahibul-nf&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
+<a href="http://www.github.com/sahibul-nf"><img src="https://github-readme-activity-graph.cyclic.app/graph?username=sahibul-nf&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
 
 <table>
   <td>
 <a href="https://app.daily.dev/sahibul_nf"><img src="https://github.com/sahibul-nf/sahibul-nf/blob/main/devcard.svg" width="270" alt="Sahibul Nuzul Firdaus's Dev Card"/></a>
   </td>
   <td>
-<a href="https://github.com/sahibul-nf" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahibul-nf&langs_count=5&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&hide=html,blade,css,cmake&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+<a href="https://github.com/sahibul-nf" align="left"><img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=sahibul-nf&langs_count=5&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&hide=html,blade,css,cmake&custom_title=Top%20%Languages" alt="Top Languages" /></a>
   </td>
 </table>
   
