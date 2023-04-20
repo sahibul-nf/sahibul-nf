@@ -99,7 +99,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 
 **🐱 My GitHub Data** 
 
-> 📦 176.8 kB Used in GitHub's Storage 
+> 📦 176.1 kB Used in GitHub's Storage 
  > 
 > 🏆 299 Contributions in the Year 2023
  > 
@@ -170,5 +170,5 @@ JavaScript               2 repos             █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 20/04/2023 16:12:59 UTC
+ Last Updated on 20/04/2023 20:10:57 UTC
 <!--END_SECTION:waka-->
