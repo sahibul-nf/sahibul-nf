@@ -91,7 +91,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C581%20hrs%2015%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C583%20hrs%2056%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-7-blue)
 
@@ -159,11 +159,11 @@ Mac                      17 hrs 55 mins      ███████████�
 **I Mostly Code in Dart** 
 
 ```text
-Dart                     29 repos            ████████████░░░░░░░░░░░░░   46.77 % 
-Go                       8 repos             ███░░░░░░░░░░░░░░░░░░░░░░   12.90 % 
-C++                      7 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.29 % 
-PHP                      4 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.45 % 
-JavaScript               2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.23 % 
+Dart                     30 repos            ████████████░░░░░░░░░░░░░   47.62 % 
+Go                       8 repos             ███░░░░░░░░░░░░░░░░░░░░░░   12.70 % 
+C++                      7 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
+PHP                      4 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.35 % 
+JavaScript               2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.17 % 
 ```
 
 
@@ -173,5 +173,5 @@ JavaScript               2 repos             █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 10/06/2023 12:15:22 UTC
+ Last Updated on 10/06/2023 16:11:39 UTC
 <!--END_SECTION:waka-->
