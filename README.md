@@ -136,21 +136,16 @@ Sunday                   358 commits         ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Other                    56 mins             ████████████████░░░░░░░░░   65.22 % 
-Go                       30 mins             █████████░░░░░░░░░░░░░░░░   34.78 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-Chrome                   56 mins             ████████████████░░░░░░░░░   65.22 % 
-VS Code                  30 mins             █████████░░░░░░░░░░░░░░░░   34.78 % 
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-cardx_api                1 hr 4 mins         ███████████████████░░░░░░   75.17 % 
-CardXchange              11 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.75 % 
-actions                  7 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   08.67 % 
-cardx-api                2 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.41 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Mac                      1 hr 26 mins        █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in Dart** 
@@ -170,5 +165,5 @@ JavaScript               2 repos             █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 28/06/2023 16:13:44 UTC
+ Last Updated on 28/06/2023 20:12:19 UTC
 <!--END_SECTION:waka-->
