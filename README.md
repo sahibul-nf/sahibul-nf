@@ -93,13 +93,13 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-1%2C813%20hrs%2049%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-3.7%20million%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 256.6 kB Used in GitHub's Storage 
+> 📦 254.1 kB Used in GitHub's Storage 
  > 
 > 🏆 700 Contributions in the Year 2023
  > 
@@ -173,5 +173,5 @@ Makefile                 1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 18/09/2023 08:13:42 UTC
+ Last Updated on 18/09/2023 12:18:05 UTC
 <!--END_SECTION:waka-->
