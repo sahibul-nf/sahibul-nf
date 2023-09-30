@@ -99,7 +99,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 
 **🐱 My GitHub Data** 
 
-> 📦 255.0 kB Used in GitHub's Storage 
+> 📦 255.3 kB Used in GitHub's Storage 
  > 
 > 🏆 726 Contributions in the Year 2023
  > 
@@ -136,20 +136,16 @@ Sunday                   512 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Go                       50 mins             ████████████████░░░░░░░░░   64.81 % 
-Other                    27 mins             █████████░░░░░░░░░░░░░░░░   35.19 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  50 mins             ████████████████░░░░░░░░░   64.81 % 
-Chrome                   27 mins             █████████░░░░░░░░░░░░░░░░   35.19 % 
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-cardx_api                1 hr 12 mins        ███████████████████████░░   93.50 % 
-cardx-api                4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   05.79 % 
-CardXchange              0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.71 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Mac                      1 hr 17 mins        █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in Dart** 
@@ -169,5 +165,5 @@ Makefile                 1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 29/09/2023 20:11:18 UTC
+ Last Updated on 30/09/2023 00:39:10 UTC
 <!--END_SECTION:waka-->
