@@ -91,7 +91,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C860%20hrs%202%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C860%20hrs%2029%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-9-blue)
 
@@ -175,5 +175,5 @@ Makefile                 1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 07/10/2023 00:39:18 UTC
+ Last Updated on 07/10/2023 04:11:51 UTC
 <!--END_SECTION:waka-->
