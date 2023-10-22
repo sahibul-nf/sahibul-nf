@@ -91,7 +91,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C895%20hrs%209%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C900%20hrs%2049%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -99,7 +99,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 
 **🐱 My GitHub Data** 
 
-> 📦 255.2 kB Used in GitHub's Storage 
+> 📦 255.4 kB Used in GitHub's Storage 
  > 
 > 🏆 744 Contributions in the Year 2023
  > 
@@ -136,20 +136,17 @@ Sunday                   544 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Other                    2 hrs 7 mins        ███████████████░░░░░░░░░░   60.88 % 
-Dart                     1 hr 21 mins        ██████████░░░░░░░░░░░░░░░   39.12 % 
+Dart                     4 hrs 25 mins       █████████████████████████   100.00 % 
 
 🔥 Editors: 
-Chrome                   2 hrs 7 mins        ███████████████░░░░░░░░░░   60.88 % 
-VS Code                  1 hr 21 mins        ██████████░░░░░░░░░░░░░░░   39.12 % 
+VS Code                  4 hrs 25 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-cardx-api                1 hr 24 mins        ██████████░░░░░░░░░░░░░░░   40.27 % 
-GoGetGig                 1 hr 21 mins        ██████████░░░░░░░░░░░░░░░   39.12 % 
-CardXchange              43 mins             █████░░░░░░░░░░░░░░░░░░░░   20.61 % 
+GoGetGig                 4 hrs 25 mins       █████████████████████████   99.95 % 
+3.0.0                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.05 % 
 
 💻 Operating System: 
-Mac                      3 hrs 29 mins       █████████████████████████   100.00 % 
+Mac                      4 hrs 25 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Dart** 
@@ -169,5 +166,5 @@ Makefile                 1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 21/10/2023 20:10:42 UTC
+ Last Updated on 22/10/2023 00:42:40 UTC
 <!--END_SECTION:waka-->
