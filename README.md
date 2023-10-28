@@ -91,7 +91,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C933%20hrs%2034%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C925%20hrs%2016%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -100,6 +100,8 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 **🐱 My GitHub Data** 
 
 > 📦 258.0 kB Used in GitHub's Storage 
+ > 
+> 🏆 773 Contributions in the Year 2023
  > 
 > 💼 Opted to Hire
  > 
@@ -112,18 +114,18 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ```text
 🌞 Morning                403 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.71 % 
 🌆 Daytime                860 commits         █████░░░░░░░░░░░░░░░░░░░░   20.72 % 
-🌃 Evening                1596 commits        ██████████░░░░░░░░░░░░░░░   38.46 % 
-🌙 Night                  1291 commits        ████████░░░░░░░░░░░░░░░░░   31.11 % 
+🌃 Evening                1597 commits        ██████████░░░░░░░░░░░░░░░   38.47 % 
+🌙 Night                  1291 commits        ████████░░░░░░░░░░░░░░░░░   31.10 % 
 ```
 📅 **I'm Most Productive on Tuesday** 
 
 ```text
 Monday                   711 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.13 % 
-Tuesday                  771 commits         █████░░░░░░░░░░░░░░░░░░░░   18.58 % 
-Wednesday                629 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.16 % 
-Thursday                 397 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.57 % 
+Tuesday                  771 commits         █████░░░░░░░░░░░░░░░░░░░░   18.57 % 
+Wednesday                629 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.15 % 
+Thursday                 397 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.56 % 
 Friday                   530 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.77 % 
-Saturday                 565 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.61 % 
+Saturday                 566 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.64 % 
 Sunday                   547 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.18 % 
 ```
 
@@ -172,5 +174,5 @@ Makefile                 1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 28/10/2023 16:11:53 UTC
+ Last Updated on 28/10/2023 20:10:01 UTC
 <!--END_SECTION:waka-->
