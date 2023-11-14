@@ -91,7 +91,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-2%2C011%20hrs%2047%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-2%2C013%20hrs%2041%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -99,7 +99,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 
 **🐱 My GitHub Data** 
 
-> 📦 257.9 kB Used in GitHub's Storage 
+> 📦 258.2 kB Used in GitHub's Storage 
  > 
 > 🏆 783 Contributions in the Year 2023
  > 
@@ -174,5 +174,5 @@ Makefile                 1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 14/11/2023 08:13:16 UTC
+ Last Updated on 14/11/2023 12:17:58 UTC
 <!--END_SECTION:waka-->
