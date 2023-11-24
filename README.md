@@ -101,8 +101,6 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 
 > 📦 258.7 kB Used in GitHub's Storage 
  > 
-> 🏆 859 Contributions in the Year 2023
- > 
 > 💼 Opted to Hire
  > 
 > 📜 54 Public Repositories 
@@ -173,5 +171,5 @@ Makefile                 1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 24/11/2023 00:40:50 UTC
+ Last Updated on 24/11/2023 04:12:41 UTC
 <!--END_SECTION:waka-->
