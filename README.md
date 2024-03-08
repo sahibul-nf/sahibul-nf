@@ -91,7 +91,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-2%2C620%20hrs%2051%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-2%2C620%20hrs%2037%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-5-blue)
 
@@ -99,7 +99,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 
 **🐱 My GitHub Data** 
 
-> 📦 259.4 kB Used in GitHub's Storage 
+> 📦 259.7 kB Used in GitHub's Storage 
  > 
 > 🏆 168 Contributions in the Year 2024
  > 
@@ -113,7 +113,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 
 ```text
 🌞 Morning                682 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.14 % 
-🌆 Daytime                1405 commits        ██████░░░░░░░░░░░░░░░░░░░   22.95 % 
+🌆 Daytime                1404 commits        ██████░░░░░░░░░░░░░░░░░░░   22.93 % 
 🌃 Evening                2269 commits        █████████░░░░░░░░░░░░░░░░   37.06 % 
 🌙 Night                  1767 commits        ███████░░░░░░░░░░░░░░░░░░   28.86 % 
 ```
@@ -122,7 +122,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ```text
 Monday                   819 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.38 % 
 Tuesday                  940 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.35 % 
-Wednesday                1088 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.77 % 
+Wednesday                1087 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.76 % 
 Thursday                 691 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.29 % 
 Friday                   930 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.19 % 
 Saturday                 831 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.57 % 
@@ -156,11 +156,11 @@ Mac                      33 hrs 47 mins      ███████████�
 **I Mostly Code in Dart** 
 
 ```text
-Dart                     29 repos            ███████████░░░░░░░░░░░░░░   42.65 % 
-Go                       10 repos            ████░░░░░░░░░░░░░░░░░░░░░   14.71 % 
-C++                      8 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.76 % 
-JavaScript               3 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.41 % 
-Dockerfile               1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.47 % 
+Dart                     28 repos            ██████████░░░░░░░░░░░░░░░   41.79 % 
+Go                       10 repos            ████░░░░░░░░░░░░░░░░░░░░░   14.93 % 
+C++                      8 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.94 % 
+JavaScript               3 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   04.48 % 
+Dockerfile               1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.49 % 
 ```
 
 
@@ -170,5 +170,5 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 08/03/2024 16:11:57 UTC
+ Last Updated on 08/03/2024 20:10:15 UTC
 <!--END_SECTION:waka-->
