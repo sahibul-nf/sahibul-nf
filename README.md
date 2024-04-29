@@ -91,7 +91,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-2%2C782%20hrs-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-2%2C782%20hrs%2032%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -101,7 +101,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 
 > 📦 306.9 kB Used in GitHub's Storage 
  > 
-> 🏆 235 Contributions in the Year 2024
+> 🏆 0 Contributions in the Year 2024
  > 
 > 💼 Opted to Hire
  > 
@@ -136,24 +136,24 @@ Sunday                   880 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     20 hrs 50 mins      █████████████████░░░░░░░░   68.14 % 
-Go                       4 hrs 39 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.23 % 
-Protocol Buffer          3 hrs 45 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.32 % 
-Makefile                 41 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.25 % 
-SQL                      11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.62 % 
+Dart                     22 hrs 10 mins      ██████████████████░░░░░░░   71.24 % 
+Go                       4 hrs 39 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.96 % 
+Protocol Buffer          3 hrs 8 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.09 % 
+Makefile                 33 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.81 % 
+SQL                      11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.61 % 
 
 🔥 Editors: 
-VS Code                  30 hrs 34 mins      █████████████████████████   100.00 % 
+VS Code                  31 hrs 7 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-canvas                   20 hrs 35 mins      █████████████████░░░░░░░░   67.33 % 
-thesis-track             8 hrs 18 mins       ███████░░░░░░░░░░░░░░░░░░   27.19 % 
-pro-sportsbettingexchange1 hr 20 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.39 % 
-flutter_diagram_editor   17 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.96 % 
+canvas                   21 hrs 53 mins      ██████████████████░░░░░░░   70.34 % 
+thesis-track             7 hrs 35 mins       ██████░░░░░░░░░░░░░░░░░░░   24.40 % 
+pro-sportsbettingexchange1 hr 17 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.16 % 
+flutter_diagram_editor   18 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.98 % 
 aceh-dictionary-api      2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.11 % 
 
 💻 Operating System: 
-Mac                      30 hrs 34 mins      █████████████████████████   100.00 % 
+Mac                      31 hrs 7 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Dart** 
@@ -173,5 +173,5 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 29/04/2024 16:12:59 UTC
+ Last Updated on 29/04/2024 20:11:01 UTC
 <!--END_SECTION:waka-->
