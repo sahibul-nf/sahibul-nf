@@ -91,7 +91,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-3%2C015%20hrs%2027%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-3%2C018%20hrs%205%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -100,8 +100,6 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 **🐱 My GitHub Data** 
 
 > 📦 307.6 kB Used in GitHub's Storage 
- > 
-> 🏆 272 Contributions in the Year 2024
  > 
 > 💼 Opted to Hire
  > 
@@ -112,10 +110,10 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                803 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.77 % 
+🌞 Morning                804 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.79 % 
 🌆 Daytime                1496 commits        █████░░░░░░░░░░░░░░░░░░░░   21.93 % 
-🌃 Evening                2467 commits        █████████░░░░░░░░░░░░░░░░   36.17 % 
-🌙 Night                  2055 commits        ████████░░░░░░░░░░░░░░░░░   30.13 % 
+🌃 Evening                2467 commits        █████████░░░░░░░░░░░░░░░░   36.16 % 
+🌙 Night                  2055 commits        ████████░░░░░░░░░░░░░░░░░   30.12 % 
 ```
 📅 **I'm Most Productive on Wednesday** 
 
@@ -126,7 +124,7 @@ Wednesday                1240 commits        █████░░░░░░�
 Thursday                 863 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.65 % 
 Friday                   1018 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.92 % 
 Saturday                 934 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.69 % 
-Sunday                   882 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.93 % 
+Sunday                   883 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.94 % 
 ```
 
 
@@ -174,5 +172,5 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 23/06/2024 00:48:35 UTC
+ Last Updated on 23/06/2024 04:13:14 UTC
 <!--END_SECTION:waka-->
