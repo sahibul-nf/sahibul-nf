@@ -91,7 +91,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-3%2C024%20hrs-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-3%2C024%20hrs%2059%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -100,8 +100,6 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 **🐱 My GitHub Data** 
 
 > 📦 307.7 kB Used in GitHub's Storage 
- > 
-> 🏆 276 Contributions in the Year 2024
  > 
 > 💼 Opted to Hire
  > 
@@ -114,19 +112,19 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ```text
 🌞 Morning                823 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.91 % 
 🌆 Daytime                1508 commits        █████░░░░░░░░░░░░░░░░░░░░   21.82 % 
-🌃 Evening                2488 commits        █████████░░░░░░░░░░░░░░░░   36.01 % 
+🌃 Evening                2489 commits        █████████░░░░░░░░░░░░░░░░   36.02 % 
 🌙 Night                  2091 commits        ████████░░░░░░░░░░░░░░░░░   30.26 % 
 ```
 📅 **I'm Most Productive on Wednesday** 
 
 ```text
-Monday                   889 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.87 % 
+Monday                   890 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.88 % 
 Tuesday                  1008 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.59 % 
 Wednesday                1259 commits        █████░░░░░░░░░░░░░░░░░░░░   18.22 % 
 Thursday                 883 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.78 % 
 Friday                   1029 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.89 % 
 Saturday                 946 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.69 % 
-Sunday                   896 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.97 % 
+Sunday                   896 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.96 % 
 ```
 
 
@@ -174,5 +172,5 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 24/06/2024 12:20:58 UTC
+ Last Updated on 24/06/2024 16:13:42 UTC
 <!--END_SECTION:waka-->
