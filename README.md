@@ -91,7 +91,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-3%2C210%20hrs%2050%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-3%2C213%20hrs%2012%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -136,19 +136,19 @@ Sunday                   1037 commits        ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     25 hrs 31 mins      █████████████████████████   99.89 % 
-YAML                     1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.09 % 
+Dart                     28 hrs 39 mins      █████████████████████████   99.54 % 
+YAML                     7 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.44 % 
 Other                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
 
 🔥 Editors: 
-VS Code                  25 hrs 33 mins      █████████████████████████   100.00 % 
+VS Code                  28 hrs 47 mins      █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-practice                 25 hrs 33 mins      █████████████████████████   99.97 % 
-3.19.3                   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 % 
+practice                 28 hrs 47 mins      █████████████████████████   99.99 % 
+3.19.3                   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 
 💻 Operating System: 
-Mac                      25 hrs 33 mins      █████████████████████████   100.00 % 
+Mac                      28 hrs 47 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Dart** 
@@ -168,5 +168,5 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 16/08/2024 16:16:14 UTC
+ Last Updated on 16/08/2024 20:14:41 UTC
 <!--END_SECTION:waka-->
