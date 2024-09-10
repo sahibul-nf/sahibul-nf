@@ -91,7 +91,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-3%2C300%20hrs%2029%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-3%2C301%20hrs-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -136,19 +136,19 @@ Sunday                   1136 commits        ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     19 hrs 37 mins      █████████████████████████   100.00 % 
+Dart                     18 hrs 44 mins      █████████████████████████   100.00 % 
 
 🔥 Editors: 
-VS Code                  19 hrs 37 mins      █████████████████████████   100.00 % 
+VS Code                  18 hrs 44 mins      █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-practice                 12 hrs 15 mins      ████████████████░░░░░░░░░   62.44 % 
-canvas                   7 hrs 16 mins       █████████░░░░░░░░░░░░░░░░   37.06 % 
-3.19.3                   3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.29 % 
-flutter_diagram_editor   2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.21 % 
+practice                 9 hrs 20 mins       ████████████░░░░░░░░░░░░░   49.87 % 
+canvas                   9 hrs 17 mins       ████████████░░░░░░░░░░░░░   49.60 % 
+3.19.3                   3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.31 % 
+flutter_diagram_editor   2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.22 % 
 
 💻 Operating System: 
-Mac                      19 hrs 37 mins      █████████████████████████   100.00 % 
+Mac                      18 hrs 44 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Dart** 
@@ -168,5 +168,5 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 10/09/2024 16:15:26 UTC
+ Last Updated on 10/09/2024 20:14:45 UTC
 <!--END_SECTION:waka-->
