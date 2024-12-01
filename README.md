@@ -91,7 +91,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-3%2C616%20hrs%2052%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-3%2C617%20hrs%2055%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -100,8 +100,6 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 **🐱 My GitHub Data** 
 
 > 📦 309.2 kB Used in GitHub's Storage 
- > 
-> 🏆 316 Contributions in the Year 2024
  > 
 > 💼 Opted to Hire
  > 
@@ -113,9 +111,9 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 
 ```text
 🌞 Morning                2115 commits        █████░░░░░░░░░░░░░░░░░░░░   18.87 % 
-🌆 Daytime                2128 commits        █████░░░░░░░░░░░░░░░░░░░░   18.99 % 
-🌃 Evening                3603 commits        ████████░░░░░░░░░░░░░░░░░   32.15 % 
-🌙 Night                  3362 commits        ████████░░░░░░░░░░░░░░░░░   30.00 % 
+🌆 Daytime                2129 commits        █████░░░░░░░░░░░░░░░░░░░░   18.99 % 
+🌃 Evening                3603 commits        ████████░░░░░░░░░░░░░░░░░   32.14 % 
+🌙 Night                  3362 commits        ███████░░░░░░░░░░░░░░░░░░   29.99 % 
 ```
 📅 **I'm Most Productive on Wednesday** 
 
@@ -126,7 +124,7 @@ Wednesday                2169 commits        █████░░░░░░�
 Thursday                 1659 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.80 % 
 Friday                   1627 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.52 % 
 Saturday                 1530 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.65 % 
-Sunday                   1417 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.64 % 
+Sunday                   1418 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.65 % 
 ```
 
 
@@ -171,5 +169,5 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 01/12/2024 04:19:49 UTC
+ Last Updated on 01/12/2024 08:17:30 UTC
 <!--END_SECTION:waka-->
