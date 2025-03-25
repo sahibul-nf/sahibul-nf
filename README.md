@@ -91,7 +91,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C033%20hrs%2036%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C033%20hrs%2051%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -109,6 +109,46 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
  > 
 > 🔑 6 Private Repositories 
  > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                4789 commits        ██████░░░░░░░░░░░░░░░░░░░   22.56 % 
+🌆 Daytime                4066 commits        █████░░░░░░░░░░░░░░░░░░░░   19.16 % 
+🌃 Evening                6189 commits        ███████░░░░░░░░░░░░░░░░░░   29.16 % 
+🌙 Night                  6180 commits        ███████░░░░░░░░░░░░░░░░░░   29.12 % 
+```
+📅 **I'm Most Productive on Wednesday** 
+
+```text
+Monday                   2111 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   09.95 % 
+Tuesday                  3242 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.28 % 
+Wednesday                3968 commits        █████░░░░░░░░░░░░░░░░░░░░   18.70 % 
+Thursday                 3269 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.40 % 
+Friday                   2963 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.96 % 
+Saturday                 2918 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.75 % 
+Sunday                   2753 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.97 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Jakarta
+
+💬 Programming Languages: 
+Dart                     5 hrs 43 mins       ██████████████████████░░░   88.93 % 
+Go                       42 mins             ███░░░░░░░░░░░░░░░░░░░░░░   11.07 % 
+
+🔥 Editors: 
+Cursor                   6 hrs 26 mins       █████████████████████████   100.00 % 
+
+🐱‍💻 Projects: 
+thesis-track             6 hrs 26 mins       █████████████████████████   100.00 % 
+
+💻 Operating System: 
+Mac                      6 hrs 26 mins       █████████████████████████   100.00 % 
+```
+
 **I Mostly Code in Dart** 
 
 ```text
@@ -126,5 +166,5 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 24/03/2025 20:16:42 UTC
+ Last Updated on 25/03/2025 01:00:58 UTC
 <!--END_SECTION:waka-->
