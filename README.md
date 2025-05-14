@@ -91,7 +91,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C132%20hrs%2016%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C132%20hrs%2038%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -136,20 +136,20 @@ Sunday                   3015 commits        ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     3 hrs 31 mins       █████████████████████████   99.38 % 
-Bash                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.45 % 
-YAML                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.15 % 
+Dart                     3 hrs 54 mins       █████████████████████████   99.44 % 
+Bash                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.41 % 
+YAML                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.13 % 
 JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
 Other                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 
 🔥 Editors: 
-Cursor                   3 hrs 33 mins       █████████████████████████   100.00 % 
+Cursor                   3 hrs 55 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-practice                 3 hrs 33 mins       █████████████████████████   100.00 % 
+practice                 3 hrs 55 mins       █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Mac                      3 hrs 33 mins       █████████████████████████   100.00 % 
+Mac                      3 hrs 55 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Dart** 
@@ -169,5 +169,5 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 14/05/2025 16:19:31 UTC
+ Last Updated on 14/05/2025 20:15:55 UTC
 <!--END_SECTION:waka-->
