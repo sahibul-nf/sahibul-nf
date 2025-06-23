@@ -91,7 +91,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C200%20hrs%2013%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C201%20hrs%2043%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -136,19 +136,18 @@ Sunday                   3080 commits        ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     14 hrs 23 mins      █████████████████████████   99.99 % 
-YAML                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
+Dart                     15 hrs 26 mins      █████████████████████████   100.00 % 
 
 🔥 Editors: 
-Cursor                   14 hrs 23 mins      █████████████████████████   100.00 % 
+Cursor                   15 hrs 26 mins      █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-canvas                   14 hrs 11 mins      █████████████████████████   98.65 % 
-thesis-track             11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.35 % 
+canvas                   15 hrs 14 mins      █████████████████████████   98.74 % 
+thesis-track             11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.25 % 
 flutter_diagram_editor   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 
 💻 Operating System: 
-Mac                      14 hrs 23 mins      █████████████████████████   100.00 % 
+Mac                      15 hrs 26 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Dart** 
@@ -168,5 +167,5 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 23/06/2025 16:20:48 UTC
+ Last Updated on 23/06/2025 20:18:53 UTC
 <!--END_SECTION:waka-->
