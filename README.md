@@ -99,7 +99,9 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 
 **🐱 My GitHub Data** 
 
-> 📦 323.6 kB Used in GitHub's Storage 
+> 📦 323.8 kB Used in GitHub's Storage 
+ > 
+> 🏆 114 Contributions in the Year 2025
  > 
 > 💼 Opted to Hire
  > 
@@ -169,5 +171,5 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 05/07/2025 20:16:33 UTC
+ Last Updated on 06/07/2025 01:13:16 UTC
 <!--END_SECTION:waka-->
