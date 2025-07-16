@@ -91,7 +91,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C246%20hrs%208%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C247%20hrs%209%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -100,6 +100,8 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 **🐱 My GitHub Data** 
 
 > 📦 323.7 kB Used in GitHub's Storage 
+ > 
+> 🏆 114 Contributions in the Year 2025
  > 
 > 💼 Opted to Hire
  > 
@@ -134,22 +136,22 @@ Sunday                   3082 commits        ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     14 hrs 54 mins      █████████████████████████   99.46 % 
-YAML                     3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.42 % 
-Other                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 % 
-Git Config               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 % 
+Dart                     15 hrs 27 mins      █████████████████████████   99.82 % 
+YAML                     1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.12 % 
+Git Config               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
+Other                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
 Go                       0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
 
 🔥 Editors: 
-VS Code                  14 hrs 59 mins      █████████████████████████   100.00 % 
+VS Code                  15 hrs 29 mins      █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-canvas                   14 hrs 57 mins      █████████████████████████   99.84 % 
-thesis-track             1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.14 % 
+canvas                   15 hrs 19 mins      █████████████████████████   98.92 % 
+thesis-track             9 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.07 % 
 3.27.0                   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 
 💻 Operating System: 
-Mac                      14 hrs 59 mins      █████████████████████████   100.00 % 
+Mac                      15 hrs 29 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Dart** 
@@ -169,5 +171,5 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 16/07/2025 16:20:58 UTC
+ Last Updated on 16/07/2025 20:18:32 UTC
 <!--END_SECTION:waka-->
