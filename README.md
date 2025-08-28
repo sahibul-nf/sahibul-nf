@@ -81,7 +81,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 <a href="https://app.daily.dev/sahibul_nf"><img src="https://github.com/sahibul-nf/sahibul-nf/blob/main/devcard.png" width="270" alt="Sahibul Nuzul Firdaus's Dev Card"/></a>
   </td>
   <td>
-<a href="https://github.com/sahibul-nf" align="left"><img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=sahibul-nf&langs_count=5&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&hide=html,blade,css,cmake&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+<a href="https://github.com/sahibul-nf" align="left"><img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=sahibul-nf&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&hide=html,blade,css,cmake&custom_title=Top%10%Languages" alt="Top Languages" /></a>
   </td>
 </table>
   
@@ -165,7 +165,7 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 
 
 
-**Timeline**
+**Timeline of Programming Language Usage**
 
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
