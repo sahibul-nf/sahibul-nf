@@ -6,7 +6,7 @@
 Software Developer
 -----------------
 
-As a software engineer with experience starting my journey in 2018, I explored various technologies that I liked in the field of software dev. Although I started my journey in frontend web development, I discovered my true passion when exploring mobile development with Flutter. Additionally, I have honed my skills in backend development using Golang, with one year of experience in Golang and two years of professional experience in Flutter.
+As a software engineer with experience starting my journey in 2018, I explored various technologies that I liked in the field of software development. Although I started my journey in frontend web development, I discovered my true passion when exploring mobile development with Flutter. Since 2021, I entered the industry and began my professional career as a developer with a strong proficiency in building beautiful and functional mobile and web applications using Flutter and Golang. I possess expertise in various technologies like eBay API, REST APIs, GetX, Riverpod, and Supabase, enabling me to deliver seamless and robust solutions.
 
 Also check out my other public repo at the following link <a href="https://github.com/sahibul-n-f">https://github.com/sahibul-n-f<a/>
 <br/>
