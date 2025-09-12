@@ -85,7 +85,9 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 
 **🐱 My GitHub Data** 
 
-> 📦 324.4 kB Used in GitHub's Storage 
+> 📦 323.9 kB Used in GitHub's Storage 
+ > 
+> 🏆 122 Contributions in the Year 2025
  > 
 > 💼 Opted to Hire
  > 
@@ -120,19 +122,19 @@ Sunday                   1088 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-TypeScript               12 hrs 53 mins      ███████████████████░░░░░░   76.65 % 
-Dart                     3 hrs 55 mins       ██████░░░░░░░░░░░░░░░░░░░   23.34 % 
+TypeScript               13 hrs 51 mins      ██████████████████░░░░░░░   73.39 % 
+Dart                     5 hrs 1 min         ███████░░░░░░░░░░░░░░░░░░   26.60 % 
 YAML                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 
 🔥 Editors: 
-Cursor                   16 hrs 48 mins      █████████████████████████   100.00 % 
+Cursor                   18 hrs 52 mins      █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-canvas                   16 hrs 45 mins      █████████████████████████   99.68 % 
-flutter_diagram_editor   3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.32 % 
+canvas                   18 hrs 49 mins      █████████████████████████   99.72 % 
+flutter_diagram_editor   3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.28 % 
 
 💻 Operating System: 
-Mac                      16 hrs 48 mins      █████████████████████████   100.00 % 
+Mac                      18 hrs 52 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Dart** 
@@ -152,7 +154,7 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 12/09/2025 16:15:22 UTC
+ Last Updated on 12/09/2025 20:15:58 UTC
 <!--END_SECTION:waka-->
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/65545bf0-64d9-4b26-9cce-4eb2a9447b16.png" /></a>
