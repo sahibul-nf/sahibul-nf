@@ -77,7 +77,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C323%20hrs%2032%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C326%20hrs%208%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -120,18 +120,19 @@ Sunday                   1088 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-TypeScript               10 hrs 28 mins      ███████████████████░░░░░░   74.76 % 
-Dart                     3 hrs 32 mins       ██████░░░░░░░░░░░░░░░░░░░   25.24 % 
+TypeScript               9 hrs 44 mins       ███████████████████░░░░░░   74.04 % 
+Dart                     3 hrs 24 mins       ██████░░░░░░░░░░░░░░░░░░░   25.96 % 
 
 🔥 Editors: 
-Cursor                   14 hrs              █████████████████████████   100.00 % 
+Cursor                   13 hrs 9 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-canvas                   13 hrs 58 mins      █████████████████████████   99.70 % 
-flutter_diagram_editor   2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.30 % 
+canvas                   12 hrs 59 mins      █████████████████████████   98.69 % 
+flutter_diagram_editor   10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.27 % 
+3.32.8                   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.04 % 
 
 💻 Operating System: 
-Mac                      14 hrs              █████████████████████████   100.00 % 
+Mac                      13 hrs 9 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Dart** 
@@ -151,7 +152,7 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 15/09/2025 20:15:46 UTC
+ Last Updated on 16/09/2025 00:58:03 UTC
 <!--END_SECTION:waka-->
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/65545bf0-64d9-4b26-9cce-4eb2a9447b16.png" /></a>
