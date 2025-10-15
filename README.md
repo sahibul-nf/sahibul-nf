@@ -77,7 +77,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C395%20hrs%2021%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C396%20hrs%2018%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -122,20 +122,20 @@ Sunday                   1149 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     12 hrs 15 mins      ██████████████████░░░░░░░   70.87 % 
-TypeScript               4 hrs 15 mins       ██████░░░░░░░░░░░░░░░░░░░   24.64 % 
-SQL                      23 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.29 % 
-Markdown                 21 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.08 % 
-YAML                     1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.13 % 
+Dart                     14 hrs 28 mins      ███████████████████░░░░░░   74.22 % 
+TypeScript               4 hrs 13 mins       █████░░░░░░░░░░░░░░░░░░░░   21.71 % 
+SQL                      23 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.03 % 
+Markdown                 21 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.87 % 
+YAML                     1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.17 % 
 
 🔥 Editors: 
-Cursor                   17 hrs 17 mins      █████████████████████████   100.00 % 
+Cursor                   19 hrs 29 mins      █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-canvas                   17 hrs 17 mins      █████████████████████████   100.00 % 
+canvas                   19 hrs 29 mins      █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Mac                      17 hrs 17 mins      █████████████████████████   100.00 % 
+Mac                      19 hrs 29 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Dart** 
@@ -155,7 +155,7 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 15/10/2025 16:16:21 UTC
+ Last Updated on 15/10/2025 20:17:52 UTC
 <!--END_SECTION:waka-->
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/65545bf0-64d9-4b26-9cce-4eb2a9447b16.png" /></a>
