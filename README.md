@@ -77,7 +77,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C417%20hrs%2030%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C419%20hrs%2018%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -122,20 +122,20 @@ Sunday                   1149 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     6 hrs               ████████████████████░░░░░   79.89 % 
-SQL                      36 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.11 % 
-TypeScript               28 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.33 % 
-Markdown                 25 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.56 % 
+Dart                     6 hrs 59 mins       █████████████████████░░░░   85.97 % 
+SQL                      34 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.09 % 
+Markdown                 21 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.45 % 
+TypeScript               11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.40 % 
 YAML                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.10 % 
 
 🔥 Editors: 
-Cursor                   7 hrs 31 mins       █████████████████████████   100.00 % 
+Cursor                   8 hrs 7 mins        █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-canvas                   7 hrs 31 mins       █████████████████████████   100.00 % 
+canvas                   8 hrs 7 mins        █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Mac                      7 hrs 31 mins       █████████████████████████   100.00 % 
+Mac                      8 hrs 7 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Dart** 
@@ -155,7 +155,7 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 31/10/2025 20:16:57 UTC
+ Last Updated on 01/11/2025 04:16:23 UTC
 <!--END_SECTION:waka-->
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/65545bf0-64d9-4b26-9cce-4eb2a9447b16.png" /></a>
