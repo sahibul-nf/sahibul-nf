@@ -77,7 +77,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C438%20hrs%202%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C441%20hrs%2013%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -122,19 +122,20 @@ Sunday                   1149 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     7 hrs 1 min         █████████████████░░░░░░░░   67.10 % 
-SQL                      1 hr 48 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.22 % 
-TypeScript               1 hr 38 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.67 % 
+Dart                     8 hrs 2 mins        █████████████████████░░░░   82.52 % 
+TypeScript               1 hr 9 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.82 % 
+SQL                      33 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.65 % 
 Markdown                 0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 
 🔥 Editors: 
-Cursor                   10 hrs 27 mins      █████████████████████████   100.00 % 
+Cursor                   9 hrs 44 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-canvas                   10 hrs 27 mins      █████████████████████████   100.00 % 
+canvas                   9 hrs 44 mins       █████████████████████████   99.96 % 
+flutter_diagram_editor   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.04 % 
 
 💻 Operating System: 
-Mac                      10 hrs 27 mins      █████████████████████████   100.00 % 
+Mac                      9 hrs 44 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Dart** 
@@ -154,7 +155,7 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 13/11/2025 20:18:43 UTC
+ Last Updated on 14/11/2025 01:03:26 UTC
 <!--END_SECTION:waka-->
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/65545bf0-64d9-4b26-9cce-4eb2a9447b16.png" /></a>
