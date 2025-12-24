@@ -13,7 +13,7 @@ Since 2021, I entered the industry and began my professional career as a develop
 Also check out my other public repo at the following link <a href="https://github.com/sahibul-n-f">https://github.com/sahibul-n-f<a/>
 <br/>
   
-* 🌍  I'm based in Aceh - Indonesia
+* 🌍  I'm based in Indonesia
 * 🖥️  See my portfolio at [sahibul-nf.github.io](http://sahibul-nf.github.io/)
 * ✉️  You can contact me at [sahibulnuzulfirdaus13@gmail.com](mailto:sahibulnuzulfirdaus13@gmail.com)
 * 🧠  I'm learning Mobile Dev (Flutter) and Backend Dev (Golang)
