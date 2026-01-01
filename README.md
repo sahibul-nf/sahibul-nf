@@ -77,7 +77,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C469%20hrs%2036%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C470%20hrs%203%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-2-blue)
 
@@ -122,16 +122,19 @@ Sunday                   1172 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+Dart                     58 mins             █████████████░░░░░░░░░░░░   52.34 % 
+Markdown                 33 mins             ████████░░░░░░░░░░░░░░░░░   30.18 % 
+YAML                     13 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.35 % 
+Other                    5 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   05.14 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+Cursor                   1 hr 52 mins        █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+focrit                   1 hr 52 mins        █████████████████████████   100.00 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Mac                      1 hr 52 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Dart** 
@@ -151,7 +154,7 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 01/01/2026 16:19:54 UTC
+ Last Updated on 01/01/2026 20:17:51 UTC
 <!--END_SECTION:waka-->
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/65545bf0-64d9-4b26-9cce-4eb2a9447b16.png" /></a>
