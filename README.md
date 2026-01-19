@@ -77,7 +77,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C475%20hrs%2055%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C478%20hrs%2013%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-2-blue?style=flat)
 
@@ -122,16 +122,22 @@ Sunday                   1222 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+Dart                     1 hr 8 mins         ████████████░░░░░░░░░░░░░   47.69 % 
+Git Config               30 mins             █████░░░░░░░░░░░░░░░░░░░░   21.17 % 
+YAML                     26 mins             █████░░░░░░░░░░░░░░░░░░░░   18.51 % 
+HTML                     14 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.94 % 
+JSON                     3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.70 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+Antigravity              2 hrs 23 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+canvas                   2 hrs 18 mins       ████████████████████████░   96.34 % 
+focrit                   4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.07 % 
+custom_diagram_editor-6d60 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.59 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Mac                      2 hrs 23 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Dart** 
@@ -151,7 +157,7 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 19/01/2026 16:22:27 UTC
+ Last Updated on 19/01/2026 20:19:18 UTC
 <!--END_SECTION:waka-->
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/65545bf0-64d9-4b26-9cce-4eb2a9447b16.png" /></a>
