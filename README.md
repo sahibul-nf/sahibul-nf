@@ -3,7 +3,7 @@
 
 ![Header](https://github.com/sahibul-nf/sahibul-nf/blob/main/header.png)
 
-Software Developer
+Software Engineer
 -----------------
 
 As a software engineer with experience starting my journey in 2018, I explored various technologies that I liked in the field of software development. Although I started my journey in frontend web development, I discovered my true passion when exploring mobile development with Flutter.
