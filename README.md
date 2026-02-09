@@ -77,7 +77,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C529%20hrs%2050%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C532%20hrs%2053%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-4-blue?style=flat)
 
@@ -122,18 +122,19 @@ Sunday                   1348 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     23 hrs 21 mins      █████████████████████████   98.88 % 
-YAML                     15 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.08 % 
+Dart                     24 hrs 31 mins      █████████████████████████   98.93 % 
+YAML                     15 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.03 % 
 Other                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.04 % 
 
 🔥 Editors: 
-Antigravity              23 hrs 37 mins      █████████████████████████   100.00 % 
+Antigravity              24 hrs 47 mins      █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-canvas                   23 hrs 37 mins      █████████████████████████   100.00 % 
+canvas                   24 hrs 46 mins      █████████████████████████   99.99 % 
+custom_diagram_editor-8860 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 
 💻 Operating System: 
-Mac                      23 hrs 37 mins      █████████████████████████   100.00 % 
+Mac                      24 hrs 47 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Dart** 
@@ -153,7 +154,7 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 09/02/2026 12:51:32 UTC
+ Last Updated on 09/02/2026 20:34:27 UTC
 <!--END_SECTION:waka-->
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/65545bf0-64d9-4b26-9cce-4eb2a9447b16.png" /></a>
