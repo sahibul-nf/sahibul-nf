@@ -77,7 +77,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C560%20hrs%2051%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C563%20hrs%2019%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-4-blue?style=flat)
 
@@ -122,21 +122,21 @@ Sunday                   1356 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     25 hrs 25 mins      ███████████████████████░░   91.33 % 
-Markdown                 1 hr 29 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.37 % 
-YAML                     35 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.14 % 
-HTML                     18 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.12 % 
+Dart                     23 hrs 4 mins       ███████████████████████░░   90.18 % 
+Markdown                 1 hr 29 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.85 % 
+YAML                     41 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.71 % 
+HTML                     18 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.22 % 
 Other                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 % 
 
 🔥 Editors: 
-Antigravity              27 hrs 50 mins      █████████████████████████   100.00 % 
+Antigravity              25 hrs 35 mins      █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-canvas                   27 hrs 50 mins      █████████████████████████   99.99 % 
+canvas                   25 hrs 35 mins      █████████████████████████   99.99 % 
 custom_diagram_editor    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 
 💻 Operating System: 
-Mac                      27 hrs 50 mins      █████████████████████████   100.00 % 
+Mac                      25 hrs 35 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Dart** 
@@ -156,7 +156,7 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 17/02/2026 16:50:03 UTC
+ Last Updated on 17/02/2026 20:31:31 UTC
 <!--END_SECTION:waka-->
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/65545bf0-64d9-4b26-9cce-4eb2a9447b16.png" /></a>
