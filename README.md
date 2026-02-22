@@ -79,7 +79,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-4%2C571%20hrs%2022%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-2-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-4-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-5.53%20million%20lines%20of%20code-blue?style=flat)
 
@@ -122,18 +122,18 @@ Sunday                   1356 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     13 hrs 22 mins      █████████████████████████   98.15 % 
-YAML                     15 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.83 % 
+Dart                     13 hrs 53 mins      █████████████████████████   99.00 % 
+YAML                     8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.98 % 
 Markdown                 0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
 
 🔥 Editors: 
-Antigravity              13 hrs 37 mins      █████████████████████████   100.00 % 
+Antigravity              14 hrs 1 min        █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-canvas                   13 hrs 37 mins      █████████████████████████   100.00 % 
+canvas                   14 hrs 1 min        █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Mac                      13 hrs 37 mins      █████████████████████████   100.00 % 
+Mac                      14 hrs 1 min        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Dart** 
@@ -153,7 +153,7 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 22/02/2026 16:22:47 UTC
+ Last Updated on 22/02/2026 20:20:12 UTC
 <!--END_SECTION:waka-->
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/65545bf0-64d9-4b26-9cce-4eb2a9447b16.png" /></a>
