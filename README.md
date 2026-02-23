@@ -77,9 +77,9 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C575%20hrs%2037%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C576%20hrs%2039%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-2-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-5.53%20million%20lines%20of%20code-blue?style=flat)
 
@@ -95,47 +95,6 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
  > 
 > 🔑 6 Private Repositories 
  > 
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                1238 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.47 % 
-🌆 Daytime                2075 commits        ██████░░░░░░░░░░░░░░░░░░░   22.58 % 
-🌃 Evening                3022 commits        ████████░░░░░░░░░░░░░░░░░   32.89 % 
-🌙 Night                  2853 commits        ████████░░░░░░░░░░░░░░░░░   31.05 % 
-```
-📅 **I'm Most Productive on Wednesday** 
-
-```text
-Monday                   1388 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.11 % 
-Tuesday                  1294 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.08 % 
-Wednesday                1534 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.70 % 
-Thursday                 1027 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.18 % 
-Friday                   1278 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.91 % 
-Saturday                 1311 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.27 % 
-Sunday                   1356 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.76 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Jakarta
-
-💬 Programming Languages: 
-Dart                     13 hrs 53 mins      █████████████████████████   99.00 % 
-YAML                     8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.98 % 
-Markdown                 0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
-
-🔥 Editors: 
-Antigravity              14 hrs 1 min        █████████████████████████   100.00 % 
-
-🐱‍💻 Projects: 
-canvas                   14 hrs 1 min        █████████████████████████   100.00 % 
-
-💻 Operating System: 
-Mac                      14 hrs 1 min        █████████████████████████   100.00 % 
-```
-
 **I Mostly Code in Dart** 
 
 ```text
@@ -153,7 +112,7 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 23/02/2026 16:49:38 UTC
+ Last Updated on 23/02/2026 20:39:19 UTC
 <!--END_SECTION:waka-->
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/65545bf0-64d9-4b26-9cce-4eb2a9447b16.png" /></a>
