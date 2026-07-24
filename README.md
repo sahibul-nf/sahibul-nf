@@ -77,6 +77,8 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C940%20hrs%2022%20mins-blue?style=flat)
+
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-3-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-6.79%20million%20lines%20of%20code-blue?style=flat)
@@ -120,25 +122,25 @@ Sunday                   1367 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     7 hrs 24 mins       ███████████░░░░░░░░░░░░░░   44.55 % 
-Markdown                 3 hrs 5 mins        █████░░░░░░░░░░░░░░░░░░░░   18.58 % 
-YAML                     1 hr 23 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.34 % 
-Bash                     1 hr 21 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.18 % 
-Python                   50 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.05 % 
+Dart                     7 hrs 51 mins       ███████████░░░░░░░░░░░░░░   44.32 % 
+Markdown                 3 hrs 6 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.49 % 
+YAML                     1 hr 23 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.83 % 
+Bash                     1 hr 21 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.68 % 
+Text                     1 hr 7 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   06.33 % 
 
 🔥 Editors: 
-Cursor                   13 hrs 28 mins      ████████████████████░░░░░   81.01 % 
-Antigravity IDE          3 hrs 9 mins        █████░░░░░░░░░░░░░░░░░░░░   18.99 % 
+Cursor                   14 hrs 34 mins      █████████████████████░░░░   82.23 % 
+Antigravity IDE          3 hrs 8 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.77 % 
 
 🐱‍💻 Projects: 
-canvas                   7 hrs 57 mins       ████████████░░░░░░░░░░░░░   47.85 % 
-pukatflow                5 hrs 34 mins       ████████░░░░░░░░░░░░░░░░░   33.46 % 
-otonom-agents-media      2 hrs 5 mins        ███░░░░░░░░░░░░░░░░░░░░░░   12.54 % 
-terminals                42 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.26 % 
-Unknown Project          9 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.99 % 
+canvas                   8 hrs 28 mins       ████████████░░░░░░░░░░░░░   47.84 % 
+pukatflow                5 hrs 50 mins       ████████░░░░░░░░░░░░░░░░░   32.94 % 
+otonom-agents-media      2 hrs 14 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.62 % 
+terminals                50 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.78 % 
+Unknown Project          10 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.96 % 
 
 💻 Operating System: 
-Mac                      16 hrs 38 mins      █████████████████████████   100.00 % 
+Mac                      17 hrs 43 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Dart** 
@@ -158,7 +160,7 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 24/07/2026 17:24:55 UTC
+ Last Updated on 24/07/2026 20:59:37 UTC
 <!--END_SECTION:waka-->
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/65545bf0-64d9-4b26-9cce-4eb2a9447b16.png" /></a>
