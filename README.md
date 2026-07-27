@@ -77,9 +77,9 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C595%20hrs%2049%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C599%20hrs%2024%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-145%20hrs%2052%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-149%20hrs%2058%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-4-blue?style=flat)
 
@@ -124,47 +124,45 @@ Sunday                   1371 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     7 hrs 9 mins        ███████████░░░░░░░░░░░░░░   43.30 % 
-Markdown                 2 hrs 44 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.54 % 
-YAML                     1 hr 32 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.37 % 
-Text                     1 hr 25 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.61 % 
-Bash                     1 hr 14 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.51 % 
+Dart                     8 hrs 2 mins        ███████████░░░░░░░░░░░░░░   42.89 % 
+Markdown                 3 hrs 33 mins       █████░░░░░░░░░░░░░░░░░░░░   19.00 % 
+Text                     1 hr 32 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.23 % 
+YAML                     1 hr 21 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.21 % 
+Bash                     1 hr 15 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.73 % 
 
 🔥 Editors: 
-Cursor                   15 hrs 28 mins      ███████████████████████░░   93.59 % 
-Antigravity IDE          1 hr 3 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   06.41 % 
+Cursor                   18 hrs 29 mins      █████████████████████████   98.65 % 
+Antigravity IDE          15 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.35 % 
 
 🐱‍💻 Projects: 
-canvas                   9 hrs 11 mins       ██████████████░░░░░░░░░░░   55.61 % 
-pukatflow                4 hrs 5 mins        ██████░░░░░░░░░░░░░░░░░░░   24.73 % 
-otonom-agents-media      1 hr 52 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.34 % 
-terminals                59 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.96 % 
-Unknown Project          13 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.41 % 
+canvas                   11 hrs 28 mins      ███████████████░░░░░░░░░░   61.24 % 
+pukatflow                3 hrs 29 mins       █████░░░░░░░░░░░░░░░░░░░░   18.64 % 
+otonom-agents-media      1 hr 39 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.86 % 
+terminals                59 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.31 % 
+playwright               28 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.55 % 
 
 💻 Operating System: 
-Mac                      16 hrs 31 mins      █████████████████████████   100.00 % 
+Mac                      18 hrs 44 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 15 hrs 49 mins (95.72%)
+⏱ AI Coding Time: 18 hrs 3 mins (96.37%)
 
-✍️ 13,371 lines written by AI, 8 lines written by hand (99.94% AI-written)
+✍️ 13,391 lines written by AI, 8 lines written by hand (99.94% AI-written)
 
 🔤 0 Input Tokens, 0 Output Tokens
 
 💵 $0.00 Estimated AI Cost This Week
 
-🧠 29 AI Sessions, 248 AI Prompts
+🧠 28 AI Sessions, 246 AI Prompts
 
-Composer                 244 lines           ████████████████░░░░░░░░░   64.21 % 
-Gemini                   115 lines           ████████░░░░░░░░░░░░░░░░░   30.26 % 
-Sonnet                   21 lines            █░░░░░░░░░░░░░░░░░░░░░░░░   05.53 % 
+Composer                 194 lines           █████████████████████████   100.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 99.94% of written lines came from AI
-📝 Concise Prompter — average 495 characters per prompt
+📝 Concise Prompter — average 494 characters per prompt
 🔁 Iterative Prompter — average 9 prompts per session
 🚀 High AI Trust — 0.08% of changed lines were hand-edited
 ```
@@ -186,7 +184,7 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 27/07/2026 17:40:03 UTC
+ Last Updated on 27/07/2026 21:06:57 UTC
 <!--END_SECTION:waka-->
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/65545bf0-64d9-4b26-9cce-4eb2a9447b16.png" /></a>
