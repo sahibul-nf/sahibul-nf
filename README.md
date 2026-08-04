@@ -77,9 +77,9 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C624%20hrs%2041%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C626%20hrs%2055%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-177%20hrs%208%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-179%20hrs%2026%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-4-blue?style=flat)
 
@@ -89,7 +89,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 
 > 📦 332.2 kB Used in GitHub's Storage 
  > 
-> 🏆 752 Contributions in the Year 2026
+> 🏆 753 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
@@ -103,14 +103,14 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 🌞 Morning                1944 commits        █████░░░░░░░░░░░░░░░░░░░░   20.28 % 
 🌆 Daytime                2181 commits        ██████░░░░░░░░░░░░░░░░░░░   22.75 % 
 🌃 Evening                2552 commits        ███████░░░░░░░░░░░░░░░░░░   26.62 % 
-🌙 Night                  2909 commits        ████████░░░░░░░░░░░░░░░░░   30.35 % 
+🌙 Night                  2910 commits        ████████░░░░░░░░░░░░░░░░░   30.35 % 
 ```
 📅 **I'm Most Productive on Monday** 
 
 ```text
 Monday                   1652 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.23 % 
 Tuesday                  1424 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.85 % 
-Wednesday                1314 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.71 % 
+Wednesday                1315 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.72 % 
 Thursday                 1131 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.80 % 
 Friday                   1128 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.77 % 
 Saturday                 1446 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.08 % 
@@ -124,44 +124,48 @@ Sunday                   1491 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     8 hrs 51 mins       ████████░░░░░░░░░░░░░░░░░   31.93 % 
-Markdown                 5 hrs 8 mins        █████░░░░░░░░░░░░░░░░░░░░   18.54 % 
-TypeScript               3 hrs 59 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.41 % 
-Other                    2 hrs 15 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.15 % 
-Text                     2 hrs 6 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.58 % 
+Dart                     8 hrs 39 mins       ████████░░░░░░░░░░░░░░░░░   31.87 % 
+Markdown                 5 hrs 5 mins        █████░░░░░░░░░░░░░░░░░░░░   18.72 % 
+TypeScript               4 hrs 1 min         ████░░░░░░░░░░░░░░░░░░░░░   14.83 % 
+Other                    2 hrs 14 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.25 % 
+Text                     2 hrs 1 min         ██░░░░░░░░░░░░░░░░░░░░░░░   07.47 % 
 
 🔥 Editors: 
-Cursor                   27 hrs 44 mins      █████████████████████████   100.00 % 
+Cursor                   27 hrs 7 mins       █████████████████████████   99.88 % 
+Antigravity Desktop      1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.12 % 
 
 🐱‍💻 Projects: 
-canvas                   9 hrs 28 mins       █████████░░░░░░░░░░░░░░░░   34.17 % 
-pukatflow                9 hrs               ████████░░░░░░░░░░░░░░░░░   32.49 % 
-otonom-agents-media      7 hrs 12 mins       ██████░░░░░░░░░░░░░░░░░░░   25.99 % 
-terminals                1 hr 24 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.09 % 
-uploads                  12 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.73 % 
+canvas                   10 hrs 29 mins      ██████████░░░░░░░░░░░░░░░   38.64 % 
+pukatflow                7 hrs 53 mins       ███████░░░░░░░░░░░░░░░░░░   29.07 % 
+otonom-agents-media      6 hrs 23 mins       ██████░░░░░░░░░░░░░░░░░░░   23.51 % 
+terminals                1 hr 17 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.75 % 
+sahibul-capital          32 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.97 % 
 
 💻 Operating System: 
-Mac                      27 hrs 44 mins      █████████████████████████   100.00 % 
+Mac                      27 hrs 9 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 27 hrs 20 mins (98.52%)
+⏱ AI Coding Time: 26 hrs 46 mins (98.56%)
 
-✍️ 28,608 lines written by AI, 35 lines written by hand (99.88% AI-written)
+✍️ 17,198 lines written by AI, 35 lines written by hand (99.8% AI-written)
 
-🔤 0 Input Tokens, 0 Output Tokens
+🔤 3,126,129 Input Tokens, 21,064 Output Tokens
 
-💵 $0.00 Estimated AI Cost This Week
+💵 $12.44 Estimated AI Cost This Week
 
-🧠 34 AI Sessions, 412 AI Prompts
+🧠 32 AI Sessions, 391 AI Prompts
+
+Gemini                   6 lines             █████████████████████████   100.00 % 
+GPT                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.88% of written lines came from AI
-📄 Detailed Prompter — average 571 characters per prompt
+🤖 AI-Driven — 99.8% of written lines came from AI
+📄 Detailed Prompter — average 609 characters per prompt
 🔁 Iterative Prompter — average 12 prompts per session
-🚀 High AI Trust — 0.53% of changed lines were hand-edited
+🚀 High AI Trust — 0.85% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Dart** 
@@ -181,7 +185,7 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 04/08/2026 17:39:52 UTC
+ Last Updated on 04/08/2026 21:05:59 UTC
 <!--END_SECTION:waka-->
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/65545bf0-64d9-4b26-9cce-4eb2a9447b16.png" /></a>
