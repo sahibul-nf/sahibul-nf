@@ -77,9 +77,9 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C626%20hrs%2055%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C630%20hrs%2049%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-179%20hrs%2026%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-183%20hrs%2038%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-4-blue?style=flat)
 
@@ -124,48 +124,49 @@ Sunday                   1491 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     8 hrs 39 mins       ████████░░░░░░░░░░░░░░░░░   31.87 % 
-Markdown                 5 hrs 5 mins        █████░░░░░░░░░░░░░░░░░░░░   18.72 % 
-TypeScript               4 hrs 1 min         ████░░░░░░░░░░░░░░░░░░░░░   14.83 % 
-Other                    2 hrs 14 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.25 % 
-Text                     2 hrs 1 min         ██░░░░░░░░░░░░░░░░░░░░░░░   07.47 % 
+Dart                     8 hrs 8 mins        ███████░░░░░░░░░░░░░░░░░░   29.66 % 
+Markdown                 5 hrs 52 mins       █████░░░░░░░░░░░░░░░░░░░░   21.44 % 
+TypeScript               4 hrs 3 mins        ████░░░░░░░░░░░░░░░░░░░░░   14.82 % 
+Other                    2 hrs 19 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.46 % 
+Text                     1 hr 57 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.11 % 
 
 🔥 Editors: 
-Cursor                   27 hrs 7 mins       █████████████████████████   99.88 % 
-Antigravity Desktop      1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.12 % 
+Cursor                   27 hrs 23 mins      █████████████████████████   99.89 % 
+Antigravity Desktop      1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.11 % 
 
 🐱‍💻 Projects: 
-canvas                   10 hrs 29 mins      ██████████░░░░░░░░░░░░░░░   38.64 % 
-pukatflow                7 hrs 53 mins       ███████░░░░░░░░░░░░░░░░░░   29.07 % 
-otonom-agents-media      6 hrs 23 mins       ██████░░░░░░░░░░░░░░░░░░░   23.51 % 
-terminals                1 hr 17 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.75 % 
-sahibul-capital          32 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.97 % 
+canvas                   11 hrs 28 mins      ██████████░░░░░░░░░░░░░░░   41.84 % 
+pukatflow                7 hrs 57 mins       ███████░░░░░░░░░░░░░░░░░░   28.99 % 
+otonom-agents-media      3 hrs 53 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.17 % 
+terminals                1 hr 15 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.59 % 
+sahibul-capital          36 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.23 % 
 
 💻 Operating System: 
-Mac                      27 hrs 9 mins       █████████████████████████   100.00 % 
+Mac                      27 hrs 25 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 26 hrs 46 mins (98.56%)
+⏱ AI Coding Time: 26 hrs 51 mins (97.94%)
 
-✍️ 17,198 lines written by AI, 35 lines written by hand (99.8% AI-written)
+✍️ 14,881 lines written by AI, 39 lines written by hand (99.74% AI-written)
 
 🔤 3,126,129 Input Tokens, 21,064 Output Tokens
 
 💵 $12.44 Estimated AI Cost This Week
 
-🧠 32 AI Sessions, 391 AI Prompts
+🧠 33 AI Sessions, 379 AI Prompts
 
-Gemini                   6 lines             █████████████████████████   100.00 % 
+Grok                     1,265 lines         █████████████████████████   99.53 % 
+Gemini                   6 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.47 % 
 GPT                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.8% of written lines came from AI
-📄 Detailed Prompter — average 609 characters per prompt
-🔁 Iterative Prompter — average 12 prompts per session
-🚀 High AI Trust — 0.85% of changed lines were hand-edited
+🤖 AI-Driven — 99.74% of written lines came from AI
+📄 Detailed Prompter — average 540 characters per prompt
+🔁 Iterative Prompter — average 11 prompts per session
+🚀 High AI Trust — 0.98% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Dart** 
@@ -185,7 +186,7 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 05/08/2026 17:25:06 UTC
+ Last Updated on 05/08/2026 21:02:23 UTC
 <!--END_SECTION:waka-->
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/65545bf0-64d9-4b26-9cce-4eb2a9447b16.png" /></a>
