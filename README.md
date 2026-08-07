@@ -77,9 +77,9 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C630%20hrs%2049%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C632%20hrs%2013%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-183%20hrs%2038%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-185%20hrs%2012%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-3-blue?style=flat)
 
@@ -87,7 +87,7 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 
 **🐱 My GitHub Data** 
 
-> 📦 332.2 kB Used in GitHub's Storage 
+> 📦 332.3 kB Used in GitHub's Storage 
  > 
 > 🏆 765 Contributions in the Year 2026
  > 
@@ -97,78 +97,6 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
  > 
 > 🔑 9 Private Repositories 
  > 
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                1944 commits        █████░░░░░░░░░░░░░░░░░░░░   20.27 % 
-🌆 Daytime                2184 commits        ██████░░░░░░░░░░░░░░░░░░░   22.77 % 
-🌃 Evening                2552 commits        ███████░░░░░░░░░░░░░░░░░░   26.61 % 
-🌙 Night                  2911 commits        ████████░░░░░░░░░░░░░░░░░   30.35 % 
-```
-📅 **I'm Most Productive on Monday** 
-
-```text
-Monday                   1652 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.22 % 
-Tuesday                  1424 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.85 % 
-Wednesday                1315 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.71 % 
-Thursday                 1134 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.82 % 
-Friday                   1128 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.76 % 
-Saturday                 1447 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.09 % 
-Sunday                   1491 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.55 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Jakarta
-
-💬 Programming Languages: 
-Dart                     8 hrs 8 mins        ███████░░░░░░░░░░░░░░░░░░   29.66 % 
-Markdown                 5 hrs 52 mins       █████░░░░░░░░░░░░░░░░░░░░   21.44 % 
-TypeScript               4 hrs 3 mins        ████░░░░░░░░░░░░░░░░░░░░░   14.82 % 
-Other                    2 hrs 19 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.46 % 
-Text                     1 hr 57 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.11 % 
-
-🔥 Editors: 
-Cursor                   27 hrs 23 mins      █████████████████████████   99.89 % 
-Antigravity Desktop      1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.11 % 
-
-🐱‍💻 Projects: 
-canvas                   11 hrs 28 mins      ██████████░░░░░░░░░░░░░░░   41.84 % 
-pukatflow                7 hrs 57 mins       ███████░░░░░░░░░░░░░░░░░░   28.99 % 
-otonom-agents-media      3 hrs 53 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.17 % 
-terminals                1 hr 15 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.59 % 
-sahibul-capital          36 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.23 % 
-
-💻 Operating System: 
-Mac                      27 hrs 25 mins      █████████████████████████   100.00 % 
-```
-
-🤖 **AI Coding This Week** 
-
-```text
-⏱ AI Coding Time: 26 hrs 51 mins (97.94%)
-
-✍️ 14,881 lines written by AI, 39 lines written by hand (99.74% AI-written)
-
-🔤 3,126,129 Input Tokens, 21,064 Output Tokens
-
-💵 $12.44 Estimated AI Cost This Week
-
-🧠 33 AI Sessions, 379 AI Prompts
-
-Grok                     1,265 lines         █████████████████████████   99.53 % 
-Gemini                   6 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.47 % 
-GPT                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-
-🔎 AI Coding Insights:
-🤖 AI-Driven — 99.74% of written lines came from AI
-📄 Detailed Prompter — average 540 characters per prompt
-🔁 Iterative Prompter — average 11 prompts per session
-🚀 High AI Trust — 0.98% of changed lines were hand-edited
-```
-
 **I Mostly Code in Dart** 
 
 ```text
@@ -186,7 +114,7 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 06/08/2026 13:47:49 UTC
+ Last Updated on 07/08/2026 00:53:38 UTC
 <!--END_SECTION:waka-->
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/65545bf0-64d9-4b26-9cce-4eb2a9447b16.png" /></a>
