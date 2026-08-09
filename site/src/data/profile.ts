@@ -79,18 +79,6 @@ export const projects = [
     live: null,
     stars: null,
   },
-  {
-    id: 'otonom',
-    title: 'Otonom Agents Media',
-    year: '2025– · Personal · In progress',
-    blurb:
-      'Active personal project around autonomous agents for media workflows. Still private while in development — happy to walk through scope and demos on request.',
-    tags: ['AI Agents', 'Media', 'Personal', 'WIP'],
-    image: '/images/otonom.svg',
-    href: '#contact',
-    live: null,
-    stars: null,
-  },
 ] as const
 
 export const experience = [

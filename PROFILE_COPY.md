@@ -2,7 +2,10 @@
 
 Portfolio: https://sahibul-nf-portfolio.netlify.app
 
-**Privacy note:** Do not publish client personal names, earnings, active-contract rates, or private product URLs unless the client explicitly allows it. The public portfolio describes the Canvas work without naming the client brand or linking the production domain.
+**Rules**
+- Paste only **public** work here (GitHub, Contra, public landings).
+- Skip private personal repos until you’re ready to share demos publicly.
+- Don’t publish client names, private production URLs, earnings, or active-contract rates.
 
 ---
 
@@ -15,11 +18,11 @@ Full-Stack Flutter Engineer | Supabase, Firebase & Go
 
 ### About
 ```
-I’m a full-stack Flutter engineer with 4+ years of professional experience building cross-platform apps, interactive canvas/workflow tools, and backends with Supabase, Firebase, and Golang.
+I’m a full-stack Flutter engineer with 4+ years of professional experience building cross-platform apps and reliable backends.
 
-I take ownership from architecture through release — mobile/web clients, REST services, realtime features, and cloud-backed workflows. Recent work includes a node-based workflow canvas (Flutter + Supabase edge execution + realtime collaboration) and earlier marketplace/e-commerce products with third-party API integrations.
+I take ownership from architecture through release — Flutter clients, REST services, realtime features, and cloud-backed workflows. Recent work includes a node-based workflow canvas (Flutter + Supabase edge execution + realtime collaboration), plus earlier marketplace and e-commerce products with third-party API integrations.
 
-I also use structured AI-assisted engineering (with automated tests) to move faster without skipping quality.
+I use structured AI-assisted engineering with automated tests when it helps delivery — without skipping quality.
 
 Tech:
 • Flutter / Dart, Golang, TypeScript, Vue/Nuxt
@@ -40,9 +43,15 @@ Email: sahibulnuzulfirdaus13@gmail.com
 • Using AI-assisted workflows with automated tests to keep delivery reliable.
 ```
 
+**Musopen — Flutter Developer (May 2024 – Jul 2025)**
+```
+• Shipped features, fixed production bugs, and refined UI for a classical music platform.
+• Collaborated iteratively with design/product feedback to improve day-to-day quality.
+```
+
 **S2bc Studios — Software Developer (Nov 2022 – Dec 2024)**
 ```
-• Built a full-stack sports cards collection app with Flutter and Golang.
+• Built Cardx, a full-stack sports cards collection product, with Flutter and Golang.
 • Integrated marketplace APIs, Supabase, Redis caching, and PostgreSQL.
 • Supported auth flows and cloud deployment workflows.
 ```
@@ -53,7 +62,7 @@ Email: sahibulnuzulfirdaus13@gmail.com
 • Collaborated with design and backend teammates on API integrations and UI.
 ```
 
-### Featured links to pin
+### Featured links
 1. https://sahibul-nf-portfolio.netlify.app
 2. https://github.com/sahibul-nf/hiQuran
 3. Upwork profile
@@ -62,26 +71,9 @@ Email: sahibulnuzulfirdaus13@gmail.com
 
 ## Upwork
 
-### Title (recommended — Flutter-first + search volume + rate signal)
+### Title
 ```
 Full-Stack Flutter Engineer | Supabase, Firebase & Go
-```
-
-Why this mix:
-- **Firebase** — high search volume with Flutter jobs
-- **Supabase** — matches your modern/architecture work (incl. canvas)
-- **Go** — proves custom backend capability (keep in title briefly; expand in overview)
-- **Canvas engines** — keep as proof in overview (unique moat; not always typed in search)
-
-Alternatives:
-```
-Full-Stack Flutter Developer | Supabase & Firebase
-```
-```
-Flutter & Full-Stack Engineer | Supabase, Firebase & Go
-```
-```
-Full-Stack Flutter Engineer | Canvas Engines & Supabase
 ```
 
 ### Overview
@@ -91,18 +83,18 @@ Hi — I’m Sahibul, a full-stack Flutter engineer shipping production mobile/w
 I help teams ship software that stays maintainable:
 
 ✓ Flutter apps (iOS / Android / Web) from feature work to release
-✓ Supabase & Firebase (auth, data, realtime, cloud functions / edge execution)
+✓ Supabase & Firebase (auth, data, realtime, cloud/edge functions)
 ✓ Canvas engines & node-based / workflow-style editors
 ✓ Golang REST APIs, Redis/Postgres, and third-party integrations when BaaS isn’t enough
 ✓ Practical AI-assisted delivery with tests
 
-Selected work (public):
-• PukatFlow — personal Android trip ledger (pilot)
+Selected public work:
+• PukatFlow — personal Android trip ledger (pilot) — https://pukatflow.netlify.app
 • hiQuran — Flutter + Supabase/Firebase
-• Cardx — Flutter + Golang marketplace-style product (client)
+• Cardx — Flutter + Golang marketplace-style product (client · S2bc Studios)
 • solo-dev-ai-kit — portable AI solo-dev workflow bootstrap
 
-Client canvas/workflow case studies available on request (no public client URLs).
+Client canvas/workflow case studies available on request.
 
 How I work: clear communication, clean architecture, and design-aware implementation.
 
@@ -111,45 +103,39 @@ Tech: Flutter, Dart, Supabase, Firebase, Golang, PostgreSQL, Redis, REST, Socket
 Portfolio: https://sahibul-nf-portfolio.netlify.app
 ```
 
-### Skill tags to prioritize on Upwork
+### Skill tags (priority)
 Flutter, Dart, Firebase, Supabase, Golang, REST API, PostgreSQL, Mobile App Development
 
-### Optional Upwork-only stats (OK on Upwork UI; skip on portfolio/GitHub)
-- Top Rated Plus / strong JSS — fine to keep if currently true in your Upwork badge
-- Avoid pasting exact earnings, hours on one client, or named clients into proposals/portfolio copy
+### Upwork settings
+- Experience level: **Expert**
+- Keep Top Rated Plus / JSS visible in the Upwork UI (don’t paste earnings/hours into proposals)
+- Public rate: set privately based on your strategy; renegotiate active contracts offline
 
-### Settings (private decision — don’t put rate strategy on your public site)
-- Experience level: **Expert** (this is what filters “senior-budget” searches — more important than the word Senior in the title)
-- Public rate: set based on your market strategy; discuss active-contract changes privately with the client
-
-### Project catalog suggestions
-1. PukatFlow — personal Android trip ledger (https://pukatflow.netlify.app)
-2. Workflow canvas — client work; share demo privately if needed
-3. Cardx — client project with S2bc Studios (Flutter + Golang)
-4. hiQuran — Flutter Quran app
-5. solo-dev-ai-kit — AI solo-dev workflow bootstrap
-6. Otonom Agents Media — personal WIP (private; demo on request)
+### Project catalog (public only)
+1. PukatFlow — https://pukatflow.netlify.app
+2. Workflow canvas — client work (demo on request)
+3. Cardx — client · S2bc Studios (Contra)
+4. hiQuran — GitHub
+5. solo-dev-ai-kit — GitHub
+6. quotes_app / acehnese_dictionary — optional extras
 
 ---
 
 ## GitHub
 
-### Profile bio (short)
+### Bio
 ```
 Full-Stack Flutter Engineer · Supabase · Firebase · Go · Aceh, ID
 ```
-
 
 ### Website
 ```
 https://sahibul-nf-portfolio.netlify.app
 ```
 
-### Pinned repos (recommended)
+### Pin (recommended)
 1. hiQuran
 2. moyu-api
 3. solo-dev-ai-kit
 4. quotes_app
 5. acehnese_dictionary
-
-Avoid pinning or linking private client production domains unless approved.

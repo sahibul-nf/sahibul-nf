@@ -26,7 +26,6 @@ I build multi-platform Flutter products and Golang backends that hold up in prod
 | **[hiQuran](https://github.com/sahibul-nf/hiQuran)** ★65 | Flutter · GetX · Supabase · Firebase | [Amazon](https://s.id/hiQuran-Amazon) |
 | **Cardx** *(client · S2bc Studios)* | Flutter · Golang · Supabase · Redis | [Contra](https://contra.com/p/oBEBN3Os-cardx) |
 | **[solo-dev-ai-kit](https://github.com/sahibul-nf/solo-dev-ai-kit)** | AI-assisted solo-dev workflow | [Repo](https://github.com/sahibul-nf/solo-dev-ai-kit) |
-| **Otonom Agents Media** | AI agents · media workflows | Personal · in progress · on request |
 | **[Quotes App](https://github.com/sahibul-nf/quotes_app)** ★15 | Flutter · Supabase | [Live](https://quot.codemagic.app/) |
 
 ### Skills
