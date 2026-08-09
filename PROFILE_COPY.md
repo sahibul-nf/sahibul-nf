@@ -5,7 +5,8 @@ Portfolio: https://sahibul-nf-portfolio.netlify.app
 **Rules**
 - Paste only **public** work here (GitHub, Contra, public landings).
 - Skip private personal repos until you’re ready to share demos publicly.
-- Don’t publish client names, private production URLs, earnings, or active-contract rates.
+- Don’t publish private client personal names, private production URLs, earnings, or active-contract rates.
+- Only list roles where you shipped real work (skip paper-only / no-project contracts).
 
 ---
 
@@ -18,7 +19,7 @@ Full-Stack Flutter Engineer | Supabase, Firebase & Go
 
 ### About
 ```
-I’m a full-stack Flutter engineer with 4+ years of professional experience building cross-platform apps and reliable backends.
+I’m a full-stack Flutter engineer with 5 years of professional experience building cross-platform apps and reliable backends.
 
 I take ownership from architecture through release — Flutter clients, REST services, realtime features, and cloud-backed workflows. I’ve full-built platforms like Nourdaily (Flutter content platform for the Muslim community — daily.dev-style discovery) and shipped a node-based workflow canvas (Flutter + Supabase edge execution + realtime collaboration), plus earlier marketplace and e-commerce products with third-party API integrations.
 
@@ -58,15 +59,21 @@ Email: sahibulnuzulfirdaus13@gmail.com
 
 **DrugLift — Flutter Developer (Jun 2023 – Jun 2024)**
 ```
-• Led Flutter MVP redesign for DrugLift and supported the client’s rebrand request to GoGetGig.
-• Added new features and fixed production bugs alongside the redesign work.
-• Improved UI/UX with GetX, localization, and background handling for slow API connectivity.
+• Redesigned the DrugLift Flutter MVP with substantial refactoring to match the new product design.
+• Shipped localization as a net-new feature (GetX).
+• Improved and fixed bugs in existing features alongside the redesign.
 ```
 
 **Kopwar — Software Developer (Jul 2022 – Oct 2022)**
 ```
 • Built e-commerce mobile flows with realtime in-app messaging (Flutter + Socket.io).
 • Collaborated with design and backend teammates on API integrations and UI.
+```
+
+**LingoTalk — Mobile Developer (Aug 2021 – Dec 2021)**
+```
+• Contributed to an established Flutter language-learning product.
+• Worked with mobile, backend, and design teams on shipped releases.
 ```
 
 ### Featured links
@@ -100,6 +107,7 @@ I help teams ship software that stays maintainable:
 Selected public work:
 • Node-based workflow canvas — Flutter + Supabase edge execution + realtime (demo on request)
 • Cardx — Flutter + Golang marketplace-style product (client · S2bc Studios)
+• DrugLift — Flutter MVP redesign/refactor + localization
 • Nourdaily — Flutter content platform for the Muslim community (daily.dev-style discovery)
 • hiQuran — Flutter + Supabase/Firebase
 • solo-dev-ai-kit — portable AI solo-dev workflow bootstrap
@@ -121,10 +129,11 @@ Flutter, Dart, Firebase, Supabase, Golang, REST API, PostgreSQL, Mobile App Deve
 ### Project catalog (public only)
 1. Workflow canvas — client work (demo on request)
 2. Cardx — client · S2bc Studios (Contra)
-3. Nourdaily — content platform · Muslim community · daily.dev-style discovery (attach live URL in project field)
-4. hiQuran — GitHub
-5. solo-dev-ai-kit — GitHub
-6. quotes_app / acehnese_dictionary — optional extras
+3. DrugLift — Flutter MVP redesign/refactor + localization (no public demo URL)
+4. Nourdaily — content platform · Muslim community · daily.dev-style discovery (attach live URL in project field)
+5. hiQuran — GitHub
+6. solo-dev-ai-kit — GitHub
+7. quotes_app / acehnese_dictionary — optional extras
 
 Note: PukatFlow is listed on the portfolio site only — omit from Upwork/LinkedIn paste copy for now.
 

@@ -127,18 +127,9 @@ export const experience = [
     role: 'Flutter Developer',
     period: 'Jun 2023 — Jun 2024',
     points: [
-      'Led Flutter MVP redesign for DrugLift and supported the client’s rebrand request to GoGetGig.',
-      'Added new features and fixed production bugs alongside the redesign work.',
-      'Improved UI/UX with GetX, localization, and background handling for slow API connectivity.',
-    ],
-  },
-  {
-    company: 'PT GITS Indonesia',
-    role: 'Flutter Programmer',
-    period: 'Aug 2022 — Aug 2023',
-    points: [
-      'Delivered Flutter features for client e-commerce and realtime product experiences.',
-      'Integrated REST APIs and Socket.io for live in-app behavior.',
+      'Redesigned the DrugLift Flutter MVP with substantial refactoring to match the new product design.',
+      'Shipped localization as a net-new feature (GetX).',
+      'Improved and fixed bugs in existing features alongside the redesign.',
     ],
   },
   {
