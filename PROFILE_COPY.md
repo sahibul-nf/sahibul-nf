@@ -10,12 +10,12 @@ Portfolio: https://sahibul-nf-portfolio.netlify.app
 
 ### Headline
 ```
-Full-Stack Software Engineer | Flutter, Golang, Supabase | Multi-platform apps & cloud backends
+Full-Stack & Flutter Engineer | Canvas Engines | Supabase & Golang
 ```
 
 ### About
 ```
-I’m a full-stack software engineer with 4+ years of professional experience building cross-platform Flutter apps and Golang backends.
+I’m a full-stack & Flutter engineer with 4+ years of professional experience building cross-platform apps, interactive canvas/workflow tools, and Golang backends.
 
 I take ownership from architecture through release — mobile/web clients, REST services, realtime features, and cloud-backed workflows. Recent work includes a node-based workflow canvas (Flutter + Supabase edge execution + realtime collaboration) and earlier marketplace/e-commerce products with third-party API integrations.
 
@@ -62,43 +62,52 @@ Email: sahibulnuzulfirdaus13@gmail.com
 
 ## Upwork
 
-### Title
+### Title (recommended — no “Senior”; keywords do the work)
 ```
-Full-Stack Software Engineer | Flutter, Golang, Workflow Apps, Supabase
+Full-Stack & Flutter Engineer | Canvas Engines | Supabase & Golang
+```
+
+Alternatives if you prefer:
+```
+Flutter Systems Developer | Workflow Tools & Interactive Canvas
+```
+```
+Full-Stack Software Engineer | Flutter, Supabase & Go
 ```
 
 ### Overview
 ```
-Hi — I’m Sahibul, a full-stack software engineer focused on Flutter apps and Golang backends.
+Hi — I’m Sahibul, a full-stack & Flutter engineer focused on production apps, interactive canvas/workflow tools, and Golang backends.
 
-I help teams ship production software that stays maintainable:
+I help teams ship software that stays maintainable:
 
 ✓ Flutter apps (iOS / Android / Web) from feature work to release
-✓ Complex UI systems (including node-based / canvas-style editors)
+✓ Canvas engines & node-based / workflow-style editors
 ✓ Golang REST APIs, auth, Postgres/Supabase, and third-party integrations
 ✓ Realtime features (Socket.io) and practical AI-assisted delivery with tests
 
 Selected work (public):
+• PukatFlow — personal Android trip ledger (pilot)
 • hiQuran — Flutter + Supabase/Firebase
-• Cardx — Flutter + Golang marketplace-style product
-• Learning / dictionary apps and Golang API samples on GitHub
+• Cardx — Flutter + Golang marketplace-style product (client)
+• solo-dev-ai-kit — portable AI solo-dev workflow bootstrap
 
-Client case studies with private production links available on request.
+Client canvas/workflow case studies available on request (no public client URLs).
 
 How I work: clear communication, clean architecture, and design-aware implementation.
 
-Tech: Flutter, Dart, Golang, Supabase, Firebase, PostgreSQL, Redis, REST, TypeScript
+Tech: Flutter, Dart, Golang, Supabase, Firebase, PostgreSQL, Redis, REST, TypeScript, AWS
 
 Portfolio: https://sahibul-nf-portfolio.netlify.app
 ```
 
-### Optional Upwork-only stats (OK on Upwork; skip on portfolio/GitHub)
+### Optional Upwork-only stats (OK on Upwork UI; skip on portfolio/GitHub)
 - Top Rated Plus / strong JSS — fine to keep if currently true in your Upwork badge
-- Avoid publishing exact earnings, hours on one client, or named clients without permission
+- Avoid pasting exact earnings, hours on one client, or named clients into proposals/portfolio copy
 
-### Settings (private decision — don’t put these numbers on your public site)
-- Experience level: Expert (if it matches how you want to be filtered)
-- Public rate: set based on your current market strategy; discuss active-contract changes privately with the client
+### Settings (private decision — don’t put rate strategy on your public site)
+- Experience level: **Expert** (this is what filters “senior-budget” searches — more important than the word Senior in the title)
+- Public rate: set based on your market strategy; discuss active-contract changes privately with the client
 
 ### Project catalog suggestions
 1. PukatFlow — personal Android trip ledger (https://pukatflow.netlify.app)
@@ -114,7 +123,7 @@ Portfolio: https://sahibul-nf-portfolio.netlify.app
 
 ### Profile bio (short)
 ```
-Full-Stack Software Engineer · Flutter + Golang · Aceh, ID · Open to work
+Full-Stack & Flutter Engineer · Canvas · Supabase · Go · Aceh, ID
 ```
 
 
