@@ -89,7 +89,6 @@ I help teams ship software that stays maintainable:
 ✓ Practical AI-assisted delivery with tests
 
 Selected public work:
-• PukatFlow — personal Android trip ledger (pilot) — https://pukatflow.netlify.app
 • hiQuran — Flutter + Supabase/Firebase
 • Cardx — Flutter + Golang marketplace-style product (client · S2bc Studios)
 • solo-dev-ai-kit — portable AI solo-dev workflow bootstrap
@@ -112,12 +111,11 @@ Flutter, Dart, Firebase, Supabase, Golang, REST API, PostgreSQL, Mobile App Deve
 - Public rate: set privately based on your strategy; renegotiate active contracts offline
 
 ### Project catalog (public only)
-1. PukatFlow — https://pukatflow.netlify.app
-2. Workflow canvas — client work (demo on request)
-3. Cardx — client · S2bc Studios (Contra)
-4. hiQuran — GitHub
-5. solo-dev-ai-kit — GitHub
-6. quotes_app / acehnese_dictionary — optional extras
+1. Workflow canvas — client work (demo on request)
+2. Cardx — client · S2bc Studios (Contra)
+3. hiQuran — GitHub
+4. solo-dev-ai-kit — GitHub
+5. quotes_app / acehnese_dictionary — optional extras
 
 ---
 

@@ -20,18 +20,6 @@ export const profile = {
 
 export const projects = [
   {
-    id: 'pukatflow',
-    title: 'PukatFlow',
-    year: '2025– · Personal · Pilot',
-    blurb:
-      'Android pilot ledger for Toke Boat operators: trip + vessel tracking, cash book for fuel/ice/rations/sales (paid or credit), AI-assisted entries, profit dashboard, and profit-sharing notes ready for WhatsApp. Built for use even when signal is weak.',
-    tags: ['Android', 'AI Assistant', 'Ledger', 'Personal'],
-    image: '/images/pukatflow.svg',
-    href: 'https://pukatflow.netlify.app',
-    live: 'https://pukatflow.netlify.app',
-    stars: null,
-  },
-  {
     id: 'canvas',
     title: 'Node-based Workflow Canvas',
     year: '2024–26 · Client',
