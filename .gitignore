@@ -1,0 +1,9 @@
+.netlify
+.firecrawl
+node_modules
+site/node_modules
+site/dist
+.DS_Store
+*.log
+.env
+.env.*

@@ -1,79 +1,59 @@
-<!-- Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, my name is Sahibul Nuzul Firdaus -->
-<!-- ====================================== -->
-
 ![Header](https://github.com/sahibul-nf/sahibul-nf/blob/main/header.png)
 
-Software Engineer
------------------
+# Sahibul Nuzul Firdaus
 
-As a software engineer with experience starting my journey in 2018, I explored various technologies that I liked in the field of software development. Although I started my journey in frontend web development, I discovered my true passion when exploring mobile development with Flutter.
+**Flutter & Golang Engineer** · Aceh, Indonesia · [Open to work](mailto:sahibulnuzulfirdaus13@gmail.com)
 
-Since 2021, I entered the industry and began my professional career as a developer with a strong proficiency in building beautiful and functional mobile and web applications using Flutter and Golang. I possess expertise in various technologies like eBay API, REST APIs, GetX, Riverpod, and Supabase, enabling me to deliver seamless and robust solutions.
+I build multi-platform Flutter products that feel fast and look intentional — and the Golang APIs that keep them reliable. Shipping since 2021 across e-commerce, sports collectibles, learning platforms, and faith tools.
 
-Also check out my other public repo at the following link <a href="https://github.com/sahibul-n-f">https://github.com/sahibul-n-f<a/>
-<br/>
-  
-* 🌍  I'm based in Indonesia
-* 🖥️  See my portfolio at [sahibul-nf.github.io](http://sahibul-nf.github.io/)
-* ✉️  You can contact me at [sahibulnuzulfirdaus13@gmail.com](mailto:sahibulnuzulfirdaus13@gmail.com)
-* 🧠  I'm learning Mobile Dev (Flutter) and Backend Dev (Golang)
-* 🤝  I'm open to collaborating on Mobile Dev and Backend Dev
+### Links
 
-<a href="https://www.twitter.com/sahibul_nf" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/twitter/follow/sahibul_nf?logo=twitter&style=for-the-badge&color=0891b2&labelColor=1c1917"
-/></a>
-<a href="https://www.github.com/sahibul-nf" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
-<a href="https://www.github.com/sahibul-nf" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
-<br/>
+* 🖥️ **Portfolio** — [sahibulnf.netlify.app](https://sahibulnf.netlify.app)
+* 💼 **LinkedIn** — [linkedin.com/in/sahibul-nf](https://www.linkedin.com/in/sahibul-nf)
+* 🛠️ **Upwork** — [hire me](https://www.upwork.com/freelancers/~01a4cbdaeeaac4a0f3)
+* ✉️ **Email** — [sahibulnuzulfirdaus13@gmail.com](mailto:sahibulnuzulfirdaus13@gmail.com)
+* 🧠 Focus — Flutter (Riverpod / GetX), Golang, Supabase, Firebase, REST
+
+<a href="https://www.github.com/sahibul-nf" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
+<a href="https://www.linkedin.com/in/sahibul-nf" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/LinkedIn-sahibul--nf-0891b2?logo=linkedin&style=for-the-badge&labelColor=1c1917" /></a>
+
+### Selected work
+
+| Project | Stack | Links |
+| --- | --- | --- |
+| **[hiQuran](https://github.com/sahibul-nf/hiQuran)** ★65 | Flutter · GetX · Supabase · Firebase | [Amazon](https://s.id/hiQuran-Amazon) |
+| **Cardx** | Flutter · Riverpod · Golang · eBay API | [Contra](https://contra.com/p/oBEBN3Os-cardx) |
+| **[Quotes App](https://github.com/sahibul-nf/quotes_app)** ★15 | Flutter · Supabase | [Live](https://quot.codemagic.app/) |
+| **[Educative Clone](https://github.com/sahibul-nf/educative_app_clone)** | Flutter · Supabase · Markdown | [Live](https://educative-clone.codemagic.app) |
+| **[Acehnese Dictionary](https://github.com/sahibul-nf/acehnese_dictionary)** | Flutter · Golang API | [Live](https://acehnese.codemagic.app/) |
 
 ### Skills
 
 <p align="left">
 <a href="https://flutter.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/flutter-colored.svg" width="36" height="36" alt="Flutter" /></a>
-<a href="https://go.dev/doc/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/dart-colored.svg" width="36" height="36" alt="Dart" /></a>
+<a href="https://dart.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/dart-colored.svg" width="36" height="36" alt="Dart" /></a>
 <a href="https://go.dev/doc/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/go-colored.svg" width="36" height="36" alt="Go" /></a>
-<a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" width="36" height="36" alt="Java" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="Javascript" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>
-<a href="https://vuejs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vuejs-colored.svg" width="36" height="36" alt="Vue" /></a>
-<a href="https://nuxtjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nuxtjs-colored.svg" width="36" height="36" alt="Nuxtjs" /></a>
-<a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a>
-<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg" width="36" height="36" alt="TailwindCSS" /></a>
-<a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg" width="36" height="36" alt="Bootstrap" /></a>
-<a href="https://www.heroku.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/heroku-colored.svg" width="36" height="36" alt="Heroku" /></a>
+<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a>
 <a href="https://supabase.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/supabase-colored.svg" width="36" height="36" alt="Supabase" /></a>
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a>
-<a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" width="36" height="36" alt="PostgreSQL" /></a>
 <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg" width="36" height="36" alt="Firebase" /></a>
+<a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" width="36" height="36" alt="PostgreSQL" /></a>
+<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg" width="36" height="36" alt="TailwindCSS" /></a>
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
-<a href="https://appwrite.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/appwrite-colored.svg" width="36" height="36" alt="Appwrite" /></a>
 </p>
 
-### Socials
-
-<p align="left"> <a href="https://www.dev.to/sahibul_nf" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/devdotto.svg" width="32" height="32" /></a> <a href="https://www.dribbble.com/sahibul_nf" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/dribbble.svg" width="32" height="32" /></a> <a href="https://www.facebook.com/sahibul.nuzul.firdaus" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" /></a> <a href="https://www.github.com/sahibul-nf" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="http://www.instagram.com/sahibul_nf" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/sahibul-nf" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> <a href="https://www.polywork.com/sahibulnf" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/polywork.svg" width="32" height="32" /></a> <a href="http://www.medium.com/@sahibul_nf" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" width="32" height="32" /></a> <a href="https://www.twitter.com/sahibul_nf" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a> <a href="https://www.youtube.com/channel/UCdWVhgD6M7D5DhwT0jfFITw" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" width="32" height="32" /></a></p>
-
-### Badges
-
-[![@sahibul_nf's Holopin board](https://holopin.io/api/user/board?user=sahibul_nf)](https://holopin.io/@sahibul_nf)
-<a href="https://app.daily.dev/sahibul_nf"><img src="https://github.com/sahibul-nf/sahibul-nf/blob/main/devcard.png" width="270" alt="Sahibul Nuzul Firdaus's Dev Card"/></a>
-
-### My GitHub Stats
+### GitHub stats
 
 <table>
+  <tr>
   <td>
     <a href="http://www.github.com/sahibul-nf"><img src="https://github-readme-stats-sigma-five.vercel.app/api?username=sahibul-nf&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="sahibul-nf's GitHub stats" /></a>
   </td>
   <td>
-    <a href="https://github.com/sahibul-nf" align="left"><img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=sahibul-nf&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&hide=html,blade,css,cmake&custom_title=Top%10%Languages" alt="Top Languages" /></a>
+    <a href="https://github.com/sahibul-nf" align="left"><img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=sahibul-nf&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&hide=html,blade,css,cmake&custom_title=Top%20Languages" alt="Top Languages" /></a>
   </td>
+  </tr>
 </table>
 
-  
-### WakaTime Stats
-  
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
@@ -190,5 +170,3 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 
  Last Updated on 09/08/2026 01:05:51 UTC
 <!--END_SECTION:waka-->
-
-<a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/65545bf0-64d9-4b26-9cce-4eb2a9447b16.png" /></a>
