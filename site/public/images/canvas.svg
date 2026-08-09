@@ -22,6 +22,6 @@
   <text x="520" y="325" fill="#9FB4BC" font-family="Arial, sans-serif" font-size="16">Map + filter</text>
   <text x="840" y="235" fill="#F5FAFB" font-family="Arial, sans-serif" font-size="22" font-weight="700">Edge Fn</text>
   <text x="840" y="265" fill="#9FB4BC" font-family="Arial, sans-serif" font-size="16">Cloud exec</text>
-  <text x="180" y="680" fill="#2EC4D6" font-family="Arial, sans-serif" font-size="28" font-weight="700">Flutter Flowchart Canvas</text>
-  <text x="180" y="720" fill="#9FB4BC" font-family="Arial, sans-serif" font-size="20">Realtime multiplayer · Supabase Vault · AWS</text>
+  <text x="180" y="680" fill="#2EC4D6" font-family="Arial, sans-serif" font-size="28" font-weight="700">Workflow Canvas</text>
+  <text x="180" y="720" fill="#9FB4BC" font-family="Arial, sans-serif" font-size="20">Realtime collaboration · Cloud execution</text>
 </svg>

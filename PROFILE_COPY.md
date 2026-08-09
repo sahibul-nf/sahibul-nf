@@ -1,6 +1,8 @@
 # Profile copy — ready to paste
 
-Updated from Gemini capability audit (Aug 2026). Portfolio: https://sahibul-nf-portfolio.netlify.app
+Portfolio: https://sahibul-nf-portfolio.netlify.app
+
+**Privacy note:** Do not publish client personal names, earnings, active-contract rates, or private product URLs unless the client explicitly allows it. The public portfolio describes the Canvas work without naming the client brand or linking the production domain.
 
 ---
 
@@ -8,53 +10,53 @@ Updated from Gemini capability audit (Aug 2026). Portfolio: https://sahibul-nf-p
 
 ### Headline
 ```
-Senior Software Engineer | Flutter & Systems Architect | Golang, Supabase, Cloud Executions
+Full-Stack Engineer | Flutter, Golang, Supabase | Multi-platform apps & cloud backends
 ```
 
 ### About
 ```
-I am a Senior Software Engineer and Systems Architect with over 4 years of experience building complex cross-platform applications and scalable backend architectures. My expertise lies at the intersection of high-performance Flutter engines, Golang microservices, and modern cloud execution environments.
+I’m a full-stack engineer with 4+ years of professional experience building cross-platform Flutter apps and Golang backends.
 
-Throughout my career, I have taken end-to-end ownership of software products from initial architectural design to live AWS production deployment. Notably, I engineered a complex node-based workflow canvas system featuring realtime multiplayer sync, Supabase Vault encryption, and Edge Function execution. My background also encompasses building Golang backends for sports card trading platforms integrated with the eBay API, as well as realtime e-commerce messaging infrastructures using Socket.io.
+I take ownership from architecture through release — mobile/web clients, REST services, realtime features, and cloud-backed workflows. Recent work includes a node-based workflow canvas (Flutter + Supabase edge execution + realtime collaboration) and earlier marketplace/e-commerce products with third-party API integrations.
 
-As an AI-native engineer, I use structured AI orchestration (including solo-dev-ai-kit) to streamline maintenance, automate test generation, and accelerate delivery while keeping rigorous code quality and security standards.
+I also use structured AI-assisted engineering (with automated tests) to move faster without skipping quality.
 
-Technical Expertise:
-• Languages & Frameworks: Dart (Flutter), Golang, JavaScript, Vue/Nuxt.js
-• Backend & Cloud: Supabase (Vault, RLS, Edge Functions), REST APIs, Socket.io, Firebase, Redis, PostgreSQL, MySQL, AWS
-• Architecture & Practices: System Design, AI Orchestration, State Management (Riverpod, GetX), Canvas Rendering, Automated Testing
+Tech:
+• Flutter / Dart, Golang, TypeScript, Vue/Nuxt
+• Supabase, Firebase, REST, Socket.io, Redis, PostgreSQL, AWS
+• Riverpod, GetX, system design, automated testing
 
-Open to remote full-time opportunities and strategic technical consultancy roles globally.
+Open to remote roles and freelance projects.
 Portfolio: https://sahibul-nf-portfolio.netlify.app
-Contact: sahibulnuzulfirdaus13@gmail.com
+Email: sahibulnuzulfirdaus13@gmail.com
 ```
 
-### Experience bullets (paste under each role)
+### Experience bullets
 
-**Canvas / Bonkbytes — Full-Stack Flutter Engineer (2024 – Present)**
+**Canvas — Full-Stack Flutter Developer (2024 – Present)**
 ```
-• Architected a production node-based flowchart canvas from scratch (custom Flutter diagram engine, workflow execution, AWS deploy at canvas.bonkbytes.com).
-• Implemented Supabase Vault, RLS, Edge Functions, and realtime multiplayer sync with LERP cursor interpolation.
-• Delivered with AI-native workflows plus unit/widget tests and security/memory verification loops.
+• Building a production node-based workflow canvas in Flutter with cloud execution and realtime collaboration.
+• Working across Flutter UI, Supabase-backed services, and AWS deployment.
+• Using AI-assisted workflows with automated tests to keep delivery reliable.
 ```
 
 **S2bc Studios — Software Developer (Nov 2022 – Dec 2024)**
 ```
-• Architected and developed a full-stack sports cards collection application using Flutter and Golang.
-• Designed scalable RESTful APIs integrating eBay API market data, Supabase, and Redis caching.
-• Managed PostgreSQL schemas, auth flows, and Heroku deployments.
+• Built a full-stack sports cards collection app with Flutter and Golang.
+• Integrated marketplace APIs, Supabase, Redis caching, and PostgreSQL.
+• Supported auth flows and cloud deployment workflows.
 ```
 
 **Kopwar — Software Developer (Jul 2022 – Oct 2022)**
 ```
-• Developed an e-commerce mobile platform with realtime in-app sales messaging using Socket.io and Flutter.
-• Collaborated with design and backend teams on high-throughput REST integrations and responsive UI.
+• Built e-commerce mobile flows with realtime in-app messaging (Flutter + Socket.io).
+• Collaborated with design and backend teammates on API integrations and UI.
 ```
 
 ### Featured links to pin
 1. https://sahibul-nf-portfolio.netlify.app
-2. https://canvas.bonkbytes.com
-3. https://github.com/sahibul-nf/hiQuran
+2. https://github.com/sahibul-nf/hiQuran
+3. Upwork profile
 
 ---
 
@@ -62,39 +64,47 @@ Contact: sahibulnuzulfirdaus13@gmail.com
 
 ### Title
 ```
-Senior Full-Stack & Flutter Engineer | Canvas & Workflow Engines | Supabase & Go
+Full-Stack Flutter & Golang Engineer | Workflow Apps, Supabase, REST APIs
 ```
 
 ### Overview
 ```
-Senior Full-Stack & Systems Engineer with over 4 years of professional experience specializing in architecting production-grade cross-platform applications, complex node-based workflow engines, and scalable backends.
+Hi — I’m Sahibul, a full-stack engineer focused on Flutter apps and Golang backends.
 
-Core Architectural Capabilities:
-• Workflow & Canvas Systems: Engineered a production-ready, node-based flowchart canvas from scratch using a custom-forked Flutter rendering core, integrated with Supabase Vault, Edge Functions, and realtime multiplayer synchronization.
-• Backend & Cloud Infrastructure: Resilient RESTful services in Golang, realtime event streaming via Socket.io, enterprise API integrations (eBay API), Redis/PostgreSQL, and AWS cloud deployments.
-• AI-Native Engineering: Structured orchestration of AI coding agents (Cursor + solo-dev-ai-kit) with automated unit/widget testing to accelerate delivery without sacrificing security or quality.
+I help teams ship production software that stays maintainable:
 
-Proven Marketplace Track Record:
-• Top Rated Plus with a 100% Job Success Score (JSS).
-• 1,500+ logged hours on high-complexity, long-term client contracts.
-• Bachelor of Computer Science (GPA 3.68/4.00).
+✓ Flutter apps (iOS / Android / Web) from feature work to release
+✓ Complex UI systems (including node-based / canvas-style editors)
+✓ Golang REST APIs, auth, Postgres/Supabase, and third-party integrations
+✓ Realtime features (Socket.io) and practical AI-assisted delivery with tests
 
-Available for high-impact software engineering contracts, system design consultations, and full-stack application development.
+Selected work (public):
+• hiQuran — Flutter + Supabase/Firebase
+• Cardx — Flutter + Golang marketplace-style product
+• Learning / dictionary apps and Golang API samples on GitHub
+
+Client case studies with private production links available on request.
+
+How I work: clear communication, clean architecture, and design-aware implementation.
+
+Tech: Flutter, Dart, Golang, Supabase, Firebase, PostgreSQL, Redis, REST, TypeScript
+
 Portfolio: https://sahibul-nf-portfolio.netlify.app
 ```
 
-### Settings to update manually
-- Experience level → **Expert**
-- Public hourly rate → consider **$30–$35/hr** (active contract renegotiation toward $22–$25/hr)
-- Specialized profiles:
-  1. Flutter & Canvas Systems Architecture
-  2. Full-Stack & Backend Integration (Golang, Supabase Vault/Edge, PostgreSQL)
+### Optional Upwork-only stats (OK on Upwork; skip on portfolio/GitHub)
+- Top Rated Plus / strong JSS — fine to keep if currently true in your Upwork badge
+- Avoid publishing exact earnings, hours on one client, or named clients without permission
+
+### Settings (private decision — don’t put these numbers on your public site)
+- Experience level: Expert (if it matches how you want to be filtered)
+- Public rate: set based on your current market strategy; discuss active-contract changes privately with the client
 
 ### Project catalog suggestions
-1. Flutter Flowchart Canvas — https://canvas.bonkbytes.com
-2. Cardx — sports cards (Flutter + Golang + eBay)
+1. Workflow canvas — describe capabilities; share demo privately if needed
+2. Cardx — sports cards (Flutter + Golang)
 3. hiQuran — Flutter Quran app
-4. Moyu API — Golang crowdfunding API
+4. Moyu API — Golang crowdfunding API (repo)
 
 ---
 
@@ -102,7 +112,7 @@ Portfolio: https://sahibul-nf-portfolio.netlify.app
 
 ### Profile bio (short)
 ```
-Senior Full-Stack Engineer · Flutter systems, Golang backends, AI-native workflows · Aceh, ID
+Full-stack engineer · Flutter + Golang · Aceh, ID · Open to work
 ```
 
 ### Website
@@ -116,6 +126,5 @@ https://sahibul-nf-portfolio.netlify.app
 3. solo-dev-ai-kit
 4. quotes_app
 5. acehnese_dictionary
-6. (keep Cardx/Contra as external proof if repo is private)
 
-README in this repo already updated to match.
+Avoid pinning or linking private client production domains unless approved.

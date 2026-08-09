@@ -1,13 +1,13 @@
 export const profile = {
   name: 'Sahibul Nuzul Firdaus',
   brand: 'Sahibul NF',
-  role: 'Senior Full-Stack Engineer',
+  role: 'Full-Stack Engineer',
   location: 'Aceh, Indonesia',
   email: 'sahibulnuzulfirdaus13@gmail.com',
-  headline: 'I architect Flutter systems that ship — canvas engines, realtime sync, and Golang backends.',
+  headline: 'I build Flutter products and Golang backends that hold up in production.',
   summary:
-    'Systems-minded engineer building production cross-platform apps and cloud-backed workflow tools — from node-based canvases to eBay-integrated marketplaces.',
-  availability: 'Open for remote senior roles & high-impact contracts',
+    'Product-minded engineer shipping multi-platform apps, realtime features, and cloud-backed workflow tools for teams that need reliable delivery.',
+  availability: 'Open for freelance & remote roles',
   links: {
     github: 'https://github.com/sahibul-nf',
     linkedin: 'https://www.linkedin.com/in/sahibul-nf',
@@ -21,14 +21,14 @@ export const profile = {
 export const projects = [
   {
     id: 'canvas',
-    title: 'Flutter Flowchart Canvas',
+    title: 'Node-based Workflow Canvas',
     year: '2024–26',
     blurb:
-      'Production node-based workflow engine (n8n/Zapier-class). Custom-forked Flutter diagram core, Supabase Vault + RLS + Edge Functions, realtime multiplayer with LERP cursor sync — live on AWS.',
-    tags: ['Flutter', 'Supabase Vault', 'Edge Functions', 'AWS', 'Realtime'],
+      'Interactive flowchart/workflow builder in Flutter: custom diagram editing, cloud function execution, credential-safe integrations, and realtime collaboration. Client product — details shared on request.',
+    tags: ['Flutter', 'Supabase', 'Edge Functions', 'Realtime', 'AWS'],
     image: '/images/canvas.svg',
-    href: 'https://canvas.bonkbytes.com',
-    live: 'https://canvas.bonkbytes.com',
+    href: 'https://contra.com/sahibulnf',
+    live: null,
     stars: null,
   },
   {
@@ -48,8 +48,8 @@ export const projects = [
     title: 'Cardx',
     year: '2022–24',
     blurb:
-      'Sports card collection product for iOS and web. Flutter client plus Golang APIs with Supabase, Redis caching, PostgreSQL, and live eBay market data.',
-    tags: ['Flutter', 'Golang', 'eBay API', 'Redis', 'Supabase'],
+      'Sports card collection product for iOS and web. Flutter client with Golang APIs, Supabase, caching, and third-party marketplace data integrations.',
+    tags: ['Flutter', 'Golang', 'Supabase', 'Redis'],
     image: '/images/cardx.jpg',
     href: 'https://contra.com/p/oBEBN3Os-cardx',
     live: null,
@@ -60,11 +60,11 @@ export const projects = [
     title: 'Moyu API',
     year: '2022',
     blurb:
-      'Crowdfunding REST API in Golang with Clean Architecture — Gin, GORM, JWT auth, and PostgreSQL.',
+      'Crowdfunding REST API in Golang — Gin, GORM, JWT auth, and PostgreSQL with a clean layered structure.',
     tags: ['Golang', 'Gin', 'PostgreSQL', 'JWT'],
     image: '/images/moyu.svg',
     href: 'https://github.com/sahibul-nf/moyu-api',
-    live: 'https://web-production-4d1b.up.railway.app/api/v1/campaigns',
+    live: null,
     stars: null,
   },
   {
@@ -83,13 +83,13 @@ export const projects = [
 
 export const experience = [
   {
-    company: 'Canvas / Bonkbytes',
-    role: 'Full-Stack Flutter Engineer',
+    company: 'Canvas',
+    role: 'Full-Stack Flutter Developer',
     period: '2024 — Present',
     points: [
-      'Architected a production node-based flowchart canvas from scratch as solo engineer — custom Flutter diagram engine, workflow execution, and AWS deploy (canvas.bonkbytes.com).',
-      'Built secure cloud execution with Supabase Vault, Row Level Security, Edge Functions, and realtime multiplayer sync using LERP interpolation.',
-      'Applied AI-native delivery (Cursor + structured agent rules, unit/widget tests) while keeping security and memory checks in the loop.',
+      'Building a production node-based workflow canvas in Flutter with cloud execution and realtime collaboration.',
+      'Working across client UI, Supabase-backed services (including secure credential handling and edge functions), and AWS deployment.',
+      'Using structured AI-assisted workflows with automated tests to keep delivery fast without skipping quality checks.',
     ],
   },
   {
@@ -98,7 +98,7 @@ export const experience = [
     period: 'May 2024 — Jul 2025',
     points: [
       'Shipped features, fixed production bugs, and refined UI for a classical music platform.',
-      'Improved day-to-day product quality through iterative design and engineering collaboration.',
+      'Worked iteratively with design and product feedback to improve day-to-day quality.',
     ],
   },
   {
@@ -106,8 +106,8 @@ export const experience = [
     role: 'Software Developer',
     period: 'Nov 2022 — Dec 2024',
     points: [
-      'Architected a full-stack sports cards collection app with Flutter clients and Golang REST services.',
-      'Integrated eBay API for live market data, plus Supabase, Redis caching, PostgreSQL, and Heroku deployments.',
+      'Built a full-stack sports cards collection app with Flutter clients and Golang REST services.',
+      'Integrated marketplace APIs, Supabase, Redis caching, PostgreSQL, and cloud deployment workflows.',
     ],
   },
   {
@@ -124,8 +124,8 @@ export const experience = [
     role: 'Software Developer',
     period: 'Jul 2022 — Oct 2022',
     points: [
-      'Built e-commerce mobile flows with realtime sales chat powered by Socket.io and Flutter.',
-      'Partnered with design and backend teams on high-throughput REST integrations and responsive UI.',
+      'Built e-commerce mobile flows with realtime in-app messaging using Socket.io and Flutter.',
+      'Collaborated with design and backend teammates on API integrations and responsive UI.',
     ],
   },
   {
@@ -141,26 +141,26 @@ export const experience = [
 
 export const skills = [
   {
-    group: 'Systems & Mobile',
-    items: ['Flutter', 'Dart', 'Canvas / Diagram Engines', 'Riverpod', 'GetX', 'Realtime Sync'],
+    group: 'Mobile',
+    items: ['Flutter', 'Dart', 'Riverpod', 'GetX', 'Realtime UI', 'Flutter Web'],
   },
   {
     group: 'Backend',
     items: ['Golang', 'Gin', 'REST APIs', 'Socket.io', 'JWT', 'PostgreSQL', 'Redis'],
   },
   {
-    group: 'Cloud & Platform',
-    items: ['Supabase (Vault, RLS, Edge)', 'AWS', 'Firebase', 'eBay API', 'Heroku', 'Docker'],
+    group: 'Platform',
+    items: ['Supabase', 'Firebase', 'AWS', 'Docker', 'Edge Functions', 'CI/CD'],
   },
   {
     group: 'Practice',
-    items: ['System Design', 'AI-Native Engineering', 'Automated Testing', 'TypeScript', 'Vue/Nuxt', 'Figma'],
+    items: ['System Design', 'AI-assisted Engineering', 'Automated Testing', 'TypeScript', 'Vue/Nuxt', 'Figma'],
   },
 ] as const
 
 export const education = {
   school: 'Universitas Islam Negeri Ar-Raniry',
-  degree: 'Bachelor of Computer Science — Information Technology',
+  degree: 'Bachelor of Technology — Information Technology',
   period: '2018 — 2023',
   grade: 'GPA 3.68',
 } as const
