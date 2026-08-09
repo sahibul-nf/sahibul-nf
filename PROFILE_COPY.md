@@ -10,12 +10,12 @@ Portfolio: https://sahibul-nf-portfolio.netlify.app
 
 ### Headline
 ```
-Full-Stack Engineer | Flutter, Golang, Supabase | Multi-platform apps & cloud backends
+Full-Stack Software Engineer | Flutter, Golang, Supabase | Multi-platform apps & cloud backends
 ```
 
 ### About
 ```
-I’m a full-stack engineer with 4+ years of professional experience building cross-platform Flutter apps and Golang backends.
+I’m a full-stack software engineer with 4+ years of professional experience building cross-platform Flutter apps and Golang backends.
 
 I take ownership from architecture through release — mobile/web clients, REST services, realtime features, and cloud-backed workflows. Recent work includes a node-based workflow canvas (Flutter + Supabase edge execution + realtime collaboration) and earlier marketplace/e-commerce products with third-party API integrations.
 
@@ -64,12 +64,12 @@ Email: sahibulnuzulfirdaus13@gmail.com
 
 ### Title
 ```
-Full-Stack Flutter & Golang Engineer | Workflow Apps, Supabase, REST APIs
+Full-Stack Software Engineer | Flutter, Golang, Workflow Apps, Supabase
 ```
 
 ### Overview
 ```
-Hi — I’m Sahibul, a full-stack engineer focused on Flutter apps and Golang backends.
+Hi — I’m Sahibul, a full-stack software engineer focused on Flutter apps and Golang backends.
 
 I help teams ship production software that stays maintainable:
 
@@ -112,8 +112,9 @@ Portfolio: https://sahibul-nf-portfolio.netlify.app
 
 ### Profile bio (short)
 ```
-Full-stack engineer · Flutter + Golang · Aceh, ID · Open to work
+Full-Stack Software Engineer · Flutter + Golang · Aceh, ID · Open to work
 ```
+
 
 ### Website
 ```

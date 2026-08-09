@@ -1,7 +1,7 @@
 export const profile = {
   name: 'Sahibul Nuzul Firdaus',
   brand: 'Sahibul NF',
-  role: 'Full-Stack Engineer',
+  role: 'Full-Stack Software Engineer',
   location: 'Aceh, Indonesia',
   email: 'sahibulnuzulfirdaus13@gmail.com',
   headline: 'I build Flutter products and Golang backends that hold up in production.',
