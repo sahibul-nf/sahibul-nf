@@ -4,9 +4,9 @@
   <rect x="160" y="140" width="880" height="545" rx="28" fill="#0B1C24"/>
   <text x="220" y="230" fill="#2EC4D6" font-family="monospace" font-size="22">$ ./bootstrap.sh --tools cursor,antigravity</text>
   <rect x="220" y="270" width="760" height="280" rx="16" fill="#1A3340"/>
-  <text x="260" y="330" fill="#9FE7F0" font-family="monospace" font-size="20">triage ’ implement ’ QA ’ close</text>
+  <text x="260" y="330" fill="#9FE7F0" font-family="monospace" font-size="20">triage - implement - QA - close</text>
   <text x="260" y="380" fill="#F5FAFB" font-family="monospace" font-size="20">AGENTS.md + Cursor rules</text>
   <text x="260" y="430" fill="#F5FAFB" font-family="monospace" font-size="20">multi-agent workflow kit</text>
-  <text x="260" y="480" fill="#E8A54B" font-family="monospace" font-size="20">portable · GitHub board ready</text>
+  <text x="260" y="480" fill="#E8A54B" font-family="monospace" font-size="20">portable - GitHub board ready</text>
   <text x="220" y="620" fill="#F5FAFB" font-family="Arial, sans-serif" font-size="34" font-weight="700">solo-dev-ai-kit</text>
 </svg>

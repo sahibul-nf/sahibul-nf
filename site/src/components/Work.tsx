@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { projects } from '../data/profile'
+import { ProjectMedia } from './ProjectMedia'
 
 export function Work() {
   return (
@@ -36,13 +37,7 @@ export function Work() {
                 }`}
               >
                 <div className="relative aspect-[16/11] overflow-hidden bg-mist">
-                  <img
-                    src={project.image}
-                    alt={`${project.title} preview`}
-                    className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
-                    loading="lazy"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-ink/35 via-transparent to-transparent opacity-70 transition-opacity duration-500 group-hover:opacity-90" />
+                  <ProjectMedia src={project.image} title={project.title} />
                 </div>
               </a>
 
