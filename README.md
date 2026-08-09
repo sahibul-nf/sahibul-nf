@@ -2,7 +2,7 @@
 
 # Sahibul Nuzul Firdaus
 
-**Full-Stack & Flutter Engineer** · Canvas · Supabase · Golang · Aceh, Indonesia · [Open to work](mailto:sahibulnuzulfirdaus13@gmail.com)
+**Full-Stack Flutter Engineer** · Supabase · Firebase · Golang · Aceh, Indonesia · [Open to work](mailto:sahibulnuzulfirdaus13@gmail.com)
 
 I build multi-platform Flutter products and Golang backends that hold up in production — apps, realtime features, and cloud-backed workflow tools.
 

@@ -10,12 +10,12 @@ Portfolio: https://sahibul-nf-portfolio.netlify.app
 
 ### Headline
 ```
-Full-Stack & Flutter Engineer | Canvas Engines | Supabase & Golang
+Full-Stack Flutter Engineer | Supabase, Firebase & Go
 ```
 
 ### About
 ```
-I’m a full-stack & Flutter engineer with 4+ years of professional experience building cross-platform apps, interactive canvas/workflow tools, and Golang backends.
+I’m a full-stack Flutter engineer with 4+ years of professional experience building cross-platform apps, interactive canvas/workflow tools, and backends with Supabase, Firebase, and Golang.
 
 I take ownership from architecture through release — mobile/web clients, REST services, realtime features, and cloud-backed workflows. Recent work includes a node-based workflow canvas (Flutter + Supabase edge execution + realtime collaboration) and earlier marketplace/e-commerce products with third-party API integrations.
 
@@ -62,29 +62,39 @@ Email: sahibulnuzulfirdaus13@gmail.com
 
 ## Upwork
 
-### Title (recommended — no “Senior”; keywords do the work)
+### Title (recommended — Flutter-first + search volume + rate signal)
 ```
-Full-Stack & Flutter Engineer | Canvas Engines | Supabase & Golang
+Full-Stack Flutter Engineer | Supabase, Firebase & Go
 ```
 
-Alternatives if you prefer:
+Why this mix:
+- **Firebase** — high search volume with Flutter jobs
+- **Supabase** — matches your modern/architecture work (incl. canvas)
+- **Go** — proves custom backend capability (keep in title briefly; expand in overview)
+- **Canvas engines** — keep as proof in overview (unique moat; not always typed in search)
+
+Alternatives:
 ```
-Flutter Systems Developer | Workflow Tools & Interactive Canvas
+Full-Stack Flutter Developer | Supabase & Firebase
 ```
 ```
-Full-Stack Software Engineer | Flutter, Supabase & Go
+Flutter & Full-Stack Engineer | Supabase, Firebase & Go
+```
+```
+Full-Stack Flutter Engineer | Canvas Engines & Supabase
 ```
 
 ### Overview
 ```
-Hi — I’m Sahibul, a full-stack & Flutter engineer focused on production apps, interactive canvas/workflow tools, and Golang backends.
+Hi — I’m Sahibul, a full-stack Flutter engineer shipping production mobile/web apps with Supabase, Firebase, and Golang when a custom backend is the better fit.
 
 I help teams ship software that stays maintainable:
 
 ✓ Flutter apps (iOS / Android / Web) from feature work to release
+✓ Supabase & Firebase (auth, data, realtime, cloud functions / edge execution)
 ✓ Canvas engines & node-based / workflow-style editors
-✓ Golang REST APIs, auth, Postgres/Supabase, and third-party integrations
-✓ Realtime features (Socket.io) and practical AI-assisted delivery with tests
+✓ Golang REST APIs, Redis/Postgres, and third-party integrations when BaaS isn’t enough
+✓ Practical AI-assisted delivery with tests
 
 Selected work (public):
 • PukatFlow — personal Android trip ledger (pilot)
@@ -96,10 +106,13 @@ Client canvas/workflow case studies available on request (no public client URLs)
 
 How I work: clear communication, clean architecture, and design-aware implementation.
 
-Tech: Flutter, Dart, Golang, Supabase, Firebase, PostgreSQL, Redis, REST, TypeScript, AWS
+Tech: Flutter, Dart, Supabase, Firebase, Golang, PostgreSQL, Redis, REST, Socket.io, TypeScript, AWS
 
 Portfolio: https://sahibul-nf-portfolio.netlify.app
 ```
+
+### Skill tags to prioritize on Upwork
+Flutter, Dart, Firebase, Supabase, Golang, REST API, PostgreSQL, Mobile App Development
 
 ### Optional Upwork-only stats (OK on Upwork UI; skip on portfolio/GitHub)
 - Top Rated Plus / strong JSS — fine to keep if currently true in your Upwork badge
@@ -123,7 +136,7 @@ Portfolio: https://sahibul-nf-portfolio.netlify.app
 
 ### Profile bio (short)
 ```
-Full-Stack & Flutter Engineer · Canvas · Supabase · Go · Aceh, ID
+Full-Stack Flutter Engineer · Supabase · Firebase · Go · Aceh, ID
 ```
 
 
