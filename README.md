@@ -21,11 +21,12 @@ I build multi-platform Flutter products and Golang backends that hold up in prod
 
 | Project | Stack | Links |
 | --- | --- | --- |
+| **[PukatFlow](https://pukatflow.netlify.app)** | Flutter · Android · AI assistant | Personal pilot — [landing](https://pukatflow.netlify.app) |
 | **Node-based Workflow Canvas** | Flutter · Supabase · Edge Functions · Realtime | Client work — demo on request |
 | **[hiQuran](https://github.com/sahibul-nf/hiQuran)** ★65 | Flutter · GetX · Supabase · Firebase | [Amazon](https://s.id/hiQuran-Amazon) |
-| **Cardx** | Flutter · Golang · Supabase · Redis | [Contra](https://contra.com/p/oBEBN3Os-cardx) |
-| **[moyu-api](https://github.com/sahibul-nf/moyu-api)** | Golang · Gin · PostgreSQL · JWT | [Repo](https://github.com/sahibul-nf/moyu-api) |
+| **Cardx** *(client · S2bc Studios)* | Flutter · Golang · Supabase · Redis | [Contra](https://contra.com/p/oBEBN3Os-cardx) |
 | **[solo-dev-ai-kit](https://github.com/sahibul-nf/solo-dev-ai-kit)** | AI-assisted solo-dev workflow | [Repo](https://github.com/sahibul-nf/solo-dev-ai-kit) |
+| **Otonom Agents Media** | AI agents · media workflows | Personal · in progress · on request |
 | **[Quotes App](https://github.com/sahibul-nf/quotes_app)** ★15 | Flutter · Supabase | [Live](https://quot.codemagic.app/) |
 
 ### Skills

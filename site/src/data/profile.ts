@@ -20,11 +20,23 @@ export const profile = {
 
 export const projects = [
   {
+    id: 'pukatflow',
+    title: 'PukatFlow',
+    year: '2025– · Personal',
+    blurb:
+      'Android trip ledger for boat operators (Toke Boat): track fuel, ice, rations, sales, and profit sharing — with an AI assistant. Personal product currently in pilot.',
+    tags: ['Flutter', 'Android', 'AI Assistant', 'Personal'],
+    image: '/images/pukatflow.svg',
+    href: 'https://pukatflow.netlify.app',
+    live: 'https://pukatflow.netlify.app',
+    stars: null,
+  },
+  {
     id: 'canvas',
     title: 'Node-based Workflow Canvas',
-    year: '2024–26',
+    year: '2024–26 · Client',
     blurb:
-      'Interactive flowchart/workflow builder in Flutter: custom diagram editing, cloud function execution, credential-safe integrations, and realtime collaboration. Client product — details shared on request.',
+      'Interactive flowchart/workflow builder in Flutter: custom diagram editing, cloud function execution, credential-safe integrations, and realtime collaboration. Details shared on request.',
     tags: ['Flutter', 'Supabase', 'Edge Functions', 'Realtime', 'AWS'],
     image: '/images/canvas.svg',
     href: 'https://contra.com/sahibulnf',
@@ -34,7 +46,7 @@ export const projects = [
   {
     id: 'hiquran',
     title: 'hiQuran',
-    year: '2023',
+    year: '2023 · Personal',
     blurb:
       'A digital Quran experience with prayer times, tafsir, and a calm reading UI — built with Flutter, GetX, Supabase, and Firebase.',
     tags: ['Flutter', 'GetX', 'Supabase', 'Firebase'],
@@ -46,9 +58,9 @@ export const projects = [
   {
     id: 'cardx',
     title: 'Cardx',
-    year: '2022–24',
+    year: '2022–24 · Client · S2bc Studios',
     blurb:
-      'Sports card collection product for iOS and web. Flutter client with Golang APIs, Supabase, caching, and third-party marketplace data integrations.',
+      'Client sports card collection product for iOS and web — Flutter clients with Golang APIs, Supabase, caching, and marketplace data integrations.',
     tags: ['Flutter', 'Golang', 'Supabase', 'Redis'],
     image: '/images/cardx.jpg',
     href: 'https://contra.com/p/oBEBN3Os-cardx',
@@ -56,28 +68,28 @@ export const projects = [
     stars: null,
   },
   {
-    id: 'moyu-api',
-    title: 'Moyu API',
-    year: '2022',
+    id: 'solo-dev-ai-kit',
+    title: 'solo-dev-ai-kit',
+    year: '2025– · Personal',
     blurb:
-      'Crowdfunding REST API in Golang — Gin, GORM, JWT auth, and PostgreSQL with a clean layered structure.',
-    tags: ['Golang', 'Gin', 'PostgreSQL', 'JWT'],
-    image: '/images/moyu.svg',
-    href: 'https://github.com/sahibul-nf/moyu-api',
+      'Portable bootstrap for solo-dev + AI workflows: issue triage, multi-agent rules (Cursor/Antigravity/etc.), and a repeatable path from approval to QA close.',
+    tags: ['AI Workflow', 'Cursor', 'Shell', 'Developer Tools'],
+    image: '/images/solo-dev-ai.svg',
+    href: 'https://github.com/sahibul-nf/solo-dev-ai-kit',
     live: null,
     stars: null,
   },
   {
-    id: 'quotes',
-    title: 'Quotes App',
-    year: '2023',
+    id: 'otonom',
+    title: 'Otonom Agents Media',
+    year: '2025– · Personal · In progress',
     blurb:
-      'Clean quotes experience powered by Flutter and Supabase — collections, sharing, and a lightweight social feel.',
-    tags: ['Flutter', 'Supabase', 'Riverpod'],
-    image: '/images/quotes.svg',
-    href: 'https://github.com/sahibul-nf/quotes_app',
-    live: 'https://quot.codemagic.app/',
-    stars: 15,
+      'Personal project exploring autonomous AI agent workflows for media production. Private repo — case details and demos available on request.',
+    tags: ['AI Agents', 'Media', 'Personal', 'WIP'],
+    image: '/images/otonom.svg',
+    href: '#contact',
+    live: null,
+    stars: null,
   },
 ] as const
 
@@ -106,7 +118,7 @@ export const experience = [
     role: 'Software Developer',
     period: 'Nov 2022 — Dec 2024',
     points: [
-      'Built a full-stack sports cards collection app with Flutter clients and Golang REST services.',
+      'Built Cardx, a full-stack sports cards collection product, with Flutter clients and Golang REST services.',
       'Integrated marketplace APIs, Supabase, Redis caching, PostgreSQL, and cloud deployment workflows.',
     ],
   },

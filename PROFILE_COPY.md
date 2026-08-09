@@ -101,10 +101,12 @@ Portfolio: https://sahibul-nf-portfolio.netlify.app
 - Public rate: set based on your current market strategy; discuss active-contract changes privately with the client
 
 ### Project catalog suggestions
-1. Workflow canvas — describe capabilities; share demo privately if needed
-2. Cardx — sports cards (Flutter + Golang)
-3. hiQuran — Flutter Quran app
-4. Moyu API — Golang crowdfunding API (repo)
+1. PukatFlow — personal Android trip ledger (https://pukatflow.netlify.app)
+2. Workflow canvas — client work; share demo privately if needed
+3. Cardx — client project with S2bc Studios (Flutter + Golang)
+4. hiQuran — Flutter Quran app
+5. solo-dev-ai-kit — AI solo-dev workflow bootstrap
+6. Otonom Agents Media — personal WIP (private; demo on request)
 
 ---
 
