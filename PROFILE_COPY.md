@@ -37,7 +37,7 @@ Email: sahibulnuzulfirdaus13@gmail.com
 
 ### Experience bullets
 
-**Canvas — Full-Stack Flutter Developer (2024 – Present)**
+**BonkBytes (https://bonkbytes.com/) — Full-Stack Flutter Developer (2024 – Present)**
 ```
 • Building a production node-based workflow canvas in Flutter with cloud execution and realtime collaboration.
 • Working across Flutter UI, Supabase-backed services, and AWS deployment.
@@ -105,7 +105,7 @@ I help teams ship software that stays maintainable:
 ✓ Practical AI-assisted delivery with tests
 
 Selected public work:
-• Node-based workflow canvas — Flutter + Supabase edge execution + realtime (demo on request)
+• Node-based workflow canvas — Flutter + Supabase edge execution + realtime (client · BonkBytes; demo on request)
 • Cardx — Flutter + Golang marketplace-style product (client · S2bc Studios)
 • DrugLift — Flutter MVP redesign/refactor + localization
 • Nourdaily — Flutter content platform for the Muslim community (daily.dev-style discovery)
@@ -127,7 +127,7 @@ Flutter, Dart, Firebase, Supabase, Golang, REST API, PostgreSQL, Mobile App Deve
 - Put portfolio / project URLs in Upwork’s dedicated link fields — not in the overview text
 
 ### Project catalog (public only)
-1. Workflow canvas — client work (demo on request)
+1. Workflow canvas — client · BonkBytes (demo on request; company: bonkbytes.com)
 2. Cardx — client · S2bc Studios (Contra)
 3. DrugLift — Flutter MVP redesign/refactor + localization (no public demo URL)
 4. Nourdaily — content platform · Muslim community · daily.dev-style discovery (attach live URL in project field)

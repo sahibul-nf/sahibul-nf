@@ -22,12 +22,12 @@ export const projects = [
   {
     id: 'canvas',
     title: 'Node-based Workflow Canvas',
-    year: '2024–26 · Client',
+    year: '2024–26 · Client · BonkBytes',
     blurb:
       'Interactive flowchart/workflow builder in Flutter: custom diagram editing, cloud function execution, credential-safe integrations, and realtime collaboration. Details shared on request.',
     tags: ['Flutter', 'Supabase', 'Edge Functions', 'Realtime', 'AWS'],
     image: '/images/canvas.svg',
-    href: 'https://contra.com/sahibulnf',
+    href: 'https://bonkbytes.com/',
     live: null,
     stars: null,
   },
@@ -95,7 +95,8 @@ export const projects = [
 
 export const experience = [
   {
-    company: 'Canvas',
+    company: 'BonkBytes',
+    companyUrl: 'https://bonkbytes.com/',
     role: 'Full-Stack Flutter Developer',
     period: '2024 — Present',
     points: [

@@ -21,7 +21,7 @@ I build multi-platform Flutter products and Golang backends that hold up in prod
 
 | Project | Stack | Links |
 | --- | --- | --- |
-| **Node-based Workflow Canvas** | Flutter · Supabase · Edge Functions · Realtime | Client work — demo on request |
+| **Node-based Workflow Canvas** *(client · [BonkBytes](https://bonkbytes.com/))* | Flutter · Supabase · Edge Functions · Realtime | Client work — demo on request |
 | **[Nourdaily](https://nourdaily.com)** | Flutter · Muslim community · content platform | Personal build (daily.dev-style discovery) — [Live](https://nourdaily.com) |
 | **[PukatFlow](https://pukatflow.netlify.app)** | Android pilot · trip ledger · AI entries · bagi hasil | Personal — [landing](https://pukatflow.netlify.app) |
 | **[hiQuran](https://github.com/sahibul-nf/hiQuran)** ★65 | Flutter · GetX · Supabase · Firebase | [Amazon](https://s.id/hiQuran-Amazon) |
