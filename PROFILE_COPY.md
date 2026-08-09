@@ -20,7 +20,7 @@ Full-Stack Flutter Engineer | Supabase, Firebase & Go
 ```
 I’m a full-stack Flutter engineer with 4+ years of professional experience building cross-platform apps and reliable backends.
 
-I take ownership from architecture through release — Flutter clients, REST services, realtime features, and cloud-backed workflows. Recent work includes a node-based workflow canvas (Flutter + Supabase edge execution + realtime collaboration), plus earlier marketplace and e-commerce products with third-party API integrations.
+I take ownership from architecture through release — Flutter clients, REST services, realtime features, and cloud-backed workflows. I’ve full-built products like Nourdaily (Islamic content platform) and shipped a node-based workflow canvas (Flutter + Supabase edge execution + realtime collaboration), plus earlier marketplace and e-commerce products with third-party API integrations.
 
 I use structured AI-assisted engineering with automated tests when it helps delivery — without skipping quality.
 
@@ -64,8 +64,8 @@ Email: sahibulnuzulfirdaus13@gmail.com
 
 ### Featured links
 1. https://sahibul-nf-portfolio.netlify.app
-2. https://github.com/sahibul-nf/hiQuran
-3. Upwork profile
+2. https://nourdaily.com
+3. https://github.com/sahibul-nf/hiQuran
 
 ---
 
@@ -89,6 +89,7 @@ I help teams ship software that stays maintainable:
 ✓ Practical AI-assisted delivery with tests
 
 Selected public work:
+• Nourdaily — Flutter Islamic content platform (full-build) — https://nourdaily.com
 • hiQuran — Flutter + Supabase/Firebase
 • Cardx — Flutter + Golang marketplace-style product (client · S2bc Studios)
 • solo-dev-ai-kit — portable AI solo-dev workflow bootstrap
@@ -111,11 +112,12 @@ Flutter, Dart, Firebase, Supabase, Golang, REST API, PostgreSQL, Mobile App Deve
 - Public rate: set privately based on your strategy; renegotiate active contracts offline
 
 ### Project catalog (public only)
-1. Workflow canvas — client work (demo on request)
-2. Cardx — client · S2bc Studios (Contra)
-3. hiQuran — GitHub
-4. solo-dev-ai-kit — GitHub
-5. quotes_app / acehnese_dictionary — optional extras
+1. Nourdaily — https://nourdaily.com (personal full-build)
+2. Workflow canvas — client work (demo on request)
+3. Cardx — client · S2bc Studios (Contra)
+4. hiQuran — GitHub
+5. solo-dev-ai-kit — GitHub
+6. quotes_app / acehnese_dictionary — optional extras
 
 Note: PukatFlow is listed on the portfolio site only — omit from Upwork/LinkedIn paste copy for now.
 

@@ -21,8 +21,9 @@ I build multi-platform Flutter products and Golang backends that hold up in prod
 
 | Project | Stack | Links |
 | --- | --- | --- |
-| **[PukatFlow](https://pukatflow.netlify.app)** | Android pilot · trip ledger · AI entries · bagi hasil | Personal — [landing](https://pukatflow.netlify.app) |
 | **Node-based Workflow Canvas** | Flutter · Supabase · Edge Functions · Realtime | Client work — demo on request |
+| **[Nourdaily](https://nourdaily.com)** | Flutter · content platform · community | Personal full-build — [Live](https://nourdaily.com) |
+| **[PukatFlow](https://pukatflow.netlify.app)** | Android pilot · trip ledger · AI entries · bagi hasil | Personal — [landing](https://pukatflow.netlify.app) |
 | **[hiQuran](https://github.com/sahibul-nf/hiQuran)** ★65 | Flutter · GetX · Supabase · Firebase | [Amazon](https://s.id/hiQuran-Amazon) |
 | **Cardx** *(client · S2bc Studios)* | Flutter · Golang · Supabase · Redis | [Contra](https://contra.com/p/oBEBN3Os-cardx) |
 | **[solo-dev-ai-kit](https://github.com/sahibul-nf/solo-dev-ai-kit)** | AI-assisted solo-dev workflow | [Repo](https://github.com/sahibul-nf/solo-dev-ai-kit) |

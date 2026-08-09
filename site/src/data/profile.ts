@@ -20,18 +20,6 @@ export const profile = {
 
 export const projects = [
   {
-    id: 'pukatflow',
-    title: 'PukatFlow',
-    year: '2025– · Personal · Pilot',
-    blurb:
-      'Android pilot ledger for Toke Boat operators: trip + vessel tracking, cash book for fuel/ice/rations/sales (paid or credit), AI-assisted entries, profit dashboard, and profit-sharing notes ready for WhatsApp. Built for use even when signal is weak.',
-    tags: ['Android', 'AI Assistant', 'Ledger', 'Personal'],
-    image: '/images/pukatflow.svg',
-    href: 'https://pukatflow.netlify.app',
-    live: 'https://pukatflow.netlify.app',
-    stars: null,
-  },
-  {
     id: 'canvas',
     title: 'Node-based Workflow Canvas',
     year: '2024–26 · Client',
@@ -41,6 +29,30 @@ export const projects = [
     image: '/images/canvas.svg',
     href: 'https://contra.com/sahibulnf',
     live: null,
+    stars: null,
+  },
+  {
+    id: 'nourdaily',
+    title: 'Nourdaily',
+    year: '2024 · Personal · Full-build',
+    blurb:
+      'Modern Islamic content platform I built end-to-end in Flutter — curated articles, video, and audio, plus community features like discussions, upvotes, and personalized reading journeys.',
+    tags: ['Flutter', 'Content Platform', 'Community', 'Personal'],
+    image: '/images/nourdaily-og.jpg',
+    href: 'https://nourdaily.com',
+    live: 'https://nourdaily.com',
+    stars: null,
+  },
+  {
+    id: 'pukatflow',
+    title: 'PukatFlow',
+    year: '2025– · Personal · Pilot',
+    blurb:
+      'Android pilot ledger for Toke Boat operators: trip + vessel tracking, cash book for fuel/ice/rations/sales (paid or credit), AI-assisted entries, profit dashboard, and profit-sharing notes ready for WhatsApp. Built for use even when signal is weak.',
+    tags: ['Android', 'AI Assistant', 'Ledger', 'Personal'],
+    image: '/images/pukatflow.svg',
+    href: 'https://pukatflow.netlify.app',
+    live: 'https://pukatflow.netlify.app',
     stars: null,
   },
   {
