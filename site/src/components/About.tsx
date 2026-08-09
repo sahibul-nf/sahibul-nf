@@ -23,7 +23,7 @@ export function About() {
             <img
               src="/images/avatar.png"
               alt={profile.name}
-              className="aspect-[4/5] w-full max-w-sm object-cover grayscale transition-[filter,transform] duration-700 hover:scale-[1.02] hover:grayscale-0"
+              className="aspect-[4/5] w-full max-w-sm object-cover object-top grayscale transition-[filter,transform] duration-700 hover:scale-[1.02] hover:grayscale-0"
             />
           </motion.div>
         </div>

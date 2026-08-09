@@ -103,51 +103,70 @@ export function Hero() {
           >
             {profile.role} · {profile.location}
           </motion.p>
+
+          <motion.div
+            custom={5}
+            variants={fadeUp}
+            initial="hidden"
+            animate="show"
+            className="relative mt-12 h-52 md:hidden"
+            aria-hidden
+          >
+            <DeviceStage mobile />
+          </motion.div>
         </div>
       </div>
     </section>
   )
 }
 
-function DeviceStage() {
+function DeviceStage({ mobile = false }: { mobile?: boolean }) {
   return (
     <div className="relative h-full w-full">
       <motion.div
-        className="absolute top-[18%] right-[18%] h-[58%] w-[42%] max-w-[280px] rounded-[2rem] border border-white/50 bg-ink/90 p-3 shadow-[0_40px_80px_rgb(11_28_36_/_0.28)]"
+        className={
+          mobile
+            ? 'absolute top-2 right-4 h-[92%] w-[46%] rounded-[1.6rem] border border-white/50 bg-ink/90 p-2.5 shadow-[0_24px_48px_rgb(11_28_36_/_0.22)]'
+            : 'absolute top-[18%] right-[18%] h-[58%] w-[42%] max-w-[280px] rounded-[2rem] border border-white/50 bg-ink/90 p-3 shadow-[0_40px_80px_rgb(11_28_36_/_0.28)]'
+        }
         animate={{ y: [0, -12, 0] }}
         transition={{ duration: 7, repeat: Infinity, ease: 'easeInOut' }}
       >
         <div className="h-full overflow-hidden rounded-[1.45rem] bg-[linear-gradient(160deg,#123040_0%,#1d4d5c_45%,#2ec4d6_140%)]">
-          <div className="flex h-full flex-col justify-between p-5">
+          <div className="flex h-full flex-col justify-between p-4 md:p-5">
             <div>
               <div className="h-2 w-16 rounded-full bg-white/25" />
-              <div className="mt-6 space-y-2">
-                <div className="h-3 w-28 rounded-full bg-white/80" />
-                <div className="h-3 w-20 rounded-full bg-white/35" />
+              <div className="mt-5 space-y-2 md:mt-6">
+                <div className="h-3 w-24 rounded-full bg-white/80 md:w-28" />
+                <div className="h-3 w-16 rounded-full bg-white/35 md:w-20" />
               </div>
             </div>
-            <div className="space-y-3">
-              <div className="h-16 rounded-2xl bg-white/12 backdrop-blur" />
-              <div className="h-16 rounded-2xl bg-amber/80" />
-              <div className="h-10 rounded-full bg-cyan" />
+            <div className="space-y-2.5 md:space-y-3">
+              <div className="h-12 rounded-2xl bg-white/12 backdrop-blur md:h-16" />
+              <div className="h-12 rounded-2xl bg-amber/80 md:h-16" />
+              <div className="h-8 rounded-full bg-cyan md:h-10" />
             </div>
           </div>
         </div>
       </motion.div>
 
       <motion.div
-        className="absolute top-[34%] right-[46%] h-[46%] w-[34%] max-w-[220px] rounded-[1.7rem] border border-white/60 bg-foam/80 p-2.5 shadow-[0_30px_60px_rgb(11_28_36_/_0.18)] backdrop-blur-md"
+        className={
+          mobile
+            ? 'absolute top-8 left-2 h-[78%] w-[42%] rounded-[1.4rem] border border-white/60 bg-foam/80 p-2 shadow-[0_20px_40px_rgb(11_28_36_/_0.14)] backdrop-blur-md'
+            : 'absolute top-[34%] right-[46%] h-[46%] w-[34%] max-w-[220px] rounded-[1.7rem] border border-white/60 bg-foam/80 p-2.5 shadow-[0_30px_60px_rgb(11_28_36_/_0.18)] backdrop-blur-md'
+        }
         animate={{ y: [0, 10, 0] }}
         transition={{ duration: 8.5, repeat: Infinity, ease: 'easeInOut', delay: 0.4 }}
       >
         <div className="h-full overflow-hidden rounded-[1.25rem] bg-[linear-gradient(180deg,#f5fafb_0%,#efe4d4_100%)]">
-          <div className="p-4">
-            <div className="mb-4 h-8 w-8 rounded-full bg-cyan-deep/90" />
+          <div className="p-3 md:p-4">
+            <div className="mb-3 h-7 w-7 rounded-full bg-cyan-deep/90 md:mb-4 md:h-8 md:w-8" />
             <div className="space-y-2">
-              <div className="h-2.5 w-24 rounded-full bg-ink/20" />
-              <div className="h-2.5 w-16 rounded-full bg-ink/12" />
+              <div className="h-2.5 w-20 rounded-full bg-ink/20 md:w-24" />
+              <div className="h-2.5 w-14 rounded-full bg-ink/12 md:w-16" />
             </div>
-            <div className="mt-6 grid grid-cols-2 gap-2">
+            <div className="mt-4 grid grid-cols-2 gap-2 md:mt-6">
               <div className="aspect-square rounded-xl bg-cyan/40" />
               <div className="aspect-square rounded-xl bg-ink/10" />
               <div className="aspect-square rounded-xl bg-amber/50" />
