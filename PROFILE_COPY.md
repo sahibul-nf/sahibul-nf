@@ -77,6 +77,8 @@ Full-Stack Flutter Engineer | Supabase, Firebase & Go
 ```
 
 ### Overview
+> Upwork overview: **no links / URLs** (paste text only; attach portfolio/project links in Upwork profile fields).
+
 ```
 Hi — I’m Sahibul, a full-stack Flutter engineer shipping production mobile/web apps with Supabase, Firebase, and Golang when a custom backend is the better fit.
 
@@ -91,15 +93,13 @@ I help teams ship software that stays maintainable:
 Selected public work:
 • Node-based workflow canvas — Flutter + Supabase edge execution + realtime (demo on request)
 • Cardx — Flutter + Golang marketplace-style product (client · S2bc Studios)
-• Nourdaily — Flutter content product for the Muslim community (daily.dev-style discovery) — https://nourdaily.com
+• Nourdaily — Flutter content product for the Muslim community (daily.dev-style discovery)
 • hiQuran — Flutter + Supabase/Firebase
 • solo-dev-ai-kit — portable AI solo-dev workflow bootstrap
 
 How I work: clear communication, clean architecture, and design-aware implementation.
 
 Tech: Flutter, Dart, Supabase, Firebase, Golang, PostgreSQL, Redis, REST, Socket.io, TypeScript, AWS
-
-Portfolio: https://sahibul-nf-portfolio.netlify.app
 ```
 
 ### Skill tags (priority)
@@ -109,11 +109,12 @@ Flutter, Dart, Firebase, Supabase, Golang, REST API, PostgreSQL, Mobile App Deve
 - Experience level: **Expert**
 - Keep Top Rated Plus / JSS visible in the Upwork UI (don’t paste earnings/hours into proposals)
 - Public rate: set privately based on your strategy; renegotiate active contracts offline
+- Put portfolio / project URLs in Upwork’s dedicated link fields — not in the overview text
 
 ### Project catalog (public only)
 1. Workflow canvas — client work (demo on request)
 2. Cardx — client · S2bc Studios (Contra)
-3. Nourdaily — https://nourdaily.com (personal · Muslim community · daily.dev-style discovery)
+3. Nourdaily — personal · Muslim community · daily.dev-style discovery (attach live URL in project field)
 4. hiQuran — GitHub
 5. solo-dev-ai-kit — GitHub
 6. quotes_app / acehnese_dictionary — optional extras
