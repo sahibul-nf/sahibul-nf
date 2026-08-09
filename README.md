@@ -2,17 +2,18 @@
 
 # Sahibul Nuzul Firdaus
 
-**Flutter & Golang Engineer** · Aceh, Indonesia · [Open to work](mailto:sahibulnuzulfirdaus13@gmail.com)
+**Senior Full-Stack Engineer** · Flutter Systems · Golang · AI-Native Workflows · Aceh, Indonesia
 
-I build multi-platform Flutter products that feel fast and look intentional — and the Golang APIs that keep them reliable. Shipping since 2021 across e-commerce, sports collectibles, learning platforms, and faith tools.
+I architect production cross-platform apps and cloud-backed systems — from node-based workflow canvases to marketplace backends. Open to remote senior roles and high-impact contracts.
 
 ### Links
 
-* 🖥️ **Portfolio** — [sahibulnf.netlify.app](https://sahibulnf.netlify.app)
+* 🖥️ **Portfolio** — [sahibul-nf-portfolio.netlify.app](https://sahibul-nf-portfolio.netlify.app)
+* 🧩 **Canvas (live)** — [canvas.bonkbytes.com](https://canvas.bonkbytes.com)
 * 💼 **LinkedIn** — [linkedin.com/in/sahibul-nf](https://www.linkedin.com/in/sahibul-nf)
-* 🛠️ **Upwork** — [hire me](https://www.upwork.com/freelancers/~01a4cbdaeeaac4a0f3)
+* 🛠️ **Upwork** — [Top Rated Plus](https://www.upwork.com/freelancers/~01a4cbdaeeaac4a0f3)
 * ✉️ **Email** — [sahibulnuzulfirdaus13@gmail.com](mailto:sahibulnuzulfirdaus13@gmail.com)
-* 🧠 Focus — Flutter (Riverpod / GetX), Golang, Supabase, Firebase, REST
+* 🔭 **Focus** — Canvas/workflow engines · Supabase (Vault, RLS, Edge) · Golang · AWS · AI-native delivery
 
 <a href="https://www.github.com/sahibul-nf" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
 <a href="https://www.linkedin.com/in/sahibul-nf" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/LinkedIn-sahibul--nf-0891b2?logo=linkedin&style=for-the-badge&labelColor=1c1917" /></a>
@@ -21,11 +22,12 @@ I build multi-platform Flutter products that feel fast and look intentional — 
 
 | Project | Stack | Links |
 | --- | --- | --- |
+| **Flutter Flowchart Canvas** | Flutter · Supabase Vault/RLS/Edge · AWS · Realtime | [Live](https://canvas.bonkbytes.com) |
 | **[hiQuran](https://github.com/sahibul-nf/hiQuran)** ★65 | Flutter · GetX · Supabase · Firebase | [Amazon](https://s.id/hiQuran-Amazon) |
-| **Cardx** | Flutter · Riverpod · Golang · eBay API | [Contra](https://contra.com/p/oBEBN3Os-cardx) |
+| **Cardx** | Flutter · Golang · eBay API · Redis · Supabase | [Contra](https://contra.com/p/oBEBN3Os-cardx) |
+| **[moyu-api](https://github.com/sahibul-nf/moyu-api)** | Golang · Gin · PostgreSQL · JWT | [API](https://web-production-4d1b.up.railway.app/api/v1/campaigns) |
+| **[solo-dev-ai-kit](https://github.com/sahibul-nf/solo-dev-ai-kit)** | AI agent orchestration · Cursor rules | [Repo](https://github.com/sahibul-nf/solo-dev-ai-kit) |
 | **[Quotes App](https://github.com/sahibul-nf/quotes_app)** ★15 | Flutter · Supabase | [Live](https://quot.codemagic.app/) |
-| **[Educative Clone](https://github.com/sahibul-nf/educative_app_clone)** | Flutter · Supabase · Markdown | [Live](https://educative-clone.codemagic.app) |
-| **[Acehnese Dictionary](https://github.com/sahibul-nf/acehnese_dictionary)** | Flutter · Golang API | [Live](https://acehnese.codemagic.app/) |
 
 ### Skills
 

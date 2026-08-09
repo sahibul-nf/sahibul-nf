@@ -10,10 +10,10 @@ export function Work() {
             Selected work
           </p>
           <h2 className="font-display mt-3 text-4xl font-bold tracking-tight text-ink md:text-5xl">
-            Products shipped with care
+            Systems shipped to production
           </h2>
           <p className="mt-4 max-w-xl text-lg text-muted">
-            A mix of client work and open-source apps — mobile-first, API-aware, and designed for real use.
+            Flagship canvas architecture, marketplace backends, and polished Flutter products — built for real users.
           </p>
         </div>
 

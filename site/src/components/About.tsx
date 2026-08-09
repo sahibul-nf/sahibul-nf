@@ -10,7 +10,7 @@ export function About() {
             About
           </p>
           <h2 className="font-display mt-3 text-4xl font-bold tracking-tight text-ink md:text-5xl">
-            Engineer from Aceh with a product eye
+            Systems engineer from Aceh with a product eye
           </h2>
 
           <motion.div
@@ -30,13 +30,14 @@ export function About() {
 
         <div className="md:col-span-7 md:pt-14">
           <p className="text-lg leading-relaxed text-muted md:text-xl">
-            I started in frontend web in 2018, then found my lane in Flutter. Since 2021 I’ve shipped
-            production apps across e-commerce, learning, sports collectibles, and faith tools —
-            often owning both the mobile experience and the Golang services behind it.
+            I started in frontend web in 2018, then specialized in Flutter and Golang backends.
+            Since 2021 I’ve owned products end-to-end — from sports-card marketplaces and realtime
+            commerce chat to a production node-based workflow canvas on AWS.
           </p>
           <p className="mt-5 text-lg leading-relaxed text-muted md:text-xl">
-            I care about clean architecture, thoughtful UI, and APIs that stay boringly reliable.
-            Currently open for freelance projects and remote roles.
+            I care about system design, secure cloud execution (Vault, RLS, Edge Functions), and
+            AI-native delivery that still ships with tests. Open to remote senior roles and
+            high-impact contracts.
           </p>
 
           <div className="mt-10 border-t border-line pt-8">
