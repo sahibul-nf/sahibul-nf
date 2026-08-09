@@ -58,9 +58,9 @@ Email: sahibulnuzulfirdaus13@gmail.com
 
 **DrugLift — Flutter Developer (Jun 2023 – Jun 2024)**
 ```
-• Redesigned the DrugLift pharmacy-delivery MVP in Flutter and supported the client’s rebrand toward GoGetGig.
-• Cleaned up UI/UX with GetX and shipped localization.
-• Improved reliability under slow connectivity with background API handling.
+• Led Flutter MVP redesign for DrugLift and supported the client’s rebrand request to GoGetGig.
+• Added new features and fixed production bugs alongside the redesign work.
+• Improved UI/UX with GetX, localization, and background handling for slow API connectivity.
 ```
 
 **Kopwar — Software Developer (Jul 2022 – Oct 2022)**

@@ -127,9 +127,9 @@ export const experience = [
     role: 'Flutter Developer',
     period: 'Jun 2023 — Jun 2024',
     points: [
-      'Redesigned the DrugLift pharmacy-delivery MVP in Flutter and supported the client’s rebrand toward GoGetGig.',
-      'Cleaned up UI/UX with GetX and shipped localization for production mobile flows.',
-      'Improved reliability under slow connectivity with background API handling.',
+      'Led Flutter MVP redesign for DrugLift and supported the client’s rebrand request to GoGetGig.',
+      'Added new features and fixed production bugs alongside the redesign work.',
+      'Improved UI/UX with GetX, localization, and background handling for slow API connectivity.',
     ],
   },
   {
