@@ -34,9 +34,9 @@ export const projects = [
   {
     id: 'nourdaily',
     title: 'Nourdaily',
-    year: '2024 · Personal · Private',
+    year: '2024 · Personal',
     blurb:
-      'Private personal project inspired by daily.dev, built for the Muslim community — a Flutter content companion with curated articles, video, and audio, plus discussions, upvotes, and personalized reading journeys.',
+      'Personal Flutter product for the Muslim community: curated articles, video, and audio, plus discussions, upvotes, and personalized reading journeys (daily.dev-style discovery).',
     tags: ['Flutter', 'Muslim Community', 'Content', 'Personal'],
     image: '/images/nourdaily-og.jpg',
     href: 'https://nourdaily.com',

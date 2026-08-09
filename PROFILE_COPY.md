@@ -20,7 +20,7 @@ Full-Stack Flutter Engineer | Supabase, Firebase & Go
 ```
 I’m a full-stack Flutter engineer with 4+ years of professional experience building cross-platform apps and reliable backends.
 
-I take ownership from architecture through release — Flutter clients, REST services, realtime features, and cloud-backed workflows. I’ve full-built personal products like Nourdaily (private project inspired by daily.dev for the Muslim community) and shipped a node-based workflow canvas (Flutter + Supabase edge execution + realtime collaboration), plus earlier marketplace and e-commerce products with third-party API integrations.
+I take ownership from architecture through release — Flutter clients, REST services, realtime features, and cloud-backed workflows. I’ve full-built personal products like Nourdaily (Flutter content product for the Muslim community — daily.dev-style discovery) and shipped a node-based workflow canvas (Flutter + Supabase edge execution + realtime collaboration), plus earlier marketplace and e-commerce products with third-party API integrations.
 
 I use structured AI-assisted engineering with automated tests when it helps delivery — without skipping quality.
 
@@ -89,12 +89,11 @@ I help teams ship software that stays maintainable:
 ✓ Practical AI-assisted delivery with tests
 
 Selected public work:
-• Nourdaily — private personal Flutter product inspired by daily.dev for the Muslim community — https://nourdaily.com
-• hiQuran — Flutter + Supabase/Firebase
+• Node-based workflow canvas — Flutter + Supabase edge execution + realtime (demo on request)
 • Cardx — Flutter + Golang marketplace-style product (client · S2bc Studios)
+• Nourdaily — Flutter content product for the Muslim community (daily.dev-style discovery) — https://nourdaily.com
+• hiQuran — Flutter + Supabase/Firebase
 • solo-dev-ai-kit — portable AI solo-dev workflow bootstrap
-
-Client canvas/workflow case studies available on request.
 
 How I work: clear communication, clean architecture, and design-aware implementation.
 
@@ -112,9 +111,9 @@ Flutter, Dart, Firebase, Supabase, Golang, REST API, PostgreSQL, Mobile App Deve
 - Public rate: set privately based on your strategy; renegotiate active contracts offline
 
 ### Project catalog (public only)
-1. Nourdaily — https://nourdaily.com (private personal · daily.dev-inspired · Muslim community)
-2. Workflow canvas — client work (demo on request)
-3. Cardx — client · S2bc Studios (Contra)
+1. Workflow canvas — client work (demo on request)
+2. Cardx — client · S2bc Studios (Contra)
+3. Nourdaily — https://nourdaily.com (personal · Muslim community · daily.dev-style discovery)
 4. hiQuran — GitHub
 5. solo-dev-ai-kit — GitHub
 6. quotes_app / acehnese_dictionary — optional extras
