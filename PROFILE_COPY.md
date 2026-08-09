@@ -56,6 +56,13 @@ Email: sahibulnuzulfirdaus13@gmail.com
 • Supported auth flows and cloud deployment workflows.
 ```
 
+**GeoGetGig · DrugLift — Flutter Developer (Jun 2023 – Jun 2024)**
+```
+• Improved Flutter UI/UX for DrugLift (pharmacy delivery) using GetX.
+• Implemented background handling for slow/unreliable API connectivity.
+• Shipped localization and other production mobile improvements.
+```
+
 **Kopwar — Software Developer (Jul 2022 – Oct 2022)**
 ```
 • Built e-commerce mobile flows with realtime in-app messaging (Flutter + Socket.io).
