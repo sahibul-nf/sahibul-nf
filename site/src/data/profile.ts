@@ -123,13 +123,13 @@ export const experience = [
     ],
   },
   {
-    company: 'GeoGetGig · DrugLift',
+    company: 'DrugLift',
     role: 'Flutter Developer',
     period: 'Jun 2023 — Jun 2024',
     points: [
-      'Improved Flutter UI/UX for DrugLift, a pharmacy delivery product, using GetX.',
-      'Implemented background handling for slow/unreliable API connectivity to improve day-to-day UX.',
-      'Shipped localization and other production mobile improvements.',
+      'Redesigned the DrugLift pharmacy-delivery MVP in Flutter and supported the client’s rebrand toward GoGetGig.',
+      'Cleaned up UI/UX with GetX and shipped localization for production mobile flows.',
+      'Improved reliability under slow connectivity with background API handling.',
     ],
   },
   {
