@@ -20,7 +20,7 @@ Full-Stack Flutter Engineer | Supabase, Firebase & Go
 ```
 I’m a full-stack Flutter engineer with 4+ years of professional experience building cross-platform apps and reliable backends.
 
-I take ownership from architecture through release — Flutter clients, REST services, realtime features, and cloud-backed workflows. I’ve full-built personal products like Nourdaily (Flutter content product for the Muslim community — daily.dev-style discovery) and shipped a node-based workflow canvas (Flutter + Supabase edge execution + realtime collaboration), plus earlier marketplace and e-commerce products with third-party API integrations.
+I take ownership from architecture through release — Flutter clients, REST services, realtime features, and cloud-backed workflows. I’ve full-built platforms like Nourdaily (Flutter content platform for the Muslim community — daily.dev-style discovery) and shipped a node-based workflow canvas (Flutter + Supabase edge execution + realtime collaboration), plus earlier marketplace and e-commerce products with third-party API integrations.
 
 I use structured AI-assisted engineering with automated tests when it helps delivery — without skipping quality.
 
@@ -93,7 +93,7 @@ I help teams ship software that stays maintainable:
 Selected public work:
 • Node-based workflow canvas — Flutter + Supabase edge execution + realtime (demo on request)
 • Cardx — Flutter + Golang marketplace-style product (client · S2bc Studios)
-• Nourdaily — Flutter content product for the Muslim community (daily.dev-style discovery)
+• Nourdaily — Flutter content platform for the Muslim community (daily.dev-style discovery)
 • hiQuran — Flutter + Supabase/Firebase
 • solo-dev-ai-kit — portable AI solo-dev workflow bootstrap
 
@@ -114,7 +114,7 @@ Flutter, Dart, Firebase, Supabase, Golang, REST API, PostgreSQL, Mobile App Deve
 ### Project catalog (public only)
 1. Workflow canvas — client work (demo on request)
 2. Cardx — client · S2bc Studios (Contra)
-3. Nourdaily — personal · Muslim community · daily.dev-style discovery (attach live URL in project field)
+3. Nourdaily — content platform · Muslim community · daily.dev-style discovery (attach live URL in project field)
 4. hiQuran — GitHub
 5. solo-dev-ai-kit — GitHub
 6. quotes_app / acehnese_dictionary — optional extras
