@@ -84,7 +84,7 @@ export const projects = [
     title: 'Otonom Agents Media',
     year: '2025– · Personal · In progress',
     blurb:
-      'Personal project exploring autonomous AI agent workflows for media production. Private repo — case details and demos available on request.',
+      'Active personal project around autonomous agents for media workflows. Still private while in development — happy to walk through scope and demos on request.',
     tags: ['AI Agents', 'Media', 'Personal', 'WIP'],
     image: '/images/otonom.svg',
     href: '#contact',
