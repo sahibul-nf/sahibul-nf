@@ -117,6 +117,8 @@ Flutter, Dart, Firebase, Supabase, Golang, REST API, PostgreSQL, Mobile App Deve
 4. solo-dev-ai-kit — GitHub
 5. quotes_app / acehnese_dictionary — optional extras
 
+Note: PukatFlow is listed on the portfolio site only — omit from Upwork/LinkedIn paste copy for now.
+
 ---
 
 ## GitHub
