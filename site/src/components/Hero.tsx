@@ -63,7 +63,7 @@ export function Hero() {
 
           <motion.p
             variants={childFadeUp}
-            className="mt-4 max-w-md text-base leading-relaxed text-muted md:text-lg"
+            className="mt-4 max-w-md text-base leading-relaxed break-words text-muted md:text-lg"
           >
             {profile.summary}
           </motion.p>

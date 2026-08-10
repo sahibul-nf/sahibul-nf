@@ -47,7 +47,7 @@ export function Nav() {
           {profile.brand}
         </a>
 
-        <nav className="hidden items-center gap-5 lg:gap-7 md:flex">
+        <nav className="hidden items-center gap-6 lg:flex">
           {links.map((link, index) => (
             <motion.a
               key={link.href}

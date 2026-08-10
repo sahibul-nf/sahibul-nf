@@ -71,9 +71,9 @@ export function About() {
             <p className="text-sm font-semibold tracking-[0.16em] text-cyan-deep uppercase">
               Core stack
             </p>
-            <p className="font-display mt-4 text-xl leading-relaxed font-semibold tracking-tight text-ink md:text-2xl">
+            <p className="font-display mt-4 text-xl leading-relaxed font-semibold tracking-tight text-ink break-words md:text-2xl">
               {coreStack.map((item, index) => (
-                <span key={item}>
+                <span key={item} className="inline">
                   {item}
                   {index < coreStack.length - 1 ? (
                     <span className="mx-2 font-normal text-line" aria-hidden>

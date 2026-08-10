@@ -51,19 +51,19 @@ export function CaseStudies() {
                   <p className="text-xs font-semibold tracking-[0.16em] text-cyan uppercase">
                     Problem
                   </p>
-                  <p className="mt-3 text-base leading-relaxed text-foam/80">{study.problem}</p>
+                  <p className="mt-3 text-base leading-relaxed break-words text-foam/80">{study.problem}</p>
                 </div>
                 <div>
                   <p className="text-xs font-semibold tracking-[0.16em] text-cyan uppercase">
                     Approach
                   </p>
-                  <p className="mt-3 text-base leading-relaxed text-foam/80">{study.approach}</p>
+                  <p className="mt-3 text-base leading-relaxed break-words text-foam/80">{study.approach}</p>
                 </div>
                 <div>
                   <p className="text-xs font-semibold tracking-[0.16em] text-cyan uppercase">
                     Result
                   </p>
-                  <p className="mt-3 text-base leading-relaxed text-foam/80">{study.result}</p>
+                  <p className="mt-3 text-base leading-relaxed break-words text-foam/80">{study.result}</p>
                 </div>
               </div>
 

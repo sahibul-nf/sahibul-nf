@@ -34,7 +34,7 @@ export function Notes() {
               transition={{ duration: 0.7, delay: index * 0.08, ease: easeOut }}
               className="border-t border-line pt-8"
             >
-              <p className="font-display text-2xl leading-snug font-semibold tracking-tight text-ink md:text-[1.65rem]">
+              <p className="font-display text-2xl leading-snug font-semibold tracking-tight text-ink break-words md:text-[1.65rem]">
                 “{item.quote}”
               </p>
               <footer className="mt-6 text-sm text-muted">

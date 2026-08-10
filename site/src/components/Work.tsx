@@ -43,7 +43,7 @@ export function Work() {
                   viewport={viewportOnce}
                   transition={{ duration: 0.8, ease: easeOut }}
                   whileHover={{ y: -4 }}
-                  className={`relative overflow-hidden md:col-span-7 ${
+                  className={`relative min-w-0 overflow-hidden md:col-span-7 ${
                     mediaFromRight ? 'md:order-2' : ''
                   }`}
                 >
@@ -57,15 +57,15 @@ export function Work() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={viewportOnce}
                   transition={{ duration: 0.75, delay: 0.08, ease: easeOut }}
-                  className={`md:col-span-5 ${mediaFromRight ? 'md:order-1' : ''}`}
+                  className={`min-w-0 md:col-span-5 ${mediaFromRight ? 'md:order-1' : ''}`}
                 >
-                  <div className="flex items-baseline gap-3">
+                  <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
                     <h3 className="font-display text-3xl font-bold tracking-tight text-ink md:text-4xl">
                       {project.title}
                     </h3>
                     <span className="text-sm text-muted">{project.year}</span>
                   </div>
-                  <p className="mt-4 text-base leading-relaxed text-muted md:text-lg">
+                  <p className="mt-4 text-base leading-relaxed break-words text-muted md:text-lg">
                     {project.blurb}
                   </p>
                   <ul className="mt-5 flex flex-wrap gap-x-4 gap-y-2 text-sm text-ink-soft">
