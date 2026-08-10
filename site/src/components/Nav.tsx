@@ -1,5 +1,6 @@
-import { motion } from 'framer-motion'
+import { motion, useScroll, useTransform } from 'framer-motion'
 import { profile } from '../data/profile'
+import { easeOut } from '../lib/motion'
 
 const links = [
   { href: '#work', label: 'Work' },
@@ -9,12 +10,32 @@ const links = [
 ]
 
 export function Nav() {
+  const { scrollY } = useScroll()
+  const background = useTransform(
+    scrollY,
+    [0, 72],
+    ['rgba(245, 250, 251, 0)', 'rgba(245, 250, 251, 0.84)'],
+  )
+  const blur = useTransform(scrollY, [0, 72], ['blur(0px)', 'blur(14px)'])
+  const border = useTransform(
+    scrollY,
+    [0, 72],
+    ['rgba(11, 28, 36, 0)', 'rgba(11, 28, 36, 0.08)'],
+  )
+  const style = {
+    backgroundColor: background,
+    backdropFilter: blur,
+    WebkitBackdropFilter: blur,
+    borderBottomColor: border,
+  }
+
   return (
     <motion.header
-      initial={{ y: -16, opacity: 0 }}
+      initial={{ y: -18, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-      className="fixed inset-x-0 top-0 z-50"
+      transition={{ duration: 0.65, ease: easeOut }}
+      style={style}
+      className="fixed inset-x-0 top-0 z-50 border-b border-transparent"
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 md:px-8">
         <a
@@ -25,23 +46,29 @@ export function Nav() {
         </a>
 
         <nav className="hidden items-center gap-7 md:flex">
-          {links.map((link) => (
-            <a
+          {links.map((link, index) => (
+            <motion.a
               key={link.href}
               href={link.href}
+              initial={{ opacity: 0, y: -8 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.18 + index * 0.05, duration: 0.45, ease: easeOut }}
               className="relative text-sm text-muted transition-colors duration-300 hover:text-ink after:absolute after:-bottom-1 after:left-0 after:h-px after:w-0 after:bg-cyan-deep after:transition-all after:duration-300 hover:after:w-full"
             >
               {link.label}
-            </a>
+            </motion.a>
           ))}
         </nav>
 
-        <a
+        <motion.a
           href="#contact"
-          className="rounded-full bg-ink px-4 py-2 text-sm font-medium text-foam transition-transform duration-300 hover:-translate-y-0.5 hover:bg-ink-soft"
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.98 }}
+          transition={{ type: 'spring', stiffness: 420, damping: 24 }}
+          className="rounded-full bg-ink px-4 py-2 text-sm font-medium text-foam hover:bg-ink-soft"
         >
           Hire me
-        </a>
+        </motion.a>
       </div>
     </motion.header>
   )

@@ -1,7 +1,8 @@
 import { useState, type FormEvent } from 'react'
-import { motion } from 'framer-motion'
+import { AnimatePresence, motion } from 'framer-motion'
 import { profile } from '../data/profile'
 import { useMagnetic } from '../hooks/useMagnetic'
+import { easeOut, viewportOnce } from '../lib/motion'
 
 type Status = 'idle' | 'sending' | 'success' | 'error'
 
@@ -39,7 +40,13 @@ export function Contact() {
       <div className="absolute inset-0 opacity-25 grain" />
 
       <div className="relative mx-auto grid max-w-6xl gap-12 px-5 md:grid-cols-12 md:px-8">
-        <div className="md:col-span-5">
+        <motion.div
+          className="md:col-span-5"
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={viewportOnce}
+          transition={{ duration: 0.7, ease: easeOut }}
+        >
           <p className="text-sm font-semibold tracking-[0.18em] text-cyan-deep uppercase">
             Contact
           </p>
@@ -82,7 +89,7 @@ export function Contact() {
               GitHub
             </a>
           </div>
-        </div>
+        </motion.div>
 
         <motion.form
           name="contact"
@@ -90,10 +97,10 @@ export function Contact() {
           data-netlify="true"
           netlify-honeypot="bot-field"
           onSubmit={onSubmit}
-          initial={{ opacity: 0, y: 24 }}
+          initial={{ opacity: 0, y: 32 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
+          viewport={viewportOnce}
+          transition={{ duration: 0.7, delay: 0.08, ease: easeOut }}
           className="md:col-span-7"
         >
           <input type="hidden" name="form-name" value="contact" />
@@ -138,25 +145,44 @@ export function Contact() {
           </label>
 
           <div className="mt-8 flex flex-wrap items-center gap-4">
-            <button
+            <motion.button
               ref={buttonRef}
               type="submit"
               disabled={status === 'sending'}
-              className="rounded-full bg-ink px-7 py-3 text-sm font-semibold text-foam transition-[background-color,opacity] duration-300 hover:bg-ink-soft disabled:opacity-60"
+              whileHover={{ y: -2 }}
+              whileTap={{ scale: 0.98 }}
+              className="rounded-full bg-ink px-7 py-3 text-sm font-semibold text-foam hover:bg-ink-soft disabled:opacity-60"
               style={{
                 transition: 'transform 180ms ease, background-color 300ms ease, opacity 300ms ease',
               }}
             >
               {status === 'sending' ? 'Sending…' : 'Send message'}
-            </button>
-            {status === 'success' ? (
-              <p className="text-sm text-cyan-deep">Thanks — I’ll get back to you soon.</p>
-            ) : null}
-            {status === 'error' ? (
-              <p className="text-sm text-amber">
-                Couldn’t send via form — email me at {profile.email}.
-              </p>
-            ) : null}
+            </motion.button>
+
+            <AnimatePresence mode="wait">
+              {status === 'success' ? (
+                <motion.p
+                  key="success"
+                  initial={{ opacity: 0, y: 8 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -6 }}
+                  className="text-sm text-cyan-deep"
+                >
+                  Thanks — I’ll get back to you soon.
+                </motion.p>
+              ) : null}
+              {status === 'error' ? (
+                <motion.p
+                  key="error"
+                  initial={{ opacity: 0, y: 8 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -6 }}
+                  className="text-sm text-amber"
+                >
+                  Couldn’t send via form — email me at {profile.email}.
+                </motion.p>
+              ) : null}
+            </AnimatePresence>
           </div>
         </motion.form>
       </div>

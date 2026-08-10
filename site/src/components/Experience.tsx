@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { experience } from '../data/profile'
+import { easeOut, viewportOnce } from '../lib/motion'
 
 export function Experience() {
   return (
@@ -8,25 +9,41 @@ export function Experience() {
       <div className="absolute inset-0 opacity-30 grain" />
 
       <div className="relative mx-auto max-w-6xl px-5 md:px-8">
-        <div className="max-w-2xl">
+        <motion.div
+          className="max-w-2xl"
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={viewportOnce}
+          transition={{ duration: 0.7, ease: easeOut }}
+        >
           <p className="text-sm font-semibold tracking-[0.18em] text-cyan-deep uppercase">
             Experience
           </p>
           <h2 className="font-display mt-3 text-4xl font-bold tracking-tight text-ink md:text-5xl">
             Where the craft got sharper
           </h2>
-        </div>
+        </motion.div>
 
         <ol className="mt-14 space-y-0">
           {experience.map((job, index) => (
             <motion.li
               key={`${job.company}-${job.period}`}
-              initial={{ opacity: 0, y: 24 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.35 }}
-              transition={{ duration: 0.55, delay: index * 0.04, ease: [0.22, 1, 0.36, 1] }}
-              className="group grid gap-4 border-t border-line py-8 md:grid-cols-[220px_1fr] md:gap-10 md:py-10"
+              initial={{ opacity: 0, x: -28 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true, amount: 0.4 }}
+              transition={{ duration: 0.6, delay: index * 0.05, ease: easeOut }}
+              className="group relative grid gap-4 border-t border-line py-8 md:grid-cols-[220px_1fr] md:gap-10 md:py-10"
             >
+              <motion.span
+                aria-hidden
+                className="absolute top-0 left-0 h-px origin-left bg-cyan-deep"
+                initial={{ scaleX: 0 }}
+                whileInView={{ scaleX: 1 }}
+                viewport={{ once: true, amount: 0.6 }}
+                transition={{ duration: 0.7, delay: 0.1 + index * 0.04, ease: easeOut }}
+                style={{ width: '100%' }}
+              />
+
               <div>
                 <p className="text-sm text-muted">{job.period}</p>
                 {'companyUrl' in job && job.companyUrl ? (
@@ -47,10 +64,21 @@ export function Experience() {
                   {job.role}
                 </h3>
                 <ul className="mt-3 space-y-2 text-muted">
-                  {job.points.map((point) => (
-                    <li key={point} className="leading-relaxed">
+                  {job.points.map((point, pointIndex) => (
+                    <motion.li
+                      key={point}
+                      initial={{ opacity: 0, y: 10 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true }}
+                      transition={{
+                        duration: 0.45,
+                        delay: 0.12 + pointIndex * 0.05,
+                        ease: easeOut,
+                      }}
+                      className="leading-relaxed"
+                    >
                       {point}
-                    </li>
+                    </motion.li>
                   ))}
                 </ul>
               </div>
