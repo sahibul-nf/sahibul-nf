@@ -4,9 +4,9 @@ import { childFadeUp, easeOut, staggerChildren, viewportOnce } from '../lib/moti
 
 export function About() {
   return (
-    <section id="about" className="scroll-mt-24 overflow-x-clip bg-foam py-24 md:py-32">
-      <div className="mx-auto grid max-w-6xl gap-14 px-5 md:grid-cols-12 md:gap-10 md:px-8">
-        <div className="md:col-span-5">
+    <section id="about" className="scroll-mt-24 overflow-x-clip bg-foam py-20 md:py-32">
+      <div className="mx-auto grid max-w-6xl gap-10 px-5 md:grid-cols-12 md:gap-10 md:px-8 md:gap-y-14">
+        <div className="min-w-0 md:col-span-5">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -16,7 +16,7 @@ export function About() {
             <p className="text-sm font-semibold tracking-[0.18em] text-cyan-deep uppercase">
               About
             </p>
-            <h2 className="font-display mt-3 text-4xl font-bold tracking-tight text-ink md:text-5xl">
+            <h2 className="font-display mt-3 text-balance text-3xl font-bold tracking-tight text-ink sm:text-4xl md:text-5xl">
               Engineer from Aceh with a product eye
             </h2>
           </motion.div>
@@ -26,12 +26,12 @@ export function About() {
             whileInView={{ opacity: 1, scale: 1, clipPath: 'inset(0% 0% 0% 0%)' }}
             viewport={viewportOnce}
             transition={{ duration: 0.9, ease: easeOut }}
-            className="mt-8 overflow-hidden"
+            className="mt-8 max-w-[280px] overflow-hidden sm:max-w-sm"
           >
             <motion.img
               src="/images/avatar.png"
               alt={profile.name}
-              className="aspect-[4/5] w-full max-w-sm object-cover object-top grayscale"
+              className="aspect-[4/5] w-full object-cover object-top grayscale"
               whileHover={{ scale: 1.03, filter: 'grayscale(0%)' }}
               transition={{ duration: 0.7, ease: easeOut }}
             />
@@ -39,13 +39,16 @@ export function About() {
         </div>
 
         <motion.div
-          className="md:col-span-7 md:pt-14"
+          className="min-w-0 md:col-span-7 md:pt-14"
           variants={staggerChildren}
           initial="hidden"
           whileInView="show"
           viewport={viewportOnce}
         >
-          <motion.p variants={childFadeUp} className="text-lg leading-relaxed text-muted md:text-xl">
+          <motion.p
+            variants={childFadeUp}
+            className="text-base leading-relaxed text-muted sm:text-lg md:text-xl"
+          >
             I started in frontend web in 2018, then found my lane in Flutter and Golang backends.
             Since 2021 I’ve shipped production apps across e-commerce, collectibles, learning tools,
             and a node-based workflow canvas — often owning both the client and the services behind
@@ -53,7 +56,7 @@ export function About() {
           </motion.p>
           <motion.p
             variants={childFadeUp}
-            className="mt-5 text-lg leading-relaxed text-muted md:text-xl"
+            className="mt-5 text-base leading-relaxed text-muted sm:text-lg md:text-xl"
           >
             I care about clean architecture, thoughtful UI, and APIs that stay reliable. I also use
             AI-assisted workflows with tests when it helps delivery. Open to freelance and remote
@@ -62,8 +65,14 @@ export function About() {
 
           <motion.div variants={childFadeUp} className="mt-10 border-t border-line pt-8">
             <p className="text-sm font-semibold text-ink">{education.degree}</p>
-            <p className="mt-1 text-muted">
-              {education.school} · {education.period} · {education.grade}
+            <p className="mt-2 text-sm leading-relaxed text-muted sm:text-base">
+              <span className="block sm:inline">{education.school}</span>
+              <span className="mx-2 hidden text-line sm:inline" aria-hidden>
+                ·
+              </span>
+              <span className="mt-1 block sm:mt-0 sm:inline">
+                {education.period} · {education.grade}
+              </span>
             </p>
           </motion.div>
 
@@ -71,25 +80,27 @@ export function About() {
             <p className="text-sm font-semibold tracking-[0.16em] text-cyan-deep uppercase">
               Core stack
             </p>
-            <p className="font-display mt-4 text-xl leading-relaxed font-semibold tracking-tight text-ink break-words md:text-2xl">
+            <ul className="mt-4 flex flex-wrap items-center gap-x-2 gap-y-2">
               {coreStack.map((item, index) => (
-                <span key={item} className="inline">
-                  {item}
+                <li key={item} className="flex items-center gap-x-2">
+                  <span className="font-display text-lg font-semibold tracking-tight text-ink sm:text-xl md:text-2xl">
+                    {item}
+                  </span>
                   {index < coreStack.length - 1 ? (
-                    <span className="mx-2 font-normal text-line" aria-hidden>
+                    <span className="font-display text-lg font-normal text-line sm:text-xl md:text-2xl" aria-hidden>
                       /
                     </span>
                   ) : null}
-                </span>
+                </li>
               ))}
-            </p>
+            </ul>
           </motion.div>
 
-          <div className="mt-10 grid gap-8 sm:grid-cols-2">
+          <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2">
             {skills.map((skill) => (
-              <motion.div key={skill.group} variants={childFadeUp}>
+              <motion.div key={skill.group} variants={childFadeUp} className="min-w-0">
                 <h3 className="font-display text-lg font-bold text-ink">{skill.group}</h3>
-                <ul className="mt-3 space-y-1.5 text-muted">
+                <ul className="mt-3 space-y-1.5 text-sm text-muted sm:text-base">
                   {skill.items.map((item) => (
                     <li key={item}>{item}</li>
                   ))}
