@@ -215,23 +215,31 @@ export const caseStudies = [
 ] as const
 
 /**
- * Anonymized collaboration notes.
- * Replace quote text with exact Upwork/Contra wording when you paste real reviews.
+ * Real client feedback only.
+ * Do not publish rates, earnings, or private contract terms.
+ * Leo Gjoni left a 5.0 rating; no public written review text was available in the source screenshot.
  */
 export const testimonials = [
   {
-    id: 'workflow',
-    quote:
-      'Clear ownership across Flutter UI and the cloud path — the canvas kept moving from prototype to production without losing architecture quality.',
-    role: 'Product collaborator',
-    context: 'Workflow canvas engagement',
+    id: 'aaron-dunn',
+    quote: 'Great work.',
+    rating: '5.0',
+    role: 'Aaron Dunn',
+    context: 'Upwork · long-term engagement (2024–2025)',
   },
   {
-    id: 'marketplace',
-    quote:
-      'Strong full-stack delivery: mobile/web Flutter work paired with solid Golang APIs and practical marketplace integrations.',
-    role: 'Client',
-    context: 'Collectibles / marketplace product',
+    id: 'leo-gjoni',
+    quote: null,
+    rating: '5.0',
+    role: 'Leo Gjoni',
+    context: 'Upwork · ~1 year Flutter engagement (2023–2024)',
+  },
+  {
+    id: 'wilfried',
+    quote: 'I am satisfied with this glossary.',
+    rating: null,
+    role: 'Wilfried',
+    context: 'Client · Flashcard app · Germany',
   },
 ] as const
 
