@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { education, profile, skills } from '../data/profile'
+import { coreStack, education, profile, skills } from '../data/profile'
 import { childFadeUp, easeOut, staggerChildren, viewportOnce } from '../lib/motion'
 
 export function About() {
@@ -64,6 +64,24 @@ export function About() {
             <p className="text-sm font-semibold text-ink">{education.degree}</p>
             <p className="mt-1 text-muted">
               {education.school} · {education.period} · {education.grade}
+            </p>
+          </motion.div>
+
+          <motion.div variants={childFadeUp} className="mt-10 border-t border-line pt-8">
+            <p className="text-sm font-semibold tracking-[0.16em] text-cyan-deep uppercase">
+              Core stack
+            </p>
+            <p className="font-display mt-4 text-xl leading-relaxed font-semibold tracking-tight text-ink md:text-2xl">
+              {coreStack.map((item, index) => (
+                <span key={item}>
+                  {item}
+                  {index < coreStack.length - 1 ? (
+                    <span className="mx-2 font-normal text-line" aria-hidden>
+                      /
+                    </span>
+                  ) : null}
+                </span>
+              ))}
             </p>
           </motion.div>
 

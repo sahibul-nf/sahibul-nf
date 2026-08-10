@@ -56,6 +56,7 @@ export function Contact() {
           <p className="mt-4 text-lg text-muted">
             {profile.availability}. Tell me about the product, the stack, and the timeline.
           </p>
+          <p className="mt-3 text-sm font-semibold text-cyan-deep">{profile.responseTime}</p>
 
           <div className="mt-8 space-y-3 text-sm">
             <a

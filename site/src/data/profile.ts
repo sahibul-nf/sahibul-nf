@@ -8,6 +8,7 @@ export const profile = {
   summary:
     'Product-minded engineer shipping multi-platform apps, realtime features, and cloud-backed workflow tools for teams that need reliable delivery.',
   availability: 'Open for freelance & remote roles',
+  responseTime: 'Usually reply within 24 hours',
   links: {
     github: 'https://github.com/sahibul-nf',
     linkedin: 'https://www.linkedin.com/in/sahibul-nf',
@@ -169,6 +170,68 @@ export const skills = [
   {
     group: 'Practice',
     items: ['System Design', 'AI-assisted Engineering', 'Automated Testing', 'TypeScript', 'Vue/Nuxt', 'Figma'],
+  },
+] as const
+
+/** Quick-scan core stack shown in About (keep short). */
+export const coreStack = [
+  'Flutter',
+  'Dart',
+  'Golang',
+  'Supabase',
+  'Firebase',
+  'PostgreSQL',
+  'Redis',
+  'AWS',
+] as const
+
+export const caseStudies = [
+  {
+    id: 'bonkbytes-canvas',
+    client: 'BonkBytes',
+    title: 'Node-based workflow canvas',
+    period: '2024 — Present',
+    problem:
+      'The product needed a production Flutter canvas where non-engineers could design workflows, run cloud steps safely, and collaborate without fragile desktop-only tooling.',
+    approach:
+      'Built the interactive node editor in Flutter, wired Supabase-backed services and edge execution, and hardened credential handling plus realtime collaboration across the client and cloud path.',
+    result:
+      'A shipping workflow product with cloud execution, safer integrations, and ongoing iteration under production traffic. Demo available on request.',
+    stack: ['Flutter', 'Supabase', 'Edge Functions', 'Realtime', 'AWS'],
+  },
+  {
+    id: 'cardx',
+    client: 'S2bc Studios',
+    title: 'Cardx collectibles platform',
+    period: '2022 — 2024',
+    problem:
+      'The team needed a multi-platform sports-card product with reliable APIs, marketplace data, and a client experience that stayed fast as collections grew.',
+    approach:
+      'Owned Flutter clients for iOS/web and Golang REST services, integrating Supabase, Redis caching, PostgreSQL, and third-party marketplace APIs end to end.',
+    result:
+      'A full-stack collectibles product shipped across client and backend layers, with caching and API integrations that held up for real marketplace use.',
+    stack: ['Flutter', 'Golang', 'Supabase', 'Redis', 'PostgreSQL'],
+  },
+] as const
+
+/**
+ * Anonymized collaboration notes.
+ * Replace quote text with exact Upwork/Contra wording when you paste real reviews.
+ */
+export const testimonials = [
+  {
+    id: 'workflow',
+    quote:
+      'Clear ownership across Flutter UI and the cloud path — the canvas kept moving from prototype to production without losing architecture quality.',
+    role: 'Product collaborator',
+    context: 'Workflow canvas engagement',
+  },
+  {
+    id: 'marketplace',
+    quote:
+      'Strong full-stack delivery: mobile/web Flutter work paired with solid Golang APIs and practical marketplace integrations.',
+    role: 'Client',
+    context: 'Collectibles / marketplace product',
   },
 ] as const
 

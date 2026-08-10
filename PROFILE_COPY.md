@@ -7,6 +7,7 @@ Portfolio: https://sahibul-nf-portfolio.netlify.app
 - Skip private personal repos until you’re ready to share demos publicly.
 - Don’t publish private client personal names, private production URLs, earnings, or active-contract rates.
 - Only list roles where you shipped real work (skip paper-only / no-project contracts).
+- Portfolio **Notes** section uses anonymized collaboration quotes — replace with exact Upwork/Contra review wording in `site/src/data/profile.ts` when ready.
 
 ---
 

@@ -4,6 +4,8 @@ import { easeOut } from '../lib/motion'
 
 const links = [
   { href: '#work', label: 'Work' },
+  { href: '#cases', label: 'Cases' },
+  { href: '#notes', label: 'Notes' },
   { href: '#experience', label: 'Experience' },
   { href: '#about', label: 'About' },
   { href: '#contact', label: 'Contact' },
@@ -45,7 +47,7 @@ export function Nav() {
           {profile.brand}
         </a>
 
-        <nav className="hidden items-center gap-7 md:flex">
+        <nav className="hidden items-center gap-5 lg:gap-7 md:flex">
           {links.map((link, index) => (
             <motion.a
               key={link.href}
