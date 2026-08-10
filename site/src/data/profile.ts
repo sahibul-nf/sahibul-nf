@@ -225,14 +225,14 @@ export const testimonials = [
     quote: 'Great work.',
     rating: '5.0',
     role: 'Aaron Dunn',
-    context: 'Upwork · long-term engagement (2024–2025)',
+    context: 'Musopen · Upwork · 2024–2025',
   },
   {
     id: 'leo-gjoni',
     quote: null,
     rating: '5.0',
     role: 'Leo Gjoni',
-    context: 'Upwork · ~1 year Flutter engagement (2023–2024)',
+    context: 'DrugLift · Upwork · 2023–2024',
   },
   {
     id: 'wilfried',
