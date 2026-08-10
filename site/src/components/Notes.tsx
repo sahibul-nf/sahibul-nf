@@ -4,7 +4,7 @@ import { easeOut, viewportOnce } from '../lib/motion'
 
 export function Notes() {
   return (
-    <section id="notes" className="relative scroll-mt-24 bg-foam py-24 md:py-32">
+    <section id="notes" className="relative scroll-mt-24 overflow-x-clip bg-foam py-24 md:py-32">
       <div className="mx-auto max-w-6xl px-5 md:px-8">
         <motion.div
           className="max-w-2xl"

@@ -23,6 +23,7 @@
 
   html {
     scroll-behavior: smooth;
+    overflow-x: clip;
   }
 
   body {
@@ -42,7 +43,6 @@
     max-width: 100%;
     height: auto;
   }
-}
 
   ::selection {
     background: color-mix(in oklab, var(--color-cyan) 45%, white);

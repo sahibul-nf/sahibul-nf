@@ -39,10 +39,10 @@ export function Nav() {
       style={style}
       className="fixed inset-x-0 top-0 z-50 border-b border-transparent"
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 md:px-8">
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-4 md:px-8">
         <a
           href="#top"
-          className="font-display text-sm font-bold tracking-[0.14em] uppercase text-ink md:text-base"
+          className="font-display shrink-0 text-sm font-bold tracking-[0.14em] uppercase text-ink md:text-base"
         >
           {profile.brand}
         </a>
@@ -67,7 +67,7 @@ export function Nav() {
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.98 }}
           transition={{ type: 'spring', stiffness: 420, damping: 24 }}
-          className="rounded-full bg-ink px-4 py-2 text-sm font-medium text-foam hover:bg-ink-soft"
+          className="shrink-0 rounded-full bg-ink px-4 py-2 text-sm font-medium text-foam hover:bg-ink-soft"
         >
           Hire me
         </motion.a>

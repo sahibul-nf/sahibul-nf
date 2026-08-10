@@ -5,7 +5,7 @@ import { ProjectMedia } from './ProjectMedia'
 
 export function Work() {
   return (
-    <section id="work" className="relative scroll-mt-24 bg-foam py-24 md:py-32">
+    <section id="work" className="relative scroll-mt-24 overflow-x-clip bg-foam py-24 md:py-32">
       <div className="mx-auto max-w-6xl px-5 md:px-8">
         <motion.div
           className="max-w-2xl"

@@ -32,7 +32,7 @@ export function Experience() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.4 }}
               transition={{ duration: 0.6, delay: index * 0.05, ease: easeOut }}
-              className="group relative grid min-w-0 gap-4 border-t border-line py-8 md:grid-cols-[200px_minmax(0,1fr)] md:gap-10 md:py-10"
+              className="group relative grid min-w-0 gap-4 overflow-x-clip border-t border-line py-8 md:grid-cols-[200px_minmax(0,1fr)] md:gap-10 md:py-10"
             >
               <motion.span
                 aria-hidden

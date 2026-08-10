@@ -96,7 +96,7 @@ export function Hero() {
 
           <motion.div
             variants={childFadeUp}
-            className="relative mt-12 h-52 md:hidden"
+            className="relative mt-12 h-52 overflow-hidden md:hidden"
             aria-hidden
           >
             <DeviceStage mobile />

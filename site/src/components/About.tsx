@@ -4,7 +4,7 @@ import { childFadeUp, easeOut, staggerChildren, viewportOnce } from '../lib/moti
 
 export function About() {
   return (
-    <section id="about" className="scroll-mt-24 bg-foam py-24 md:py-32">
+    <section id="about" className="scroll-mt-24 overflow-x-clip bg-foam py-24 md:py-32">
       <div className="mx-auto grid max-w-6xl gap-14 px-5 md:grid-cols-12 md:gap-10 md:px-8">
         <div className="md:col-span-5">
           <motion.div
