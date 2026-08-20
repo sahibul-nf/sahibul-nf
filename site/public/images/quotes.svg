@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="825" viewBox="0 0 1200 825" fill="none">
+  <rect width="1200" height="825" fill="#E7F3F6"/>
+  <circle cx="980" cy="120" r="220" fill="#2EC4D6" fill-opacity="0.35"/>
+  <circle cx="180" cy="700" r="260" fill="#E8A54B" fill-opacity="0.35"/>
+  <rect x="180" y="160" width="840" height="520" rx="36" fill="#0B1C24"/>
+  <text x="240" y="280" fill="#2EC4D6" font-family="Georgia, serif" font-size="120"></text>
+  <text x="260" y="380" fill="#F5FAFB" font-family="Arial, sans-serif" font-size="42" font-weight="700">Quotes that travel</text>
+  <text x="260" y="440" fill="#9FB4BC" font-family="Arial, sans-serif" font-size="28">Flutter · Supabase</text>
+  <rect x="260" y="520" width="180" height="48" rx="24" fill="#1496A8"/>
+  <text x="300" y="552" fill="#F5FAFB" font-family="Arial, sans-serif" font-size="20" font-weight="700">Open app</text>
+</svg>
