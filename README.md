@@ -124,49 +124,49 @@ Sunday                   1520 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     19 hrs 51 mins      ████████████████░░░░░░░░░   65.88 % 
-Markdown                 4 hrs 14 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.09 % 
-Python                   1 hr 49 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.04 % 
-Other                    1 hr 25 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.74 % 
-Bash                     1 hr 11 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   03.94 % 
+Dart                     18 hrs 39 mins      ████████████████░░░░░░░░░   64.82 % 
+Markdown                 4 hrs 36 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.98 % 
+Python                   1 hr 58 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.84 % 
+Bash                     1 hr 6 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.85 % 
+Other                    1 hr 3 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.67 % 
 
 🔥 Editors: 
-Cursor                   22 hrs 13 mins      ██████████████████░░░░░░░   73.70 % 
-Agent                    7 hrs 55 mins       ███████░░░░░░░░░░░░░░░░░░   26.30 % 
+Cursor                   20 hrs 35 mins      ██████████████████░░░░░░░   71.54 % 
+Agent                    8 hrs 11 mins       ███████░░░░░░░░░░░░░░░░░░   28.46 % 
 
 🐱‍💻 Projects: 
-canvas                   12 hrs 44 mins      ███████████░░░░░░░░░░░░░░   42.24 % 
-pukatflow                11 hrs 23 mins      █████████░░░░░░░░░░░░░░░░   37.79 % 
-otonom-agents-media      4 hrs 9 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.81 % 
-Unknown Project          54 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.03 % 
-tmp                      38 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.11 % 
+pukatflow                12 hrs 8 mins       ███████████░░░░░░░░░░░░░░   42.19 % 
+canvas                   10 hrs 54 mins      █████████░░░░░░░░░░░░░░░░   37.89 % 
+otonom-agents-media      4 hrs 15 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.79 % 
+tmp                      40 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.36 % 
+Unknown Project          37 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.18 % 
 
 💻 Operating System: 
-Mac                      30 hrs 9 mins       █████████████████████████   100.00 % 
+Mac                      28 hrs 47 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 29 hrs 29 mins (97.79%)
+⏱ AI Coding Time: 28 hrs 19 mins (98.39%)
 
-✍️ 55,287 lines written by AI, 309 lines written by hand (99.44% AI-written)
+✍️ 67,775 lines written by AI, 309 lines written by hand (99.55% AI-written)
 
-🔤 1,583,778 Input Tokens, 1,583,778 Output Tokens
+🔤 1,641,982 Input Tokens, 1,641,982 Output Tokens
 
-💵 $28.93 Estimated AI Cost This Week
+💵 $29.56 Estimated AI Cost This Week
 
-🧠 75 AI Sessions, 618 AI Prompts
+🧠 72 AI Sessions, 641 AI Prompts
 
-Composer                 16,550 lines        ████████████████████░░░░░   78.81 % 
-Grok                     2,727 lines         ███░░░░░░░░░░░░░░░░░░░░░░   12.99 % 
-Gemini                   1,724 lines         ██░░░░░░░░░░░░░░░░░░░░░░░   08.21 % 
+Composer                 18,914 lines        █████████████████████░░░░   83.00 % 
+Grok                     2,149 lines         ██░░░░░░░░░░░░░░░░░░░░░░░   09.43 % 
+Gemini                   1,724 lines         ██░░░░░░░░░░░░░░░░░░░░░░░   07.57 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.44% of written lines came from AI
-📚 Verbose Prompter — average 10,389 characters per prompt
-🔁 Iterative Prompter — average 8 prompts per session
-🚀 High AI Trust — 0.54% of changed lines were hand-edited
+🤖 AI-Driven — 99.55% of written lines came from AI
+📚 Verbose Prompter — average 10,376 characters per prompt
+🔁 Iterative Prompter — average 9 prompts per session
+🚀 High AI Trust — 0.44% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Dart** 
@@ -186,7 +186,7 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 22/08/2026 16:17:35 UTC
+ Last Updated on 22/08/2026 20:16:30 UTC
 <!--END_SECTION:waka-->
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/65545bf0-64d9-4b26-9cce-4eb2a9447b16.png" /></a>
