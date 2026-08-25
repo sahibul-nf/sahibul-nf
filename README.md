@@ -77,9 +77,9 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C678%20hrs%208%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C681%20hrs%2052%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-233%20hrs%209%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-237%20hrs%2044%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-5-blue?style=flat)
 
@@ -100,17 +100,17 @@ src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-ba
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                2000 commits        █████░░░░░░░░░░░░░░░░░░░░   20.44 % 
+🌞 Morning                2000 commits        █████░░░░░░░░░░░░░░░░░░░░   20.43 % 
 🌆 Daytime                2246 commits        ██████░░░░░░░░░░░░░░░░░░░   22.95 % 
 🌃 Evening                2584 commits        ███████░░░░░░░░░░░░░░░░░░   26.40 % 
-🌙 Night                  2957 commits        ████████░░░░░░░░░░░░░░░░░   30.21 % 
+🌙 Night                  2958 commits        ████████░░░░░░░░░░░░░░░░░   30.22 % 
 ```
 📅 **I'm Most Productive on Monday** 
 
 ```text
 Monday                   1705 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.42 % 
 Tuesday                  1465 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.97 % 
-Wednesday                1339 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.68 % 
+Wednesday                1340 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.69 % 
 Thursday                 1153 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.78 % 
 Friday                   1143 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.68 % 
 Saturday                 1461 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.93 % 
@@ -124,49 +124,49 @@ Sunday                   1521 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     14 hrs 17 mins      █████████████████░░░░░░░░   69.36 % 
-Markdown                 3 hrs 10 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.37 % 
-Python                   1 hr 7 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   05.49 % 
-TypeScript               31 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.57 % 
-Other                    30 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.50 % 
+Dart                     10 hrs 21 mins      ██████████████░░░░░░░░░░░   56.70 % 
+Markdown                 3 hrs 3 mins        ████░░░░░░░░░░░░░░░░░░░░░   16.71 % 
+Other                    1 hr 27 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.95 % 
+Python                   1 hr 19 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.28 % 
+Bash                     37 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.43 % 
 
 🔥 Editors: 
-Cursor                   14 hrs 13 mins      █████████████████░░░░░░░░   69.07 % 
-Agent                    6 hrs 22 mins       ████████░░░░░░░░░░░░░░░░░   30.93 % 
+Cursor                   12 hrs 36 mins      █████████████████░░░░░░░░   68.97 % 
+Agent                    5 hrs 40 mins       ████████░░░░░░░░░░░░░░░░░   31.03 % 
 
 🐱‍💻 Projects: 
-pukatflow                11 hrs 43 mins      ██████████████░░░░░░░░░░░   56.93 % 
-canvas                   5 hrs 21 mins       ██████░░░░░░░░░░░░░░░░░░░   25.97 % 
-otonom-agents-media      2 hrs 31 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.22 % 
-tmp                      28 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.28 % 
-Unknown Project          26 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.13 % 
+pukatflow                8 hrs 33 mins       ████████████░░░░░░░░░░░░░   46.86 % 
+canvas                   5 hrs 28 mins       ███████░░░░░░░░░░░░░░░░░░   29.93 % 
+otonom-agents-media      2 hrs 59 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.32 % 
+tmp                      31 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.88 % 
+Unknown Project          26 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.38 % 
 
 💻 Operating System: 
-Mac                      20 hrs 36 mins      █████████████████████████   100.00 % 
+Mac                      18 hrs 16 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 20 hrs 8 mins (97.72%)
+⏱ AI Coding Time: 17 hrs 47 mins (97.35%)
 
-✍️ 59,615 lines written by AI, 238 lines written by hand (99.6% AI-written)
+✍️ 54,582 lines written by AI, 5 lines written by hand (99.99% AI-written)
 
-🔤 895,157 Input Tokens, 895,157 Output Tokens
+🔤 813,915 Input Tokens, 813,915 Output Tokens
 
-💵 $12.01 Estimated AI Cost This Week
+💵 $10.55 Estimated AI Cost This Week
 
-🧠 44 AI Sessions, 460 AI Prompts
+🧠 45 AI Sessions, 412 AI Prompts
 
-Composer                 16,189 lines        ███████████████████████░░   90.24 % 
-Gemini                   882 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   04.92 % 
-Grok                     868 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   04.84 % 
+Composer                 8,579 lines         ██████████████████████░░░   86.55 % 
+Grok                     946 lines           ██░░░░░░░░░░░░░░░░░░░░░░░   09.54 % 
+Gemini                   387 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   03.90 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.6% of written lines came from AI
-📚 Verbose Prompter — average 7,914 characters per prompt
-🔁 Iterative Prompter — average 10 prompts per session
-🚀 High AI Trust — 0.39% of changed lines were hand-edited
+🤖 AI-Driven — 99.99% of written lines came from AI
+📚 Verbose Prompter — average 8,057 characters per prompt
+🔁 Iterative Prompter — average 9 prompts per session
+🚀 High AI Trust — 0.01% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Dart** 
@@ -186,7 +186,7 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 25/08/2026 16:29:44 UTC
+ Last Updated on 25/08/2026 20:22:18 UTC
 <!--END_SECTION:waka-->
 
 <a href="https://wakatime.com"><img src="https://wakatime.com/share/@sahibul_nf/65545bf0-64d9-4b26-9cce-4eb2a9447b16.png" /></a>
