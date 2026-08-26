@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { profile } from '../data/profile'
 import { useMagnetic } from '../hooks/useMagnetic'
 import { childFadeUp, easeOut, staggerChildren } from '../lib/motion'
-import { HeroSignal } from './HeroSignal'
+import { HeroProjectMarquee } from './HeroProjectMarquee'
 
 export function Hero() {
   const ctaRef = useMagnetic<HTMLAnchorElement>(0.22)
@@ -32,83 +32,89 @@ export function Hero() {
         <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-foam to-transparent" />
       </div>
 
-      <div className="relative mx-auto flex min-h-[100svh] max-w-6xl items-center px-5 py-28 md:px-8 md:py-24">
-        <div className="grid w-full items-center gap-12 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:gap-16">
-          <motion.div
-            className="max-w-xl lg:max-w-2xl"
-            variants={staggerChildren}
-            initial="hidden"
-            animate="show"
+      <div className="relative mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-center px-5 py-28 md:px-8 md:py-24">
+        <motion.div
+          className="max-w-3xl"
+          variants={staggerChildren}
+          initial="hidden"
+          animate="show"
+        >
+          <motion.p
+            variants={childFadeUp}
+            className="text-sm font-semibold tracking-[0.18em] text-cyan-deep uppercase"
           >
-            <motion.p
-              variants={childFadeUp}
-              className="text-sm font-semibold tracking-[0.18em] text-cyan-deep uppercase"
+            {profile.role}
+          </motion.p>
+
+          <motion.p
+            variants={{
+              hidden: { opacity: 0, y: 36, clipPath: 'inset(0 0 100% 0)' },
+              show: {
+                opacity: 1,
+                y: 0,
+                clipPath: 'inset(0 0 0% 0)',
+                transition: { duration: 0.95, ease: easeOut },
+              },
+            }}
+            className="font-display mt-4 text-[clamp(2.8rem,9vw,6.5rem)] leading-[0.9] font-extrabold tracking-[-0.04em] text-ink"
+          >
+            {profile.brand}
+          </motion.p>
+
+          <motion.h1
+            variants={childFadeUp}
+            className="mt-6 max-w-2xl text-balance text-[clamp(1.35rem,3.2vw,2rem)] font-medium leading-snug text-ink-soft"
+          >
+            {profile.headline}
+          </motion.h1>
+        </motion.div>
+
+        <motion.div
+          variants={childFadeUp}
+          initial="hidden"
+          animate="show"
+          className="relative left-1/2 mt-2 w-screen max-w-none -translate-x-1/2"
+        >
+          <HeroProjectMarquee />
+        </motion.div>
+
+        <motion.div
+          className="max-w-3xl"
+          variants={staggerChildren}
+          initial="hidden"
+          animate="show"
+        >
+          <motion.p
+            variants={childFadeUp}
+            className="mt-6 max-w-xl text-base leading-relaxed break-words text-muted md:text-lg"
+          >
+            {profile.summary}
+          </motion.p>
+
+          <motion.div variants={childFadeUp} className="mt-8 flex flex-wrap items-center gap-5">
+            <a
+              ref={ctaRef}
+              href="#work"
+              className="inline-flex items-center rounded-full bg-cyan-deep px-6 py-3 text-sm font-semibold text-foam shadow-[0_10px_30px_rgb(20_150_168_/_0.28)] transition-shadow duration-300 hover:shadow-[0_14px_36px_rgb(20_150_168_/_0.38)]"
+              style={{ transition: 'transform 180ms ease, box-shadow 300ms ease' }}
             >
-              {profile.role}
-            </motion.p>
+              View selected work
+            </a>
 
-            <motion.p
-              variants={{
-                hidden: { opacity: 0, y: 36, clipPath: 'inset(0 0 100% 0)' },
-                show: {
-                  opacity: 1,
-                  y: 0,
-                  clipPath: 'inset(0 0 0% 0)',
-                  transition: { duration: 0.95, ease: easeOut },
-                },
-              }}
-              className="font-display mt-4 text-[clamp(2.8rem,9vw,6rem)] leading-[0.9] font-extrabold tracking-[-0.04em] text-ink"
+            <a
+              ref={secondaryRef}
+              href={profile.links.email}
+              className="inline-flex items-center text-sm font-semibold text-ink underline decoration-cyan-deep/35 decoration-2 underline-offset-[6px] transition-colors duration-300 hover:text-cyan-deep hover:decoration-cyan-deep"
+              style={{ transition: 'transform 180ms ease, color 300ms ease' }}
             >
-              {profile.brand}
-            </motion.p>
-
-            <motion.h1
-              variants={childFadeUp}
-              className="mt-6 max-w-xl text-balance text-[clamp(1.35rem,3.2vw,2rem)] font-medium leading-snug text-ink-soft"
-            >
-              {profile.headline}
-            </motion.h1>
-
-            <motion.p
-              variants={childFadeUp}
-              className="mt-4 max-w-md text-base leading-relaxed break-words text-muted md:text-lg"
-            >
-              {profile.summary}
-            </motion.p>
-
-            <motion.div variants={childFadeUp} className="mt-8 flex flex-wrap items-center gap-5">
-              <a
-                ref={ctaRef}
-                href="#work"
-                className="inline-flex items-center rounded-full bg-cyan-deep px-6 py-3 text-sm font-semibold text-foam shadow-[0_10px_30px_rgb(20_150_168_/_0.28)] transition-shadow duration-300 hover:shadow-[0_14px_36px_rgb(20_150_168_/_0.38)]"
-                style={{ transition: 'transform 180ms ease, box-shadow 300ms ease' }}
-              >
-                View selected work
-              </a>
-
-              <a
-                ref={secondaryRef}
-                href={profile.links.email}
-                className="inline-flex items-center text-sm font-semibold text-ink underline decoration-cyan-deep/35 decoration-2 underline-offset-[6px] transition-colors duration-300 hover:text-cyan-deep hover:decoration-cyan-deep"
-                style={{ transition: 'transform 180ms ease, color 300ms ease' }}
-              >
-                Email me
-              </a>
-            </motion.div>
-
-            <motion.p variants={childFadeUp} className="mt-8 text-sm text-muted">
-              {profile.location} · Remote-friendly
-            </motion.p>
+              Email me
+            </a>
           </motion.div>
 
-          <div className="hidden lg:block">
-            <HeroSignal />
-          </div>
-
-          <motion.div variants={childFadeUp} className="lg:hidden">
-            <HeroSignal compact />
-          </motion.div>
-        </div>
+          <motion.p variants={childFadeUp} className="mt-8 text-sm text-muted">
+            {profile.location} · {profile.availability}
+          </motion.p>
+        </motion.div>
 
         <motion.a
           href="#work"
