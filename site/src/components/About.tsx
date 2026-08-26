@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { coreStack, education, profile, skills } from '../data/profile'
+import { coreStack, education, skills } from '../data/profile'
 import { childFadeUp, easeOut, staggerChildren, viewportOnce } from '../lib/motion'
 
 export function About({ onOpenResume }: { onOpenResume?: () => void }) {
