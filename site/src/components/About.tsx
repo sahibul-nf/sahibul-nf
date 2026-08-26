@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { coreStack, education, skills } from '../data/profile'
+import { coreStack, education, profile, skills } from '../data/profile'
 import { childFadeUp, easeOut, staggerChildren, viewportOnce } from '../lib/motion'
 
 export function About({ onOpenResume }: { onOpenResume?: () => void }) {
@@ -19,6 +19,22 @@ export function About({ onOpenResume }: { onOpenResume?: () => void }) {
             <h2 className="font-display mt-3 text-balance text-3xl font-bold tracking-tight text-ink sm:text-4xl md:text-5xl">
               Engineer from Aceh with a product eye
             </h2>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, scale: 1.04, clipPath: 'inset(8% 8% 8% 8%)' }}
+            whileInView={{ opacity: 1, scale: 1, clipPath: 'inset(0% 0% 0% 0%)' }}
+            viewport={viewportOnce}
+            transition={{ duration: 0.9, ease: easeOut }}
+            className="mt-8 max-w-[280px] overflow-hidden sm:max-w-sm"
+          >
+            <motion.img
+              src="/images/avatar.png"
+              alt={profile.name}
+              className="aspect-[4/5] w-full object-cover object-top grayscale"
+              whileHover={{ scale: 1.03, filter: 'grayscale(0%)' }}
+              transition={{ duration: 0.7, ease: easeOut }}
+            />
           </motion.div>
         </div>
 
