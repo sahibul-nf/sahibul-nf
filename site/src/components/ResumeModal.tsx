@@ -45,9 +45,12 @@ export function ResumeModal({
             <div className="resume-modal-header flex items-center justify-between border-b border-line bg-foam/90 px-5 py-4 backdrop-blur-sm sm:px-8">
               <div className="flex items-center gap-3">
                 <span className="h-3 w-3 rounded-full bg-cyan-deep animate-pulse" />
-                <h3 className="font-display text-lg font-bold text-ink sm:text-xl">
-                  Resume / Curriculum Vitae
-                </h3>
+                <div>
+                  <h3 className="font-display text-lg font-bold text-ink sm:text-xl">
+                    Resume / Curriculum Vitae
+                  </h3>
+                  <p className="mt-0.5 text-xs text-muted">Optimized for a single-page PDF export</p>
+                </div>
               </div>
 
               <div className="flex items-center gap-3">
@@ -102,130 +105,88 @@ export function ResumeModal({
             {/* Resume Document Content (Scrollable) */}
             <div className="overflow-y-auto p-5 sm:p-8 md:p-12">
               <article className="resume-document mx-auto max-w-3xl bg-white p-6 shadow-sm ring-1 ring-black/5 sm:rounded-xl sm:p-10 md:p-12 text-ink">
-                {/* Header */}
-                <div className="resume-header border-b border-line pb-6 text-left">
+                <div className="resume-header border-b border-line pb-4 text-left">
                   <h1 className="font-display text-3xl font-extrabold tracking-tight text-ink sm:text-4xl">
                     {resumeData.name}
                   </h1>
-                  <p className="mt-2 text-base font-semibold text-ink sm:text-lg">
-                    {resumeData.title}
+                  <p className="mt-1 text-base font-semibold text-ink sm:text-lg">
+                    {resumeData.title} · {resumeData.subtitle}
                   </p>
-                  <p className="mt-1 text-sm text-muted">{resumeData.subtitle}</p>
-                  <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted sm:text-sm">
-                    <span>{resumeData.location}</span>
-                    <span aria-hidden>•</span>
-                    <span>{resumeData.email}</span>
-                    <span aria-hidden>•</span>
-                    <span>{resumeData.portfolio}</span>
-                    <span aria-hidden>•</span>
-                    <span>{resumeData.linkedin}</span>
-                    <span aria-hidden>•</span>
-                    <span>{resumeData.github}</span>
-                  </div>
+                  <p className="resume-contact mt-2 text-xs text-muted sm:text-sm">
+                    {resumeData.location} · {resumeData.email} · {resumeData.portfolio} ·{' '}
+                    {resumeData.linkedin} · {resumeData.github}
+                  </p>
                 </div>
 
-                {/* Professional Summary */}
-                <section className="mt-6 border-b border-line pb-6">
-                  <h2 className="text-xs font-bold tracking-[0.16em] uppercase text-cyan-deep">
+                <section className="resume-section mt-4 border-b border-line pb-4">
+                  <h2 className="resume-section-title text-xs font-bold tracking-[0.16em] uppercase text-cyan-deep">
                     Professional Summary
                   </h2>
-                  <p className="mt-2 text-sm leading-relaxed text-ink/80 sm:text-base">
+                  <p className="resume-body mt-1.5 text-sm leading-snug text-ink/80">
                     {resumeData.summary}
                   </p>
                 </section>
 
-                {/* Core Competencies (ATS keyword block) */}
-                <section className="mt-6 border-b border-line pb-6">
-                  <h2 className="text-xs font-bold tracking-[0.16em] uppercase text-cyan-deep">
+                <section className="resume-section mt-4 border-b border-line pb-4">
+                  <h2 className="resume-section-title text-xs font-bold tracking-[0.16em] uppercase text-cyan-deep">
                     Core Competencies
                   </h2>
-                  <p className="mt-2 text-sm leading-relaxed text-ink/80">
+                  <p className="resume-body mt-1.5 text-sm leading-snug text-ink/80">
                     {resumeData.coreCompetencies.join(' · ')}
                   </p>
                 </section>
 
-                {/* Core Technical Skills */}
-                <section className="mt-6 border-b border-line pb-6">
-                  <h2 className="text-xs font-bold tracking-[0.16em] uppercase text-cyan-deep">
-                    Core Technical Skills
-                  </h2>
-                  <div className="mt-3 space-y-2 text-sm">
-                    {resumeData.skills.map((skillGroup) => (
-                      <div key={skillGroup.category} className="grid grid-cols-1 sm:grid-cols-4 sm:gap-4">
-                        <span className="font-semibold text-ink sm:col-span-1">
-                          {skillGroup.category}:
-                        </span>
-                        <span className="text-muted sm:col-span-3">
-                          {skillGroup.items.join(', ')}
-                        </span>
-                      </div>
-                    ))}
-                  </div>
-                </section>
-
-                {/* Work Experience */}
-                <section className="mt-6 border-b border-line pb-6">
-                  <h2 className="text-xs font-bold tracking-[0.16em] uppercase text-cyan-deep">
+                <section className="resume-section mt-4 border-b border-line pb-4">
+                  <h2 className="resume-section-title text-xs font-bold tracking-[0.16em] uppercase text-cyan-deep">
                     Professional Experience
                   </h2>
-                  <div className="mt-4 space-y-6">
+                  <div className="resume-experience mt-2 space-y-3">
                     {resumeData.experience.map((exp) => (
-                        <div key={`${exp.company}-${exp.period}`} className="space-y-2">
-                          <div className="flex flex-wrap items-baseline justify-between gap-1">
-                            <h3 className="text-base font-bold text-ink">
-                              {exp.role} — {exp.company}
-                              {exp.location ? ` (${exp.location})` : ''}
-                            </h3>
-                            <span className="text-xs font-medium text-muted">{exp.period}</span>
-                          </div>
-                          <ul className="list-outside list-disc pl-4 space-y-1 text-xs text-muted sm:text-sm">
-                            {exp.highlights.map((highlight, idx) => (
-                              <li key={idx} className="leading-relaxed">
-                                {highlight}
-                              </li>
-                            ))}
-                          </ul>
+                      <div key={`${exp.company}-${exp.period}`} className="space-y-1">
+                        <div className="flex flex-wrap items-baseline justify-between gap-1">
+                          <h3 className="text-sm font-bold text-ink">
+                            {exp.role} — {exp.company} ({exp.location})
+                          </h3>
+                          <span className="text-[11px] font-medium text-muted">{exp.period}</span>
                         </div>
-                    ))}
-                  </div>
-                </section>
-
-                {/* Key Featured Projects */}
-                <section className="mt-6 border-b border-line pb-6">
-                  <h2 className="text-xs font-bold tracking-[0.16em] uppercase text-cyan-deep">
-                    Selected Projects
-                  </h2>
-                  <div className="resume-projects mt-4 space-y-4">
-                    {resumeData.featuredProjects.map((proj) => (
-                      <div key={proj.name} className="space-y-1">
-                        <div className="flex flex-wrap items-baseline justify-between gap-2">
-                          <h3 className="text-sm font-bold text-ink">{proj.name}</h3>
-                          {'link' in proj && proj.link ? (
-                            <span className="text-xs text-muted">{proj.link}</span>
-                          ) : null}
-                        </div>
-                        <p className="text-xs font-medium text-muted">{proj.stack}</p>
-                        <p className="text-xs leading-relaxed text-muted">{proj.summary}</p>
+                        <ul className="list-outside list-disc pl-4 space-y-0.5 text-xs text-muted sm:text-sm">
+                          {exp.highlights.map((highlight, idx) => (
+                            <li key={idx} className="leading-snug">
+                              {highlight}
+                            </li>
+                          ))}
+                        </ul>
                       </div>
                     ))}
+                    <p className="resume-earlier text-xs leading-snug text-muted italic">
+                      {resumeData.earlierExperience}
+                    </p>
                   </div>
                 </section>
 
-                {/* Education */}
-                <section className="mt-6">
-                  <h2 className="text-xs font-bold tracking-[0.16em] uppercase text-cyan-deep">
+                <section className="resume-section mt-4 border-b border-line pb-4">
+                  <h2 className="resume-section-title text-xs font-bold tracking-[0.16em] uppercase text-cyan-deep">
+                    Selected Projects
+                  </h2>
+                  <ul className="resume-projects mt-2 list-disc space-y-0.5 pl-4 text-xs text-muted sm:text-sm">
+                    {resumeData.selectedProjects.map((project) => (
+                      <li key={project} className="leading-snug">
+                        {project}
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+
+                <section className="resume-section mt-4">
+                  <h2 className="resume-section-title text-xs font-bold tracking-[0.16em] uppercase text-cyan-deep">
                     Education
                   </h2>
-                  <div className="mt-3 flex flex-wrap items-baseline justify-between gap-2">
-                    <div>
-                      <h3 className="text-sm font-bold text-ink">
-                        {resumeData.education.degree}
-                      </h3>
-                      <p className="text-xs text-muted">
-                        {resumeData.education.school} · {resumeData.education.grade}
-                      </p>
-                    </div>
-                    <span className="text-xs text-muted">{resumeData.education.period}</span>
+                  <div className="resume-education mt-2 flex flex-wrap items-baseline justify-between gap-2">
+                    <p className="text-sm font-bold text-ink">
+                      {resumeData.education.degree} — {resumeData.education.school} ·{' '}
+                      {resumeData.education.grade}
+                    </p>
+                    <span className="text-[11px] text-muted">{resumeData.education.period}</span>
                   </div>
                 </section>
               </article>
