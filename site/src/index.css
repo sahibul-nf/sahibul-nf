@@ -73,7 +73,7 @@
   }
 }
 
-/* Print Styles for PDF generation — optimized for 1 page */
+/* Print Styles for PDF generation */
 @media print {
   @page {
     margin: 0.65cm 0.7cm;
@@ -138,67 +138,10 @@
     max-width: 100% !important;
     color: #111827 !important;
     background: #ffffff !important;
-    font-size: 9.5pt !important;
-    line-height: 1.28 !important;
   }
 
   .resume-header {
     display: block !important;
-    padding-bottom: 0.28cm !important;
-    margin-bottom: 0.15cm !important;
-  }
-
-  .resume-document h1 {
-    font-size: 17pt !important;
-    line-height: 1.1 !important;
-    margin: 0 !important;
-  }
-
-  .resume-contact {
-    font-size: 8pt !important;
-    line-height: 1.35 !important;
-    margin-top: 0.12cm !important;
-  }
-
-  .resume-section {
-    margin-top: 0.28cm !important;
-    padding-bottom: 0.22cm !important;
-    break-inside: avoid;
-  }
-
-  .resume-section-title {
-    font-size: 8pt !important;
-    margin-bottom: 0.08cm !important;
-  }
-
-  .resume-body,
-  .resume-experience li,
-  .resume-projects li,
-  .resume-earlier,
-  .resume-education {
-    font-size: 9pt !important;
-    line-height: 1.28 !important;
-  }
-
-  .resume-experience {
-    margin-top: 0.12cm !important;
-  }
-
-  .resume-experience > div {
-    margin-bottom: 0.18cm !important;
-  }
-
-  .resume-experience h3 {
-    font-size: 9.5pt !important;
-    line-height: 1.25 !important;
-  }
-
-  .resume-experience ul {
-    margin-top: 0.05cm !important;
-  }
-
-  .resume-experience li {
-    margin-bottom: 0.04cm !important;
   }
 
   .resume-document h1,
@@ -216,6 +159,110 @@
 
   .resume-projects {
     display: block !important;
-    margin-top: 0.1cm !important;
+  }
+
+  /* 1-page compact export */
+  body[data-resume-print='compact'] .resume-document {
+    font-size: 9.5pt !important;
+    line-height: 1.28 !important;
+  }
+
+  body[data-resume-print='compact'] .resume-header {
+    padding-bottom: 0.28cm !important;
+    margin-bottom: 0.15cm !important;
+  }
+
+  body[data-resume-print='compact'] .resume-document h1 {
+    font-size: 17pt !important;
+    line-height: 1.1 !important;
+    margin: 0 !important;
+  }
+
+  body[data-resume-print='compact'] .resume-contact {
+    font-size: 8pt !important;
+    line-height: 1.35 !important;
+    margin-top: 0.12cm !important;
+  }
+
+  body[data-resume-print='compact'] .resume-section {
+    margin-top: 0.28cm !important;
+    padding-bottom: 0.22cm !important;
+    break-inside: avoid;
+  }
+
+  body[data-resume-print='compact'] .resume-section-title {
+    font-size: 8pt !important;
+    margin-bottom: 0.08cm !important;
+  }
+
+  body[data-resume-print='compact'] .resume-body,
+  body[data-resume-print='compact'] .resume-experience li,
+  body[data-resume-print='compact'] .resume-projects p,
+  body[data-resume-print='compact'] .resume-earlier,
+  body[data-resume-print='compact'] .resume-education {
+    font-size: 9pt !important;
+    line-height: 1.28 !important;
+  }
+
+  body[data-resume-print='compact'] .resume-experience > div {
+    margin-bottom: 0.18cm !important;
+  }
+
+  body[data-resume-print='compact'] .resume-experience h3 {
+    font-size: 9.5pt !important;
+  }
+
+  /* 2-page extended export */
+  body[data-resume-print='extended'] .resume-document {
+    font-size: 10pt !important;
+    line-height: 1.32 !important;
+  }
+
+  body[data-resume-print='extended'] .resume-header {
+    padding-bottom: 0.35cm !important;
+    margin-bottom: 0.2cm !important;
+  }
+
+  body[data-resume-print='extended'] .resume-document h1 {
+    font-size: 18pt !important;
+    line-height: 1.12 !important;
+    margin: 0 !important;
+  }
+
+  body[data-resume-print='extended'] .resume-contact {
+    font-size: 8.5pt !important;
+    line-height: 1.4 !important;
+  }
+
+  body[data-resume-print='extended'] .resume-section {
+    margin-top: 0.38cm !important;
+    padding-bottom: 0.28cm !important;
+  }
+
+  body[data-resume-print='extended'] .resume-section-title {
+    font-size: 8.5pt !important;
+  }
+
+  body[data-resume-print='extended'] .resume-body,
+  body[data-resume-print='extended'] .resume-skills,
+  body[data-resume-print='extended'] .resume-experience li,
+  body[data-resume-print='extended'] .resume-projects p,
+  body[data-resume-print='extended'] .resume-education {
+    font-size: 9.5pt !important;
+    line-height: 1.32 !important;
+  }
+
+  body[data-resume-print='extended'] .resume-experience > div {
+    margin-bottom: 0.24cm !important;
+    break-inside: avoid;
+  }
+
+  body[data-resume-print='extended'] .resume-experience h3,
+  body[data-resume-print='extended'] .resume-projects h3 {
+    font-size: 10pt !important;
+  }
+
+  body[data-resume-print='extended'] .resume-projects > div {
+    break-inside: avoid;
   }
 }
