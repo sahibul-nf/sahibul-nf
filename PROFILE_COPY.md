@@ -79,8 +79,9 @@ Email: sahibulnuzulfirdaus13@gmail.com
 
 ### Featured links
 1. https://sahibul-nf-portfolio.netlify.app
-2. https://nourdaily.com
-3. https://github.com/sahibul-nf/hiQuran
+2. https://sahibul-nf-portfolio.netlify.app/#resume (Resume / CV)
+3. https://nourdaily.com
+4. https://github.com/sahibul-nf/hiQuran
 
 ---
 

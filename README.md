@@ -9,6 +9,7 @@ I build multi-platform Flutter products and Golang backends that hold up in prod
 ### Links
 
 * 🖥️ **Portfolio** — [sahibul-nf-portfolio.netlify.app](https://sahibul-nf-portfolio.netlify.app)
+* 📄 **Resume / CV** — [View & Download](https://sahibul-nf-portfolio.netlify.app/#resume)
 * 💼 **LinkedIn** — [linkedin.com/in/sahibul-nf](https://www.linkedin.com/in/sahibul-nf)
 * 🛠️ **Upwork** — [hire me](https://www.upwork.com/freelancers/~01a4cbdaeeaac4a0f3)
 * ✉️ **Email** — [sahibulnuzulfirdaus13@gmail.com](mailto:sahibulnuzulfirdaus13@gmail.com)

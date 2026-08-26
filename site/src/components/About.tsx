@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { coreStack, education, profile, skills } from '../data/profile'
 import { childFadeUp, easeOut, staggerChildren, viewportOnce } from '../lib/motion'
 
-export function About() {
+export function About({ onOpenResume }: { onOpenResume?: () => void }) {
   return (
     <section id="about" className="scroll-mt-24 overflow-x-clip bg-foam py-20 md:py-32">
       <div className="mx-auto grid max-w-6xl gap-10 px-5 md:grid-cols-12 md:gap-10 md:px-8 md:gap-y-14">
@@ -62,6 +62,33 @@ export function About() {
             AI-assisted workflows with tests when it helps delivery. Open to freelance and remote
             roles.
           </motion.p>
+
+          <motion.div variants={childFadeUp} className="mt-8 flex flex-wrap items-center gap-4">
+            {onOpenResume && (
+              <button
+                type="button"
+                onClick={onOpenResume}
+                className="inline-flex items-center gap-2 rounded-full border border-cyan-deep bg-cyan-deep/5 px-5 py-2.5 text-sm font-semibold text-cyan-deep transition-all hover:bg-cyan-deep hover:text-foam"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                  <polyline points="7 10 12 15 17 10" />
+                  <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                <span>Download Resume / CV</span>
+              </button>
+            )}
+          </motion.div>
 
           <motion.div variants={childFadeUp} className="mt-10 border-t border-line pt-8">
             <p className="text-sm font-semibold text-ink">{education.degree}</p>

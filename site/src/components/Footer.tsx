@@ -1,6 +1,6 @@
 import { profile } from '../data/profile'
 
-export function Footer() {
+export function Footer({ onOpenResume }: { onOpenResume?: () => void }) {
   return (
     <footer className="border-t border-line bg-foam">
       <div className="mx-auto flex max-w-6xl flex-col gap-4 px-5 py-8 md:flex-row md:items-center md:justify-between md:px-8">
@@ -10,7 +10,16 @@ export function Footer() {
         <p className="text-sm text-muted">
           © {new Date().getFullYear()} {profile.name}. Built with intention in {profile.location}.
         </p>
-        <div className="flex gap-5 text-sm text-muted">
+        <div className="flex flex-wrap items-center gap-5 text-sm text-muted">
+          {onOpenResume && (
+            <button
+              type="button"
+              onClick={onOpenResume}
+              className="font-medium text-cyan-deep hover:text-ink transition-colors"
+            >
+              Resume / CV
+            </button>
+          )}
           <a href={profile.links.github} target="_blank" rel="noreferrer" className="hover:text-ink">
             GitHub
           </a>
