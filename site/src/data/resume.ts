@@ -85,8 +85,8 @@ export const resumeData = {
       period: '2024 — Present',
       location: 'Remote',
       highlights: [
-        'Architected and shipped a production node-based workflow canvas in Flutter with diagram editing, cloud execution, and realtime collaboration.',
-        'Delivered Supabase microservices, edge functions, secure credential handling, and AWS deployment pipelines.',
+        'Architected a production workflow canvas in Flutter (~86k LOC) with 30 node types, 18 policy mixins, and realtime collaboration.',
+        'Built Supabase backend with 38 SQL migrations, 5 edge functions (~12k LOC TypeScript), RLS, Vault, and SSRF hardening.',
       ],
     },
     {
@@ -142,7 +142,7 @@ export const resumeData = {
     {
       name: 'Node-based Workflow Canvas',
       stack: 'Flutter · Supabase · Edge Functions · AWS',
-      summary: 'Production workflow builder with cloud execution and realtime collaboration (BonkBytes).',
+      summary: 'Production workflow builder: ~86k LOC Flutter, 30 node types, 5 edge functions, realtime collaboration (BonkBytes).',
     },
     {
       name: 'Nourdaily',
@@ -239,9 +239,9 @@ export const resumeExtended: ResumeContent = {
       period: '2024 — Present',
       location: 'Remote',
       highlights: [
-        'Architected and shipped a production node-based workflow canvas in Flutter with interactive diagram editing, cloud step execution, and realtime multi-user collaboration.',
-        'Built Supabase-backed microservices, secure credential handling, edge execution functions, and AWS deployment pipelines.',
-        'Adopted AI-assisted delivery workflows with automated testing to maintain shipping velocity without compromising quality.',
+        'Architected and shipped a production workflow canvas in Flutter (~86k LOC, 368 files) with 30 node types, 18 policy mixins, and realtime multi-user collaboration.',
+        'Built Supabase backend with 38 SQL migrations, RLS, 5 edge functions (~12k LOC TypeScript), Vault secrets, and production hardening (SSRF, script sandbox, rate limits).',
+        'Delivered bidirectional IaC YAML subsystem and dual-runtime workflow execution (Flutter + Deno) with 57+ Flutter tests and CI-gated deploy pipeline.',
       ],
     },
     {
@@ -298,7 +298,7 @@ export const resumeExtended: ResumeContent = {
       name: 'Node-based Workflow Canvas',
       stack: 'Flutter, Supabase, Edge Functions, Realtime, AWS',
       summary:
-        'Production visual workflow builder with cloud execution, credential management, and realtime collaboration (BonkBytes).',
+        'Production visual workflow builder: ~86k LOC Flutter, 30 node types, 5 edge functions, IaC YAML, and realtime collaboration (BonkBytes).',
     },
     {
       name: 'Nourdaily',
