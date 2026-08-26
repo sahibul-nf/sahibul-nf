@@ -37,7 +37,7 @@ export function Nav({ onOpenResume }: { onOpenResume: () => void }) {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.65, ease: easeOut }}
       style={style}
-      className="fixed inset-x-0 top-0 z-50 border-b border-transparent"
+      className="site-header fixed inset-x-0 top-0 z-50 border-b border-transparent"
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-4 md:px-8">
         <a

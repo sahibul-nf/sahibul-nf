@@ -103,7 +103,7 @@ export function ResumeModal({
             <div className="overflow-y-auto p-5 sm:p-8 md:p-12">
               <article className="resume-document mx-auto max-w-3xl bg-white p-6 shadow-sm ring-1 ring-black/5 sm:rounded-xl sm:p-10 md:p-12 text-ink">
                 {/* Header */}
-                <header className="border-b border-line pb-6 text-left">
+                <div className="resume-header border-b border-line pb-6 text-left">
                   <h1 className="font-display text-3xl font-extrabold tracking-tight text-ink sm:text-4xl">
                     {resumeData.name}
                   </h1>
@@ -122,7 +122,7 @@ export function ResumeModal({
                     <span aria-hidden>•</span>
                     <span>{resumeData.github}</span>
                   </div>
-                </header>
+                </div>
 
                 {/* Professional Summary */}
                 <section className="mt-6 border-b border-line pb-6">

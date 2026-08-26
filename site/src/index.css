@@ -87,7 +87,7 @@
   }
 
   /* Hide everything on main site during print */
-  header,
+  .site-header,
   nav,
   main,
   footer,
@@ -138,6 +138,10 @@
     max-width: 100% !important;
     color: #111827 !important;
     background: #ffffff !important;
+  }
+
+  .resume-header {
+    display: block !important;
   }
 
   .resume-document h1,
