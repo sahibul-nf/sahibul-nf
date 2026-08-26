@@ -163,53 +163,67 @@
 
   /* 1-page compact export */
   body[data-resume-print='compact'] .resume-document {
-    font-size: 9.5pt !important;
-    line-height: 1.28 !important;
+    font-size: 10pt !important;
+    line-height: 1.38 !important;
   }
 
   body[data-resume-print='compact'] .resume-header {
-    padding-bottom: 0.28cm !important;
-    margin-bottom: 0.15cm !important;
+    padding-bottom: 0.38cm !important;
+    margin-bottom: 0.22cm !important;
   }
 
   body[data-resume-print='compact'] .resume-document h1 {
-    font-size: 17pt !important;
-    line-height: 1.1 !important;
+    font-size: 19pt !important;
+    line-height: 1.12 !important;
     margin: 0 !important;
   }
 
   body[data-resume-print='compact'] .resume-contact {
-    font-size: 8pt !important;
-    line-height: 1.35 !important;
-    margin-top: 0.12cm !important;
+    font-size: 8.5pt !important;
+    line-height: 1.42 !important;
+    margin-top: 0.16cm !important;
   }
 
   body[data-resume-print='compact'] .resume-section {
-    margin-top: 0.28cm !important;
-    padding-bottom: 0.22cm !important;
+    margin-top: 0.4cm !important;
+    padding-bottom: 0.3cm !important;
     break-inside: avoid;
   }
 
   body[data-resume-print='compact'] .resume-section-title {
-    font-size: 8pt !important;
-    margin-bottom: 0.08cm !important;
+    font-size: 8.5pt !important;
+    margin-bottom: 0.12cm !important;
   }
 
   body[data-resume-print='compact'] .resume-body,
   body[data-resume-print='compact'] .resume-experience li,
   body[data-resume-print='compact'] .resume-projects p,
+  body[data-resume-print='compact'] .resume-projects h3,
   body[data-resume-print='compact'] .resume-earlier,
   body[data-resume-print='compact'] .resume-education {
-    font-size: 9pt !important;
-    line-height: 1.28 !important;
+    font-size: 9.75pt !important;
+    line-height: 1.38 !important;
+  }
+
+  body[data-resume-print='compact'] .resume-experience {
+    margin-top: 0.16cm !important;
   }
 
   body[data-resume-print='compact'] .resume-experience > div {
-    margin-bottom: 0.18cm !important;
+    margin-bottom: 0.26cm !important;
   }
 
   body[data-resume-print='compact'] .resume-experience h3 {
-    font-size: 9.5pt !important;
+    font-size: 10pt !important;
+    line-height: 1.3 !important;
+  }
+
+  body[data-resume-print='compact'] .resume-experience li {
+    margin-bottom: 0.06cm !important;
+  }
+
+  body[data-resume-print='compact'] .resume-projects > div {
+    margin-bottom: 0.18cm !important;
   }
 
   /* 2-page extended export */

@@ -57,7 +57,7 @@ export const resumeData = {
   ...contact,
   subtitle: 'Flutter · Golang · Supabase · Firebase · AWS',
   summary:
-    'Full-stack Flutter engineer with 5+ years shipping production mobile apps (iOS, Android, Web), Golang APIs, and cloud systems on Supabase, Firebase, and AWS. Strong in cross-platform architecture, realtime features, PostgreSQL, Redis, and remote delivery.',
+    'Full-stack Flutter engineer with 5+ years shipping production mobile apps (iOS, Android, Web), Golang APIs, and cloud systems on Supabase, Firebase, and AWS. Strong in cross-platform architecture, realtime features, PostgreSQL, Redis, CI/CD, and remote product delivery. Open to freelance and full-time remote roles.',
   coreCompetencies: [
     'Flutter',
     'Dart',
@@ -95,7 +95,8 @@ export const resumeData = {
       period: 'May 2024 — Jul 2025',
       location: 'Remote',
       highlights: [
-        'Shipped cross-platform features and performance fixes for a global music platform; earned 5.0 Upwork client rating.',
+        'Shipped cross-platform features, performance fixes, and UI refinements for a global classical music platform.',
+        'Earned a 5.0 client rating on Upwork through fast iteration with design and product stakeholders.',
       ],
     },
     {
@@ -105,6 +106,7 @@ export const resumeData = {
       location: 'Remote',
       highlights: [
         'Built Cardx (Flutter + Golang) with eBay API, Supabase, PostgreSQL, and Redis for high-volume catalog workflows.',
+        'Owned iOS/Web clients and backend integrations for marketplace data, caching, and inventory tracking.',
       ],
     },
     {
@@ -113,13 +115,35 @@ export const resumeData = {
       period: 'Jun 2023 — Jun 2024',
       location: 'Remote',
       highlights: [
-        'Led MVP redesign and codebase refactor; implemented app-wide localization and offline-friendly UX with GetX.',
+        'Led MVP redesign and codebase refactor aligned with an updated product vision and release roadmap.',
+        'Implemented app-wide localization with GetX and offline-friendly UX for slow mobile networks.',
+      ],
+    },
+    {
+      role: 'Software Developer',
+      company: 'Kopwar',
+      period: 'Jul 2022 — Oct 2022',
+      location: 'Remote',
+      highlights: [
+        'Built Flutter e-commerce checkout flows with realtime in-app messaging via Socket.io.',
+      ],
+    },
+    {
+      role: 'Mobile Developer',
+      company: 'LingoTalk',
+      period: 'Aug 2021 — Dec 2021',
+      location: 'Remote',
+      highlights: [
+        'Contributed Flutter feature modules and UI implementation for a language-learning mobile app.',
       ],
     },
   ],
-  earlierExperience:
-    'Earlier: Kopwar (Flutter e-commerce, Socket.io) · LingoTalk (Flutter language-learning app), 2021–2022',
   selectedProjects: [
+    {
+      name: 'Node-based Workflow Canvas',
+      stack: 'Flutter · Supabase · Edge Functions · AWS',
+      summary: 'Production workflow builder with cloud execution and realtime collaboration (BonkBytes).',
+    },
     {
       name: 'Nourdaily',
       stack: 'Flutter · Content Platform',

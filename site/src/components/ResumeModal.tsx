@@ -7,7 +7,7 @@ import { ResumeDocument } from './ResumeDocument'
 const variantMeta = {
   compact: {
     label: 'Standard',
-    hint: '1-page PDF for most applications',
+    hint: '1-page PDF with balanced page fill',
     printLabel: 'Print 1-page PDF',
   },
   extended: {
