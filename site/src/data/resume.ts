@@ -85,8 +85,8 @@ export const resumeData = {
       period: '2024 — Present',
       location: 'Remote',
       highlights: [
-        'Architected a production workflow canvas in Flutter (~86k LOC) with 30 node types, 18 policy mixins, and realtime collaboration.',
-        'Built Supabase backend with 38 SQL migrations, 5 edge functions (~12k LOC TypeScript), RLS, Vault, and SSRF hardening.',
+        'Architected a real-time visual workflow engine across 102K+ LOC (Dart/Flutter and TypeScript), with an 18-policy canvas system, bidirectional IaC/DBML sync, and live multi-user collaboration.',
+        'Engineered secure Deno/Supabase edge execution with 38 PostgreSQL migrations, RLS, Vault, SSRF guards, and 545 automated tests in GitHub Actions CI/CD.',
       ],
     },
     {
@@ -142,7 +142,8 @@ export const resumeData = {
     {
       name: 'Node-based Workflow Canvas',
       stack: 'Flutter · Supabase · Edge Functions · AWS',
-      summary: 'Production workflow builder: ~86k LOC Flutter, 30 node types, 5 edge functions, realtime collaboration (BonkBytes).',
+      summary:
+        'Real-time visual orchestration platform: 102K+ LOC, 18-policy canvas, 5 Deno edge functions, 545 tests (BonkBytes).',
     },
     {
       name: 'Nourdaily',
@@ -239,9 +240,10 @@ export const resumeExtended: ResumeContent = {
       period: '2024 — Present',
       location: 'Remote',
       highlights: [
-        'Architected and shipped a production workflow canvas in Flutter (~86k LOC, 368 files) with 30 node types, 18 policy mixins, and realtime multi-user collaboration.',
-        'Built Supabase backend with 38 SQL migrations, RLS, 5 edge functions (~12k LOC TypeScript), Vault secrets, and production hardening (SSRF, script sandbox, rate limits).',
-        'Delivered bidirectional IaC YAML subsystem and dual-runtime workflow execution (Flutter + Deno) with 57+ Flutter tests and CI-gated deploy pipeline.',
+        'Architected and delivered a full-stack workflow platform with 90K+ LOC Dart/Flutter frontend and 12K+ LOC TypeScript/Deno edge backend; built an 18-policy canvas engine with bidirectional IaC/DBML sync and live multi-user collaboration.',
+        'Designed a serverless DAG orchestrator across 5 Deno microservices with script sandboxing, SSRF defense, and signed artifact generation for workflow execution.',
+        'Hardened the data layer with 38 PostgreSQL migrations, Row-Level Security for multi-tenant collaboration, and Supabase Vault for encrypted credential isolation.',
+        'Scaled automated testing to 545 test cases and instituted a 2-stage GitHub Actions CI/CD pipeline deploying to AWS S3/CloudFront.',
       ],
     },
     {
@@ -298,7 +300,7 @@ export const resumeExtended: ResumeContent = {
       name: 'Node-based Workflow Canvas',
       stack: 'Flutter, Supabase, Edge Functions, Realtime, AWS',
       summary:
-        'Production visual workflow builder: ~86k LOC Flutter, 30 node types, 5 edge functions, IaC YAML, and realtime collaboration (BonkBytes).',
+        'Real-time visual orchestration and IaC platform: 102K+ LOC, 18-policy canvas, 5 Deno edge functions, 545 automated tests, AWS CI/CD (BonkBytes).',
     },
     {
       name: 'Nourdaily',

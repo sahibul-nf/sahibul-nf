@@ -25,7 +25,7 @@ export const projects = [
     title: 'Node-based Workflow Canvas',
     year: '2024–26 · Client · BonkBytes',
     blurb:
-      'Interactive flowchart/workflow builder in Flutter: custom diagram editing, cloud function execution, credential-safe integrations, and realtime collaboration. Details shared on request.',
+      'Real-time visual workflow platform in Flutter Web: 102K+ LOC, 18-policy canvas engine, bidirectional IaC/DBML sync, Deno edge execution, and multi-user collaboration. Details shared on request.',
     tags: ['Flutter', 'Supabase', 'Edge Functions', 'Realtime', 'AWS'],
     image: '/images/canvas.svg',
     href: 'https://bonkbytes.com/',
@@ -101,9 +101,9 @@ export const experience = [
     role: 'Full-Stack Flutter Developer',
     period: '2024 — Present',
     points: [
-      'Building a production node-based workflow canvas in Flutter with cloud execution and realtime collaboration.',
-      'Working across client UI, Supabase-backed services (including secure credential handling and edge functions), and AWS deployment.',
-      'Using structured AI-assisted workflows with automated tests to keep delivery fast without skipping quality checks.',
+      'Architecting a real-time workflow canvas (102K+ LOC) with an 18-policy diagram engine, bidirectional IaC/DBML sync, and live multi-user collaboration.',
+      'Building Supabase/Deno backend services: 38 PostgreSQL migrations, 5 edge functions, RLS, Vault, SSRF hardening, and 545 automated tests.',
+      'Maintaining GitHub Actions CI/CD with test gates on dev and AWS S3/CloudFront deploys on master.',
     ],
   },
   {
@@ -194,9 +194,9 @@ export const caseStudies = [
     problem:
       'The product needed a production Flutter canvas where non-engineers could design workflows, run cloud steps safely, and collaborate without fragile desktop-only tooling.',
     approach:
-      'Built the interactive node editor in Flutter, wired Supabase-backed services and edge execution, and hardened credential handling plus realtime collaboration across the client and cloud path.',
+      'Built an 18-policy Flutter Web canvas engine with bidirectional IaC/DBML sync, Supabase Realtime collaboration, and 5 Deno edge microservices with SSRF hardening and Vault-backed secrets.',
     result:
-      'A shipping workflow product with cloud execution, safer integrations, and ongoing iteration under production traffic. Demo available on request.',
+      'A production workflow platform spanning 102K+ LOC with 545 automated tests, multi-tenant RLS, and CI/CD deploys to AWS. Demo available on request.',
     stack: ['Flutter', 'Supabase', 'Edge Functions', 'Realtime', 'AWS'],
   },
   {
