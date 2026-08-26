@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { profile } from '../data/profile'
 import { useMagnetic } from '../hooks/useMagnetic'
 import { childFadeUp, easeOut, staggerChildren } from '../lib/motion'
+import { HeroVisual } from './HeroVisual'
 
 export function Hero() {
   const ctaRef = useMagnetic<HTMLAnchorElement>(0.22)
@@ -28,7 +29,7 @@ export function Hero() {
           transition={{ duration: 1.1, delay: 0.2, ease: easeOut }}
         >
           <div className="absolute inset-0 bg-[linear-gradient(120deg,transparent_0%,rgb(11_28_36_/_0.04)_40%,transparent_70%)]" />
-          <DeviceStage />
+          <HeroVisual />
         </motion.div>
       </div>
 
@@ -94,10 +95,10 @@ export function Hero() {
 
           <motion.div
             variants={childFadeUp}
-            className="relative mt-12 h-52 overflow-hidden md:hidden"
+            className="relative mt-12 h-64 overflow-hidden md:hidden"
             aria-hidden
           >
-            <DeviceStage mobile />
+            <HeroVisual mobile />
           </motion.div>
         </motion.div>
 
@@ -119,64 +120,5 @@ export function Hero() {
         </motion.a>
       </div>
     </section>
-  )
-}
-
-function DeviceStage({ mobile = false }: { mobile?: boolean }) {
-  return (
-    <div className="relative h-full w-full">
-      <motion.div
-        className={
-          mobile
-            ? 'absolute top-2 right-4 h-[92%] w-[46%] rounded-[1.6rem] border border-white/50 bg-ink/90 p-2.5 shadow-[0_24px_48px_rgb(11_28_36_/_0.22)]'
-            : 'absolute top-[18%] right-[18%] h-[58%] w-[42%] max-w-[280px] rounded-[2rem] border border-white/50 bg-ink/90 p-3 shadow-[0_40px_80px_rgb(11_28_36_/_0.28)]'
-        }
-        animate={{ y: [0, -14, 0], rotate: [0, -1.2, 0] }}
-        transition={{ duration: 7.2, repeat: Infinity, ease: 'easeInOut' }}
-      >
-        <div className="h-full overflow-hidden rounded-[1.45rem] bg-[linear-gradient(160deg,#123040_0%,#1d4d5c_45%,#2ec4d6_140%)]">
-          <div className="flex h-full flex-col justify-between p-4 md:p-5">
-            <div>
-              <div className="h-2 w-16 rounded-full bg-white/25" />
-              <div className="mt-5 space-y-2 md:mt-6">
-                <div className="h-3 w-24 rounded-full bg-white/80 md:w-28" />
-                <div className="h-3 w-16 rounded-full bg-white/35 md:w-20" />
-              </div>
-            </div>
-            <div className="space-y-2.5 md:space-y-3">
-              <div className="h-12 rounded-2xl bg-white/12 backdrop-blur md:h-16" />
-              <div className="h-12 rounded-2xl bg-amber/80 md:h-16" />
-              <div className="h-8 rounded-full bg-cyan md:h-10" />
-            </div>
-          </div>
-        </div>
-      </motion.div>
-
-      <motion.div
-        className={
-          mobile
-            ? 'absolute top-8 left-2 h-[78%] w-[42%] rounded-[1.4rem] border border-white/60 bg-foam/80 p-2 shadow-[0_20px_40px_rgb(11_28_36_/_0.14)] backdrop-blur-md'
-            : 'absolute top-[34%] right-[46%] h-[46%] w-[34%] max-w-[220px] rounded-[1.7rem] border border-white/60 bg-foam/80 p-2.5 shadow-[0_30px_60px_rgb(11_28_36_/_0.18)] backdrop-blur-md'
-        }
-        animate={{ y: [0, 12, 0], rotate: [0, 1.4, 0] }}
-        transition={{ duration: 8.6, repeat: Infinity, ease: 'easeInOut', delay: 0.35 }}
-      >
-        <div className="h-full overflow-hidden rounded-[1.25rem] bg-[linear-gradient(180deg,#f5fafb_0%,#efe4d4_100%)]">
-          <div className="p-3 md:p-4">
-            <div className="mb-3 h-7 w-7 rounded-full bg-cyan-deep/90 md:mb-4 md:h-8 md:w-8" />
-            <div className="space-y-2">
-              <div className="h-2.5 w-20 rounded-full bg-ink/20 md:w-24" />
-              <div className="h-2.5 w-14 rounded-full bg-ink/12 md:w-16" />
-            </div>
-            <div className="mt-4 grid grid-cols-2 gap-2 md:mt-6">
-              <div className="aspect-square rounded-xl bg-cyan/40" />
-              <div className="aspect-square rounded-xl bg-ink/10" />
-              <div className="aspect-square rounded-xl bg-amber/50" />
-              <div className="aspect-square rounded-xl bg-cyan-deep/30" />
-            </div>
-          </div>
-        </div>
-      </motion.div>
-    </div>
   )
 }
