@@ -1,46 +1,18 @@
-import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { easeOut } from '../lib/motion'
-import workflowCanvasArt from '../assets/workflow-canvas.svg'
-import nourdailyHeroArt from '../assets/nourdaily-hero.svg'
+import { NourdailyPreview } from './hero/NourdailyPreview'
+import { WorkflowCanvasArt } from './hero/WorkflowCanvasArt'
 
 const stackPills = ['Flutter', 'Supabase', 'Golang', 'Realtime'] as const
 
-function ShowcaseImage({
-  src,
-  alt,
-  loading = 'lazy',
-  className = 'block w-full',
-}: {
-  src: string
-  alt: string
-  loading?: 'eager' | 'lazy'
-  className?: string
-}) {
-  const [failed, setFailed] = useState(false)
-
-  if (failed) {
-    return (
-      <div
-        className="flex aspect-[1200/825] w-full flex-col justify-end bg-[linear-gradient(135deg,#0b1c24_0%,#1496a8_52%,#e8a54b_100%)] p-5"
-        role="img"
-        aria-label={alt}
-      >
-        <p className="text-xs font-semibold tracking-[0.16em] text-white/70 uppercase">Preview</p>
-        <p className="font-display mt-2 text-xl font-bold text-white">{alt.split(' — ')[0]}</p>
-      </div>
-    )
-  }
-
+function WindowChrome({ title }: { title: string }) {
   return (
-    <img
-      src={src}
-      alt={alt}
-      className={className}
-      loading={loading}
-      decoding="async"
-      onError={() => setFailed(true)}
-    />
+    <div className="flex items-center gap-2 border-b border-line/80 bg-ink/90 px-4 py-2.5">
+      <span className="h-2 w-2 rounded-full bg-cyan" />
+      <span className="h-2 w-2 rounded-full bg-amber/80" />
+      <span className="h-2 w-2 rounded-full bg-white/30" />
+      <span className="ml-2 truncate text-[11px] font-medium text-white/70">{title}</span>
+    </div>
   )
 }
 
@@ -54,11 +26,8 @@ export function HeroVisual({ mobile = false }: { mobile?: boolean }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.35, ease: easeOut }}
         >
-          <ShowcaseImage
-            src={workflowCanvasArt}
-            alt="Workflow canvas — BonkBytes"
-            loading="eager"
-          />
+          <WindowChrome title="workflow · BonkBytes" />
+          <WorkflowCanvasArt className="block w-full" />
         </motion.div>
         <motion.div
           className="absolute -bottom-3 -left-1 flex flex-wrap gap-1.5"
@@ -143,19 +112,8 @@ export function HeroVisual({ mobile = false }: { mobile?: boolean }) {
           animate={{ y: [0, -10, 0] }}
           transition={{ duration: 7, repeat: Infinity, ease: 'easeInOut' }}
         >
-          <div className="flex items-center gap-2 border-b border-line/80 bg-ink/90 px-4 py-2.5">
-            <span className="h-2 w-2 rounded-full bg-cyan" />
-            <span className="h-2 w-2 rounded-full bg-amber/80" />
-            <span className="h-2 w-2 rounded-full bg-white/30" />
-            <span className="ml-2 truncate text-[11px] font-medium text-white/70">
-              workflow · BonkBytes
-            </span>
-          </div>
-          <ShowcaseImage
-            src={workflowCanvasArt}
-            alt="Node-based workflow canvas with cloud execution and realtime collaboration"
-            loading="eager"
-          />
+          <WindowChrome title="workflow · BonkBytes" />
+          <WorkflowCanvasArt className="block w-full" />
         </motion.div>
         <figcaption className="sr-only">BonkBytes workflow canvas product preview</figcaption>
       </motion.figure>
@@ -170,10 +128,7 @@ export function HeroVisual({ mobile = false }: { mobile?: boolean }) {
           animate={{ y: [0, 8, 0], rotate: [0, 0.8, 0] }}
           transition={{ duration: 8.5, repeat: Infinity, ease: 'easeInOut', delay: 0.4 }}
         >
-          <ShowcaseImage
-            src={nourdailyHeroArt}
-            alt="Nourdaily — Flutter content platform for the Muslim community"
-          />
+          <NourdailyPreview />
         </motion.div>
         <figcaption className="sr-only">Nourdaily personal product preview</figcaption>
       </motion.figure>
