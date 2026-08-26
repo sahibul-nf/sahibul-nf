@@ -42,7 +42,7 @@ export function ResumeModal({
             className="relative flex max-h-[92vh] w-full max-w-4xl flex-col rounded-2xl bg-foam shadow-2xl shadow-ink/40"
           >
             {/* Modal Header Actions */}
-            <div className="flex items-center justify-between border-b border-line bg-foam/90 px-5 py-4 backdrop-blur-sm sm:px-8">
+            <div className="resume-modal-header flex items-center justify-between border-b border-line bg-foam/90 px-5 py-4 backdrop-blur-sm sm:px-8">
               <div className="flex items-center gap-3">
                 <span className="h-3 w-3 rounded-full bg-cyan-deep animate-pulse" />
                 <h3 className="font-display text-lg font-bold text-ink sm:text-xl">
@@ -101,51 +101,26 @@ export function ResumeModal({
 
             {/* Resume Document Content (Scrollable) */}
             <div className="overflow-y-auto p-5 sm:p-8 md:p-12">
-              <article className="mx-auto max-w-3xl bg-white p-6 shadow-sm ring-1 ring-black/5 sm:rounded-xl sm:p-10 md:p-12 text-ink">
+              <article className="resume-document mx-auto max-w-3xl bg-white p-6 shadow-sm ring-1 ring-black/5 sm:rounded-xl sm:p-10 md:p-12 text-ink">
                 {/* Header */}
-                <header className="border-b border-line pb-6 text-center sm:text-left">
+                <header className="border-b border-line pb-6 text-left">
                   <h1 className="font-display text-3xl font-extrabold tracking-tight text-ink sm:text-4xl">
                     {resumeData.name}
                   </h1>
-                  <p className="mt-2 text-base font-semibold text-cyan-deep sm:text-lg">
+                  <p className="mt-2 text-base font-semibold text-ink sm:text-lg">
                     {resumeData.title}
                   </p>
-                  <div className="mt-3 flex flex-wrap justify-center gap-x-4 gap-y-1 text-xs text-muted sm:justify-start sm:text-sm">
+                  <p className="mt-1 text-sm text-muted">{resumeData.subtitle}</p>
+                  <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted sm:text-sm">
                     <span>{resumeData.location}</span>
-                    <span>•</span>
-                    <a
-                      href={`mailto:${resumeData.email}`}
-                      className="underline decoration-line underline-offset-2 hover:text-cyan-deep"
-                    >
-                      {resumeData.email}
-                    </a>
-                    <span>•</span>
-                    <a
-                      href={resumeData.portfolio}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="underline decoration-line underline-offset-2 hover:text-cyan-deep"
-                    >
-                      Portfolio
-                    </a>
-                    <span>•</span>
-                    <a
-                      href={resumeData.linkedin}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="underline decoration-line underline-offset-2 hover:text-cyan-deep"
-                    >
-                      LinkedIn
-                    </a>
-                    <span>•</span>
-                    <a
-                      href={resumeData.github}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="underline decoration-line underline-offset-2 hover:text-cyan-deep"
-                    >
-                      GitHub
-                    </a>
+                    <span aria-hidden>•</span>
+                    <span>{resumeData.email}</span>
+                    <span aria-hidden>•</span>
+                    <span>{resumeData.portfolio}</span>
+                    <span aria-hidden>•</span>
+                    <span>{resumeData.linkedin}</span>
+                    <span aria-hidden>•</span>
+                    <span>{resumeData.github}</span>
                   </div>
                 </header>
 
@@ -156,6 +131,16 @@ export function ResumeModal({
                   </h2>
                   <p className="mt-2 text-sm leading-relaxed text-ink/80 sm:text-base">
                     {resumeData.summary}
+                  </p>
+                </section>
+
+                {/* Core Competencies (ATS keyword block) */}
+                <section className="mt-6 border-b border-line pb-6">
+                  <h2 className="text-xs font-bold tracking-[0.16em] uppercase text-cyan-deep">
+                    Core Competencies
+                  </h2>
+                  <p className="mt-2 text-sm leading-relaxed text-ink/80">
+                    {resumeData.coreCompetencies.join(' · ')}
                   </p>
                 </section>
 
@@ -171,7 +156,7 @@ export function ResumeModal({
                           {skillGroup.category}:
                         </span>
                         <span className="text-muted sm:col-span-3">
-                          {skillGroup.items.join(' • ')}
+                          {skillGroup.items.join(', ')}
                         </span>
                       </div>
                     ))}
@@ -184,28 +169,12 @@ export function ResumeModal({
                     Professional Experience
                   </h2>
                   <div className="mt-4 space-y-6">
-                    {resumeData.experience.map((exp) => {
-                      const hasUrl = 'companyUrl' in exp && exp.companyUrl
-                      return (
+                    {resumeData.experience.map((exp) => (
                         <div key={`${exp.company}-${exp.period}`} className="space-y-2">
                           <div className="flex flex-wrap items-baseline justify-between gap-1">
                             <h3 className="text-base font-bold text-ink">
-                              {exp.role}{' '}
-                              <span className="font-normal text-muted">
-                                at{' '}
-                                {hasUrl ? (
-                                  <a
-                                    href={exp.companyUrl}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="font-medium text-cyan-deep underline decoration-cyan-deep/40 underline-offset-2 hover:text-ink"
-                                  >
-                                    {exp.company}
-                                  </a>
-                                ) : (
-                                  <span className="font-medium text-ink">{exp.company}</span>
-                                )}
-                              </span>
+                              {exp.role} — {exp.company}
+                              {exp.location ? ` (${exp.location})` : ''}
                             </h3>
                             <span className="text-xs font-medium text-muted">{exp.period}</span>
                           </div>
@@ -217,46 +186,28 @@ export function ResumeModal({
                             ))}
                           </ul>
                         </div>
-                      )
-                    })}
+                    ))}
                   </div>
                 </section>
 
                 {/* Key Featured Projects */}
                 <section className="mt-6 border-b border-line pb-6">
                   <h2 className="text-xs font-bold tracking-[0.16em] uppercase text-cyan-deep">
-                    Featured Projects & Products
+                    Selected Projects
                   </h2>
-                  <div className="mt-4 grid gap-4 sm:grid-cols-2">
-                    {resumeData.featuredProjects.map((proj) => {
-                      const hasLink = 'link' in proj && proj.link
-                      return (
-                        <div
-                          key={proj.name}
-                          className="rounded-lg border border-line bg-foam/50 p-4 transition-colors"
-                        >
-                          <div className="flex items-center justify-between gap-2">
-                            <h3 className="font-bold text-sm text-ink">{proj.name}</h3>
-                            {hasLink && (
-                              <a
-                                href={proj.link}
-                                target="_blank"
-                                rel="noreferrer"
-                                className="text-xs font-semibold text-cyan-deep underline underline-offset-2"
-                              >
-                                Link ↗
-                              </a>
-                            )}
-                          </div>
-                          <p className="mt-1 text-[11px] font-semibold text-cyan-deep">
-                            {proj.stack}
-                          </p>
-                          <p className="mt-2 text-xs leading-relaxed text-muted">
-                            {proj.summary}
-                          </p>
+                  <div className="resume-projects mt-4 space-y-4">
+                    {resumeData.featuredProjects.map((proj) => (
+                      <div key={proj.name} className="space-y-1">
+                        <div className="flex flex-wrap items-baseline justify-between gap-2">
+                          <h3 className="text-sm font-bold text-ink">{proj.name}</h3>
+                          {'link' in proj && proj.link ? (
+                            <span className="text-xs text-muted">{proj.link}</span>
+                          ) : null}
                         </div>
-                      )
-                    })}
+                        <p className="text-xs font-medium text-muted">{proj.stack}</p>
+                        <p className="text-xs leading-relaxed text-muted">{proj.summary}</p>
+                      </div>
+                    ))}
                   </div>
                 </section>
 
@@ -270,7 +221,9 @@ export function ResumeModal({
                       <h3 className="text-sm font-bold text-ink">
                         {resumeData.education.degree}
                       </h3>
-                      <p className="text-xs text-muted">{resumeData.education.school}</p>
+                      <p className="text-xs text-muted">
+                        {resumeData.education.school} · {resumeData.education.grade}
+                      </p>
                     </div>
                     <span className="text-xs text-muted">{resumeData.education.period}</span>
                   </div>

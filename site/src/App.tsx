@@ -54,7 +54,7 @@ export default function App() {
       <div className="min-h-svh">
         <Nav onOpenResume={handleOpenResume} />
         <main>
-          <Hero onOpenResume={handleOpenResume} />
+          <Hero />
           <Work />
           <CaseStudies />
           <Notes />

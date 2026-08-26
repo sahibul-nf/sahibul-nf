@@ -101,20 +101,59 @@
     display: none !important;
   }
 
-  /* Only show resume article */
+  /* Hide modal chrome; print only resume content */
+  .resume-modal-header,
+  .fixed > div > .absolute {
+    display: none !important;
+  }
+
   .fixed {
     position: static !important;
     padding: 0 !important;
     background: transparent !important;
     inset: auto !important;
+    max-height: none !important;
   }
 
-  article {
+  .fixed > div:last-child,
+  .fixed > div:nth-child(2) {
+    max-height: none !important;
+    width: 100% !important;
+    max-width: none !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+
+  .fixed .overflow-y-auto {
+    overflow: visible !important;
+    padding: 0 !important;
+  }
+
+  .resume-document {
     box-shadow: none !important;
     ring: 0 !important;
     border: none !important;
     padding: 0 !important;
     max-width: 100% !important;
     color: #111827 !important;
+    background: #ffffff !important;
+  }
+
+  .resume-document h1,
+  .resume-document h2,
+  .resume-document h3,
+  .resume-document p,
+  .resume-document li,
+  .resume-document span {
+    color: #111827 !important;
+  }
+
+  .resume-document h2 {
+    color: #0f766e !important;
+  }
+
+  .resume-projects {
+    display: block !important;
   }
 }
