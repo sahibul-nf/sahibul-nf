@@ -1,7 +1,48 @@
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { easeOut } from '../lib/motion'
+import workflowCanvasArt from '../assets/workflow-canvas.svg'
+import nourdailyHeroArt from '../assets/nourdaily-hero.svg'
 
 const stackPills = ['Flutter', 'Supabase', 'Golang', 'Realtime'] as const
+
+function ShowcaseImage({
+  src,
+  alt,
+  loading = 'lazy',
+  className = 'block w-full',
+}: {
+  src: string
+  alt: string
+  loading?: 'eager' | 'lazy'
+  className?: string
+}) {
+  const [failed, setFailed] = useState(false)
+
+  if (failed) {
+    return (
+      <div
+        className="flex aspect-[1200/825] w-full flex-col justify-end bg-[linear-gradient(135deg,#0b1c24_0%,#1496a8_52%,#e8a54b_100%)] p-5"
+        role="img"
+        aria-label={alt}
+      >
+        <p className="text-xs font-semibold tracking-[0.16em] text-white/70 uppercase">Preview</p>
+        <p className="font-display mt-2 text-xl font-bold text-white">{alt.split(' — ')[0]}</p>
+      </div>
+    )
+  }
+
+  return (
+    <img
+      src={src}
+      alt={alt}
+      className={className}
+      loading={loading}
+      decoding="async"
+      onError={() => setFailed(true)}
+    />
+  )
+}
 
 export function HeroVisual({ mobile = false }: { mobile?: boolean }) {
   if (mobile) {
@@ -13,12 +54,10 @@ export function HeroVisual({ mobile = false }: { mobile?: boolean }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.35, ease: easeOut }}
         >
-          <img
-            src="/images/canvas.svg"
-            alt="Node-based workflow canvas — BonkBytes"
-            className="block w-full"
+          <ShowcaseImage
+            src={workflowCanvasArt}
+            alt="Workflow canvas — BonkBytes"
             loading="eager"
-            decoding="async"
           />
         </motion.div>
         <motion.div
@@ -42,7 +81,6 @@ export function HeroVisual({ mobile = false }: { mobile?: boolean }) {
 
   return (
     <div className="relative h-full w-full min-h-[420px]">
-      {/* Soft glow behind showcase */}
       <motion.div
         aria-hidden
         className="absolute right-[8%] top-[12%] h-[72%] w-[58%] rounded-full bg-[radial-gradient(circle,rgb(46_196_214_/_0.22),transparent_70%)] blur-2xl"
@@ -50,7 +88,6 @@ export function HeroVisual({ mobile = false }: { mobile?: boolean }) {
         transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut' }}
       />
 
-      {/* Connection lines — Flutter → canvas → cloud */}
       <svg
         aria-hidden
         className="pointer-events-none absolute inset-0 h-full w-full text-cyan-deep/25"
@@ -96,13 +133,11 @@ export function HeroVisual({ mobile = false }: { mobile?: boolean }) {
         />
       </svg>
 
-      {/* Primary — Workflow Canvas (flagship) */}
       <motion.figure
         className="absolute right-[6%] top-[8%] w-[min(100%,420px)] overflow-hidden rounded-[1.35rem] border border-white/70 bg-foam/40 shadow-[0_32px_64px_rgb(11_28_36_/_0.2)] backdrop-blur-md"
         initial={{ opacity: 0, y: 32, rotate: 2 }}
         animate={{ opacity: 1, y: 0, rotate: 0 }}
         transition={{ duration: 1, delay: 0.25, ease: easeOut }}
-        style={{ y: 0 }}
       >
         <motion.div
           animate={{ y: [0, -10, 0] }}
@@ -113,21 +148,18 @@ export function HeroVisual({ mobile = false }: { mobile?: boolean }) {
             <span className="h-2 w-2 rounded-full bg-amber/80" />
             <span className="h-2 w-2 rounded-full bg-white/30" />
             <span className="ml-2 truncate text-[11px] font-medium text-white/70">
-              canvas · workflow · BonkBytes
+              workflow · BonkBytes
             </span>
           </div>
-          <img
-            src="/images/canvas.svg"
+          <ShowcaseImage
+            src={workflowCanvasArt}
             alt="Node-based workflow canvas with cloud execution and realtime collaboration"
-            className="block w-full"
             loading="eager"
-            decoding="async"
           />
         </motion.div>
         <figcaption className="sr-only">BonkBytes workflow canvas product preview</figcaption>
       </motion.figure>
 
-      {/* Secondary — Nourdaily */}
       <motion.figure
         className="absolute bottom-[10%] left-[2%] w-[min(48%,240px)] overflow-hidden rounded-[1.1rem] border border-white/80 bg-foam/90 shadow-[0_24px_48px_rgb(11_28_36_/_0.14)] backdrop-blur-md"
         initial={{ opacity: 0, x: -24, y: 16 }}
@@ -138,18 +170,14 @@ export function HeroVisual({ mobile = false }: { mobile?: boolean }) {
           animate={{ y: [0, 8, 0], rotate: [0, 0.8, 0] }}
           transition={{ duration: 8.5, repeat: Infinity, ease: 'easeInOut', delay: 0.4 }}
         >
-          <img
-            src="/images/nourdaily.svg"
+          <ShowcaseImage
+            src={nourdailyHeroArt}
             alt="Nourdaily — Flutter content platform for the Muslim community"
-            className="block w-full"
-            loading="lazy"
-            decoding="async"
           />
         </motion.div>
         <figcaption className="sr-only">Nourdaily personal product preview</figcaption>
       </motion.figure>
 
-      {/* Stack pills */}
       <motion.div
         className="absolute right-[4%] top-[2%] flex flex-col items-end gap-2"
         initial={{ opacity: 0, x: 12 }}
@@ -169,7 +197,6 @@ export function HeroVisual({ mobile = false }: { mobile?: boolean }) {
         ))}
       </motion.div>
 
-      {/* Live indicator */}
       <motion.div
         className="absolute bottom-[6%] right-[10%] flex items-center gap-2 rounded-full border border-cyan-deep/20 bg-foam/90 px-3 py-1.5 text-[11px] font-medium text-muted shadow-sm backdrop-blur-sm"
         initial={{ opacity: 0 }}

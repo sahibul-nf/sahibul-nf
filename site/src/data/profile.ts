@@ -27,7 +27,7 @@ export const projects = [
     blurb:
       'Real-time visual workflow platform in Flutter Web: 102K+ LOC, 18-policy canvas engine, bidirectional IaC/DBML sync, Deno edge execution, and multi-user collaboration. Details shared on request.',
     tags: ['Flutter', 'Supabase', 'Edge Functions', 'Realtime', 'AWS'],
-    image: '/images/canvas.svg',
+    image: '/images/workflow-canvas.svg',
     href: 'https://bonkbytes.com/',
     live: null,
     stars: null,
