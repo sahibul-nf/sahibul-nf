@@ -15,8 +15,10 @@ I build multi-platform Flutter products and Golang backends that hold up in prod
 * ✉️ **Email** — [sahibulnuzulfirdaus13@gmail.com](mailto:sahibulnuzulfirdaus13@gmail.com)
 * 🔭 **Focus** — Flutter · Golang · Supabase · Realtime · AWS
 
-<a href="https://www.github.com/sahibul-nf" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
-<a href="https://www.linkedin.com/in/sahibul-nf" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/LinkedIn-sahibul--nf-0891b2?logo=linkedin&style=for-the-badge&labelColor=1c1917" /></a>
+<a href="https://www.twitter.com/sahibul_nf" target="_blank" rel="noreferrer"><img src="https://img.shields.io/twitter/follow/sahibul_nf?logo=twitter&style=for-the-badge&color=0891b2&labelColor=1c1917" alt="Twitter follow" /></a>
+<a href="https://www.github.com/sahibul-nf" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/followers/sahibul-nf?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" alt="GitHub followers" /></a>
+<a href="https://www.github.com/sahibul-nf" target="_blank" rel="noreferrer"><img src="https://img.shields.io/github/stars/sahibul-nf?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" alt="GitHub stars" /></a>
+<a href="https://www.linkedin.com/in/sahibul-nf" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/LinkedIn-sahibul--nf-0891b2?logo=linkedin&style=for-the-badge&labelColor=1c1917" alt="LinkedIn" /></a>
 
 ### Selected work
 
@@ -43,6 +45,27 @@ I build multi-platform Flutter products and Golang backends that hold up in prod
 <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg" width="36" height="36" alt="TailwindCSS" /></a>
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/figma-colored.svg" width="36" height="36" alt="Figma" /></a>
 </p>
+
+### Socials
+
+<p align="left">
+<a href="https://www.dev.to/sahibul_nf" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/devdotto.svg" width="32" height="32" alt="Dev.to" /></a>
+<a href="https://www.dribbble.com/sahibul_nf" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/dribbble.svg" width="32" height="32" alt="Dribbble" /></a>
+<a href="https://www.facebook.com/sahibul.nuzul.firdaus" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" alt="Facebook" /></a>
+<a href="https://www.github.com/sahibul-nf" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub" /></a>
+<a href="http://www.instagram.com/sahibul_nf" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" alt="Instagram" /></a>
+<a href="https://www.linkedin.com/in/sahibul-nf" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" alt="LinkedIn" /></a>
+<a href="https://www.polywork.com/sahibulnf" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/polywork.svg" width="32" height="32" alt="Polywork" /></a>
+<a href="http://www.medium.com/@sahibul_nf" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" width="32" height="32" alt="Medium" /></a>
+<a href="https://www.twitter.com/sahibul_nf" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" alt="Twitter" /></a>
+<a href="https://www.youtube.com/channel/UCdWVhgD6M7D5DhwT0jfFITw" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/youtube.svg" width="32" height="32" alt="YouTube" /></a>
+</p>
+
+### Badges
+
+[![@sahibul_nf's Holopin board](https://holopin.io/api/user/board?user=sahibul_nf)](https://holopin.io/@sahibul_nf)
+
+<a href="https://app.daily.dev/sahibul_nf" target="_blank" rel="noreferrer"><img src="https://github.com/sahibul-nf/sahibul-nf/blob/main/devcard.png" width="270" alt="Sahibul Nuzul Firdaus's Dev Card" /></a>
 
 ### GitHub stats
 
