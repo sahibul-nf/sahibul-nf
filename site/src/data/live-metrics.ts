@@ -13,7 +13,12 @@ export type LiveMetrics = {
     totalLabel: string
   }
   languages: Array<{ name: string; percent: number }>
-  aiVelocityPercent: number
+  aiAssistedPercent: number | null
+  ranges?: {
+    heatmap: string
+    languages: string
+    aiAssisted: string
+  }
 }
 
 export const liveMetrics = metrics as LiveMetrics

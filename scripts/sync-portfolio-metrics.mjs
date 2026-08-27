@@ -14,7 +14,7 @@ const outPath = join(root, 'site/src/data/live-metrics.json')
 
 const GITHUB_USER = 'sahibul-nf'
 const HIGHLIGHT_REPO = 'hiQuran'
-const HEATMAP_WEEKS = 10
+const WAKATIME_RANGE = 'last_year'
 
 const defaultMetrics = {
   updatedAt: new Date().toISOString(),
@@ -33,7 +33,12 @@ const defaultMetrics = {
     { name: 'TypeScript', percent: 20 },
     { name: 'Golang', percent: 18 },
   ],
-  aiVelocityPercent: 96.7,
+  aiAssistedPercent: 96.7,
+  ranges: {
+    heatmap: 'ytd',
+    languages: 'last_12_months',
+    aiAssisted: 'last_12_months',
+  },
 }
 
 async function loadExisting() {
@@ -53,22 +58,31 @@ async function fetchJson(url, headers = {}) {
   return res.json()
 }
 
-function buildHeatmap(contributions) {
+/** Full calendar year-to-date, grouped into week columns (scroll horizontally in UI). */
+function buildHeatmapYtd(contributions) {
   const today = new Date().toISOString().slice(0, 10)
   const past = contributions.filter((cell) => cell.date <= today)
-  const days = past.slice(-HEATMAP_WEEKS * 7)
   const columns = []
 
-  for (let w = 0; w < HEATMAP_WEEKS; w++) {
+  for (let i = 0; i < past.length; i += 7) {
     const week = []
     for (let d = 0; d < 7; d++) {
-      const cell = days[w * 7 + d]
-      week.push(cell?.level ?? 0)
+      week.push(past[i + d]?.level ?? 0)
     }
     columns.push(week)
   }
 
   return columns
+}
+
+function computeAiAssistedPercent(statsData) {
+  const ai =
+    statsData?.ai_line_changes_total ??
+    (statsData?.ai_additions ?? 0) + (statsData?.ai_deletions ?? 0)
+  const human = (statsData?.human_additions ?? 0) + (statsData?.human_deletions ?? 0)
+  const total = ai + human
+  if (total <= 0) return null
+  return Math.round((ai / total) * 1000) / 10
 }
 
 function formatHours(seconds) {
@@ -117,7 +131,7 @@ async function fetchGitHubMetrics(year) {
     contributionsYtd,
     publicRepos: user.public_repos ?? defaultMetrics.github.publicRepos,
     hiQuranStars: hiQuran.stargazers_count ?? defaultMetrics.github.hiQuranStars,
-    heatmap: buildHeatmap(contrib.contributions ?? []),
+    heatmap: buildHeatmapYtd(contrib.contributions ?? []),
   }
 }
 
@@ -128,28 +142,33 @@ async function fetchWakatimeMetrics(existing) {
     return {
       wakatime: existing.wakatime,
       languages: existing.languages,
-      aiVelocityPercent: existing.aiVelocityPercent,
+      aiAssistedPercent: existing.aiAssistedPercent ?? existing.aiVelocityPercent,
+      ranges: existing.ranges ?? defaultMetrics.ranges,
     }
   }
 
   const auth = `Basic ${Buffer.from(`${apiKey}:`).toString('base64')}`
   const headers = { Authorization: auth }
 
-  const [allTime, weekStats] = await Promise.all([
+  const [allTime, yearStats] = await Promise.all([
     fetchJson('https://wakatime.com/api/v1/users/current/all_time_since_today', headers),
-    fetchJson('https://wakatime.com/api/v1/users/current/stats/last_7_days', headers),
+    fetchJson(`https://wakatime.com/api/v1/users/current/stats/${WAKATIME_RANGE}`, headers),
   ])
 
   const wakatime = formatHours(allTime.data?.total_seconds ?? existing.wakatime.totalHours * 3600)
-  const languages = pickLanguages(weekStats.data?.languages ?? [])
+  const languages = pickLanguages(yearStats.data?.languages ?? [])
+  const aiAssistedPercent =
+    computeAiAssistedPercent(yearStats.data) ??
+    existing.aiAssistedPercent ??
+    existing.aiVelocityPercent ??
+    defaultMetrics.aiAssistedPercent
 
-  const editors = weekStats.data?.editors ?? []
-  const agentEditor = editors.find((e) => /agent|cursor|copilot|ai/i.test(e.name))
-  const aiVelocityPercent = agentEditor
-    ? Math.round(agentEditor.percent * 10) / 10
-    : existing.aiVelocityPercent
-
-  return { wakatime, languages, aiVelocityPercent }
+  return {
+    wakatime,
+    languages,
+    aiAssistedPercent,
+    ranges: defaultMetrics.ranges,
+  }
 }
 
 async function main() {
@@ -163,6 +182,7 @@ async function main() {
     updatedAt: new Date().toISOString(),
     github,
     ...wakatimeBlock,
+    ranges: wakatimeBlock.ranges ?? defaultMetrics.ranges,
   }
 
   await writeFile(outPath, `${JSON.stringify(metrics, null, 2)}\n`, 'utf8')

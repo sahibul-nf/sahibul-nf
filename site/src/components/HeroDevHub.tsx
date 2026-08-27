@@ -122,14 +122,17 @@ function GitHubActivityCard() {
       </div>
 
       <div className="mt-3 rounded-xl border border-line/50 bg-mist/25 p-2.5">
-        <p className="text-[10px] font-medium text-muted">Contribution heatmap</p>
-        <div className="mt-1.5 flex gap-0.5 overflow-x-auto pb-0.5">
+        <div className="flex items-center justify-between gap-2">
+          <p className="text-[10px] font-medium text-muted">Contribution heatmap</p>
+          <p className="text-[9px] text-muted">{new Date().getFullYear()} YTD</p>
+        </div>
+        <div className="mt-1.5 flex gap-px overflow-x-auto pb-0.5 [scrollbar-width:thin]">
           {heatmap.map((week, wIdx) => (
-            <div key={`week-${wIdx}`} className="flex flex-col gap-0.5">
+            <div key={`week-${wIdx}`} className="flex flex-col gap-px">
               {week.map((lvl, dIdx) => (
                 <span
                   key={`cell-${wIdx}-${dIdx}`}
-                  className={`h-2 w-2 rounded-[1px] ${heatmapLevels[Math.min(lvl, 4)]}`}
+                  className={`h-1.5 w-1.5 rounded-[1px] ${heatmapLevels[Math.min(lvl, 4)]}`}
                 />
               ))}
             </div>
@@ -147,7 +150,7 @@ function GitHubActivityCard() {
 
 function ProofFrontCard({ tiltEnabled }: { tiltEnabled: boolean }) {
   const tiltRef = useTilt(7, tiltEnabled)
-  const { languages, aiVelocityPercent } = liveMetrics
+  const { languages, aiAssistedPercent } = liveMetrics
 
   return (
     <div className="rounded-[1.35rem] border border-white/85 bg-foam/98 p-3.5 shadow-[0_24px_48px_rgb(11_28_36_/_0.12)] backdrop-blur-md md:p-4">
@@ -178,12 +181,16 @@ function ProofFrontCard({ tiltEnabled }: { tiltEnabled: boolean }) {
             <p className="text-[10px] text-muted">100% Job Success · under 24h response</p>
           </div>
           <div className="shrink-0 rounded-lg border border-amber/25 bg-amber/10 px-2.5 py-1.5 text-center">
-            <p className="font-display text-lg font-bold text-amber">{aiVelocityPercent}%</p>
-            <p className="text-[8px] text-muted">AI velocity</p>
+            <p className="font-display text-lg font-bold text-amber">
+              {aiAssistedPercent != null ? `${aiAssistedPercent}%` : '—'}
+            </p>
+            <p className="text-[8px] text-muted">AI-assisted</p>
+            <p className="text-[7px] text-muted/80">12 mo · lines</p>
           </div>
         </div>
 
-        <div className="mt-3 grid grid-cols-3 gap-1.5 text-center">
+        <p className="mt-2 text-[9px] text-muted">Top languages · last 12 months</p>
+        <div className="mt-1 grid grid-cols-3 gap-1.5 text-center">
           {languages.map((lang) => (
             <div
               key={lang.name}
