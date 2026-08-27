@@ -1,11 +1,16 @@
 import { useEffect, useRef } from 'react'
 
-export function useTilt(strength = 10) {
+export function useTilt(strength = 10, enabled = true) {
   const ref = useRef<HTMLDivElement | null>(null)
 
   useEffect(() => {
     const el = ref.current
     if (!el) return
+
+    if (!enabled) {
+      el.style.transform = ''
+      return
+    }
 
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     if (reduce) return
@@ -27,7 +32,7 @@ export function useTilt(strength = 10) {
       el.removeEventListener('pointermove', onMove)
       el.removeEventListener('pointerleave', onLeave)
     }
-  }, [strength])
+  }, [strength, enabled])
 
   return ref
 }

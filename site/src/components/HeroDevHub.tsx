@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { profile } from '../data/profile'
 import { useTilt } from '../hooks/useTilt'
@@ -27,7 +28,12 @@ const heatmapLevels = [
 
 const stackPills = ['Flutter', 'Golang', 'Supabase', 'Realtime'] as const
 
+const devCardWideSrc =
+  'https://api.daily.dev/devcards/v2/6FVDo-ttT.png?type=wide&r=rp7'
+
 const iconSize = 20
+
+type ActiveCard = 'github' | 'proof' | null
 
 function IconImg({ id }: { id: string }) {
   return (
@@ -105,13 +111,13 @@ function GitHubActivityCard() {
   )
 }
 
-function ProofFrontCard() {
-  const tiltRef = useTilt(7)
+function ProofFrontCard({ tiltEnabled }: { tiltEnabled: boolean }) {
+  const tiltRef = useTilt(7, tiltEnabled)
 
   return (
     <div
       ref={tiltRef}
-      className="rounded-[1.35rem] border border-white/85 bg-foam/98 p-3.5 shadow-[0_24px_48px_rgb(11_28_36_/_0.12)] backdrop-blur-md transition-transform duration-200 will-change-transform md:p-4"
+      className="rounded-[1.35rem] border border-white/85 bg-foam/98 p-3.5 shadow-[0_24px_48px_rgb(11_28_36_/_0.12)] backdrop-blur-md transition-[box-shadow,transform] duration-300 will-change-transform md:p-4"
       style={{ transformStyle: 'preserve-3d' }}
     >
       <div className="flex items-start justify-between gap-2">
@@ -154,46 +160,55 @@ function ProofFrontCard() {
         ))}
       </div>
 
-      <div className="mt-3 flex gap-2.5 rounded-xl border border-line/60 bg-mist/30 p-2">
-        <a
-          href="https://app.daily.dev/sahibul_nf"
-          target="_blank"
-          rel="noreferrer"
-          className="block shrink-0 overflow-hidden rounded-lg border border-line/50 bg-ink/5"
-        >
-          <img
-            src="/images/devcard.png"
-            alt="Daily.dev DevCard preview"
-            className="h-14 w-[4.5rem] object-cover object-top"
-            loading="lazy"
-          />
-        </a>
-        <div className="flex min-w-0 flex-1 flex-col justify-center gap-1">
-          <p className="text-[10px] font-semibold text-ink">Daily.dev DevCard</p>
-          <p className="text-[9px] leading-snug text-muted">Developer profile &amp; reading stats</p>
-          <a
-            href="https://app.daily.dev/sahibul_nf"
-            target="_blank"
-            rel="noreferrer"
-            className="text-[9px] font-medium text-cyan-deep hover:underline"
-          >
-            Open daily.dev ↗
-          </a>
-        </div>
-      </div>
-
       <a
-        href="https://holopin.io/@sahibul_nf"
+        href="https://daily.dev/sahibul_nf"
         target="_blank"
         rel="noreferrer"
-        className="mt-2 flex items-center justify-between rounded-lg border border-line/60 bg-foam px-2.5 py-1.5 text-[10px] text-muted transition-colors hover:border-cyan-deep/25 hover:text-cyan-deep"
+        className="mt-3 block overflow-hidden rounded-xl border border-line/60 bg-mist/20 transition-opacity hover:opacity-95"
       >
-        <span className="flex items-center gap-1.5">
-          <span className="h-1.5 w-1.5 rounded-full bg-amber" aria-hidden />
-          Holopin badges
-        </span>
-        <span>View ↗</span>
+        <img
+          src={devCardWideSrc}
+          alt="Sahibul NF's Dev Card"
+          className="h-auto w-full"
+          width={652}
+          loading="lazy"
+        />
       </a>
+    </div>
+  )
+}
+
+function LayeredCardStack() {
+  const [activeCard, setActiveCard] = useState<ActiveCard>(null)
+
+  const githubOnTop = activeCard === 'github'
+  const proofOnTop = activeCard === 'proof' || activeCard === null
+
+  return (
+    <div className="relative">
+      <div
+        className={`relative ml-auto w-[94%] pr-1 transition-[transform,filter,z-index] duration-300 ease-out ${
+          githubOnTop ? 'z-30 scale-[1.02] -translate-y-1' : 'z-10'
+        } ${activeCard === 'proof' ? 'brightness-[0.97]' : ''}`}
+        onPointerEnter={() => setActiveCard('github')}
+        onPointerLeave={() => setActiveCard(null)}
+      >
+        <GitHubActivityCard />
+      </div>
+
+      <div
+        className={`pointer-events-none relative -mt-28 ml-0 w-[86%] transition-[transform,filter,z-index] duration-300 ease-out ${
+          proofOnTop ? (activeCard === 'proof' ? 'z-30' : 'z-20') : 'z-10'
+        } ${githubOnTop ? 'scale-[0.99] brightness-[0.96]' : ''}`}
+      >
+        <div
+          className="pointer-events-auto"
+          onPointerEnter={() => setActiveCard('proof')}
+          onPointerLeave={() => setActiveCard(null)}
+        >
+          <ProofFrontCard tiltEnabled={activeCard === 'proof'} />
+        </div>
+      </div>
     </div>
   )
 }
@@ -208,7 +223,7 @@ export function HeroDevHub({ mobile = false }: { mobile?: boolean }) {
         transition={{ duration: 0.7, ease: easeOut }}
       >
         <GitHubActivityCard />
-        <ProofFrontCard />
+        <ProofFrontCard tiltEnabled={false} />
         <div className="flex flex-wrap gap-2">
           {stackPills.map((pill) => (
             <span
@@ -235,24 +250,7 @@ export function HeroDevHub({ mobile = false }: { mobile?: boolean }) {
         className="pointer-events-none absolute -inset-3 rounded-[2rem] bg-[radial-gradient(circle_at_70%_20%,rgb(46_196_214_/_0.14),transparent_55%)] blur-2xl"
       />
 
-      {/* Layered cards — back card header stays visible above front overlap */}
-      <div className="relative">
-        <motion.div
-          className="relative z-0 ml-auto w-[94%] pr-1"
-          animate={{ y: [0, -6, 0] }}
-          transition={{ duration: 9, repeat: Infinity, ease: 'easeInOut' }}
-        >
-          <GitHubActivityCard />
-        </motion.div>
-
-        <motion.div
-          className="relative z-10 -mt-28 ml-0 w-[86%]"
-          animate={{ y: [0, 5, 0] }}
-          transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut', delay: 0.4 }}
-        >
-          <ProofFrontCard />
-        </motion.div>
-      </div>
+      <LayeredCardStack />
 
       <motion.div
         className="relative z-20 mt-5 flex flex-wrap gap-2"
