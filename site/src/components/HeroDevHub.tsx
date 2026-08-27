@@ -319,8 +319,8 @@ function LayeredCardStack() {
           githubOnTop ? 'z-30' : 'z-10'
         }`}
         paused={floatPaused}
-        amplitude={5}
-        duration={12}
+        amplitude={14}
+        duration={7}
         delay={0}
       >
         <div onPointerEnter={() => setActiveCard('github')} onPointerLeave={() => setActiveCard(null)}>
@@ -333,9 +333,9 @@ function LayeredCardStack() {
           proofOnTop ? (activeCard === 'proof' ? 'z-30' : 'z-20') : 'z-10'
         }`}
         paused={floatPaused}
-        amplitude={4}
-        duration={10}
-        delay={0.6}
+        amplitude={11}
+        duration={5.5}
+        delay={0.5}
       >
         <div
           className="pointer-events-auto"
