@@ -1,22 +1,9 @@
-import { useState } from 'react'
-import { motion } from 'framer-motion'
+import { useState, type ReactNode } from 'react'
+import { motion, useReducedMotion } from 'framer-motion'
 import { profile } from '../data/profile'
+import { formatStat, liveMetrics } from '../data/live-metrics'
 import { useTilt } from '../hooks/useTilt'
 import { easeOut } from '../lib/motion'
-
-/** 10 weeks — keeps back card shorter so overlap stays readable */
-const contributionWeeks = [
-  [1, 2, 3, 2, 1, 0, 2],
-  [2, 3, 4, 3, 2, 1, 3],
-  [3, 4, 4, 3, 2, 1, 2],
-  [2, 3, 4, 4, 3, 2, 3],
-  [1, 2, 4, 3, 2, 1, 1],
-  [3, 4, 4, 4, 3, 2, 4],
-  [2, 3, 4, 3, 2, 1, 2],
-  [4, 4, 3, 4, 3, 2, 3],
-  [3, 3, 4, 4, 3, 2, 2],
-  [2, 4, 4, 3, 2, 1, 3],
-] as const
 
 const heatmapLevels = [
   'bg-ink/6',
@@ -28,8 +15,11 @@ const heatmapLevels = [
 
 const stackPills = ['Flutter', 'Golang', 'Supabase', 'Realtime'] as const
 
-const devCardWideSrc =
-  'https://api.daily.dev/devcards/v2/6FVDo-ttT.png?type=wide&r=rp7'
+const langColors: Record<string, string> = {
+  Dart: 'text-cyan-deep',
+  TypeScript: 'text-amber',
+  Golang: 'text-[#00ADD8]',
+}
 
 const iconSize = 20
 
@@ -48,7 +38,51 @@ function IconImg({ id }: { id: string }) {
   )
 }
 
+function FloatingLayer({
+  children,
+  className = '',
+  paused = false,
+  delay = 0,
+  amplitude = 4,
+  duration = 11,
+}: {
+  children: ReactNode
+  className?: string
+  paused?: boolean
+  delay?: number
+  amplitude?: number
+  duration?: number
+}) {
+  const reduceMotion = useReducedMotion()
+
+  if (reduceMotion || paused) {
+    return <div className={className}>{children}</div>
+  }
+
+  return (
+    <motion.div
+      className={className}
+      animate={{ y: [-amplitude, amplitude] }}
+      transition={{
+        duration,
+        repeat: Infinity,
+        repeatType: 'mirror',
+        ease: 'easeInOut',
+        delay,
+      }}
+    >
+      {children}
+    </motion.div>
+  )
+}
+
 function GitHubActivityCard() {
+  const { github, wakatime } = liveMetrics
+  const heatmap =
+    github.heatmap.length > 0
+      ? github.heatmap
+      : Array.from({ length: 10 }, () => Array(7).fill(0))
+
   return (
     <div className="rounded-[1.35rem] border border-white/80 bg-foam/95 p-4 shadow-[0_16px_40px_rgb(11_28_36_/_0.08)] backdrop-blur-md md:p-4">
       <div className="flex items-center justify-between gap-2">
@@ -58,7 +92,7 @@ function GitHubActivityCard() {
           </span>
           <div>
             <p className="text-xs font-semibold text-ink">GitHub Activity</p>
-            <p className="text-[10px] text-muted">Active shipping · 2026</p>
+            <p className="text-[10px] text-muted">Active shipping · {new Date().getFullYear()}</p>
           </div>
         </div>
         <a
@@ -73,9 +107,9 @@ function GitHubActivityCard() {
 
       <div className="mt-3 grid grid-cols-3 gap-2">
         {[
-          { value: '919+', label: 'Commits' },
-          { value: '65★', label: 'hiQuran' },
-          { value: '61', label: 'Repos' },
+          { value: `${formatStat(github.contributionsYtd)}+`, label: 'Contributions' },
+          { value: `${github.hiQuranStars}★`, label: 'hiQuran' },
+          { value: String(github.publicRepos), label: 'Repos' },
         ].map((item) => (
           <div
             key={item.label}
@@ -90,12 +124,12 @@ function GitHubActivityCard() {
       <div className="mt-3 rounded-xl border border-line/50 bg-mist/25 p-2.5">
         <p className="text-[10px] font-medium text-muted">Contribution heatmap</p>
         <div className="mt-1.5 flex gap-0.5 overflow-x-auto pb-0.5">
-          {contributionWeeks.map((week, wIdx) => (
+          {heatmap.map((week, wIdx) => (
             <div key={`week-${wIdx}`} className="flex flex-col gap-0.5">
               {week.map((lvl, dIdx) => (
                 <span
                   key={`cell-${wIdx}-${dIdx}`}
-                  className={`h-2 w-2 rounded-[1px] ${heatmapLevels[lvl]}`}
+                  className={`h-2 w-2 rounded-[1px] ${heatmapLevels[Math.min(lvl, 4)]}`}
                 />
               ))}
             </div>
@@ -105,7 +139,7 @@ function GitHubActivityCard() {
 
       <div className="mt-2.5 flex items-center justify-between rounded-lg border border-cyan-deep/12 bg-cyan-deep/5 px-2.5 py-1.5 text-[10px]">
         <span className="text-muted">Wakatime tracked</span>
-        <span className="font-semibold text-cyan-deep">4,683+ hrs</span>
+        <span className="font-semibold text-cyan-deep">{wakatime.totalLabel}</span>
       </div>
     </div>
   )
@@ -113,67 +147,58 @@ function GitHubActivityCard() {
 
 function ProofFrontCard({ tiltEnabled }: { tiltEnabled: boolean }) {
   const tiltRef = useTilt(7, tiltEnabled)
+  const { languages, aiVelocityPercent } = liveMetrics
 
   return (
-    <div
-      ref={tiltRef}
-      className="rounded-[1.35rem] border border-white/85 bg-foam/98 p-3.5 shadow-[0_24px_48px_rgb(11_28_36_/_0.12)] backdrop-blur-md transition-[box-shadow,transform] duration-300 will-change-transform md:p-4"
-      style={{ transformStyle: 'preserve-3d' }}
-    >
-      <div className="flex items-start justify-between gap-2">
-        <div className="min-w-0">
-          <a
-            href={profile.links.upwork}
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex items-center gap-1.5 rounded-full border border-[#ff69b4]/35 bg-[#ff69b4]/8 px-2 py-0.5 text-[9px] font-bold tracking-wide text-[#d63384]"
-          >
-            <img
-              src="https://img.icons8.com/?id=63306&format=png&size=16"
-              alt=""
-              className="h-3.5 w-3.5"
-              width={14}
-              height={14}
-              aria-hidden
-            />
-            Top Rated Plus
-          </a>
-          <p className="mt-1.5 font-display text-base font-bold text-ink">Upwork · 5.0 ★</p>
-          <p className="text-[10px] text-muted">100% Job Success · under 24h response</p>
-        </div>
-        <div className="shrink-0 rounded-lg border border-amber/25 bg-amber/10 px-2.5 py-1.5 text-center">
-          <p className="font-display text-lg font-bold text-amber">96.7%</p>
-          <p className="text-[8px] text-muted">AI velocity</p>
-        </div>
-      </div>
-
-      <div className="mt-3 grid grid-cols-3 gap-1.5 text-center">
-        {[
-          { label: 'Dart', pct: '44%', color: 'text-cyan-deep' },
-          { label: 'TypeScript', pct: '20%', color: 'text-amber' },
-          { label: 'Golang', pct: '18%', color: 'text-[#00ADD8]' },
-        ].map((lang) => (
-          <div key={lang.label} className="rounded-lg border border-line/60 bg-mist/30 px-1 py-1.5">
-            <p className={`font-display text-sm font-bold ${lang.color}`}>{lang.pct}</p>
-            <p className="text-[8px] text-muted">{lang.label}</p>
-          </div>
-        ))}
-      </div>
-
-      <a
-        href="https://daily.dev/sahibul_nf"
-        target="_blank"
-        rel="noreferrer"
-        className="mt-3 block overflow-hidden rounded-xl border border-line/60 bg-mist/20 transition-opacity hover:opacity-95"
+    <div className="rounded-[1.35rem] border border-white/85 bg-foam/98 p-3.5 shadow-[0_24px_48px_rgb(11_28_36_/_0.12)] backdrop-blur-md md:p-4">
+      <div
+        ref={tiltRef}
+        className="transition-[transform] duration-200 will-change-transform"
+        style={{ transformStyle: 'preserve-3d' }}
       >
-        <img
-          src={devCardWideSrc}
-          alt="Sahibul NF's Dev Card"
-          className="h-auto w-full"
-          width={652}
-          loading="lazy"
-        />
-      </a>
+        <div className="flex items-start justify-between gap-2">
+          <div className="min-w-0">
+            <a
+              href={profile.links.upwork}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-full border border-[#ff69b4]/35 bg-[#ff69b4]/8 px-2 py-0.5 text-[9px] font-bold tracking-wide text-[#d63384]"
+            >
+              <img
+                src="https://img.icons8.com/?id=63306&format=png&size=16"
+                alt=""
+                className="h-3.5 w-3.5"
+                width={14}
+                height={14}
+                aria-hidden
+              />
+              Top Rated Plus
+            </a>
+            <p className="mt-1.5 font-display text-base font-bold text-ink">Upwork · 5.0 ★</p>
+            <p className="text-[10px] text-muted">100% Job Success · under 24h response</p>
+          </div>
+          <div className="shrink-0 rounded-lg border border-amber/25 bg-amber/10 px-2.5 py-1.5 text-center">
+            <p className="font-display text-lg font-bold text-amber">{aiVelocityPercent}%</p>
+            <p className="text-[8px] text-muted">AI velocity</p>
+          </div>
+        </div>
+
+        <div className="mt-3 grid grid-cols-3 gap-1.5 text-center">
+          {languages.map((lang) => (
+            <div
+              key={lang.name}
+              className="rounded-lg border border-line/60 bg-mist/30 px-1 py-1.5"
+            >
+              <p
+                className={`font-display text-sm font-bold ${langColors[lang.name] ?? 'text-ink'}`}
+              >
+                {lang.percent}%
+              </p>
+              <p className="text-[8px] text-muted">{lang.name}</p>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   )
 }
@@ -183,32 +208,49 @@ function LayeredCardStack() {
 
   const githubOnTop = activeCard === 'github'
   const proofOnTop = activeCard === 'proof' || activeCard === null
+  const floatPaused = activeCard !== null
 
   return (
     <div className="relative">
-      <div
-        className={`relative ml-auto w-[94%] pr-1 transition-[transform,filter,z-index] duration-300 ease-out ${
-          githubOnTop ? 'z-30 scale-[1.02] -translate-y-1' : 'z-10'
+      <FloatingLayer
+        className={`relative ml-auto w-[94%] pr-1 transition-[filter,z-index] duration-300 ease-out ${
+          githubOnTop ? 'z-30' : 'z-10'
         } ${activeCard === 'proof' ? 'brightness-[0.97]' : ''}`}
-        onPointerEnter={() => setActiveCard('github')}
-        onPointerLeave={() => setActiveCard(null)}
-      >
-        <GitHubActivityCard />
-      </div>
-
-      <div
-        className={`pointer-events-none relative -mt-28 ml-0 w-[86%] transition-[transform,filter,z-index] duration-300 ease-out ${
-          proofOnTop ? (activeCard === 'proof' ? 'z-30' : 'z-20') : 'z-10'
-        } ${githubOnTop ? 'scale-[0.99] brightness-[0.96]' : ''}`}
+        paused={floatPaused}
+        amplitude={5}
+        duration={12}
+        delay={0}
       >
         <div
-          className="pointer-events-auto"
+          className={`transition-transform duration-300 ease-out ${
+            githubOnTop ? 'scale-[1.02] -translate-y-1' : ''
+          }`}
+          onPointerEnter={() => setActiveCard('github')}
+          onPointerLeave={() => setActiveCard(null)}
+        >
+          <GitHubActivityCard />
+        </div>
+      </FloatingLayer>
+
+      <FloatingLayer
+        className={`pointer-events-none relative -mt-28 ml-0 w-[86%] transition-[filter,z-index] duration-300 ease-out ${
+          proofOnTop ? (activeCard === 'proof' ? 'z-30' : 'z-20') : 'z-10'
+        } ${githubOnTop ? 'brightness-[0.96]' : ''}`}
+        paused={floatPaused}
+        amplitude={4}
+        duration={10}
+        delay={0.6}
+      >
+        <div
+          className={`pointer-events-auto transition-transform duration-300 ease-out ${
+            githubOnTop ? 'scale-[0.99]' : ''
+          }`}
           onPointerEnter={() => setActiveCard('proof')}
           onPointerLeave={() => setActiveCard(null)}
         >
           <ProofFrontCard tiltEnabled={activeCard === 'proof'} />
         </div>
-      </div>
+      </FloatingLayer>
     </div>
   )
 }
