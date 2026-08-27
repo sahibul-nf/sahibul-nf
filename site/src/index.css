@@ -1,0 +1,282 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Syne', ui-sans-serif, system-ui, sans-serif;
+  --font-body: 'Figtree', ui-sans-serif, system-ui, sans-serif;
+
+  --color-ink: #0b1c24;
+  --color-ink-soft: #1a3340;
+  --color-mist: #e7f3f6;
+  --color-foam: #f5fafb;
+  --color-cyan: #2ec4d6;
+  --color-cyan-deep: #1496a8;
+  --color-sand: #efe4d4;
+  --color-amber: #e8a54b;
+  --color-muted: #5a6f78;
+  --color-line: rgb(11 28 36 / 0.12);
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    overflow-x: clip;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    overflow-x: clip;
+    font-family: var(--font-body);
+    color: var(--color-ink);
+    background: var(--color-foam);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  img,
+  svg,
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-cyan) 45%, white);
+    color: var(--color-ink);
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button {
+    font: inherit;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .grain {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
+  }
+}
+
+/* Print Styles for PDF generation */
+@media print {
+  @page {
+    margin: 0.65cm 0.7cm;
+    size: A4 portrait;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    overflow: visible !important;
+  }
+
+  /* Hide everything on main site during print */
+  .site-header,
+  nav,
+  main,
+  footer,
+  #top,
+  #work,
+  #cases,
+  #notes,
+  #experience,
+  #about,
+  #contact {
+    display: none !important;
+  }
+
+  /* Hide modal chrome; print only resume content */
+  .resume-modal-header,
+  .fixed > div > .absolute {
+    display: none !important;
+  }
+
+  .fixed {
+    position: static !important;
+    padding: 0 !important;
+    background: transparent !important;
+    inset: auto !important;
+    max-height: none !important;
+  }
+
+  .fixed > div:last-child,
+  .fixed > div:nth-child(2) {
+    max-height: none !important;
+    width: 100% !important;
+    max-width: none !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+
+  .fixed .overflow-y-auto {
+    overflow: visible !important;
+    padding: 0 !important;
+  }
+
+  .resume-document {
+    box-shadow: none !important;
+    ring: 0 !important;
+    border: none !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    color: #111827 !important;
+    background: #ffffff !important;
+  }
+
+  .resume-header {
+    display: block !important;
+  }
+
+  .resume-document h1,
+  .resume-document h2,
+  .resume-document h3,
+  .resume-document p,
+  .resume-document li,
+  .resume-document span {
+    color: #111827 !important;
+  }
+
+  .resume-document h2 {
+    color: #0f766e !important;
+  }
+
+  .resume-projects {
+    display: block !important;
+  }
+
+  /* 1-page compact export */
+  body[data-resume-print='compact'] .resume-document {
+    font-size: 10pt !important;
+    line-height: 1.38 !important;
+  }
+
+  body[data-resume-print='compact'] .resume-header {
+    padding-bottom: 0.38cm !important;
+    margin-bottom: 0.22cm !important;
+  }
+
+  body[data-resume-print='compact'] .resume-document h1 {
+    font-size: 19pt !important;
+    line-height: 1.12 !important;
+    margin: 0 !important;
+  }
+
+  body[data-resume-print='compact'] .resume-contact {
+    font-size: 8.5pt !important;
+    line-height: 1.42 !important;
+    margin-top: 0.16cm !important;
+  }
+
+  body[data-resume-print='compact'] .resume-section {
+    margin-top: 0.4cm !important;
+    padding-bottom: 0.3cm !important;
+    break-inside: avoid;
+  }
+
+  body[data-resume-print='compact'] .resume-section-title {
+    font-size: 8.5pt !important;
+    margin-bottom: 0.12cm !important;
+  }
+
+  body[data-resume-print='compact'] .resume-body,
+  body[data-resume-print='compact'] .resume-experience li,
+  body[data-resume-print='compact'] .resume-projects p,
+  body[data-resume-print='compact'] .resume-projects h3,
+  body[data-resume-print='compact'] .resume-earlier,
+  body[data-resume-print='compact'] .resume-education {
+    font-size: 9.75pt !important;
+    line-height: 1.38 !important;
+  }
+
+  body[data-resume-print='compact'] .resume-experience {
+    margin-top: 0.16cm !important;
+  }
+
+  body[data-resume-print='compact'] .resume-experience > div {
+    margin-bottom: 0.26cm !important;
+  }
+
+  body[data-resume-print='compact'] .resume-experience h3 {
+    font-size: 10pt !important;
+    line-height: 1.3 !important;
+  }
+
+  body[data-resume-print='compact'] .resume-experience li {
+    margin-bottom: 0.06cm !important;
+  }
+
+  body[data-resume-print='compact'] .resume-projects > div {
+    margin-bottom: 0.18cm !important;
+  }
+
+  /* 2-page extended export */
+  body[data-resume-print='extended'] .resume-document {
+    font-size: 10pt !important;
+    line-height: 1.32 !important;
+  }
+
+  body[data-resume-print='extended'] .resume-header {
+    padding-bottom: 0.35cm !important;
+    margin-bottom: 0.2cm !important;
+  }
+
+  body[data-resume-print='extended'] .resume-document h1 {
+    font-size: 18pt !important;
+    line-height: 1.12 !important;
+    margin: 0 !important;
+  }
+
+  body[data-resume-print='extended'] .resume-contact {
+    font-size: 8.5pt !important;
+    line-height: 1.4 !important;
+  }
+
+  body[data-resume-print='extended'] .resume-section {
+    margin-top: 0.38cm !important;
+    padding-bottom: 0.28cm !important;
+  }
+
+  body[data-resume-print='extended'] .resume-section-title {
+    font-size: 8.5pt !important;
+  }
+
+  body[data-resume-print='extended'] .resume-body,
+  body[data-resume-print='extended'] .resume-skills,
+  body[data-resume-print='extended'] .resume-experience li,
+  body[data-resume-print='extended'] .resume-projects p,
+  body[data-resume-print='extended'] .resume-education {
+    font-size: 9.5pt !important;
+    line-height: 1.32 !important;
+  }
+
+  body[data-resume-print='extended'] .resume-experience > div {
+    margin-bottom: 0.24cm !important;
+    break-inside: avoid;
+  }
+
+  body[data-resume-print='extended'] .resume-experience h3,
+  body[data-resume-print='extended'] .resume-projects h3 {
+    font-size: 10pt !important;
+  }
+
+  body[data-resume-print='extended'] .resume-projects > div {
+    break-inside: avoid;
+  }
+}

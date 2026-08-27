@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="825" viewBox="0 0 1200 825" fill="none">
+  <rect width="1200" height="825" fill="#EFE4D4"/>
+  <circle cx="980" cy="140" r="220" fill="#1496A8" fill-opacity="0.25"/>
+  <rect x="180" y="150" width="840" height="525" rx="28" fill="#0B1C24"/>
+  <text x="240" y="260" fill="#2EC4D6" font-family="Arial, sans-serif" font-size="20" font-weight="700">GET /api/v1/campaigns</text>
+  <rect x="240" y="290" width="720" height="280" rx="16" fill="#1A3340"/>
+  <text x="280" y="350" fill="#F5FAFB" font-family="monospace" font-size="22">{</text>
+  <text x="300" y="390" fill="#9FE7F0" font-family="monospace" font-size="20">"status": "success",</text>
+  <text x="300" y="430" fill="#9FE7F0" font-family="monospace" font-size="20">"engine": "golang-gin",</text>
+  <text x="300" y="470" fill="#9FE7F0" font-family="monospace" font-size="20">"auth": "jwt",</text>
+  <text x="300" y="510" fill="#9FE7F0" font-family="monospace" font-size="20">"db": "postgresql"</text>
+  <text x="280" y="550" fill="#F5FAFB" font-family="monospace" font-size="22">}</text>
+  <text x="240" y="620" fill="#F5FAFB" font-family="Arial, sans-serif" font-size="32" font-weight="700">Moyu API</text>
+</svg>
