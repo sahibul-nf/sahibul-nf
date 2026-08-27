@@ -9,7 +9,6 @@ import {
   normalizeHeatmap,
   type HeatmapCell,
 } from '../data/live-metrics'
-import { useTilt } from '../hooks/useTilt'
 import { easeOut } from '../lib/motion'
 import { Tooltip } from './Tooltip'
 import { TopRatedPlusIcon } from './TopRatedPlusIcon'
@@ -71,7 +70,8 @@ function FloatingLayer({
 
   return (
     <motion.div
-      className={className}
+      className={`transform-gpu [backface-visibility:hidden] ${className}`}
+      style={{ willChange: 'transform' }}
       animate={{ y: [-amplitude, amplitude] }}
       transition={{
         duration,
@@ -175,7 +175,7 @@ function GitHubActivityCard() {
   })
 
   return (
-    <div className="overflow-visible rounded-[1.35rem] border border-white/80 bg-foam p-4 shadow-[0_16px_40px_rgb(11_28_36_/_0.08)] md:p-4">
+    <div className="isolate overflow-visible rounded-[1.35rem] border border-white/80 bg-foam p-4 shadow-[0_16px_40px_rgb(11_28_36_/_0.08)] md:p-4">
       <div className="flex items-center justify-between gap-2">
         <Tooltip content={`Public GitHub profile · synced ${updated}`}>
           <div className="flex cursor-default items-center gap-2">
@@ -245,18 +245,12 @@ function GitHubActivityCard() {
   )
 }
 
-function ProofFrontCard({ tiltEnabled }: { tiltEnabled: boolean }) {
-  const tiltRef = useTilt(7, tiltEnabled)
+function ProofFrontCard() {
   const { languages, aiAssistedPercent } = liveMetrics
 
   return (
-    <div className="overflow-visible rounded-[1.35rem] border border-white/85 bg-foam p-3.5 shadow-[0_24px_48px_rgb(11_28_36_/_0.12)] md:p-4">
-      <div
-        ref={tiltRef}
-        className="transition-[transform] duration-200 will-change-transform"
-        style={{ transformStyle: 'preserve-3d' }}
-      >
-        <div className="flex items-start justify-between gap-2">
+    <div className="isolate overflow-visible rounded-[1.35rem] border border-white/85 bg-foam p-3.5 shadow-[0_24px_48px_rgb(11_28_36_/_0.12)] md:p-4">
+      <div className="flex items-start justify-between gap-2">
           <div className="min-w-0">
             <Tooltip content="Upwork Top Rated Plus — among the highest-rated freelancers on Upwork">
               <a
@@ -307,7 +301,6 @@ function ProofFrontCard({ tiltEnabled }: { tiltEnabled: boolean }) {
             </Tooltip>
           ))}
         </div>
-      </div>
     </div>
   )
 }
@@ -330,13 +323,7 @@ function LayeredCardStack() {
         duration={12}
         delay={0}
       >
-        <div
-          className={`transition-transform duration-300 ease-out ${
-            githubOnTop ? 'scale-[1.02] -translate-y-1' : ''
-          }`}
-          onPointerEnter={() => setActiveCard('github')}
-          onPointerLeave={() => setActiveCard(null)}
-        >
+        <div onPointerEnter={() => setActiveCard('github')} onPointerLeave={() => setActiveCard(null)}>
           <GitHubActivityCard />
         </div>
       </FloatingLayer>
@@ -351,13 +338,11 @@ function LayeredCardStack() {
         delay={0.6}
       >
         <div
-          className={`pointer-events-auto transition-transform duration-300 ease-out ${
-            githubOnTop ? 'scale-[0.99]' : ''
-          }`}
+          className="pointer-events-auto"
           onPointerEnter={() => setActiveCard('proof')}
           onPointerLeave={() => setActiveCard(null)}
         >
-          <ProofFrontCard tiltEnabled={activeCard === 'proof'} />
+          <ProofFrontCard />
         </div>
       </FloatingLayer>
     </div>
@@ -374,7 +359,7 @@ export function HeroDevHub({ mobile = false }: { mobile?: boolean }) {
         transition={{ duration: 0.7, ease: easeOut }}
       >
         <GitHubActivityCard />
-        <ProofFrontCard tiltEnabled={false} />
+        <ProofFrontCard />
         <div className="flex flex-wrap gap-2">
           {stackPills.map((pill) => (
             <span
@@ -398,7 +383,7 @@ export function HeroDevHub({ mobile = false }: { mobile?: boolean }) {
     >
       <div
         aria-hidden
-        className="pointer-events-none absolute -inset-3 rounded-[2rem] bg-[radial-gradient(circle_at_70%_20%,rgb(46_196_214_/_0.14),transparent_55%)] blur-2xl"
+        className="pointer-events-none absolute -inset-3 rounded-[2rem] bg-[radial-gradient(circle_at_70%_20%,rgb(46_196_214_/_0.12),transparent_55%)]"
       />
 
       <LayeredCardStack />
