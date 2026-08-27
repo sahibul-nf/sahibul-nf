@@ -1,9 +1,17 @@
 import { useState, type ReactNode } from 'react'
 import { motion, useReducedMotion } from 'framer-motion'
 import { profile } from '../data/profile'
-import { formatStat, liveMetrics } from '../data/live-metrics'
+import {
+  buildHeatmapMonthLabels,
+  formatContributionTooltip,
+  formatStat,
+  liveMetrics,
+  normalizeHeatmap,
+  type HeatmapCell,
+} from '../data/live-metrics'
 import { useTilt } from '../hooks/useTilt'
 import { easeOut } from '../lib/motion'
+import { Tooltip } from './Tooltip'
 
 const heatmapLevels = [
   'bg-ink/6',
@@ -22,6 +30,7 @@ const langColors: Record<string, string> = {
 }
 
 const iconSize = 20
+const currentYear = new Date().getFullYear()
 
 type ActiveCard = 'github' | 'proof' | null
 
@@ -76,25 +85,100 @@ function FloatingLayer({
   )
 }
 
+function ContributionHeatmap() {
+  const weeks = normalizeHeatmap(liveMetrics.github.heatmap)
+  const monthLabels = buildHeatmapMonthLabels(weeks)
+  const [hovered, setHovered] = useState<HeatmapCell | null>(null)
+
+  if (weeks.length === 0) {
+    return (
+      <div className="mt-3 rounded-xl border border-line/50 bg-mist/25 p-2.5">
+        <p className="text-[10px] font-medium text-muted">Contribution heatmap</p>
+        <p className="mt-1 text-[9px] text-muted">No contribution data yet</p>
+      </div>
+    )
+  }
+
+  return (
+    <div className="mt-3 rounded-xl border border-line/50 bg-mist/25 p-2.5">
+      <div className="flex items-center justify-between gap-2">
+        <p className="text-[10px] font-medium text-muted">Contribution heatmap</p>
+        <p className="text-[9px] text-muted">{currentYear} YTD</p>
+      </div>
+
+      <div className="mt-1 overflow-x-auto pb-0.5 [scrollbar-width:thin]">
+        <div className="inline-flex min-w-0 flex-col gap-0.5">
+          <div className="flex h-3 gap-px">
+            {monthLabels.map((month, idx) => (
+              <div key={`month-${idx}`} className="relative w-1.5 shrink-0">
+                {month.show ? (
+                  <span className="absolute left-0 top-0 whitespace-nowrap text-[8px] leading-none text-muted">
+                    {month.label}
+                  </span>
+                ) : null}
+              </div>
+            ))}
+          </div>
+
+          <div className="flex gap-px">
+            {weeks.map((week, wIdx) => (
+              <div key={`week-${wIdx}`} className="flex flex-col gap-px">
+                {week.map((cell, dIdx) => {
+                  const level = Math.min(cell.level, 4)
+                  const tip = formatContributionTooltip(cell.date, cell.count)
+                  const isActive = hovered?.date === cell.date
+
+                  return (
+                    <Tooltip key={cell.date || `cell-${wIdx}-${dIdx}`} content={tip}>
+                      <button
+                        type="button"
+                        className={`h-1.5 w-1.5 rounded-[1px] transition-shadow hover:ring-1 hover:ring-cyan-deep/60 focus:outline-none focus-visible:ring-1 focus-visible:ring-cyan-deep ${heatmapLevels[level]} ${isActive ? 'ring-1 ring-cyan-deep' : ''}`}
+                        aria-label={tip}
+                        onMouseEnter={() => setHovered(cell)}
+                        onMouseLeave={() => setHovered(null)}
+                        onFocus={() => setHovered(cell)}
+                        onBlur={() => setHovered(null)}
+                      />
+                    </Tooltip>
+                  )
+                })}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <p className="mt-1.5 min-h-[1.1rem] text-[9px] text-muted" aria-live="polite">
+        {hovered
+          ? formatContributionTooltip(hovered.date, hovered.count)
+          : 'Hover a square for contribution details'}
+      </p>
+    </div>
+  )
+}
+
 function GitHubActivityCard() {
   const { github, wakatime } = liveMetrics
-  const heatmap =
-    github.heatmap.length > 0
-      ? github.heatmap
-      : Array.from({ length: 10 }, () => Array(7).fill(0))
+  const updated = new Date(liveMetrics.updatedAt).toLocaleDateString('en-US', {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+  })
 
   return (
     <div className="rounded-[1.35rem] border border-white/80 bg-foam/95 p-4 shadow-[0_16px_40px_rgb(11_28_36_/_0.08)] backdrop-blur-md md:p-4">
       <div className="flex items-center justify-between gap-2">
-        <div className="flex items-center gap-2">
-          <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-ink/5">
-            <IconImg id="12599" />
-          </span>
-          <div>
-            <p className="text-xs font-semibold text-ink">GitHub Activity</p>
-            <p className="text-[10px] text-muted">Active shipping · {new Date().getFullYear()}</p>
+        <Tooltip content={`Public GitHub profile · synced ${updated}`}>
+          <div className="flex cursor-default items-center gap-2">
+            <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-ink/5">
+              <IconImg id="12599" />
+            </span>
+            <div>
+              <p className="text-xs font-semibold text-ink">GitHub Activity</p>
+              <p className="text-[10px] text-muted">Active shipping · {currentYear}</p>
+            </div>
           </div>
-        </div>
+        </Tooltip>
         <a
           href={profile.links.github}
           target="_blank"
@@ -106,44 +190,47 @@ function GitHubActivityCard() {
       </div>
 
       <div className="mt-3 grid grid-cols-3 gap-2">
-        {[
-          { value: `${formatStat(github.contributionsYtd)}+`, label: 'Contributions' },
-          { value: `${github.hiQuranStars}★`, label: 'hiQuran' },
-          { value: String(github.publicRepos), label: 'Repos' },
-        ].map((item) => (
-          <div
-            key={item.label}
-            className="rounded-lg border border-line/70 bg-mist/40 px-2 py-1.5 text-center"
-          >
-            <p className="font-display text-base font-bold text-ink">{item.value}</p>
-            <p className="text-[9px] text-muted">{item.label}</p>
+        <Tooltip
+          content={`${formatStat(github.contributionsYtd)} contributions on GitHub in ${currentYear}`}
+          className="w-full"
+        >
+          <div className="cursor-default rounded-lg border border-line/70 bg-mist/40 px-2 py-1.5 text-center">
+            <p className="font-display text-base font-bold text-ink">
+              {formatStat(github.contributionsYtd)}+
+            </p>
+            <p className="text-[9px] text-muted">Contributions</p>
           </div>
-        ))}
+        </Tooltip>
+
+        <Tooltip
+          content={`hiQuran open-source project · ${github.hiQuranStars} GitHub stars`}
+          className="w-full"
+        >
+          <div className="cursor-default rounded-lg border border-line/70 bg-mist/40 px-2 py-1.5 text-center">
+            <p className="font-display text-base font-bold text-ink">{github.hiQuranStars}★</p>
+            <p className="text-[9px] text-muted">hiQuran</p>
+          </div>
+        </Tooltip>
+
+        <Tooltip content={`${github.publicRepos} public repositories on GitHub`} className="w-full">
+          <div className="cursor-default rounded-lg border border-line/70 bg-mist/40 px-2 py-1.5 text-center">
+            <p className="font-display text-base font-bold text-ink">{github.publicRepos}</p>
+            <p className="text-[9px] text-muted">Repos</p>
+          </div>
+        </Tooltip>
       </div>
 
-      <div className="mt-3 rounded-xl border border-line/50 bg-mist/25 p-2.5">
-        <div className="flex items-center justify-between gap-2">
-          <p className="text-[10px] font-medium text-muted">Contribution heatmap</p>
-          <p className="text-[9px] text-muted">{new Date().getFullYear()} YTD</p>
-        </div>
-        <div className="mt-1.5 flex gap-px overflow-x-auto pb-0.5 [scrollbar-width:thin]">
-          {heatmap.map((week, wIdx) => (
-            <div key={`week-${wIdx}`} className="flex flex-col gap-px">
-              {week.map((lvl, dIdx) => (
-                <span
-                  key={`cell-${wIdx}-${dIdx}`}
-                  className={`h-1.5 w-1.5 rounded-[1px] ${heatmapLevels[Math.min(lvl, 4)]}`}
-                />
-              ))}
-            </div>
-          ))}
-        </div>
-      </div>
+      <ContributionHeatmap />
 
-      <div className="mt-2.5 flex items-center justify-between rounded-lg border border-cyan-deep/12 bg-cyan-deep/5 px-2.5 py-1.5 text-[10px]">
-        <span className="text-muted">Wakatime tracked</span>
-        <span className="font-semibold text-cyan-deep">{wakatime.totalLabel}</span>
-      </div>
+      <Tooltip
+        content={`All-time coding hours tracked by Wakatime · last synced ${updated}`}
+        className="mt-2.5 block w-full"
+      >
+        <div className="flex cursor-default items-center justify-between rounded-lg border border-cyan-deep/12 bg-cyan-deep/5 px-2.5 py-1.5 text-[10px]">
+          <span className="text-muted">Wakatime tracked</span>
+          <span className="font-semibold text-cyan-deep">{wakatime.totalLabel}</span>
+        </div>
+      </Tooltip>
     </div>
   )
 }
@@ -161,48 +248,60 @@ function ProofFrontCard({ tiltEnabled }: { tiltEnabled: boolean }) {
       >
         <div className="flex items-start justify-between gap-2">
           <div className="min-w-0">
-            <a
-              href={profile.links.upwork}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-1.5 rounded-full border border-[#ff69b4]/35 bg-[#ff69b4]/8 px-2 py-0.5 text-[9px] font-bold tracking-wide text-[#d63384]"
-            >
-              <img
-                src="https://img.icons8.com/?id=63306&format=png&size=16"
-                alt=""
-                className="h-3.5 w-3.5"
-                width={14}
-                height={14}
-                aria-hidden
-              />
-              Top Rated Plus
-            </a>
-            <p className="mt-1.5 font-display text-base font-bold text-ink">Upwork · 5.0 ★</p>
-            <p className="text-[10px] text-muted">100% Job Success · under 24h response</p>
+            <Tooltip content="Upwork Top Rated Plus — among the highest-rated freelancers on Upwork">
+              <a
+                href={profile.links.upwork}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-1.5 rounded-full border border-[#ff69b4]/35 bg-[#ff69b4]/8 px-2 py-0.5 text-[9px] font-bold tracking-wide text-[#d63384]"
+              >
+                <img
+                  src="https://img.icons8.com/?id=63306&format=png&size=16"
+                  alt=""
+                  className="h-3.5 w-3.5"
+                  width={14}
+                  height={14}
+                  aria-hidden
+                />
+                Top Rated Plus
+              </a>
+            </Tooltip>
+            <Tooltip content="5.0 average client rating · 100% Job Success · typically responds within 24 hours">
+              <div className="mt-1.5 cursor-default">
+                <p className="font-display text-base font-bold text-ink">Upwork · 5.0 ★</p>
+                <p className="text-[10px] text-muted">100% Job Success · under 24h response</p>
+              </div>
+            </Tooltip>
           </div>
-          <div className="shrink-0 rounded-lg border border-amber/25 bg-amber/10 px-2.5 py-1.5 text-center">
-            <p className="font-display text-lg font-bold text-amber">
-              {aiAssistedPercent != null ? `${aiAssistedPercent}%` : '—'}
-            </p>
-            <p className="text-[8px] text-muted">AI-assisted</p>
-            <p className="text-[7px] text-muted/80">12 mo · lines</p>
-          </div>
+
+          <Tooltip content="Share of line changes written by AI tools vs manual typing over the last 12 months (Wakatime)">
+            <div className="shrink-0 cursor-default rounded-lg border border-amber/25 bg-amber/10 px-2.5 py-1.5 text-center">
+              <p className="font-display text-lg font-bold text-amber">
+                {aiAssistedPercent != null ? `${aiAssistedPercent}%` : '—'}
+              </p>
+              <p className="text-[8px] text-muted">AI-assisted</p>
+              <p className="text-[7px] text-muted/80">12 mo · lines</p>
+            </div>
+          </Tooltip>
         </div>
 
         <p className="mt-2 text-[9px] text-muted">Top languages · last 12 months</p>
         <div className="mt-1 grid grid-cols-3 gap-1.5 text-center">
           {languages.map((lang) => (
-            <div
+            <Tooltip
               key={lang.name}
-              className="rounded-lg border border-line/60 bg-mist/30 px-1 py-1.5"
+              content={`${lang.percent}% of coding time in ${lang.name} over the last 12 months (Wakatime)`}
+              className="w-full"
             >
-              <p
-                className={`font-display text-sm font-bold ${langColors[lang.name] ?? 'text-ink'}`}
-              >
-                {lang.percent}%
-              </p>
-              <p className="text-[8px] text-muted">{lang.name}</p>
-            </div>
+              <div className="cursor-default rounded-lg border border-line/60 bg-mist/30 px-1 py-1.5">
+                <p
+                  className={`font-display text-sm font-bold ${langColors[lang.name] ?? 'text-ink'}`}
+                >
+                  {lang.percent}%
+                </p>
+                <p className="text-[8px] text-muted">{lang.name}</p>
+              </div>
+            </Tooltip>
           ))}
         </div>
       </div>
@@ -308,12 +407,11 @@ export function HeroDevHub({ mobile = false }: { mobile?: boolean }) {
         transition={{ delay: 0.45, duration: 0.5 }}
       >
         {stackPills.map((pill) => (
-          <span
-            key={pill}
-            className="rounded-full border border-line bg-foam/95 px-3 py-1 text-[10px] font-semibold text-ink-soft shadow-sm"
-          >
-            {pill}
-          </span>
+          <Tooltip key={pill} content={`Core stack · ${pill}`}>
+            <span className="cursor-default rounded-full border border-line bg-foam/95 px-3 py-1 text-[10px] font-semibold text-ink-soft shadow-sm">
+              {pill}
+            </span>
+          </Tooltip>
         ))}
       </motion.div>
     </motion.div>

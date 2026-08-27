@@ -67,9 +67,15 @@ function buildHeatmapYtd(contributions) {
   for (let i = 0; i < past.length; i += 7) {
     const week = []
     for (let d = 0; d < 7; d++) {
-      week.push(past[i + d]?.level ?? 0)
+      const cell = past[i + d]
+      if (!cell) continue
+      week.push({
+        date: cell.date,
+        count: cell.count ?? 0,
+        level: cell.level ?? 0,
+      })
     }
-    columns.push(week)
+    if (week.length > 0) columns.push(week)
   }
 
   return columns
