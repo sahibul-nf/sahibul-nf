@@ -106,7 +106,7 @@ function ContributionHeatmap() {
         <p className="text-[9px] text-muted">{currentYear} YTD</p>
       </div>
 
-      <div className="mt-1 overflow-x-auto overflow-y-visible pb-0.5 [scrollbar-width:thin]">
+      <div className="mt-1 overflow-x-auto overflow-y-hidden pb-0.5 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
         <div className="inline-flex min-w-0 flex-col gap-0.5">
           <div className="flex h-3 gap-px">
             {monthLabels.map((month, idx) => (
@@ -127,13 +127,16 @@ function ContributionHeatmap() {
                   const level = Math.min(cell.level, 4)
                   const tip = formatContributionTooltip(cell.date, cell.count)
                   const isActive = hovered?.date === cell.date
-                  const tooltipSide = dIdx < 3 ? 'bottom' : 'top'
+                  const tooltipSide: 'top' | 'bottom' = dIdx < 3 ? 'bottom' : 'top'
+                  const tooltipAlign: 'center' | 'start' | 'end' =
+                    wIdx < 3 ? 'start' : wIdx >= weeks.length - 3 ? 'end' : 'center'
 
                   return (
                     <Tooltip
                       key={cell.date || `cell-${wIdx}-${dIdx}`}
                       content={tip}
                       side={tooltipSide}
+                      align={tooltipAlign}
                     >
                       <button
                         type="button"
@@ -171,7 +174,7 @@ function GitHubActivityCard() {
   })
 
   return (
-    <div className="rounded-[1.35rem] border border-white/80 bg-foam/95 p-4 shadow-[0_16px_40px_rgb(11_28_36_/_0.08)] backdrop-blur-md md:p-4">
+    <div className="overflow-visible rounded-[1.35rem] border border-white/80 bg-foam p-4 shadow-[0_16px_40px_rgb(11_28_36_/_0.08)] md:p-4">
       <div className="flex items-center justify-between gap-2">
         <Tooltip content={`Public GitHub profile · synced ${updated}`}>
           <div className="flex cursor-default items-center gap-2">
@@ -245,7 +248,7 @@ function ProofFrontCard({ tiltEnabled }: { tiltEnabled: boolean }) {
   const { languages, aiAssistedPercent } = liveMetrics
 
   return (
-    <div className="rounded-[1.35rem] border border-white/85 bg-foam/98 p-3.5 shadow-[0_24px_48px_rgb(11_28_36_/_0.12)] backdrop-blur-md md:p-4">
+    <div className="overflow-visible rounded-[1.35rem] border border-white/85 bg-foam p-3.5 shadow-[0_24px_48px_rgb(11_28_36_/_0.12)] md:p-4">
       <div
         ref={tiltRef}
         className="transition-[transform] duration-200 will-change-transform"
@@ -261,7 +264,7 @@ function ProofFrontCard({ tiltEnabled }: { tiltEnabled: boolean }) {
                 className="inline-flex items-center gap-1.5 rounded-full border border-[#ff69b4]/35 bg-[#ff69b4]/8 px-2 py-0.5 text-[9px] font-bold tracking-wide text-[#d63384]"
               >
                 <img
-                  src="https://img.icons8.com/?id=63306&format=png&size=16"
+                  src="https://img.icons8.com/?id=26093&format=png&size=16"
                   alt=""
                   className="h-3.5 w-3.5"
                   width={14}
@@ -324,9 +327,9 @@ function LayeredCardStack() {
   return (
     <div className="relative">
       <FloatingLayer
-        className={`relative ml-auto w-[94%] pr-1 transition-[filter,z-index] duration-300 ease-out ${
+        className={`relative ml-auto w-[94%] pr-1 transition-[z-index] duration-300 ease-out ${
           githubOnTop ? 'z-30' : 'z-10'
-        } ${activeCard === 'proof' ? 'brightness-[0.97]' : ''}`}
+        }`}
         paused={floatPaused}
         amplitude={5}
         duration={12}
@@ -344,9 +347,9 @@ function LayeredCardStack() {
       </FloatingLayer>
 
       <FloatingLayer
-        className={`pointer-events-none relative -mt-28 ml-0 w-[86%] transition-[filter,z-index] duration-300 ease-out ${
+        className={`pointer-events-none relative -mt-28 ml-0 w-[86%] transition-[z-index] duration-300 ease-out ${
           proofOnTop ? (activeCard === 'proof' ? 'z-30' : 'z-20') : 'z-10'
-        } ${githubOnTop ? 'brightness-[0.96]' : ''}`}
+        }`}
         paused={floatPaused}
         amplitude={4}
         duration={10}
