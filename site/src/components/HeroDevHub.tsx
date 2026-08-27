@@ -100,13 +100,13 @@ function ContributionHeatmap() {
   }
 
   return (
-    <div className="mt-3 rounded-xl border border-line/50 bg-mist/25 p-2.5">
+    <div className="mt-3 overflow-visible rounded-xl border border-line/50 bg-mist/25 p-2.5">
       <div className="flex items-center justify-between gap-2">
         <p className="text-[10px] font-medium text-muted">Contribution heatmap</p>
         <p className="text-[9px] text-muted">{currentYear} YTD</p>
       </div>
 
-      <div className="mt-1 overflow-x-auto pb-0.5 [scrollbar-width:thin]">
+      <div className="mt-1 overflow-x-auto overflow-y-visible pb-0.5 [scrollbar-width:thin]">
         <div className="inline-flex min-w-0 flex-col gap-0.5">
           <div className="flex h-3 gap-px">
             {monthLabels.map((month, idx) => (
@@ -127,9 +127,14 @@ function ContributionHeatmap() {
                   const level = Math.min(cell.level, 4)
                   const tip = formatContributionTooltip(cell.date, cell.count)
                   const isActive = hovered?.date === cell.date
+                  const tooltipSide = dIdx < 3 ? 'bottom' : 'top'
 
                   return (
-                    <Tooltip key={cell.date || `cell-${wIdx}-${dIdx}`} content={tip}>
+                    <Tooltip
+                      key={cell.date || `cell-${wIdx}-${dIdx}`}
+                      content={tip}
+                      side={tooltipSide}
+                    >
                       <button
                         type="button"
                         className={`h-1.5 w-1.5 rounded-[1px] transition-shadow hover:ring-1 hover:ring-cyan-deep/60 focus:outline-none focus-visible:ring-1 focus-visible:ring-cyan-deep ${heatmapLevels[level]} ${isActive ? 'ring-1 ring-cyan-deep' : ''}`}
@@ -191,10 +196,10 @@ function GitHubActivityCard() {
 
       <div className="mt-3 grid grid-cols-3 gap-2">
         <Tooltip
+          fullWidth
           content={`${formatStat(github.contributionsYtd)} contributions on GitHub in ${currentYear}`}
-          className="w-full"
         >
-          <div className="cursor-default rounded-lg border border-line/70 bg-mist/40 px-2 py-1.5 text-center">
+          <div className="w-full cursor-default rounded-lg border border-line/70 bg-mist/40 px-2 py-1.5 text-center">
             <p className="font-display text-base font-bold text-ink">
               {formatStat(github.contributionsYtd)}+
             </p>
@@ -203,17 +208,17 @@ function GitHubActivityCard() {
         </Tooltip>
 
         <Tooltip
+          fullWidth
           content={`hiQuran open-source project · ${github.hiQuranStars} GitHub stars`}
-          className="w-full"
         >
-          <div className="cursor-default rounded-lg border border-line/70 bg-mist/40 px-2 py-1.5 text-center">
+          <div className="w-full cursor-default rounded-lg border border-line/70 bg-mist/40 px-2 py-1.5 text-center">
             <p className="font-display text-base font-bold text-ink">{github.hiQuranStars}★</p>
             <p className="text-[9px] text-muted">hiQuran</p>
           </div>
         </Tooltip>
 
-        <Tooltip content={`${github.publicRepos} public repositories on GitHub`} className="w-full">
-          <div className="cursor-default rounded-lg border border-line/70 bg-mist/40 px-2 py-1.5 text-center">
+        <Tooltip fullWidth content={`${github.publicRepos} public repositories on GitHub`}>
+          <div className="w-full cursor-default rounded-lg border border-line/70 bg-mist/40 px-2 py-1.5 text-center">
             <p className="font-display text-base font-bold text-ink">{github.publicRepos}</p>
             <p className="text-[9px] text-muted">Repos</p>
           </div>
@@ -290,10 +295,10 @@ function ProofFrontCard({ tiltEnabled }: { tiltEnabled: boolean }) {
           {languages.map((lang) => (
             <Tooltip
               key={lang.name}
+              fullWidth
               content={`${lang.percent}% of coding time in ${lang.name} over the last 12 months (Wakatime)`}
-              className="w-full"
             >
-              <div className="cursor-default rounded-lg border border-line/60 bg-mist/30 px-1 py-1.5">
+              <div className="w-full cursor-default rounded-lg border border-line/60 bg-mist/30 px-1 py-1.5">
                 <p
                   className={`font-display text-sm font-bold ${langColors[lang.name] ?? 'text-ink'}`}
                 >

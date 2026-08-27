@@ -5,9 +5,16 @@ type TooltipProps = {
   children: ReactNode
   className?: string
   side?: 'top' | 'bottom'
+  fullWidth?: boolean
 }
 
-export function Tooltip({ content, children, className = '', side = 'top' }: TooltipProps) {
+export function Tooltip({
+  content,
+  children,
+  className = '',
+  side = 'top',
+  fullWidth = false,
+}: TooltipProps) {
   const id = useId()
 
   const position =
@@ -15,9 +22,15 @@ export function Tooltip({ content, children, className = '', side = 'top' }: Too
       ? 'bottom-full left-1/2 mb-1.5 -translate-x-1/2'
       : 'top-full left-1/2 mt-1.5 -translate-x-1/2'
 
+  const wrapperClass = fullWidth
+    ? `group/tooltip relative flex w-full min-w-0 ${className}`
+    : `group/tooltip relative inline-flex ${className}`
+
+  const triggerClass = fullWidth ? 'flex w-full min-w-0' : 'inline-flex'
+
   return (
-    <span className={`group/tooltip relative inline-flex ${className}`}>
-      <span aria-describedby={id} className="inline-flex">
+    <span className={wrapperClass}>
+      <span aria-describedby={id} className={triggerClass}>
         {children}
       </span>
       <span
