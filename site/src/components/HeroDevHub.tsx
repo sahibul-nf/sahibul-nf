@@ -12,6 +12,7 @@ import {
 import { useTilt } from '../hooks/useTilt'
 import { easeOut } from '../lib/motion'
 import { Tooltip } from './Tooltip'
+import { TopRatedPlusIcon } from './TopRatedPlusIcon'
 
 const heatmapLevels = [
   'bg-ink/6',
@@ -231,12 +232,13 @@ function GitHubActivityCard() {
       <ContributionHeatmap />
 
       <Tooltip
+        fullWidth
         content={`All-time coding hours tracked by Wakatime · last synced ${updated}`}
-        className="mt-2.5 block w-full"
+        className="mt-2.5"
       >
-        <div className="flex cursor-default items-center justify-between rounded-lg border border-cyan-deep/12 bg-cyan-deep/5 px-2.5 py-1.5 text-[10px]">
-          <span className="text-muted">Wakatime tracked</span>
-          <span className="font-semibold text-cyan-deep">{wakatime.totalLabel}</span>
+        <div className="flex w-full cursor-default items-center justify-between gap-3 rounded-lg border border-cyan-deep/12 bg-cyan-deep/5 px-2.5 py-1.5 text-[10px]">
+          <span className="shrink-0 text-muted">Wakatime tracked</span>
+          <span className="shrink-0 font-semibold text-cyan-deep">{wakatime.totalLabel}</span>
         </div>
       </Tooltip>
     </div>
@@ -263,14 +265,7 @@ function ProofFrontCard({ tiltEnabled }: { tiltEnabled: boolean }) {
                 rel="noreferrer"
                 className="inline-flex items-center gap-1.5 rounded-full border border-[#ff69b4]/35 bg-[#ff69b4]/8 px-2 py-0.5 text-[9px] font-bold tracking-wide text-[#d63384]"
               >
-                <img
-                  src="https://img.icons8.com/?id=26093&format=png&size=16"
-                  alt=""
-                  className="h-3.5 w-3.5"
-                  width={14}
-                  height={14}
-                  aria-hidden
-                />
+                <TopRatedPlusIcon size={14} className="h-3.5 w-3.5" />
                 Top Rated Plus
               </a>
             </Tooltip>
