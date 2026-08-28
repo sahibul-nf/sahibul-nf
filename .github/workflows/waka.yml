@@ -24,3 +24,24 @@ jobs:
           SHOW_LOC_CHART: "True"
           SHOW_LINES_OF_CODE: "True"
           SHOW_SHORT_INFO: "True"
+
+  sync-portfolio-metrics:
+    name: Sync Portfolio Live Metrics
+    needs: update-readme
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch GitHub + Wakatime metrics
+        run: node scripts/sync-portfolio-metrics.mjs
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: Commit portfolio metrics
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: sync portfolio live metrics'
+          file_pattern: site/src/data/live-metrics.json
