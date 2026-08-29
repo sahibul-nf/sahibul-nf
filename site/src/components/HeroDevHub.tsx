@@ -55,48 +55,56 @@ function StackPills({ animated = false }: { animated?: boolean }) {
   return (
     <div className="flex flex-wrap gap-2">
       {stackPills.map((pill, index) => {
-        const pillContent = (
+        const pillClassName =
+          'inline-flex cursor-default items-center gap-1.5 rounded-full border border-line bg-foam/95 px-2.5 py-1 text-[10px] font-semibold text-ink-soft shadow-sm'
+
+        const label = (
+          <>
+            {pill.icon ? (
+              <img
+                src={pill.icon}
+                alt=""
+                className="h-3.5 w-3.5 shrink-0"
+                width={14}
+                height={14}
+                aria-hidden
+              />
+            ) : (
+              <RealtimeIcon className="h-3.5 w-3.5 shrink-0 text-cyan-deep" />
+            )}
+            {pill.name}
+          </>
+        )
+
+        const tooltip = (
           <Tooltip content={`Core stack · ${pill.name}`}>
-            <span className="inline-flex cursor-default items-center gap-1.5 rounded-full border border-line bg-foam/95 px-2.5 py-1 text-[10px] font-semibold text-ink-soft shadow-sm">
-              {pill.icon ? (
-                <img
-                  src={pill.icon}
-                  alt=""
-                  className="h-3.5 w-3.5 shrink-0"
-                  width={14}
-                  height={14}
-                  aria-hidden
-                />
-              ) : (
-                <RealtimeIcon className="h-3.5 w-3.5 shrink-0 text-cyan-deep" />
-              )}
-              {pill.name}
-            </span>
+            <span className={pillClassName}>{label}</span>
           </Tooltip>
         )
 
         if (!animated || reduceMotion) {
-          return <div key={pill.name}>{pillContent}</div>
+          return <div key={pill.name}>{tooltip}</div>
         }
 
         return (
           <motion.div
             key={pill.name}
-            className="transform-gpu"
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: [0, -4, 0] }}
+            className="inline-flex transform-gpu [backface-visibility:hidden]"
+            style={{ willChange: 'transform' }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1, y: [-3, 3] }}
             transition={{
               opacity: { delay: 0.55 + index * 0.1, duration: 0.45, ease: easeOut },
               y: {
-                delay: 1.2 + index * 0.4,
-                duration: 5.5 + index * 0.7,
+                delay: 1.1 + index * 0.35,
+                duration: 6 + index * 0.5,
                 repeat: Infinity,
                 repeatType: 'mirror',
                 ease: 'easeInOut',
               },
             }}
           >
-            {pillContent}
+            {tooltip}
           </motion.div>
         )
       })}
@@ -460,14 +468,9 @@ export function HeroDevHub({ mobile = false }: { mobile?: boolean }) {
 
       <LayeredCardStack />
 
-      <motion.div
-        className="relative z-20 mt-5"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.45, duration: 0.5 }}
-      >
+      <div className="relative z-20 mt-5">
         <StackPills animated />
-      </motion.div>
+      </div>
     </motion.div>
   )
 }
