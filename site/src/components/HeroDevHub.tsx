@@ -21,7 +21,88 @@ const heatmapLevels = [
   'bg-cyan-deep',
 ] as const
 
-const stackPills = ['Flutter', 'Golang', 'Supabase', 'Realtime'] as const
+const SKILL_ICON_BASE =
+  'https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills'
+
+const stackPills = [
+  { name: 'Flutter', icon: `${SKILL_ICON_BASE}/flutter-colored.svg` },
+  { name: 'Golang', icon: `${SKILL_ICON_BASE}/go-colored.svg` },
+  { name: 'Supabase', icon: `${SKILL_ICON_BASE}/supabase-colored.svg` },
+  { name: 'Realtime', icon: null },
+] as const
+
+function RealtimeIcon({ className = '' }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 16 16"
+      className={className}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      aria-hidden
+    >
+      <path d="M2 10c2.5-4 9.5-4 12 0" />
+      <path d="M4.5 10c1.5-2 5.5-2 7 0" />
+      <circle cx="8" cy="10" r="1" fill="currentColor" stroke="none" />
+    </svg>
+  )
+}
+
+function StackPills({ animated = false }: { animated?: boolean }) {
+  const reduceMotion = useReducedMotion()
+
+  return (
+    <div className="flex flex-wrap gap-2">
+      {stackPills.map((pill, index) => {
+        const pillContent = (
+          <Tooltip content={`Core stack · ${pill.name}`}>
+            <span className="inline-flex cursor-default items-center gap-1.5 rounded-full border border-line bg-foam/95 px-2.5 py-1 text-[10px] font-semibold text-ink-soft shadow-sm">
+              {pill.icon ? (
+                <img
+                  src={pill.icon}
+                  alt=""
+                  className="h-3.5 w-3.5 shrink-0"
+                  width={14}
+                  height={14}
+                  aria-hidden
+                />
+              ) : (
+                <RealtimeIcon className="h-3.5 w-3.5 shrink-0 text-cyan-deep" />
+              )}
+              {pill.name}
+            </span>
+          </Tooltip>
+        )
+
+        if (!animated || reduceMotion) {
+          return <div key={pill.name}>{pillContent}</div>
+        }
+
+        return (
+          <motion.div
+            key={pill.name}
+            className="transform-gpu"
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: [0, -4, 0] }}
+            transition={{
+              opacity: { delay: 0.55 + index * 0.1, duration: 0.45, ease: easeOut },
+              y: {
+                delay: 1.2 + index * 0.4,
+                duration: 5.5 + index * 0.7,
+                repeat: Infinity,
+                repeatType: 'mirror',
+                ease: 'easeInOut',
+              },
+            }}
+          >
+            {pillContent}
+          </motion.div>
+        )
+      })}
+    </div>
+  )
+}
 
 const langColors: Record<string, string> = {
   Dart: 'text-cyan-deep',
@@ -360,16 +441,7 @@ export function HeroDevHub({ mobile = false }: { mobile?: boolean }) {
       >
         <GitHubActivityCard />
         <ProofFrontCard />
-        <div className="flex flex-wrap gap-2">
-          {stackPills.map((pill) => (
-            <span
-              key={pill}
-              className="rounded-full border border-cyan-deep/20 bg-cyan-deep/8 px-3 py-1 text-[10px] font-semibold text-cyan-deep"
-            >
-              {pill}
-            </span>
-          ))}
-        </div>
+        <StackPills />
       </motion.div>
     )
   }
@@ -389,18 +461,12 @@ export function HeroDevHub({ mobile = false }: { mobile?: boolean }) {
       <LayeredCardStack />
 
       <motion.div
-        className="relative z-20 mt-5 flex flex-wrap gap-2"
+        className="relative z-20 mt-5"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.45, duration: 0.5 }}
       >
-        {stackPills.map((pill) => (
-          <Tooltip key={pill} content={`Core stack · ${pill}`}>
-            <span className="cursor-default rounded-full border border-line bg-foam/95 px-3 py-1 text-[10px] font-semibold text-ink-soft shadow-sm">
-              {pill}
-            </span>
-          </Tooltip>
-        ))}
+        <StackPills animated />
       </motion.div>
     </motion.div>
   )
