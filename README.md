@@ -83,9 +83,9 @@ I build multi-platform Flutter products and Golang backends that hold up in prod
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C684%20hrs%2038%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C687%20hrs%2032%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-240%20hrs%2039%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-243%20hrs%2048%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-25-blue?style=flat)
 
@@ -130,49 +130,49 @@ Sunday                   1541 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     3 hrs 9 mins        ██████████░░░░░░░░░░░░░░░   40.22 % 
-Markdown                 1 hr 31 mins        █████░░░░░░░░░░░░░░░░░░░░   19.34 % 
-Other                    1 hr 8 mins         ████░░░░░░░░░░░░░░░░░░░░░   14.51 % 
-Python                   39 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.46 % 
-Text                     23 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.99 % 
+Dart                     4 hrs 35 mins       ██████████░░░░░░░░░░░░░░░   41.68 % 
+Markdown                 2 hrs 5 mins        █████░░░░░░░░░░░░░░░░░░░░   18.99 % 
+Other                    1 hr 24 mins        ███░░░░░░░░░░░░░░░░░░░░░░   12.74 % 
+Python                   1 hr 17 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.69 % 
+TypeScript               29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.53 % 
 
 🔥 Editors: 
-Cursor                   6 hrs 10 mins       ████████████████████░░░░░   78.44 % 
-Agent                    1 hr 41 mins        █████░░░░░░░░░░░░░░░░░░░░   21.56 % 
+Cursor                   8 hrs 14 mins       ███████████████████░░░░░░   74.83 % 
+Agent                    2 hrs 46 mins       ██████░░░░░░░░░░░░░░░░░░░   25.17 % 
 
 🐱‍💻 Projects: 
-pukatflow                3 hrs 7 mins        ██████████░░░░░░░░░░░░░░░   39.66 % 
-canvas                   1 hr 49 mins        ██████░░░░░░░░░░░░░░░░░░░   23.26 % 
-otonom-agents-media      1 hr 43 mins        █████░░░░░░░░░░░░░░░░░░░░   21.95 % 
-Unknown Project          34 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.34 % 
-terminals                18 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.91 % 
+pukatflow                4 hrs 38 mins       ███████████░░░░░░░░░░░░░░   42.06 % 
+otonom-agents-media      2 hrs 37 mins       ██████░░░░░░░░░░░░░░░░░░░   23.76 % 
+canvas                   1 hr 49 mins        ████░░░░░░░░░░░░░░░░░░░░░   16.62 % 
+Unknown Project          1 hr 14 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.31 % 
+tmp                      22 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.45 % 
 
 💻 Operating System: 
-Mac                      7 hrs 52 mins       █████████████████████████   100.00 % 
+Mac                      11 hrs 1 min        █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 7 hrs 33 mins (96.05%)
+⏱ AI Coding Time: 10 hrs 42 mins (97.18%)
 
-✍️ 2,984 lines written by AI, 2 lines written by hand (99.93% AI-written)
+✍️ 3,510 lines written by AI, 2 lines written by hand (99.94% AI-written)
 
-🔤 167,758 Input Tokens, 167,758 Output Tokens
+🔤 226,699 Input Tokens, 226,699 Output Tokens
 
-💵 $3.02 Estimated AI Cost This Week
+💵 $4.08 Estimated AI Cost This Week
 
-🧠 32 AI Sessions, 159 AI Prompts
+🧠 36 AI Sessions, 206 AI Prompts
 
-Composer                 3,147 lines         ████████████████████████░   95.08 % 
-Gemini                   85 lines            █░░░░░░░░░░░░░░░░░░░░░░░░   02.57 % 
-Grok                     78 lines            █░░░░░░░░░░░░░░░░░░░░░░░░   02.36 % 
+Composer                 3,824 lines         ████████████████████████░   95.91 % 
+Gemini                   85 lines            █░░░░░░░░░░░░░░░░░░░░░░░░   02.13 % 
+Grok                     78 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   01.96 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.93% of written lines came from AI
-📚 Verbose Prompter — average 4,410 characters per prompt
-🔁 Iterative Prompter — average 5 prompts per session
-🚀 High AI Trust — 0.08% of changed lines were hand-edited
+🤖 AI-Driven — 99.94% of written lines came from AI
+📚 Verbose Prompter — average 4,563 characters per prompt
+🔁 Iterative Prompter — average 6 prompts per session
+🚀 High AI Trust — 0.07% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Dart** 
@@ -192,5 +192,5 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 29/08/2026 19:18:13 UTC
+ Last Updated on 29/08/2026 22:12:10 UTC
 <!--END_SECTION:waka-->
