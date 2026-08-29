@@ -28,26 +28,8 @@ const stackPills = [
   { name: 'Flutter', icon: `${SKILL_ICON_BASE}/flutter-colored.svg` },
   { name: 'Golang', icon: `${SKILL_ICON_BASE}/go-colored.svg` },
   { name: 'Supabase', icon: `${SKILL_ICON_BASE}/supabase-colored.svg` },
-  { name: 'Realtime', icon: null },
+  { name: 'Firebase', icon: `${SKILL_ICON_BASE}/firebase-colored.svg` },
 ] as const
-
-function RealtimeIcon({ className = '' }: { className?: string }) {
-  return (
-    <svg
-      viewBox="0 0 16 16"
-      className={className}
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      aria-hidden
-    >
-      <path d="M2 10c2.5-4 9.5-4 12 0" />
-      <path d="M4.5 10c1.5-2 5.5-2 7 0" />
-      <circle cx="8" cy="10" r="1" fill="currentColor" stroke="none" />
-    </svg>
-  )
-}
 
 function StackPills({ animated = false }: { animated?: boolean }) {
   const reduceMotion = useReducedMotion()
@@ -60,18 +42,14 @@ function StackPills({ animated = false }: { animated?: boolean }) {
 
         const label = (
           <>
-            {pill.icon ? (
-              <img
-                src={pill.icon}
-                alt=""
-                className="h-3.5 w-3.5 shrink-0"
-                width={14}
-                height={14}
-                aria-hidden
-              />
-            ) : (
-              <RealtimeIcon className="h-3.5 w-3.5 shrink-0 text-cyan-deep" />
-            )}
+            <img
+              src={pill.icon}
+              alt=""
+              className="h-3.5 w-3.5 shrink-0"
+              width={14}
+              height={14}
+              aria-hidden
+            />
             {pill.name}
           </>
         )
