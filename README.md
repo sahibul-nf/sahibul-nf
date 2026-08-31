@@ -87,15 +87,15 @@ I build multi-platform Flutter products and Golang backends that hold up in prod
 
 ![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-248%20hrs%2010%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-31-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-33-blue?style=flat)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-7.34%20million%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-7.39%20million%20lines%20of%20code-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
-> 📦 334.7 kB Used in GitHub's Storage 
+> 📦 334.8 kB Used in GitHub's Storage 
  > 
-> 🏆 1,056 Contributions in the Year 2026
+> 🏆 1,062 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
@@ -106,21 +106,21 @@ I build multi-platform Flutter products and Golang backends that hold up in prod
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                2010 commits        █████░░░░░░░░░░░░░░░░░░░░   20.16 % 
-🌆 Daytime                2286 commits        ██████░░░░░░░░░░░░░░░░░░░   22.93 % 
-🌃 Evening                2606 commits        ███████░░░░░░░░░░░░░░░░░░   26.14 % 
-🌙 Night                  3067 commits        ████████░░░░░░░░░░░░░░░░░   30.77 % 
+🌞 Morning                2024 commits        █████░░░░░░░░░░░░░░░░░░░░   19.92 % 
+🌆 Daytime                2351 commits        ██████░░░░░░░░░░░░░░░░░░░   23.14 % 
+🌃 Evening                2646 commits        ███████░░░░░░░░░░░░░░░░░░   26.04 % 
+🌙 Night                  3139 commits        ████████░░░░░░░░░░░░░░░░░   30.90 % 
 ```
 📅 **I'm Most Productive on Monday** 
 
 ```text
-Monday                   1782 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.88 % 
-Tuesday                  1467 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.72 % 
-Wednesday                1356 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.60 % 
-Thursday                 1160 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.64 % 
-Friday                   1182 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.86 % 
-Saturday                 1481 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.86 % 
-Sunday                   1541 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.46 % 
+Monday                   1829 commits        ████░░░░░░░░░░░░░░░░░░░░░   18.00 % 
+Tuesday                  1469 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.46 % 
+Wednesday                1376 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.54 % 
+Thursday                 1170 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.52 % 
+Friday                   1226 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.07 % 
+Saturday                 1509 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.85 % 
+Sunday                   1581 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.56 % 
 ```
 
 
@@ -181,10 +181,10 @@ GPT                      0 lines             ░░░░░░░░░░░�
 
 ```text
 Dart                     33 repos            ███████████░░░░░░░░░░░░░░   42.86 % 
+TypeScript               3 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.90 % 
 Python                   2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.60 % 
-TypeScript               2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.60 % 
-Astro                    1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.30 % 
 Shell                    1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.30 % 
+Dockerfile               1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.30 % 
 ```
 
 
@@ -194,5 +194,5 @@ Shell                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 31/08/2026 02:38:38 UTC
+ Last Updated on 31/08/2026 10:22:27 UTC
 <!--END_SECTION:waka-->
