@@ -89,38 +89,38 @@ I build multi-platform Flutter products and Golang backends that hold up in prod
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-33-blue?style=flat)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-7.39%20million%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-7.40%20million%20lines%20of%20code-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
 > 📦 335.0 kB Used in GitHub's Storage 
  > 
-> 🏆 1,064 Contributions in the Year 2026
+> 🏆 1,068 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
 > 📜 62 Public Repositories 
  > 
-> 🔑 9 Private Repositories 
+> 🔑 10 Private Repositories 
  > 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                2024 commits        █████░░░░░░░░░░░░░░░░░░░░   19.92 % 
-🌆 Daytime                2351 commits        ██████░░░░░░░░░░░░░░░░░░░   23.14 % 
-🌃 Evening                2646 commits        ███████░░░░░░░░░░░░░░░░░░   26.04 % 
-🌙 Night                  3141 commits        ████████░░░░░░░░░░░░░░░░░   30.91 % 
+🌞 Morning                2024 commits        █████░░░░░░░░░░░░░░░░░░░░   19.91 % 
+🌆 Daytime                2351 commits        ██████░░░░░░░░░░░░░░░░░░░   23.13 % 
+🌃 Evening                2646 commits        ███████░░░░░░░░░░░░░░░░░░   26.03 % 
+🌙 Night                  3144 commits        ████████░░░░░░░░░░░░░░░░░   30.93 % 
 ```
 📅 **I'm Most Productive on Monday** 
 
 ```text
-Monday                   1829 commits        ████░░░░░░░░░░░░░░░░░░░░░   18.00 % 
-Tuesday                  1469 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.46 % 
+Monday                   1829 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.99 % 
+Tuesday                  1469 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.45 % 
 Wednesday                1378 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.56 % 
 Thursday                 1170 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.51 % 
-Friday                   1226 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.06 % 
+Friday                   1229 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.09 % 
 Saturday                 1509 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.85 % 
-Sunday                   1581 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.56 % 
+Sunday                   1581 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.55 % 
 ```
 
 
@@ -130,49 +130,49 @@ Sunday                   1581 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     5 hrs 40 mins       ███████░░░░░░░░░░░░░░░░░░   26.63 % 
-Markdown                 4 hrs 47 mins       ██████░░░░░░░░░░░░░░░░░░░   22.52 % 
-TypeScript               3 hrs 56 mins       █████░░░░░░░░░░░░░░░░░░░░   18.53 % 
-Other                    2 hrs 15 mins       ███░░░░░░░░░░░░░░░░░░░░░░   10.62 % 
-Python                   2 hrs 9 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.16 % 
+Dart                     5 hrs 55 mins       ███████░░░░░░░░░░░░░░░░░░   27.75 % 
+Markdown                 4 hrs 44 mins       ██████░░░░░░░░░░░░░░░░░░░   22.23 % 
+TypeScript               3 hrs 54 mins       █████░░░░░░░░░░░░░░░░░░░░   18.30 % 
+Other                    2 hrs 21 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.07 % 
+Python                   1 hr 55 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.99 % 
 
 🔥 Editors: 
-Cursor                   13 hrs 1 min        ███████████████░░░░░░░░░░   61.20 % 
-Agent                    6 hrs 36 mins       ████████░░░░░░░░░░░░░░░░░   31.01 % 
-Codex Vscode             1 hr 39 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.79 % 
+Cursor                   12 hrs 46 mins      ███████████████░░░░░░░░░░   59.84 % 
+Agent                    6 hrs 55 mins       ████████░░░░░░░░░░░░░░░░░   32.40 % 
+Codex Vscode             1 hr 39 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.77 % 
 
 🐱‍💻 Projects: 
-pukatflow                8 hrs 57 mins       ███████████░░░░░░░░░░░░░░   42.05 % 
-otonom-agents-media      4 hrs 43 mins       ██████░░░░░░░░░░░░░░░░░░░   22.20 % 
-sahibul-nf               2 hrs 38 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.43 % 
-solo-dev-ai-kit          1 hr 31 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.19 % 
-saya-terpikir-untuk-bikin1 hr 24 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.64 % 
+pukatflow                9 hrs 23 mins       ███████████░░░░░░░░░░░░░░   43.99 % 
+otonom-agents-media      4 hrs 30 mins       █████░░░░░░░░░░░░░░░░░░░░   21.09 % 
+sahibul-nf               2 hrs 38 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.39 % 
+solo-dev-ai-kit          1 hr 31 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.16 % 
+saya-terpikir-untuk-bikin1 hr 24 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.62 % 
 
 💻 Operating System: 
-Mac                      21 hrs 17 mins      █████████████████████████   100.00 % 
+Mac                      21 hrs 21 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 21 hrs 2 mins (98.81%)
+⏱ AI Coding Time: 21 hrs 4 mins (98.69%)
 
-✍️ 14,268 lines written by AI, 0 lines written by hand (100.0% AI-written)
+✍️ 13,406 lines written by AI, 0 lines written by hand (100.0% AI-written)
 
-🔤 1,064,676 Input Tokens, 522,545 Output Tokens
+🔤 1,078,138 Input Tokens, 536,007 Output Tokens
 
-💵 $11.44 Estimated AI Cost This Week
+💵 $11.68 Estimated AI Cost This Week
 
-🧠 57 AI Sessions, 439 AI Prompts
+🧠 55 AI Sessions, 449 AI Prompts
 
-Composer                 16,925 lines        ████████████████████████░   94.02 % 
-Gemini                   998 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   05.54 % 
-Grok                     79 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.44 % 
+Composer                 16,063 lines        ███████████████████████░░   93.86 % 
+Gemini                   972 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   05.68 % 
+Grok                     79 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.46 % 
 GPT                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.0% of written lines came from AI
-📚 Verbose Prompter — average 4,646 characters per prompt
+📚 Verbose Prompter — average 4,663 characters per prompt
 🔁 Iterative Prompter — average 8 prompts per session
 🚀 High AI Trust — 0.01% of changed lines were hand-edited
 ```
@@ -180,11 +180,11 @@ GPT                      0 lines             ░░░░░░░░░░░�
 **I Mostly Code in Dart** 
 
 ```text
-Dart                     33 repos            ███████████░░░░░░░░░░░░░░   42.86 % 
-TypeScript               3 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.90 % 
-Python                   2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.60 % 
-Shell                    1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.30 % 
-Dockerfile               1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.30 % 
+Dart                     33 repos            ███████████░░░░░░░░░░░░░░   42.31 % 
+TypeScript               4 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   05.13 % 
+Python                   2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.56 % 
+Shell                    1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.28 % 
+Dockerfile               1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.28 % 
 ```
 
 
@@ -194,5 +194,5 @@ Dockerfile               1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 03/09/2026 19:03:59 UTC
+ Last Updated on 03/09/2026 22:06:45 UTC
 <!--END_SECTION:waka-->
