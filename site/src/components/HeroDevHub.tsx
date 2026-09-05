@@ -233,13 +233,18 @@ function ContributionHeatmap() {
                     >
                       <button
                         type="button"
-                        className={`box-content h-1.5 w-1.5 shrink-0 rounded-[1px] p-5 -m-5 transition-shadow hover:ring-1 hover:ring-cyan-deep/60 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-strong ${heatmapLevels[level]} ${isActive ? 'ring-1 ring-cyan-deep' : ''}`}
+                        className="group/cell relative inline-flex h-1.5 w-1.5 shrink-0 items-center justify-center border-0 bg-transparent p-0 focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-cyan-strong before:absolute before:-inset-2 before:content-['']"
                         aria-label={tip}
                         onMouseEnter={() => setHovered(cell)}
                         onMouseLeave={() => setHovered(null)}
                         onFocus={() => setHovered(cell)}
                         onBlur={() => setHovered(null)}
-                      />
+                      >
+                        <span
+                          aria-hidden="true"
+                          className={`block h-full w-full rounded-[1px] transition-shadow group-hover/cell:ring-1 group-hover/cell:ring-cyan-deep/60 ${heatmapLevels[level]} ${isActive ? 'ring-1 ring-cyan-deep' : ''}`}
+                        />
+                      </button>
                     </Tooltip>
                   )
                 })}
