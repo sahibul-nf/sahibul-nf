@@ -1,6 +1,6 @@
 ![Header](https://github.com/sahibul-nf/sahibul-nf/blob/main/header.png)
 
-# Sahibul Nuzul Firdaus
+<!-- # Sahibul Nuzul Firdaus --> 
 
 **Full-Stack Flutter Engineer** · Supabase · Firebase · Golang · Aceh, Indonesia · [Open to work](mailto:sahibulnuzulfirdaus13@gmail.com)
 
@@ -12,6 +12,7 @@ I build multi-platform Flutter products and Golang backends that hold up in prod
 * 📄 **Resume / CV** — [View & Download](https://sahibul.dev/#resume)
 * 💼 **LinkedIn** — [linkedin.com/in/sahibul-nf](https://www.linkedin.com/in/sahibul-nf)
 * 🛠️ **Upwork** — [hire me](https://www.upwork.com/freelancers/~01a4cbdaeeaac4a0f3)
+* ✨ **Contra** — [hire me](https://contra.com/sahibulnf)
 * ✉️ **Email** — [sahibulnuzulfirdaus13@gmail.com](mailto:sahibulnuzulfirdaus13@gmail.com)
 * 🔭 **Focus** — Flutter · Golang · Supabase · Realtime · AWS
 
