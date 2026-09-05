@@ -40,7 +40,7 @@ jobs:
         working-directory: site
 
       - name: Deploy to Netlify
-        uses: nwtgck/actions-netlify@v3.2
+        uses: nwtgck/actions-netlify@v3.0
         with:
           publish-dir: ./site/dist
           production-branch: main
