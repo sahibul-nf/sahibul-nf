@@ -40,7 +40,7 @@ export function Hero() {
             animate="show"
           >
             <motion.div variants={childFadeUp} className="flex items-center gap-2">
-              <span className="rounded-full border border-cyan-deep/30 bg-cyan-deep/10 px-3 py-1 text-xs font-semibold tracking-wider text-cyan-deep uppercase">
+              <span className="rounded-full border border-cyan-deep/30 bg-cyan-deep/10 px-3 py-1 text-xs font-semibold tracking-wider text-cyan-strong uppercase">
                 {profile.role}
               </span>
             </motion.div>
@@ -78,7 +78,7 @@ export function Hero() {
               <a
                 ref={ctaRef}
                 href="#work"
-                className="inline-flex items-center rounded-full bg-cyan-deep px-6 py-3 text-sm font-semibold text-foam shadow-[0_10px_30px_rgb(20_150_168_/_0.28)] transition-shadow duration-300 hover:shadow-[0_14px_36px_rgb(20_150_168_/_0.38)]"
+                className="inline-flex items-center rounded-full bg-cyan-strong px-6 py-3 text-sm font-semibold text-foam shadow-[0_10px_30px_rgb(10_112_130_/_0.28)] transition-shadow duration-300 hover:shadow-[0_14px_36px_rgb(10_112_130_/_0.38)]"
                 style={{ transition: 'transform 180ms ease, box-shadow 300ms ease' }}
               >
                 View selected work
@@ -87,7 +87,7 @@ export function Hero() {
               <a
                 ref={secondaryRef}
                 href={profile.links.email}
-                className="inline-flex items-center text-sm font-semibold text-ink underline decoration-cyan-deep/35 decoration-2 underline-offset-[6px] transition-colors duration-300 hover:text-cyan-deep hover:decoration-cyan-deep"
+                className="inline-flex items-center text-sm font-semibold text-ink underline decoration-cyan-deep/35 decoration-2 underline-offset-[6px] transition-colors duration-300 hover:text-cyan-strong hover:decoration-cyan-deep"
                 style={{ transition: 'transform 180ms ease, color 300ms ease' }}
               >
                 Email me
@@ -97,7 +97,7 @@ export function Hero() {
             <motion.div variants={childFadeUp} className="mt-8 flex items-center gap-3 text-sm text-muted">
               <span>{profile.location}</span>
               <span className="text-line">·</span>
-              <span className="text-cyan-deep font-medium">{profile.availability}</span>
+              <span className="text-cyan-strong font-medium">{profile.availability}</span>
             </motion.div>
 
             {/* Mobile View Dev Hub */}

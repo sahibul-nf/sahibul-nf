@@ -14,7 +14,7 @@ export function Work() {
           viewport={viewportOnce}
           transition={{ duration: 0.7, ease: easeOut }}
         >
-          <p className="text-sm font-semibold tracking-[0.18em] text-cyan-deep uppercase">
+          <p className="text-sm font-semibold tracking-[0.18em] text-cyan-strong uppercase">
             Selected work
           </p>
           <h2 className="font-display mt-3 text-4xl font-bold tracking-tight text-ink md:text-5xl">
@@ -83,7 +83,7 @@ export function Work() {
                       href={project.href}
                       target="_blank"
                       rel="noreferrer"
-                      className="inline-flex items-center gap-2 text-cyan-deep transition-transform duration-300 hover:translate-x-1"
+                      className="inline-flex items-center gap-2 text-cyan-strong transition-transform duration-300 hover:translate-x-1"
                     >
                       Case / repo
                       <span aria-hidden>→</span>

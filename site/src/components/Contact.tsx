@@ -47,7 +47,7 @@ export function Contact() {
           viewport={viewportOnce}
           transition={{ duration: 0.7, ease: easeOut }}
         >
-          <p className="text-sm font-semibold tracking-[0.18em] text-cyan-deep uppercase">
+          <p className="text-sm font-semibold tracking-[0.18em] text-cyan-strong uppercase">
             Contact
           </p>
           <h2 className="font-display mt-3 text-4xl font-bold tracking-tight text-ink md:text-5xl">
@@ -56,12 +56,12 @@ export function Contact() {
           <p className="mt-4 text-lg text-muted">
             {profile.availability}. Tell me about the product, the stack, and the timeline.
           </p>
-          <p className="mt-3 text-sm font-semibold text-cyan-deep">{profile.responseTime}</p>
+          <p className="mt-3 text-sm font-semibold text-cyan-strong">{profile.responseTime}</p>
 
           <div className="mt-8 space-y-3 text-sm">
             <a
               href={profile.links.email}
-              className="block font-semibold text-ink transition-colors hover:text-cyan-deep"
+              className="block font-semibold text-ink transition-colors hover:text-cyan-strong"
             >
               {profile.email}
             </a>
@@ -167,7 +167,7 @@ export function Contact() {
                   initial={{ opacity: 0, y: 8 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -6 }}
-                  className="text-sm text-cyan-deep"
+                  className="text-sm text-cyan-strong"
                 >
                   Thanks — I’ll get back to you soon.
                 </motion.p>
@@ -178,7 +178,7 @@ export function Contact() {
                   initial={{ opacity: 0, y: 8 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -6 }}
-                  className="text-sm text-amber"
+                  className="text-sm text-amber-strong"
                 >
                   Couldn’t send via form — email me at {profile.email}.
                 </motion.p>

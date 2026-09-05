@@ -24,14 +24,14 @@ export function ResumeDocument({
       </div>
 
       <section className="resume-section mt-4 border-b border-line pb-4">
-        <h2 className="resume-section-title text-xs font-bold tracking-[0.16em] uppercase text-cyan-deep">
+        <h2 className="resume-section-title text-xs font-bold tracking-[0.16em] uppercase text-cyan-strong">
           Professional Summary
         </h2>
         <p className="resume-body mt-1.5 text-sm leading-snug text-ink/80">{data.summary}</p>
       </section>
 
       <section className="resume-section mt-4 border-b border-line pb-4">
-        <h2 className="resume-section-title text-xs font-bold tracking-[0.16em] uppercase text-cyan-deep">
+        <h2 className="resume-section-title text-xs font-bold tracking-[0.16em] uppercase text-cyan-strong">
           Core Competencies
         </h2>
         <p className="resume-body mt-1.5 text-sm leading-snug text-ink/80">
@@ -41,7 +41,7 @@ export function ResumeDocument({
 
       {data.skills && data.skills.length > 0 ? (
         <section className="resume-section mt-4 border-b border-line pb-4">
-          <h2 className="resume-section-title text-xs font-bold tracking-[0.16em] uppercase text-cyan-deep">
+          <h2 className="resume-section-title text-xs font-bold tracking-[0.16em] uppercase text-cyan-strong">
             Core Technical Skills
           </h2>
           <div className="resume-skills mt-2 space-y-1.5 text-sm">
@@ -56,7 +56,7 @@ export function ResumeDocument({
       ) : null}
 
       <section className="resume-section mt-4 border-b border-line pb-4">
-        <h2 className="resume-section-title text-xs font-bold tracking-[0.16em] uppercase text-cyan-deep">
+        <h2 className="resume-section-title text-xs font-bold tracking-[0.16em] uppercase text-cyan-strong">
           Professional Experience
         </h2>
         <div className="resume-experience mt-2 space-y-3">
@@ -84,7 +84,7 @@ export function ResumeDocument({
       </section>
 
       <section className="resume-section mt-4 border-b border-line pb-4">
-        <h2 className="resume-section-title text-xs font-bold tracking-[0.16em] uppercase text-cyan-deep">
+        <h2 className="resume-section-title text-xs font-bold tracking-[0.16em] uppercase text-cyan-strong">
           Selected Projects
         </h2>
         <div className="resume-projects mt-2 space-y-2">
@@ -102,7 +102,7 @@ export function ResumeDocument({
       </section>
 
       <section className="resume-section mt-4">
-        <h2 className="resume-section-title text-xs font-bold tracking-[0.16em] uppercase text-cyan-deep">
+        <h2 className="resume-section-title text-xs font-bold tracking-[0.16em] uppercase text-cyan-strong">
           Education
         </h2>
         <div className="resume-education mt-2 flex flex-wrap items-baseline justify-between gap-2">

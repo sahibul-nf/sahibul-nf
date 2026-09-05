@@ -13,7 +13,7 @@ export function About({ onOpenResume }: { onOpenResume?: () => void }) {
             viewport={viewportOnce}
             transition={{ duration: 0.65, ease: easeOut }}
           >
-            <p className="text-sm font-semibold tracking-[0.18em] text-cyan-deep uppercase">
+            <p className="text-sm font-semibold tracking-[0.18em] text-cyan-strong uppercase">
               About
             </p>
             <h2 className="font-display mt-3 text-balance text-3xl font-bold tracking-tight text-ink sm:text-4xl md:text-5xl">
@@ -68,7 +68,7 @@ export function About({ onOpenResume }: { onOpenResume?: () => void }) {
               <button
                 type="button"
                 onClick={onOpenResume}
-                className="inline-flex items-center gap-2 rounded-full border border-cyan-deep bg-cyan-deep/5 px-5 py-2.5 text-sm font-semibold text-cyan-deep transition-all hover:bg-cyan-deep hover:text-foam"
+                className="inline-flex items-center gap-2 rounded-full border border-cyan-deep bg-cyan-deep/5 px-5 py-2.5 text-sm font-semibold text-cyan-strong transition-all hover:bg-cyan-deep hover:text-foam"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +104,7 @@ export function About({ onOpenResume }: { onOpenResume?: () => void }) {
           </motion.div>
 
           <motion.div variants={childFadeUp} className="mt-10 border-t border-line pt-8">
-            <p className="text-sm font-semibold tracking-[0.16em] text-cyan-deep uppercase">
+            <p className="text-sm font-semibold tracking-[0.16em] text-cyan-strong uppercase">
               Core stack
             </p>
             <ul className="mt-4 flex flex-wrap items-center gap-x-2 gap-y-2">

@@ -13,7 +13,7 @@ export function Notes() {
           viewport={viewportOnce}
           transition={{ duration: 0.7, ease: easeOut }}
         >
-          <p className="text-sm font-semibold tracking-[0.18em] text-cyan-deep uppercase">
+          <p className="text-sm font-semibold tracking-[0.18em] text-cyan-strong uppercase">
             Notes
           </p>
           <h2 className="font-display mt-3 text-4xl font-bold tracking-tight text-ink md:text-5xl">
@@ -35,7 +35,7 @@ export function Notes() {
               className="border-t border-line pt-8"
             >
               {item.rating ? (
-                <p className="text-sm font-semibold tracking-[0.14em] text-amber uppercase">
+                <p className="text-sm font-semibold tracking-[0.14em] text-amber-strong uppercase">
                   {item.rating}★ Upwork
                 </p>
               ) : null}

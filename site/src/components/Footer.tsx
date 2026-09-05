@@ -15,7 +15,7 @@ export function Footer({ onOpenResume }: { onOpenResume?: () => void }) {
             <button
               type="button"
               onClick={onOpenResume}
-              className="font-medium text-cyan-deep hover:text-ink transition-colors"
+              className="font-medium text-cyan-strong hover:text-ink transition-colors"
             >
               Resume / CV
             </button>

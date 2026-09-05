@@ -92,8 +92,8 @@ function StackPills({ animated = false }: { animated?: boolean }) {
 }
 
 const langColors: Record<string, string> = {
-  Dart: 'text-cyan-deep',
-  TypeScript: 'text-amber',
+  Dart: 'text-cyan-strong',
+  TypeScript: 'text-amber-strong',
   Golang: 'text-[#00ADD8]',
 }
 
@@ -233,7 +233,7 @@ function ContributionHeatmap() {
                     >
                       <button
                         type="button"
-                        className={`h-1.5 w-1.5 rounded-[1px] transition-shadow hover:ring-1 hover:ring-cyan-deep/60 focus:outline-none focus-visible:ring-1 focus-visible:ring-cyan-deep ${heatmapLevels[level]} ${isActive ? 'ring-1 ring-cyan-deep' : ''}`}
+                        className={`box-content h-1.5 w-1.5 shrink-0 rounded-[1px] p-5 -m-5 transition-shadow hover:ring-1 hover:ring-cyan-deep/60 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-strong ${heatmapLevels[level]} ${isActive ? 'ring-1 ring-cyan-deep' : ''}`}
                         aria-label={tip}
                         onMouseEnter={() => setHovered(cell)}
                         onMouseLeave={() => setHovered(null)}
@@ -284,7 +284,7 @@ function GitHubActivityCard() {
           href={profile.links.github}
           target="_blank"
           rel="noreferrer"
-          className="text-[10px] font-medium text-cyan-deep hover:underline"
+          className="inline-flex min-h-11 min-w-11 items-center justify-center px-2 text-[10px] font-medium text-cyan-strong hover:underline"
         >
           Profile ↗
         </a>
@@ -330,7 +330,7 @@ function GitHubActivityCard() {
       >
         <div className="flex w-full cursor-default items-center justify-between gap-3 rounded-lg border border-cyan-deep/12 bg-cyan-deep/5 px-2.5 py-1.5 text-[10px]">
           <span className="shrink-0 text-muted">Wakatime tracked</span>
-          <span className="shrink-0 font-semibold text-cyan-deep">{wakatime.totalLabel}</span>
+          <span className="shrink-0 font-semibold text-cyan-strong">{wakatime.totalLabel}</span>
         </div>
       </Tooltip>
     </div>
@@ -361,7 +361,7 @@ function ProofFrontCard() {
             </span>
             <Tooltip content="5.0 average client rating · 100% Job Success · typically responds within 24 hours">
               <p className="cursor-default font-display text-[15px] font-bold leading-none text-ink sm:text-base">
-                Upwork · <span className="text-amber">5.0 ★</span>
+                Upwork · <span className="text-amber-strong">5.0 ★</span>
               </p>
             </Tooltip>
           </div>
@@ -372,7 +372,7 @@ function ProofFrontCard() {
 
         <Tooltip content="Share of line changes written by AI tools vs manual typing over the last 12 months (Wakatime)">
           <div className="shrink-0 cursor-default rounded-xl border border-amber/25 bg-amber/10 px-2.5 py-2 text-center">
-            <p className="font-display text-base font-bold leading-none text-amber sm:text-lg">
+            <p className="font-display text-base font-bold leading-none text-amber-strong sm:text-lg">
               {aiAssistedPercent != null ? `${aiAssistedPercent}%` : '—'}
             </p>
             <p className="mt-1 text-[8px] leading-tight text-muted">AI-assisted</p>

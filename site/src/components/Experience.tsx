@@ -16,7 +16,7 @@ export function Experience() {
           viewport={viewportOnce}
           transition={{ duration: 0.7, ease: easeOut }}
         >
-          <p className="text-sm font-semibold tracking-[0.18em] text-cyan-deep uppercase">
+          <p className="text-sm font-semibold tracking-[0.18em] text-cyan-strong uppercase">
             Experience
           </p>
           <h2 className="font-display mt-3 text-4xl font-bold tracking-tight text-ink md:text-5xl">
@@ -51,7 +51,7 @@ export function Experience() {
                     href={job.companyUrl}
                     target="_blank"
                     rel="noreferrer"
-                    className="mt-1 inline-block font-semibold text-ink underline-offset-4 transition-colors hover:text-cyan-deep hover:underline"
+                    className="mt-1 inline-block font-semibold text-ink underline-offset-4 transition-colors hover:text-cyan-strong hover:underline"
                   >
                     {job.company}
                   </a>
@@ -60,7 +60,7 @@ export function Experience() {
                 )}
               </div>
               <div>
-                <h3 className="font-display text-2xl font-bold tracking-tight text-ink transition-colors duration-300 group-hover:text-cyan-deep">
+                <h3 className="font-display text-2xl font-bold tracking-tight text-ink transition-colors duration-300 group-hover:text-cyan-strong">
                   {job.role}
                 </h3>
                 <ul className="mt-3 space-y-2 text-muted">
