@@ -131,51 +131,51 @@ Sunday                   1581 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Markdown                 4 hrs 54 mins       ██████░░░░░░░░░░░░░░░░░░░   24.86 % 
-Dart                     4 hrs 34 mins       ██████░░░░░░░░░░░░░░░░░░░   23.17 % 
-TypeScript               3 hrs 14 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.37 % 
-Other                    2 hrs 22 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.04 % 
-Python                   1 hr 55 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.71 % 
+Markdown                 5 hrs 42 mins       ███████░░░░░░░░░░░░░░░░░░   29.06 % 
+Dart                     4 hrs 58 mins       ██████░░░░░░░░░░░░░░░░░░░   25.30 % 
+TypeScript               2 hrs 11 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
+Other                    2 hrs 7 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.78 % 
+Python                   1 hr 24 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.19 % 
 
 🔥 Editors: 
-Cursor                   11 hrs 15 mins      ██████████████░░░░░░░░░░░   57.00 % 
-Agent                    6 hrs 50 mins       █████████░░░░░░░░░░░░░░░░   34.60 % 
-Codex Vscode             1 hr 39 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.40 % 
+Cursor                   12 hrs 6 mins       ███████████████░░░░░░░░░░   61.60 % 
+Agent                    5 hrs 53 mins       ███████░░░░░░░░░░░░░░░░░░   29.96 % 
+Codex Vscode             1 hr 39 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.44 % 
 
 🐱‍💻 Projects: 
-pukatflow                8 hrs 9 mins        ██████████░░░░░░░░░░░░░░░   41.27 % 
-otonom-agents-media      4 hrs 31 mins       ██████░░░░░░░░░░░░░░░░░░░   22.93 % 
-solo-dev-ai-kit          1 hr 30 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.64 % 
-saya-terpikir-untuk-bikin1 hr 24 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.16 % 
-sahibul-capital          1 hr 13 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.24 % 
+pukatflow                9 hrs 32 mins       ████████████░░░░░░░░░░░░░   48.54 % 
+otonom-agents-media      3 hrs 41 mins       █████░░░░░░░░░░░░░░░░░░░░   18.79 % 
+solo-dev-ai-kit          1 hr 29 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.56 % 
+saya-terpikir-untuk-bikin1 hr 24 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.20 % 
+sahibul-capital          1 hr 13 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.27 % 
 
 💻 Operating System: 
-Mac                      19 hrs 45 mins      █████████████████████████   100.00 % 
+Mac                      19 hrs 39 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 19 hrs 28 mins (98.58%)
+⏱ AI Coding Time: 19 hrs 20 mins (98.39%)
 
-✍️ 11,136 lines written by AI, 0 lines written by hand (100.0% AI-written)
+✍️ 8,790 lines written by AI, 0 lines written by hand (100.0% AI-written)
 
-🔤 1,045,265 Input Tokens, 503,134 Output Tokens
+🔤 982,742 Input Tokens, 440,611 Output Tokens
 
-💵 $11.09 Estimated AI Cost This Week
+💵 $9.96 Estimated AI Cost This Week
 
-🧠 64 AI Sessions, 438 AI Prompts
+🧠 63 AI Sessions, 386 AI Prompts
 
-Composer                 13,131 lines        ███████████████████████░░   92.12 % 
-Grok                     612 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   04.29 % 
-Gemini                   512 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   03.59 % 
+Composer                 10,273 lines        ███████████████████████░░   91.53 % 
+Grok                     612 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   05.45 % 
+Gemini                   339 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   03.02 % 
 GPT                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.0% of written lines came from AI
-📚 Verbose Prompter — average 4,489 characters per prompt
-🔁 Iterative Prompter — average 7 prompts per session
-🚀 High AI Trust — 0.01% of changed lines were hand-edited
+📚 Verbose Prompter — average 4,442 characters per prompt
+🔁 Iterative Prompter — average 6 prompts per session
+🚀 High AI Trust — 0.02% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Dart** 
@@ -195,5 +195,5 @@ Shell                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 05/09/2026 17:53:11 UTC
+ Last Updated on 05/09/2026 21:52:59 UTC
 <!--END_SECTION:waka-->
