@@ -1,6 +1,6 @@
 # Profile copy — ready to paste
 
-Portfolio: https://sahibul-nf-portfolio.netlify.app
+Portfolio: https://sahibul.dev
 
 **Rules**
 - Paste only **public** work here (GitHub, Contra, public landings).
@@ -32,7 +32,7 @@ Tech:
 • Riverpod, GetX, system design, automated testing
 
 Open to remote roles and freelance projects.
-Portfolio: https://sahibul-nf-portfolio.netlify.app
+Portfolio: https://sahibul.dev
 Email: sahibulnuzulfirdaus13@gmail.com
 ```
 
@@ -78,8 +78,8 @@ Email: sahibulnuzulfirdaus13@gmail.com
 ```
 
 ### Featured links
-1. https://sahibul-nf-portfolio.netlify.app
-2. https://sahibul-nf-portfolio.netlify.app/#resume (Resume / CV)
+1. https://sahibul.dev
+2. https://sahibul.dev/#resume — Resume / CV
 3. https://nourdaily.com
 4. https://github.com/sahibul-nf/hiQuran
 
@@ -150,7 +150,7 @@ Full-Stack Flutter Engineer · Supabase · Firebase · Go · Aceh, ID
 
 ### Website
 ```
-https://sahibul-nf-portfolio.netlify.app
+https://sahibul.dev
 ```
 
 ### Pin (recommended)

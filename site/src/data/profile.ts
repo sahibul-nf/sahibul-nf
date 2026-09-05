@@ -15,7 +15,7 @@ export const profile = {
     upwork: 'https://www.upwork.com/freelancers/~01a4cbdaeeaac4a0f3',
     contra: 'https://contra.com/sahibulnf',
     email: 'mailto:sahibulnuzulfirdaus13@gmail.com',
-    portfolio: 'https://sahibul-nf-portfolio.netlify.app',
+    portfolio: 'https://sahibul.dev',
   },
 } as const
 

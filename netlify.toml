@@ -7,6 +7,18 @@
   NODE_VERSION = "22"
 
 [[redirects]]
+  from = "http://www.sahibul.dev/*"
+  to = "https://sahibul.dev/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.sahibul.dev/*"
+  to = "https://sahibul.dev/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/images/*"
   to = "/images/:splat"
   status = 200

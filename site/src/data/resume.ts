@@ -41,7 +41,7 @@ const contact = {
   title: 'Full-Stack Flutter Engineer',
   location: 'Aceh, Indonesia',
   email: 'sahibulnuzulfirdaus13@gmail.com',
-  portfolio: 'https://sahibul-nf-portfolio.netlify.app',
+  portfolio: 'https://sahibul.dev',
   github: 'https://github.com/sahibul-nf',
   linkedin: 'https://www.linkedin.com/in/sahibul-nf',
   education: {

@@ -1,4 +1,4 @@
-import { useState, type ReactNode } from 'react'
+import { useRef, useState, type MutableRefObject, type ReactNode } from 'react'
 import { motion, useReducedMotion } from 'framer-motion'
 import { profile } from '../data/profile'
 import {
@@ -9,6 +9,7 @@ import {
   normalizeHeatmap,
   type HeatmapCell,
 } from '../data/live-metrics'
+import { useCursorSpring } from '../hooks/useCursorSpring'
 import { easeOut } from '../lib/motion'
 import { Tooltip } from './Tooltip'
 import { TopRatedPlusIcon } from './TopRatedPlusIcon'
@@ -121,6 +122,10 @@ function FloatingLayer({
   delay = 0,
   amplitude = 4,
   duration = 11,
+  mouseX,
+  mouseY,
+  cursorReach = 260,
+  cursorForce = 20,
 }: {
   children: ReactNode
   className?: string
@@ -128,27 +133,47 @@ function FloatingLayer({
   delay?: number
   amplitude?: number
   duration?: number
+  mouseX: MutableRefObject<number>
+  mouseY: MutableRefObject<number>
+  cursorReach?: number
+  cursorForce?: number
 }) {
-  const reduceMotion = useReducedMotion()
+  const { ref, springX, springY, reduceMotion } = useCursorSpring({
+    mouseX,
+    mouseY,
+    reach: cursorReach,
+    maxForce: cursorForce,
+    influenceScale: 1.35,
+  })
 
-  if (reduceMotion || paused) {
+  if (reduceMotion) {
     return <div className={className}>{children}</div>
   }
 
   return (
     <motion.div
+      ref={ref}
       className={`transform-gpu [backface-visibility:hidden] ${className}`}
-      style={{ willChange: 'transform' }}
-      animate={{ y: [-amplitude, amplitude] }}
-      transition={{
-        duration,
-        repeat: Infinity,
-        repeatType: 'mirror',
-        ease: 'easeInOut',
-        delay,
-      }}
+      style={{ x: springX, y: springY, willChange: 'transform' }}
     >
-      {children}
+      <motion.div
+        className="transform-gpu [backface-visibility:hidden]"
+        style={{ willChange: 'transform' }}
+        animate={paused ? undefined : { y: [-amplitude, amplitude] }}
+        transition={
+          paused
+            ? undefined
+            : {
+                duration,
+                repeat: Infinity,
+                repeatType: 'mirror',
+                ease: 'easeInOut',
+                delay,
+              }
+        }
+      >
+        {children}
+      </motion.div>
     </motion.div>
   )
 }
@@ -317,40 +342,48 @@ function ProofFrontCard() {
 
   return (
     <div className="isolate overflow-visible rounded-[1.35rem] border border-white/85 bg-foam p-3.5 shadow-[0_24px_48px_rgb(11_28_36_/_0.12)] md:p-4">
-      <div className="flex items-start justify-between gap-2">
-          <div className="min-w-0">
+      <div className="flex items-start gap-3">
+        <div className="min-w-0 flex-1">
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1.5">
             <Tooltip content="Upwork Top Rated Plus — among the highest-rated freelancers on Upwork">
               <a
                 href={profile.links.upwork}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-1.5 rounded-full border border-[#ff69b4]/35 bg-[#ff69b4]/8 px-2 py-0.5 text-[9px] font-bold tracking-wide text-[#d63384]"
+                className="inline-flex shrink-0 items-center gap-1 rounded-full border border-[#ff69b4]/35 bg-[#ff69b4]/8 px-2 py-0.5 text-[9px] font-bold tracking-wide text-[#d63384]"
               >
-                <TopRatedPlusIcon size={14} className="h-3.5 w-3.5" />
+                <TopRatedPlusIcon size={13} className="h-3.5 w-3.5" />
                 Top Rated Plus
               </a>
             </Tooltip>
+            <span className="hidden text-line sm:inline" aria-hidden>
+              ·
+            </span>
             <Tooltip content="5.0 average client rating · 100% Job Success · typically responds within 24 hours">
-              <div className="mt-1.5 cursor-default">
-                <p className="font-display text-base font-bold text-ink">Upwork · 5.0 ★</p>
-                <p className="text-[10px] text-muted">100% Job Success · under 24h response</p>
-              </div>
+              <p className="cursor-default font-display text-[15px] font-bold leading-none text-ink sm:text-base">
+                Upwork · <span className="text-amber">5.0 ★</span>
+              </p>
             </Tooltip>
           </div>
-
-          <Tooltip content="Share of line changes written by AI tools vs manual typing over the last 12 months (Wakatime)">
-            <div className="shrink-0 cursor-default rounded-lg border border-amber/25 bg-amber/10 px-2.5 py-1.5 text-center">
-              <p className="font-display text-lg font-bold text-amber">
-                {aiAssistedPercent != null ? `${aiAssistedPercent}%` : '—'}
-              </p>
-              <p className="text-[8px] text-muted">AI-assisted</p>
-              <p className="text-[7px] text-muted/80">12 mo · lines</p>
-            </div>
-          </Tooltip>
+          <p className="mt-1.5 text-[10px] leading-snug text-muted">
+            100% Job Success · under 24h response
+          </p>
         </div>
 
-        <p className="mt-2 text-[9px] text-muted">Top languages · last 12 months</p>
-        <div className="mt-1 grid grid-cols-3 gap-1.5 text-center">
+        <Tooltip content="Share of line changes written by AI tools vs manual typing over the last 12 months (Wakatime)">
+          <div className="shrink-0 cursor-default rounded-xl border border-amber/25 bg-amber/10 px-2.5 py-2 text-center">
+            <p className="font-display text-base font-bold leading-none text-amber sm:text-lg">
+              {aiAssistedPercent != null ? `${aiAssistedPercent}%` : '—'}
+            </p>
+            <p className="mt-1 text-[8px] leading-tight text-muted">AI-assisted</p>
+          </div>
+        </Tooltip>
+      </div>
+
+      <p className="mt-3 text-[9px] font-medium tracking-wide text-muted uppercase">
+        Top languages · last 12 months
+      </p>
+      <div className="mt-1.5 grid grid-cols-3 gap-1.5 text-center">
           {languages.map((lang) => (
             <Tooltip
               key={lang.name}
@@ -374,6 +407,8 @@ function ProofFrontCard() {
 
 function LayeredCardStack() {
   const [activeCard, setActiveCard] = useState<ActiveCard>(null)
+  const mouseX = useRef(0)
+  const mouseY = useRef(0)
 
   const githubOnTop = activeCard === 'github'
   const proofOnTop = activeCard === 'proof' || activeCard === null
@@ -389,6 +424,10 @@ function LayeredCardStack() {
         amplitude={14}
         duration={7}
         delay={0}
+        mouseX={mouseX}
+        mouseY={mouseY}
+        cursorReach={280}
+        cursorForce={22}
       >
         <div onPointerEnter={() => setActiveCard('github')} onPointerLeave={() => setActiveCard(null)}>
           <GitHubActivityCard />
@@ -403,6 +442,10 @@ function LayeredCardStack() {
         amplitude={11}
         duration={5.5}
         delay={0.5}
+        mouseX={mouseX}
+        mouseY={mouseY}
+        cursorReach={250}
+        cursorForce={18}
       >
         <div
           className="pointer-events-auto"
@@ -434,7 +477,7 @@ export function HeroDevHub({ mobile = false }: { mobile?: boolean }) {
 
   return (
     <motion.div
-      className="relative w-full max-w-[460px]"
+      className="relative w-full max-w-[500px] min-h-[440px]"
       initial={{ opacity: 0, y: 24 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.85, ease: easeOut }}
@@ -444,10 +487,8 @@ export function HeroDevHub({ mobile = false }: { mobile?: boolean }) {
         className="pointer-events-none absolute -inset-3 rounded-[2rem] bg-[radial-gradient(circle_at_70%_20%,rgb(46_196_214_/_0.12),transparent_55%)]"
       />
 
-      <LayeredCardStack />
-
-      <div className="relative z-20 mt-5">
-        <StackPills animated />
+      <div className="relative z-10">
+        <LayeredCardStack />
       </div>
     </motion.div>
   )

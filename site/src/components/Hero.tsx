@@ -3,13 +3,14 @@ import { profile } from '../data/profile'
 import { useMagnetic } from '../hooks/useMagnetic'
 import { childFadeUp, easeOut, staggerChildren } from '../lib/motion'
 import { HeroDevHub } from './HeroDevHub'
+import { HeroFloatingIcons } from './HeroFloatingIcons'
 
 export function Hero() {
   const ctaRef = useMagnetic<HTMLAnchorElement>(0.22)
   const secondaryRef = useMagnetic<HTMLAnchorElement>(0.18)
 
   return (
-    <section id="top" className="relative min-h-[100svh] overflow-hidden">
+    <section id="top" className="relative min-h-[100svh] overflow-x-clip">
       {/* Background Gradients */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-[radial-gradient(120%_80%_at_10%_0%,#9fe7f0_0%,#e7f3f6_38%,#f5fafb_68%,#efe4d4_100%)]" />
@@ -27,7 +28,9 @@ export function Hero() {
         <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-foam to-transparent" />
       </div>
 
-      <div className="relative mx-auto flex min-h-[100svh] max-w-6xl items-center px-5 py-28 md:px-8 md:py-24">
+      <HeroFloatingIcons />
+
+      <div className="relative z-10 mx-auto flex min-h-[100svh] max-w-6xl items-center px-5 py-28 md:px-8 md:py-24">
         <div className="grid w-full items-center gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:gap-14">
           {/* Left Column: Headline, Bio & CTAs */}
           <motion.div
