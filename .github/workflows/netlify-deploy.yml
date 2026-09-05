@@ -39,6 +39,20 @@ jobs:
         run: npm run build
         working-directory: site
 
+      - name: Validate Netlify secrets
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: |
+          if [ -z "$NETLIFY_AUTH_TOKEN" ]; then
+            echo "::error::Missing NETLIFY_AUTH_TOKEN. Create one at https://app.netlify.com/user/applications#personal-access-tokens"
+            exit 1
+          fi
+          if [ -z "$NETLIFY_SITE_ID" ]; then
+            echo "::error::Missing NETLIFY_SITE_ID repository secret."
+            exit 1
+          fi
+
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v3.0
         with:
