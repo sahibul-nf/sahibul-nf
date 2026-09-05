@@ -1,0 +1,36 @@
+# Sahibul NF
+
+> Portfolio of Sahibul Nuzul Firdaus — full-stack Flutter engineer building production mobile apps, Golang APIs, and cloud-backed systems from Aceh, Indonesia. Open for freelance and remote roles.
+
+Sahibul ships multi-platform Flutter products with Supabase, Firebase, and AWS backends. Selected work includes a 102K+ LOC workflow canvas (client), Nourdaily (Muslim content platform), Cardx (collectibles), and hiQuran (65+ GitHub stars).
+
+## Portfolio
+
+- [Home](https://sahibul.dev/): Hero, selected work, experience, about, contact, and resume modal.
+- [Selected work](https://sahibul.dev/#work): Featured projects with stack tags and links.
+- [Case studies](https://sahibul.dev/#cases): Problem / approach / result write-ups for BonkBytes canvas and Cardx.
+- [Experience](https://sahibul.dev/#experience): Work history from BonkBytes, Musopen, S2bc Studios, DrugLift, and earlier roles.
+- [About & skills](https://sahibul.dev/#about): Core stack, skills groups, and background.
+- [Contact](https://sahibul.dev/#contact): Email, social links, and Netlify contact form.
+- [Resume / CV](https://sahibul.dev/#resume): Interactive resume with one-page and extended variants; printable PDF.
+
+## Hire & contact
+
+- [Email](mailto:sahibulnuzulfirdaus13@gmail.com): Direct contact for projects and roles.
+- [Upwork](https://www.upwork.com/freelancers/~01a4cbdaeeaac4a0f3): Freelance profile — Top Rated Plus, 5.0 rating.
+- [Contra](https://contra.com/sahibulnf): Independent contractor profile.
+- [LinkedIn](https://www.linkedin.com/in/sahibul-nf): Professional profile and network.
+
+## Projects
+
+- [Nourdaily](https://nourdaily.com): Flutter Muslim community content platform (articles, video, audio, discussions).
+- [PukatFlow](https://pukatflow.netlify.app): Android trip ledger for boat operators with AI-assisted entries.
+- [hiQuran on GitHub](https://github.com/sahibul-nf/hiQuran): Flutter Quran app — 65+ stars, Supabase and Firebase.
+- [solo-dev-ai-kit](https://github.com/sahibul-nf/solo-dev-ai-kit): Portable AI-assisted solo-dev workflow bootstrap.
+- [Quotes App](https://github.com/sahibul-nf/quotes_app): Flutter quotes app with Supabase backend.
+
+## Optional
+
+- [GitHub profile](https://github.com/sahibul-nf): Open-source repos, pinned projects, and contribution activity.
+- [Sitemap](https://sahibul.dev/sitemap.xml): Machine-readable list of main site URLs.
+- [Robots](https://sahibul.dev/robots.txt): Crawler directives for search engines.

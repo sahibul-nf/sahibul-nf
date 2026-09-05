@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://sahibul.dev/sitemap.xml
+
+# LLM-readable site map: https://sahibul.dev/llms.txt
