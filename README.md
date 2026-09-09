@@ -131,50 +131,49 @@ Sunday                   1582 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Markdown                 6 hrs 25 mins       █████████░░░░░░░░░░░░░░░░   34.61 % 
-Dart                     4 hrs 35 mins       ██████░░░░░░░░░░░░░░░░░░░   24.69 % 
-TypeScript               1 hr 57 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.52 % 
-JSON                     1 hr 3 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   05.69 % 
-Python                   56 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.04 % 
+Markdown                 7 hrs 2 mins        ███████░░░░░░░░░░░░░░░░░░   28.63 % 
+Dart                     6 hrs 42 mins       ███████░░░░░░░░░░░░░░░░░░   27.26 % 
+TypeScript               2 hrs 20 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.54 % 
+Python                   1 hr 47 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.29 % 
+Text                     1 hr 39 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.72 % 
 
 🔥 Editors: 
-Cursor                   13 hrs 30 mins      ██████████████████░░░░░░░   72.72 % 
-Agent                    5 hrs 4 mins        ███████░░░░░░░░░░░░░░░░░░   27.28 % 
+Cursor                   15 hrs 55 mins      ████████████████░░░░░░░░░   64.69 % 
+Agent                    8 hrs 41 mins       █████████░░░░░░░░░░░░░░░░   35.31 % 
 
 🐱‍💻 Projects: 
-pukatflow                8 hrs 26 mins       ███████████░░░░░░░░░░░░░░   45.48 % 
-sahibul-capital          4 hrs 58 mins       ███████░░░░░░░░░░░░░░░░░░   26.81 % 
-otonom-agents-media      1 hr 38 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.80 % 
-sahibul-nf               56 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.03 % 
-Unknown Project          47 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.29 % 
+pukatflow                10 hrs 20 mins      ██████████░░░░░░░░░░░░░░░   42.00 % 
+sahibul-capital          5 hrs 40 mins       ██████░░░░░░░░░░░░░░░░░░░   23.07 % 
+otonom-agents-media      2 hrs 59 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.14 % 
+Unknown Project          2 hrs 4 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.41 % 
+sahibul-nf               56 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.80 % 
 
 💻 Operating System: 
-Mac                      18 hrs 34 mins      █████████████████████████   100.00 % 
+Mac                      24 hrs 37 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 17 hrs 57 mins (96.64%)
+⏱ AI Coding Time: 24 hrs 15 mins (98.49%)
 
-✍️ 6,015 lines written by AI, 2,644 lines written by hand (69.47% AI-written)
+✍️ 8,940 lines written by AI, 2,644 lines written by hand (77.18% AI-written)
 
-🔤 393,724 Input Tokens, 393,724 Output Tokens
+🔤 1,163,543 Input Tokens, 1,163,543 Output Tokens
 
-💵 $7.15 Estimated AI Cost This Week
+💵 $20.94 Estimated AI Cost This Week
 
-🧠 56 AI Sessions, 316 AI Prompts
+🧠 81 AI Sessions, 551 AI Prompts
 
-Grok                     3,595 lines         █████████████░░░░░░░░░░░░   52.02 % 
-Composer                 3,266 lines         ████████████░░░░░░░░░░░░░   47.26 % 
-Gemini                   50 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.72 % 
-GPT                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+Grok                     5,373 lines         ██████████████░░░░░░░░░░░   55.52 % 
+Composer                 4,255 lines         ███████████░░░░░░░░░░░░░░   43.97 % 
+Gemini                   50 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.52 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 69.47% of written lines came from AI
-📚 Verbose Prompter — average 5,138 characters per prompt
-🔁 Iterative Prompter — average 6 prompts per session
-🚀 High AI Trust — 28.15% of changed lines were hand-edited
+🤖 AI-Driven — 77.18% of written lines came from AI
+📚 Verbose Prompter — average 10,110 characters per prompt
+🔁 Iterative Prompter — average 7 prompts per session
+🚀 High AI Trust — 21.43% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Dart** 
@@ -194,5 +193,5 @@ Shell                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 09/09/2026 19:02:21 UTC
+ Last Updated on 09/09/2026 22:11:24 UTC
 <!--END_SECTION:waka-->
