@@ -77,6 +77,16 @@ export function CaseStudies() {
                   </li>
                 ))}
               </ul>
+              {'liveUrl' in study && study.liveUrl ? (
+                <a
+                  href={study.liveUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-6 inline-flex text-sm font-semibold text-cyan hover:text-foam"
+                >
+                  Open live app →
+                </a>
+              ) : null}
             </motion.article>
           ))}
         </div>

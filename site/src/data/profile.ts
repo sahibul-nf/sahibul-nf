@@ -12,7 +12,7 @@ export const profile = {
   links: {
     github: 'https://github.com/sahibul-nf',
     linkedin: 'https://www.linkedin.com/in/sahibul-nf',
-    upwork: 'https://www.upwork.com/freelancers/~01a4cbdaeeaac4a0f3',
+    upwork: 'https://www.upwork.com/freelancers/sahibuln',
     contra: 'https://contra.com/sahibulnf',
     email: 'mailto:sahibulnuzulfirdaus13@gmail.com',
     portfolio: 'https://sahibul.dev',
@@ -25,10 +25,10 @@ export const projects = [
     title: 'Node-based Workflow Canvas',
     year: '2024–26 · Client · BonkBytes',
     blurb:
-      'Real-time visual workflow platform in Flutter Web: 102K+ LOC, 18-policy canvas engine, bidirectional IaC/DBML sync, Deno edge execution, and multi-user collaboration. Details shared on request.',
+      'Real-time visual workflow platform in Flutter Web: 102K+ LOC, 18-policy canvas engine, bidirectional IaC/DBML sync, Deno edge execution, and live multi-user collaboration. Walkthrough available on request.',
     tags: ['Flutter', 'Supabase', 'Edge Functions', 'Realtime', 'AWS'],
     image: '/images/workflow-canvas.svg',
-    href: 'https://bonkbytes.com/',
+    href: '#cases',
     live: null,
     stars: null,
   },
@@ -97,7 +97,6 @@ export const projects = [
 export const experience = [
   {
     company: 'BonkBytes',
-    companyUrl: 'https://bonkbytes.com/',
     role: 'Full-Stack Flutter Developer',
     period: '2024 — Present',
     points: [
@@ -196,7 +195,7 @@ export const caseStudies = [
     approach:
       'Built an 18-policy Flutter Web canvas engine with bidirectional IaC/DBML sync, Supabase Realtime collaboration, and 5 Deno edge microservices with SSRF hardening and Vault-backed secrets.',
     result:
-      'A production workflow platform spanning 102K+ LOC with 545 automated tests, multi-tenant RLS, and CI/CD deploys to AWS. Demo available on request.',
+      'A production workflow platform spanning 102K+ LOC with 545 automated tests, multi-tenant RLS, and CI/CD deploys to AWS. Product walkthrough on request.',
     stack: ['Flutter', 'Supabase', 'Edge Functions', 'Realtime', 'AWS'],
   },
   {

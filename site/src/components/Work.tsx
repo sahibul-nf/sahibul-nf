@@ -29,15 +29,17 @@ export function Work() {
         <div className="mt-14 space-y-16 md:space-y-24">
           {projects.map((project, index) => {
             const mediaFromRight = index % 2 === 1
+            const mediaHref = project.live ?? project.href
+            const isInternal = mediaHref.startsWith('#')
             return (
               <article
                 key={project.id}
                 className="group grid items-center gap-8 md:grid-cols-12 md:gap-10"
               >
                 <motion.a
-                  href={project.live ?? project.href}
-                  target="_blank"
-                  rel="noreferrer"
+                  href={mediaHref}
+                  target={isInternal ? undefined : '_blank'}
+                  rel={isInternal ? undefined : 'noreferrer'}
                   initial={{ opacity: 0, x: mediaFromRight ? 48 : -48 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={viewportOnce}
@@ -81,11 +83,11 @@ export function Work() {
                   <div className="mt-6 flex flex-wrap items-center gap-4 text-sm font-semibold">
                     <a
                       href={project.href}
-                      target="_blank"
-                      rel="noreferrer"
+                      target={project.href.startsWith('#') ? undefined : '_blank'}
+                      rel={project.href.startsWith('#') ? undefined : 'noreferrer'}
                       className="inline-flex items-center gap-2 text-cyan-strong transition-transform duration-300 hover:translate-x-1"
                     >
-                      Case / repo
+                      {project.href.startsWith('#') ? 'Case study' : 'Case / repo'}
                       <span aria-hidden>→</span>
                     </a>
                     {project.live ? (

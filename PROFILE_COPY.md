@@ -38,7 +38,7 @@ Email: sahibulnuzulfirdaus13@gmail.com
 
 ### Experience bullets
 
-**BonkBytes (https://bonkbytes.com/) — Full-Stack Flutter Developer (2024 – Present)**
+**BonkBytes — Full-Stack Flutter Developer (2024 – Present)**
 ```
 • Building a production node-based workflow canvas in Flutter with cloud execution and realtime collaboration.
 • Working across Flutter UI, Supabase-backed services, and AWS deployment.
@@ -87,6 +87,9 @@ Email: sahibulnuzulfirdaus13@gmail.com
 
 ## Upwork
 
+> Full reference (portfolio entries, proposal snippets, URLs): **`UPWORK_PROFILE.md`**  
+> Profile: https://www.upwork.com/freelancers/sahibuln
+
 ### Title
 ```
 Full-Stack Flutter Engineer | Supabase, Firebase & Go
@@ -107,7 +110,7 @@ I help teams ship software that stays maintainable:
 ✓ Practical AI-assisted delivery with tests
 
 Selected public work:
-• Node-based workflow canvas — Flutter + Supabase edge execution + realtime (client · BonkBytes; demo on request)
+• Node-based workflow canvas — Flutter + Supabase edge execution + realtime (client · BonkBytes; walkthrough on request)
 • Cardx — Flutter + Golang marketplace-style product (client · S2bc Studios)
 • DrugLift — Flutter MVP redesign/refactor + localization
 • Nourdaily — Flutter content platform for the Muslim community (daily.dev-style discovery)
@@ -129,15 +132,16 @@ Flutter, Dart, Firebase, Supabase, Golang, REST API, PostgreSQL, Mobile App Deve
 - Put portfolio / project URLs in Upwork’s dedicated link fields — not in the overview text
 
 ### Project catalog (public only)
-1. Workflow canvas — client · BonkBytes (demo on request; company: bonkbytes.com)
+1. Workflow canvas — client · BonkBytes (walkthrough on request; no public product URL until the client agrees)
 2. Cardx — client · S2bc Studios (Contra)
 3. DrugLift — Flutter MVP redesign/refactor + localization (no public demo URL)
 4. Nourdaily — content platform · Muslim community · daily.dev-style discovery (attach live URL in project field)
 5. hiQuran — GitHub
-6. solo-dev-ai-kit — GitHub
-7. quotes_app / acehnese_dictionary — optional extras
+6. PukatFlow — personal Android ledger (pilot landing)
+7. solo-dev-ai-kit — GitHub
+8. Otonom — personal agent/media product (mention as personal; no public demo URL unless you add one)
 
-Note: PukatFlow is listed on the portfolio site only — omit from Upwork/LinkedIn paste copy for now.
+PukatFlow and Otonom are **personal** products, not client NDA work. Safe to list on Upwork/LinkedIn as personal builds.
 
 ---
 

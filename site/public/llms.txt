@@ -2,7 +2,7 @@
 
 > Portfolio of Sahibul Nuzul Firdaus — full-stack Flutter engineer building production mobile apps, Golang APIs, and cloud-backed systems from Aceh, Indonesia. Open for freelance and remote roles.
 
-Sahibul ships multi-platform Flutter products with Supabase, Firebase, and AWS backends. Selected work includes a 102K+ LOC workflow canvas (client), Nourdaily (Muslim content platform), Cardx (collectibles), and hiQuran (65+ GitHub stars).
+Sahibul ships multi-platform Flutter products with Supabase, Firebase, and AWS backends. Selected work includes a 102K+ LOC workflow canvas (client), personal products PukatFlow and Otonom, Nourdaily (Muslim content platform), Cardx (collectibles), and hiQuran (65+ GitHub stars).
 
 ## Portfolio
 
@@ -24,7 +24,7 @@ Sahibul ships multi-platform Flutter products with Supabase, Firebase, and AWS b
 ## Projects
 
 - [Nourdaily](https://nourdaily.com): Flutter Muslim community content platform (articles, video, audio, discussions).
-- [PukatFlow](https://pukatflow.netlify.app): Android trip ledger for boat operators with AI-assisted entries.
+- [PukatFlow](https://pukatflow.netlify.app): Personal Android trip ledger for boat operators with AI-assisted entries.
 - [hiQuran on GitHub](https://github.com/sahibul-nf/hiQuran): Flutter Quran app — 65+ stars, Supabase and Firebase.
 - [solo-dev-ai-kit](https://github.com/sahibul-nf/solo-dev-ai-kit): Portable AI-assisted solo-dev workflow bootstrap.
 - [Quotes App](https://github.com/sahibul-nf/quotes_app): Flutter quotes app with Supabase backend.
