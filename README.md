@@ -96,7 +96,7 @@ I build multi-platform Flutter products and Golang backends that hold up in prod
 
 > 📦 336.2 kB Used in GitHub's Storage 
  > 
-> 🏆 1,106 Contributions in the Year 2026
+> 🏆 1,108 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
@@ -109,8 +109,8 @@ I build multi-platform Flutter products and Golang backends that hold up in prod
 ```text
 🌞 Morning                2035 commits        █████░░░░░░░░░░░░░░░░░░░░   19.94 % 
 🌆 Daytime                2374 commits        ██████░░░░░░░░░░░░░░░░░░░   23.26 % 
-🌃 Evening                2648 commits        ██████░░░░░░░░░░░░░░░░░░░   25.95 % 
-🌙 Night                  3149 commits        ████████░░░░░░░░░░░░░░░░░   30.85 % 
+🌃 Evening                2648 commits        ██████░░░░░░░░░░░░░░░░░░░   25.94 % 
+🌙 Night                  3151 commits        ████████░░░░░░░░░░░░░░░░░   30.87 % 
 ```
 📅 **I'm Most Productive on Monday** 
 
@@ -120,7 +120,7 @@ Tuesday                  1472 commits        ████░░░░░░░�
 Wednesday                1383 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.55 % 
 Thursday                 1170 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.46 % 
 Friday                   1245 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.20 % 
-Saturday                 1523 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.92 % 
+Saturday                 1525 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.94 % 
 Sunday                   1582 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.50 % 
 ```
 
@@ -131,49 +131,49 @@ Sunday                   1582 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Markdown                 6 hrs 52 mins       ███████░░░░░░░░░░░░░░░░░░   27.34 % 
-Dart                     6 hrs 41 mins       ███████░░░░░░░░░░░░░░░░░░   26.62 % 
-TypeScript               2 hrs 22 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.45 % 
-Python                   2 hrs 2 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   08.14 % 
-Text                     1 hr 41 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.73 % 
+Dart                     8 hrs 43 mins       ███████░░░░░░░░░░░░░░░░░░   29.89 % 
+Markdown                 7 hrs 4 mins        ██████░░░░░░░░░░░░░░░░░░░   24.25 % 
+TypeScript               3 hrs 7 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.72 % 
+Python                   2 hrs 24 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.26 % 
+Text                     2 hrs 14 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.68 % 
 
 🔥 Editors: 
-Cursor                   16 hrs 1 min        ████████████████░░░░░░░░░   63.71 % 
-Agent                    9 hrs 7 mins        █████████░░░░░░░░░░░░░░░░   36.29 % 
+Cursor                   18 hrs 3 mins       ███████████████░░░░░░░░░░   61.85 % 
+Agent                    11 hrs 8 mins       ██████████░░░░░░░░░░░░░░░   38.15 % 
 
 🐱‍💻 Projects: 
-pukatflow                10 hrs 7 mins       ██████████░░░░░░░░░░░░░░░   40.25 % 
-sahibul-capital          5 hrs 40 mins       ██████░░░░░░░░░░░░░░░░░░░   22.59 % 
-otonom-agents-media      3 hrs 21 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.34 % 
-Unknown Project          2 hrs 34 mins       ███░░░░░░░░░░░░░░░░░░░░░░   10.23 % 
-sahibul-nf               56 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.72 % 
+pukatflow                12 hrs 3 mins       ██████████░░░░░░░░░░░░░░░   41.30 % 
+otonom-agents-media      6 hrs 2 mins        █████░░░░░░░░░░░░░░░░░░░░   20.71 % 
+sahibul-capital          4 hrs 26 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.18 % 
+Unknown Project          3 hrs 15 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.16 % 
+terminals                58 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.36 % 
 
 💻 Operating System: 
-Mac                      25 hrs 8 mins       █████████████████████████   100.00 % 
+Mac                      29 hrs 12 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 24 hrs 48 mins (98.63%)
+⏱ AI Coding Time: 28 hrs 51 mins (98.82%)
 
-✍️ 9,104 lines written by AI, 2,644 lines written by hand (77.49% AI-written)
+✍️ 9,759 lines written by AI, 2,644 lines written by hand (78.68% AI-written)
 
-🔤 1,483,393 Input Tokens, 1,483,393 Output Tokens
+🔤 2,899,781 Input Tokens, 2,899,781 Output Tokens
 
-💵 $26.70 Estimated AI Cost This Week
+💵 $52.20 Estimated AI Cost This Week
 
-🧠 88 AI Sessions, 671 AI Prompts
+🧠 105 AI Sessions, 1738 AI Prompts
 
-Grok                     5,637 lines         ██████████████░░░░░░░░░░░   57.09 % 
-Composer                 4,187 lines         ███████████░░░░░░░░░░░░░░   42.40 % 
-Gemini                   50 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.51 % 
+Grok                     5,583 lines         █████████████░░░░░░░░░░░░   52.24 % 
+Composer                 5,055 lines         ████████████░░░░░░░░░░░░░   47.30 % 
+Gemini                   50 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.47 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 77.49% of written lines came from AI
-📚 Verbose Prompter — average 10,209 characters per prompt
-🔁 Iterative Prompter — average 8 prompts per session
-🚀 High AI Trust — 21.1% of changed lines were hand-edited
+🤖 AI-Driven — 78.68% of written lines came from AI
+📚 Verbose Prompter — average 7,290 characters per prompt
+🔁 Iterative Prompter — average 17 prompts per session
+🚀 High AI Trust — 19.81% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Dart** 
@@ -193,5 +193,5 @@ Shell                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 11/09/2026 18:58:41 UTC
+ Last Updated on 11/09/2026 22:11:30 UTC
 <!--END_SECTION:waka-->
