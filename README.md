@@ -131,49 +131,49 @@ Sunday                   1582 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     8 hrs 43 mins       ███████░░░░░░░░░░░░░░░░░░   29.89 % 
-Markdown                 7 hrs 4 mins        ██████░░░░░░░░░░░░░░░░░░░   24.25 % 
-TypeScript               3 hrs 7 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.72 % 
-Python                   2 hrs 24 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   08.26 % 
-Text                     2 hrs 14 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.68 % 
+Dart                     7 hrs 18 mins       ███████░░░░░░░░░░░░░░░░░░   28.30 % 
+Markdown                 5 hrs 25 mins       █████░░░░░░░░░░░░░░░░░░░░   21.02 % 
+TypeScript               3 hrs 6 mins        ███░░░░░░░░░░░░░░░░░░░░░░   12.03 % 
+Other                    2 hrs 33 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.94 % 
+Python                   2 hrs 32 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.83 % 
 
 🔥 Editors: 
-Cursor                   18 hrs 3 mins       ███████████████░░░░░░░░░░   61.85 % 
-Agent                    11 hrs 8 mins       ██████████░░░░░░░░░░░░░░░   38.15 % 
+Cursor                   15 hrs 3 mins       ███████████████░░░░░░░░░░   58.29 % 
+Agent                    10 hrs 46 mins      ██████████░░░░░░░░░░░░░░░   41.71 % 
 
 🐱‍💻 Projects: 
-pukatflow                12 hrs 3 mins       ██████████░░░░░░░░░░░░░░░   41.30 % 
-otonom-agents-media      6 hrs 2 mins        █████░░░░░░░░░░░░░░░░░░░░   20.71 % 
-sahibul-capital          4 hrs 26 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.18 % 
-Unknown Project          3 hrs 15 mins       ███░░░░░░░░░░░░░░░░░░░░░░   11.16 % 
-terminals                58 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.36 % 
+pukatflow                8 hrs 58 mins       █████████░░░░░░░░░░░░░░░░   34.75 % 
+otonom-agents-media      6 hrs 41 mins       ██████░░░░░░░░░░░░░░░░░░░   25.95 % 
+sahibul-capital          4 hrs 28 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.31 % 
+Unknown Project          3 hrs 15 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.65 % 
+terminals                56 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.67 % 
 
 💻 Operating System: 
-Mac                      29 hrs 12 mins      █████████████████████████   100.00 % 
+Mac                      25 hrs 49 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 28 hrs 51 mins (98.82%)
+⏱ AI Coding Time: 25 hrs 30 mins (98.81%)
 
-✍️ 9,759 lines written by AI, 2,644 lines written by hand (78.68% AI-written)
+✍️ 8,838 lines written by AI, 2,644 lines written by hand (76.97% AI-written)
 
-🔤 2,899,781 Input Tokens, 2,899,781 Output Tokens
+🔤 2,750,946 Input Tokens, 2,750,946 Output Tokens
 
-💵 $52.20 Estimated AI Cost This Week
+💵 $49.52 Estimated AI Cost This Week
 
-🧠 105 AI Sessions, 1738 AI Prompts
+🧠 105 AI Sessions, 1699 AI Prompts
 
-Grok                     5,583 lines         █████████████░░░░░░░░░░░░   52.24 % 
-Composer                 5,055 lines         ████████████░░░░░░░░░░░░░   47.30 % 
-Gemini                   50 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.47 % 
+Grok                     5,583 lines         ███████████████░░░░░░░░░░   59.85 % 
+Composer                 3,696 lines         ██████████░░░░░░░░░░░░░░░   39.62 % 
+Gemini                   50 lines            ░░░░░░░░░░░░░░░░░░░░░░░░░   00.54 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 78.68% of written lines came from AI
-📚 Verbose Prompter — average 7,290 characters per prompt
-🔁 Iterative Prompter — average 17 prompts per session
-🚀 High AI Trust — 19.81% of changed lines were hand-edited
+🤖 AI-Driven — 76.97% of written lines came from AI
+📚 Verbose Prompter — average 7,103 characters per prompt
+🔁 Iterative Prompter — average 16 prompts per session
+🚀 High AI Trust — 21.64% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Dart** 
@@ -193,5 +193,5 @@ Shell                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 12/09/2026 18:03:07 UTC
+ Last Updated on 12/09/2026 21:55:41 UTC
 <!--END_SECTION:waka-->
