@@ -25,13 +25,14 @@ I build multi-platform Flutter products and Golang backends that hold up in prod
 
 | Project | Stack | Links |
 | --- | --- | --- |
-| **Node-based Workflow Canvas** *(client · BonkBytes)* | Flutter · Supabase · Edge Functions · Realtime | Client work — walkthrough on request |
-| **[Nourdaily](https://nourdaily.com)** | Flutter · Muslim community · content platform | Personal build (daily.dev-style discovery) — [Live](https://nourdaily.com) |
+| **Node-based Workflow Canvas** *(client · BonkBytes)* | Flutter · Supabase · Edge Functions · Realtime | Silent feature demos on [sahibul.dev](https://sahibul.dev/#demo-canvas) — no production URL |
+| **Musopen Practice App** *(client · Musopen)* | Flutter · iOS/Android widgets · time tracking | [Play Store](https://play.google.com/store/apps/details?id=com.musopen.practice) · [silent demos](https://sahibul.dev/#demo-musopen) |
+| **[Nourdaily](https://nourdaily.com)** | Flutter · Muslim community · content platform | [Live](https://nourdaily.com) · [demo](https://sahibul.dev/#demo-nourdaily) |
 | **[PukatFlow](https://pukatflow.netlify.app)** | Android pilot · trip ledger · AI entries · bagi hasil | Personal — [landing](https://pukatflow.netlify.app) |
-| **[hiQuran](https://github.com/sahibul-nf/hiQuran)** ★65 | Flutter · GetX · Supabase · Firebase | [Amazon](https://s.id/hiQuran-Amazon) |
-| **Cardx** *(client · S2bc Studios)* | Flutter · Golang · Supabase · Redis | [Contra](https://contra.com/p/oBEBN3Os-cardx) |
+| **[hiQuran](https://github.com/sahibul-nf/hiQuran)** ★65 | Flutter · GetX · Supabase · Firebase | [Amazon](https://s.id/hiQuran-Amazon) · [silent demo](https://sahibul.dev/#demo-hiquran) |
+| **Cardx** *(client · S2bc Studios)* | Flutter · Golang · Supabase · Redis · eBay | [Live](https://appcardx.com) · [case study](https://sahibul.dev/#case-cardx) |
 | **[solo-dev-ai-kit](https://github.com/sahibul-nf/solo-dev-ai-kit)** | AI-assisted solo-dev workflow | [Repo](https://github.com/sahibul-nf/solo-dev-ai-kit) |
-| **[Quotes App](https://github.com/sahibul-nf/quotes_app)** ★15 | Flutter · Supabase | [Live](https://quot.codemagic.app/) |
+| **[Quotes App](https://github.com/sahibul-nf/quotes_app)** ★15 | Flutter · Supabase | [Live](https://quot.codemagic.app/) · [silent demo](https://sahibul.dev/#demo-quot) |
 
 ### Skills
 

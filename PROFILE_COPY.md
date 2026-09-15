@@ -53,9 +53,8 @@ Email: sahibulnuzulfirdaus13@gmail.com
 
 **S2bc Studios — Software Developer (Nov 2022 – Dec 2024)**
 ```
-• Built Cardx, a full-stack sports cards collection product, with Flutter and Golang.
-• Integrated marketplace APIs, Supabase, Redis caching, and PostgreSQL.
-• Supported auth flows and cloud deployment workflows.
+• Built Cardx (appcardx.com): Flutter iOS/web + Golang APIs for collections, wishlist, comments, and eBay marketplace search.
+• Integrated Redis caching, PostgreSQL, Supabase, and sales-history crawlers.
 ```
 
 **DrugLift — Flutter Developer (Jun 2023 – Jun 2024)**
@@ -110,7 +109,7 @@ I help teams ship software that stays maintainable:
 ✓ Practical AI-assisted delivery with tests
 
 Selected public work:
-• Node-based workflow canvas — Flutter + Supabase edge execution + realtime (client · BonkBytes; walkthrough on request)
+• Node-based workflow canvas — Flutter + Supabase edge execution + realtime (client · BonkBytes; silent feature demos on sahibul.dev, no production URL)
 • Cardx — Flutter + Golang marketplace-style product (client · S2bc Studios)
 • DrugLift — Flutter MVP redesign/refactor + localization
 • Nourdaily — Flutter content platform for the Muslim community (daily.dev-style discovery)
@@ -132,10 +131,10 @@ Flutter, Dart, Firebase, Supabase, Golang, REST API, PostgreSQL, Mobile App Deve
 - Put portfolio / project URLs in Upwork’s dedicated link fields — not in the overview text
 
 ### Project catalog (public only)
-1. Workflow canvas — client · BonkBytes (walkthrough on request; no public product URL until the client agrees)
-2. Cardx — client · S2bc Studios (Contra)
-3. DrugLift — Flutter MVP redesign/refactor + localization (no public demo URL)
-4. Nourdaily — content platform · Muslim community · daily.dev-style discovery (attach live URL in project field)
+1. Workflow canvas — client · BonkBytes (silent feature demos on sahibul.dev; no public product URL until the client agrees)
+2. Cardx — client · S2bc Studios (https://appcardx.com)
+3. DrugLift — Flutter MVP redesign/refactor + localization (no public demo URL; LinkedIn: use unlinked “DrugLift.com” text, not the company org page)
+4. Nourdaily — content platform · Muslim community · daily.dev-style discovery (live + demo on sahibul.dev/#demo-nourdaily)
 5. hiQuran — GitHub
 6. PukatFlow — personal Android ledger (pilot landing)
 7. solo-dev-ai-kit — GitHub

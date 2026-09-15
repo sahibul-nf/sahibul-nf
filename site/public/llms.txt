@@ -8,7 +8,7 @@ Sahibul ships multi-platform Flutter products with Supabase, Firebase, and AWS b
 
 - [Home](https://sahibul.dev/): Hero, selected work, experience, about, contact, and resume modal.
 - [Selected work](https://sahibul.dev/#work): Featured projects with stack tags and links.
-- [Case studies](https://sahibul.dev/#cases): Problem / approach / result write-ups for BonkBytes canvas and Cardx.
+- [Case studies](https://sahibul.dev/#cases): Two flagship write-ups — BonkBytes canvas and Cardx.
 - [Experience](https://sahibul.dev/#experience): Work history from BonkBytes, Musopen, S2bc Studios, DrugLift, and earlier roles.
 - [About & skills](https://sahibul.dev/#about): Core stack, skills groups, and background.
 - [Contact](https://sahibul.dev/#contact): Email, social links, and Netlify contact form.
@@ -23,11 +23,13 @@ Sahibul ships multi-platform Flutter products with Supabase, Firebase, and AWS b
 
 ## Projects
 
-- [Nourdaily](https://nourdaily.com): Flutter Muslim community content platform (articles, video, audio, discussions).
+- [Musopen Practice](https://play.google.com/store/apps/details?id=com.musopen.practice): Client Flutter work — home widgets and practice time tracking. Demos: https://sahibul.dev/#demo-musopen
+- [Nourdaily](https://nourdaily.com): Flutter Muslim community content platform (articles, video, audio, discussions). Demo: https://sahibul.dev/#demo-nourdaily
+- [Cardx](https://appcardx.com): Sports-card collection product (Flutter + Golang + eBay). Case study: https://sahibul.dev/#case-cardx
 - [PukatFlow](https://pukatflow.netlify.app): Personal Android trip ledger for boat operators with AI-assisted entries.
 - [hiQuran on GitHub](https://github.com/sahibul-nf/hiQuran): Flutter Quran app — 65+ stars, Supabase and Firebase.
 - [solo-dev-ai-kit](https://github.com/sahibul-nf/solo-dev-ai-kit): Portable AI-assisted solo-dev workflow bootstrap.
-- [Quotes App](https://github.com/sahibul-nf/quotes_app): Flutter quotes app with Supabase backend.
+- [Quotes App](https://github.com/sahibul-nf/quotes_app): Flutter quotes app with Supabase backend. Silent demo: https://sahibul.dev/#demo-quot
 
 ## Optional
 

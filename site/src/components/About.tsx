@@ -58,9 +58,9 @@ export function About({ onOpenResume }: { onOpenResume?: () => void }) {
             variants={childFadeUp}
             className="mt-5 text-base leading-relaxed text-muted sm:text-lg md:text-xl"
           >
-            I care about clean architecture, thoughtful UI, and APIs that stay reliable. I also use
-            AI-assisted workflows with tests when it helps delivery. Open to freelance and remote
-            roles.
+            I care about clean architecture, thoughtful UI, and APIs that stay reliable. I use
+            AI-assisted workflows with tests when it speeds delivery without lowering the bar.
+            Available for new freelance and remote work.
           </motion.p>
 
           <motion.div variants={childFadeUp} className="mt-8 flex flex-wrap items-center gap-4">

@@ -1,6 +1,6 @@
 # Upwork profile reference — Sahibul Nuzul Firdaus
 
-Last updated: 2026-09-05
+Last updated: 2026-09-12
 
 Living reference for Upwork profile, portfolio entries, and proposal copy.  
 Portfolio site: **https://sahibul.dev**
@@ -80,9 +80,11 @@ Portfolio should be **one click** — avoid Google Drive / PDF-only proof.
 
 ### Focus: 3 strongest public projects on Upwork
 
-1. **Workflow Canvas** — BonkBytes (client · walkthrough on request; do not publish the production URL unless Jake/BonkBytes agrees)
+1. **Workflow Canvas** — BonkBytes (client · silent feature demos on sahibul.dev/#demo-canvas; do not publish the production URL unless Jake/BonkBytes agrees)
 2. **Cardx** — S2bc Studios (full-stack client proof)
-3. **hiQuran**, **Nourdaily**, or **PukatFlow** — personal shipped products
+3. **hiQuran**, **Nourdaily**, or **Musopen practice widgets** — shipped product / client feature clips
+
+Silent demos on the site play **muted at 1.5×**. Clips show one feature end-to-end, no credentials. Production app URLs stay off the public portfolio.
 
 Personal (not client NDA): **PukatFlow**, **Otonom**. Safe to describe as your own products; Otonom has no public demo URL yet.
 
@@ -131,7 +133,7 @@ Visit: sahibul.dev
 | --- | --- |
 | **Project title** | Node-based Workflow Canvas — Flutter Web + Supabase |
 | **Your role** | Full-Stack Flutter Developer |
-| **Link** | https://sahibul.dev/#cases |
+| **Link** | https://sahibul.dev/#demo-canvas |
 | **Related job** | BonkBytes contract (if listed on Upwork) |
 
 **Project description:**
@@ -140,7 +142,7 @@ Problem: The product needed a production Flutter canvas where non-engineers coul
 
 Solution: Built an 18-policy Flutter Web canvas engine with bidirectional IaC/DBML sync, Supabase Realtime collaboration, and Deno edge microservices with SSRF hardening and Vault-backed secrets.
 
-Result: Production workflow platform (102K+ LOC) with 545 automated tests, multi-tenant RLS, and CI/CD deploys to AWS. Product walkthrough on request.
+Result: Production workflow platform (102K+ LOC) with 545 automated tests, multi-tenant RLS, and CI/CD deploys to AWS. Silent feature demos on sahibul.dev (no production URL).
 ```
 
 **Skills:** Flutter, Supabase, Realtime, TypeScript, PostgreSQL
@@ -153,15 +155,15 @@ Result: Production workflow platform (102K+ LOC) with 545 automated tests, multi
 | --- | --- |
 | **Project title** | Cardx — Sports Cards Platform (Flutter + Golang) |
 | **Your role** | Software Developer |
-| **Link** | https://contra.com/p/oBEBN3Os-cardx or https://sahibul.dev/#work |
+| **Link** | https://appcardx.com |
 
 **Project description:**
 ```
-Problem: The team needed a multi-platform sports-card product with reliable APIs, marketplace data, and a client experience that stayed fast as collections grew.
+Problem: Collectors needed a multi-platform product to catalog sports cards, track value over time, and browse marketplace listings without a sluggish catalog.
 
-Solution: Owned Flutter clients for iOS/web and Golang REST services, integrating Supabase, Redis caching, PostgreSQL, and third-party marketplace APIs end to end.
+Solution: Owned Flutter iOS/web clients and Golang REST services — collections, comments, wishlist, search, and eBay Browse — with Redis caching, PostgreSQL, Supabase, and scheduled crawlers for sales history.
 
-Result: Full-stack collectibles product shipped across client and backend layers, with caching and API integrations that held up for real marketplace use.
+Result: Production app at appcardx.com spanning client and API: marketplace search, collection CRUD, wishlist, comments, and hourly value tracking.
 ```
 
 **Skills:** Flutter, Golang, Supabase, Redis, PostgreSQL
@@ -195,7 +197,7 @@ Result: Shipped product with 65+ GitHub stars and public app store availability.
 | --- | --- |
 | **Project title** | Nourdaily — Muslim Community Content Platform |
 | **Your role** | Full-Stack Flutter Engineer |
-| **Link** | https://nourdaily.com |
+| **Link** | https://nourdaily.com · demo https://sahibul.dev/#demo-nourdaily |
 
 **Project description:**
 ```
@@ -235,7 +237,7 @@ The BonkBytes workflow canvas case study (#cases) is closest to [briefly tie to 
 - Paste only **public** work (GitHub, Contra, public landings, sahibul.dev).
 - Skip private client names, private production URLs, and NDA-only details unless approved.
 - Skip paper-only contracts with no shipped project work.
-- **DrugLift:** MVP redesign/refactor + localization only — no GoGetGig naming.
+- **DrugLift:** OK to name on portfolio/Upwork. On LinkedIn, use unlinked text (e.g. DrugLift.com) — do not attach the LinkedIn company page. No GoGetGig naming.
 - **PukatFlow / Otonom:** personal products. Fine to list; don’t over-share unreleased internals.
 - Portfolio **Notes** on sahibul.dev uses real client feedback only.
 
@@ -260,3 +262,4 @@ The BonkBytes workflow canvas case study (#cases) is closest to [briefly tie to 
 - [ ] Skill tags match job categories you want
 - [ ] Test proposal includes portfolio link mid-letter
 - [ ] Contact form on sahibul.dev tested (Netlify Forms + email notification)
+- [x] Silent Loom feature demos on sahibul.dev (canvas, Musopen, hiQuran, Quot) — muted, 1.5× requested

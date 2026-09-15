@@ -1,4 +1,4 @@
-import { useState, type FormEvent } from 'react'
+import { useEffect, useState, type FormEvent } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import { profile } from '../data/profile'
 import { useMagnetic } from '../hooks/useMagnetic'
@@ -6,9 +6,24 @@ import { easeOut, viewportOnce } from '../lib/motion'
 
 type Status = 'idle' | 'sending' | 'success' | 'error'
 
+const WALKTHROUGH_PREFILL =
+  'I’d like a walkthrough of the workflow canvas (silent demo / architecture — no customer data).'
+
 export function Contact() {
   const [status, setStatus] = useState<Status>('idle')
+  const [message, setMessage] = useState('')
   const buttonRef = useMagnetic<HTMLButtonElement>(0.2)
+
+  useEffect(() => {
+    const applyHash = () => {
+      if (window.location.hash === '#walkthrough') {
+        setMessage(WALKTHROUGH_PREFILL)
+      }
+    }
+    applyHash()
+    window.addEventListener('hashchange', applyHash)
+    return () => window.removeEventListener('hashchange', applyHash)
+  }, [])
 
   const onSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault()
@@ -29,6 +44,7 @@ export function Contact() {
       if (!response.ok) throw new Error('Failed')
       setStatus('success')
       form.reset()
+      setMessage('')
     } catch {
       setStatus('error')
     }
@@ -36,6 +52,7 @@ export function Contact() {
 
   return (
     <section id="contact" className="relative scroll-mt-24 overflow-hidden py-24 md:py-32">
+      <div id="walkthrough" className="h-0 scroll-mt-24" />
       <div className="absolute inset-0 bg-[radial-gradient(90%_70%_at_80%_10%,#9fe7f0_0%,#e7f3f6_40%,#f5fafb_100%)]" />
       <div className="absolute inset-0 opacity-25 grain" />
 
@@ -140,6 +157,8 @@ export function Contact() {
               required
               name="message"
               rows={5}
+              value={message}
+              onChange={(event) => setMessage(event.target.value)}
               className="w-full resize-y border-b border-line bg-transparent px-0 py-3 outline-none transition-[border-color] duration-300 focus:border-cyan-deep"
               placeholder="What are we building?"
             />

@@ -46,18 +46,7 @@ export function Experience() {
 
               <div>
                 <p className="text-sm text-muted">{job.period}</p>
-                {'companyUrl' in job && job.companyUrl ? (
-                  <a
-                    href={job.companyUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="mt-1 inline-block font-semibold text-ink underline-offset-4 transition-colors hover:text-cyan-strong hover:underline"
-                  >
-                    {job.company}
-                  </a>
-                ) : (
-                  <p className="mt-1 font-semibold text-ink">{job.company}</p>
-                )}
+                <p className="mt-1 font-semibold text-ink">{job.company}</p>
               </div>
               <div>
                 <h3 className="font-display text-2xl font-bold tracking-tight text-ink transition-colors duration-300 group-hover:text-cyan-strong">

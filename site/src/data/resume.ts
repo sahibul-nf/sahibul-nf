@@ -105,8 +105,8 @@ export const resumeData = {
       period: 'Nov 2022 — Dec 2024',
       location: 'Remote',
       highlights: [
-        'Built Cardx (Flutter + Golang) with eBay API, Supabase, PostgreSQL, and Redis for high-volume catalog workflows.',
-        'Owned iOS/Web clients and backend integrations for marketplace data, caching, and inventory tracking.',
+        'Built Cardx (appcardx.com) with Flutter iOS/web, Golang APIs, eBay Browse, collections, wishlist, and sales-history tracking.',
+        'Owned Redis caching, PostgreSQL, and Supabase integrations for catalog and marketplace workflows.',
       ],
     },
     {
@@ -262,8 +262,8 @@ export const resumeExtended: ResumeContent = {
       period: 'Nov 2022 — Dec 2024',
       location: 'Remote',
       highlights: [
-        'Built Cardx, a cross-platform sports card collection product for iOS and Web using Flutter clients and Golang REST APIs.',
-        'Integrated eBay marketplace APIs, Supabase, PostgreSQL, and Redis caching for high-volume catalog browsing and inventory workflows.',
+        'Built Cardx (appcardx.com): Flutter iOS/web clients and Golang REST APIs for collections, wishlist, comments, and marketplace search.',
+        'Integrated eBay Browse, Supabase, PostgreSQL, Redis caching, and crawlers for sales history and top-selling cards.',
       ],
     },
     {
@@ -313,7 +313,8 @@ export const resumeExtended: ResumeContent = {
       name: 'Cardx Collectibles Platform',
       stack: 'Flutter, Golang, Supabase, Redis, PostgreSQL',
       summary:
-        'Multi-platform sports card collection app with live marketplace pricing, inventory tracking, and performance-focused caching.',
+        'Multi-platform sports card collection app with eBay marketplace data, inventory tracking, comments, wishlist, and sales-history crawlers.',
+      link: 'https://appcardx.com',
     },
     {
       name: 'hiQuran',
