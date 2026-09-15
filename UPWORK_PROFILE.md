@@ -1,6 +1,6 @@
 # Upwork profile reference — Sahibul Nuzul Firdaus
 
-Last updated: 2026-09-12
+Last updated: 2026-09-15
 
 Living reference for Upwork profile, portfolio entries, and proposal copy.  
 Portfolio site: **https://sahibul.dev**
@@ -30,41 +30,48 @@ Do **not** paste earnings, private hourly rates, or active-contract terms into o
 
 ## Profile fields
 
-### Title
+### Title (recommended — audit 2026-09-15)
 ```
-Full-Stack Flutter Engineer | Supabase, Firebase & Go
+Flutter Developer | iOS, Android, Web Apps | Supabase & Go
 ```
+
+**Alternates (if you A/B test):**
+- Outcome-led: `Flutter App Developer | Production iOS & Android | Supabase`
+- Owner-led: `Full-Stack Flutter Engineer | Ship Apps with Supabase & Go`
+
+**Avoid:** Expert, Passionate, Creative, `| AI`, duplicating Mobile App Developer next to Flutter Developer.
 
 ### Overview
-> Upwork overview: **no links / URLs** in the overview text. Put portfolio and project URLs in Upwork’s dedicated Portfolio / project link fields only.
+> Upwork overview: **no links / URLs** in the overview text. Put portfolio and project URLs in Upwork’s dedicated Portfolio / project link fields only. Domain names in prose (e.g. sahibul.dev) are acceptable when not formatted as links.
 
 ```
-Hi — I’m Sahibul, a full-stack Flutter engineer shipping production mobile/web apps with Supabase, Firebase, and Golang when a custom backend is the better fit.
+I ship production Flutter apps (iOS, Android, Web) and the backends behind them — owned from architecture through App Store / Play Store release.
 
-I help teams ship software that stays maintainable:
+Hire me when you need a Flutter owner, not a ticket-taker: new apps, takeovers, refactors, widgets, Golang APIs, and workflow-style editors. I move faster with Cursor, Claude, and Codex, then lock quality with automated tests and CI/CD.
 
-✓ Flutter apps (iOS / Android / Web) from feature work to release
-✓ Supabase & Firebase (auth, data, realtime, cloud/edge functions)
-✓ Canvas engines & node-based / workflow-style editors
-✓ Golang REST APIs, Redis/Postgres, and third-party integrations when BaaS isn’t enough
-✓ Practical AI-assisted delivery with tests
+What I deliver
+• Flutter iOS, Android, and Web from one codebase — Riverpod / GetX, offline-first, Figma-accurate UI
+• Supabase and Firebase (auth, realtime, RLS, storage, edge functions)
+• Golang REST APIs, PostgreSQL, Redis, and third-party marketplace APIs when BaaS is not enough
+• Node-based / visual canvas engines in Flutter Web
 
-Selected public work:
-• Node-based workflow canvas — Flutter + Supabase edge execution + realtime (client · BonkBytes; walkthrough on request)
-• Cardx — Flutter + Golang marketplace-style product (client · S2bc Studios)
-• DrugLift — Flutter MVP redesign/refactor + localization
-• Nourdaily — Flutter content platform for the Muslim community (daily.dev-style discovery)
-• hiQuran — Flutter + Supabase/Firebase
-• PukatFlow — personal Android trip ledger with AI-assisted entries
-• solo-dev-ai-kit — portable AI solo-dev workflow bootstrap
+Proof (public)
+• Workflow canvas (client) — Flutter Web + Supabase Realtime + Deno edge; 102K+ LOC, 545 tests, AWS CI/CD. Feature demos on request / sahibul.dev
+• Cardx (client) — Flutter iOS/web + Golang; live collectibles product with eBay catalog and sales tracking
+• Musopen Practice (client) — home widgets and practice-time tracking on Google Play
+• Nourdaily and hiQuran — shipped Flutter products (content platform + Quran app, 65+ GitHub stars)
 
-How I work: clear communication, clean architecture, and design-aware implementation.
-
-Tech: Flutter, Dart, Supabase, Firebase, Golang, PostgreSQL, Redis, REST, Socket.io, TypeScript, AWS
+Top Rated Plus · 5.0 · 100% Job Success. Usually reply within 24 hours.
 ```
 
-### Skill tags (priority order)
-Flutter, Dart, Firebase, Supabase, Golang, REST API, PostgreSQL, Mobile App Development
+### Skill tags (priority order — 8 core + 1 optional)
+```
+Flutter, Mobile App Development, Firebase, Supabase, Golang, RESTful API, iOS, Android
+```
+
+**Optional 9th (only if slot remains):** AI Coding Workflows — honest tag for Cursor/Claude/Codex; do **not** stack five generic AI tags.
+
+**Remove / do not re-add:** AI App Development, AI Implementation, AI Model Integration, AI Mobile App Development, API Integration, API Development (keep RESTful API only), Flutter Stack, Full-Stack Development, WebRTC, Socket.io, TypeScript.
 
 ### Settings
 - Experience level: **Expert**
@@ -75,16 +82,22 @@ Flutter, Dart, Firebase, Supabase, Golang, REST API, PostgreSQL, Mobile App Deve
 
 ## Portfolio strategy (reference)
 
-Clients typically scan **JSS → rating → portfolio** before reading long cover letters.  
+Clients typically scan **JSS → rating → first 3 portfolio thumbnails** before reading long cover letters.  
 Portfolio should be **one click** — avoid Google Drive / PDF-only proof.
 
-### Focus: 3 strongest public projects on Upwork
+### Pin order (top 3 on Upwork — audit 2026-09-15)
 
-1. **Workflow Canvas** — BonkBytes (client · silent feature demos on sahibul.dev/#demo-canvas; do not publish the production URL unless Jake/BonkBytes agrees)
-2. **Cardx** — S2bc Studios (full-stack client proof)
-3. **hiQuran**, **Nourdaily**, or **Musopen practice widgets** — shipped product / client feature clips
+1. **Workflow Canvas** — BonkBytes (client · demo https://sahibul.dev/#demo-canvas; do not publish production URL unless client agrees)
+2. **Cardx** — S2bc Studios (https://appcardx.com)
+3. **Musopen Practice** — Musopen (Google Play · demo https://sahibul.dev/#demo-musopen)
 
-Silent demos on the site play **muted at 1.5×**. Clips show one feature end-to-end, no credentials. Production app URLs stay off the public portfolio.
+**Thumbnail guidance:** Loom GIF for canvas and Musopen (already on site); Cardx uses product screenshot, not logo.
+
+**Unfeature / move down (keep published, not in top 3):** Moyu, Acehnese Dictionary, daily.dev clone, Quot, Solo Dev AI Kit.
+
+**Hub entry:** sahibul.dev portfolio item is fine as item #4+, **not** #1.
+
+Silent demos on the site play **muted at 1.5×**. Clips show one feature end-to-end, no credentials. Production app URLs stay off the public portfolio except where client-approved (Cardx, Musopen Play Store).
 
 Personal (not client NDA): **PukatFlow**, **Otonom**. Safe to describe as your own products; Otonom has no public demo URL yet.
 
@@ -99,9 +112,7 @@ Use verified outcomes only — no invented metrics.
 
 ## Portfolio entries — copy-paste ready
 
-### Option A — Single hub entry (quick setup)
-
-Use when adding one portfolio item that points to the full site.
+### Option A — Single hub entry (position #4+, not featured #1)
 
 | Field | Value |
 | --- | --- |
@@ -118,16 +129,16 @@ Problem: Clients need a fast way to verify real delivery — not a PDF folder or
 
 Solution: A focused portfolio site with strongest projects, case studies (problem → approach → result), live links, and direct contact.
 
-Result: One-click proof of production work — workflow canvas (client), Cardx (full-stack), Nourdaily/hiQuran (shipped products). Top Rated Plus · 5.0 rating.
+Result: One-click proof of production work — workflow canvas (client), Cardx (full-stack), Musopen (Play Store). Top Rated Plus · 5.0 rating.
 
 Visit: sahibul.dev
 ```
 
-**Skills:** Flutter, Golang, Supabase, Mobile App Development, REST API
+**Skills:** Flutter, Golang, Supabase, Mobile App Development, RESTful API
 
 ---
 
-### Option B — Project 1: Workflow Canvas
+### Option B — Project 1: Workflow Canvas (PIN #1)
 
 | Field | Value |
 | --- | --- |
@@ -145,11 +156,11 @@ Solution: Built an 18-policy Flutter Web canvas engine with bidirectional IaC/DB
 Result: Production workflow platform (102K+ LOC) with 545 automated tests, multi-tenant RLS, and CI/CD deploys to AWS. Silent feature demos on sahibul.dev (no production URL).
 ```
 
-**Skills:** Flutter, Supabase, Realtime, TypeScript, PostgreSQL
+**Skills:** Flutter, Supabase, Mobile App Development, PostgreSQL
 
 ---
 
-### Option B — Project 2: Cardx
+### Option B — Project 2: Cardx (PIN #2)
 
 | Field | Value |
 | --- | --- |
@@ -170,7 +181,29 @@ Result: Production app at appcardx.com spanning client and API: marketplace sear
 
 ---
 
-### Option B — Project 3: hiQuran
+### Option B — Project 3: Musopen Practice (PIN #3)
+
+| Field | Value |
+| --- | --- |
+| **Project title** | Musopen Practice — Home Widgets & Practice Tracking |
+| **Your role** | Flutter Developer |
+| **Link** | https://play.google.com/store/apps/details?id=com.musopen.practice |
+| **Demo** | https://sahibul.dev/#demo-musopen |
+
+**Project description:**
+```
+Problem: Classical music learners needed practice-time tracking and at-a-glance progress on their home screen — inside an existing production app, without slowing core playback flows.
+
+Solution: Shipped Flutter home-screen widgets and practice-session tracking integrated with the Musopen Practice Android app, iterating with design and product feedback on production releases.
+
+Result: Live on Google Play — widgets and practice tracking in a shipped classical-music product used by real learners.
+```
+
+**Skills:** Flutter, Android, Mobile App Development
+
+---
+
+### Option B — Secondary: hiQuran
 
 | Field | Value |
 | --- | --- |
@@ -191,7 +224,7 @@ Result: Shipped product with 65+ GitHub stars and public app store availability.
 
 ---
 
-### Option B — Alternate Project 3: Nourdaily
+### Option B — Secondary: Nourdaily
 
 | Field | Value |
 | --- | --- |
@@ -208,7 +241,20 @@ Solution: Built a Flutter content platform with discovery flows, media consumpti
 Result: Live product demonstrating product ownership, content UX, and multi-format delivery on Flutter.
 ```
 
-**Skills:** Flutter, Firebase, Mobile App Development, UI/UX
+**Skills:** Flutter, Firebase, Mobile App Development
+
+---
+
+## Manual Upwork UI checklist (portfolio not in MCP)
+
+Current live portfolio (2026-09-15): sahibul.dev hub, Nour Daily, Quot, hiQuran, Solo Dev AI Kit, Moyu, Acehnese Dictionary, daily.dev clone — **missing Canvas, Cardx, Musopen**.
+
+- [ ] Add portfolio: Workflow Canvas (Option B #1)
+- [ ] Add portfolio: Cardx (Option B #2)
+- [ ] Add portfolio: Musopen Practice (Option B #3)
+- [ ] Reorder / pin so Canvas, Cardx, Musopen are first 3 thumbnails
+- [ ] Unfeature: Moyu, Acehnese Dictionary, daily.dev clone, Quot
+- [ ] Move sahibul.dev hub below the three client proofs
 
 ---
 
@@ -240,6 +286,7 @@ The BonkBytes workflow canvas case study (#cases) is closest to [briefly tie to 
 - **DrugLift:** OK to name on portfolio/Upwork. On LinkedIn, use unlinked text (e.g. DrugLift.com) — do not attach the LinkedIn company page. No GoGetGig naming.
 - **PukatFlow / Otonom:** personal products. Fine to list; don’t over-share unreleased internals.
 - Portfolio **Notes** on sahibul.dev uses real client feedback only.
+- **Do not** rebrand as “AI Engineer” or stack five AI skill tags without model/training proof.
 
 ---
 
@@ -256,10 +303,12 @@ The BonkBytes workflow canvas case study (#cases) is closest to [briefly tie to 
 
 ## Checklist after profile changes
 
-- [ ] Portfolio entry published (hub and/or 3 projects)
+- [x] Title: `Flutter Developer | iOS, Android, Web Apps | Supabase & Go` (applied 2026-09-15 via Upwork MCP)
+- [x] Skills: 8 core + AI Coding Workflows (applied 2026-09-15 via Upwork MCP)
+- [x] Overview pasted (no emoji structure; no high-retention claims; no LLM product-engineer framing) (applied 2026-09-15 via Upwork MCP)
+- [ ] Portfolio: Canvas, Cardx, Musopen pinned top 3
 - [ ] Website field set to `https://sahibul.dev`
 - [ ] Overview has **no raw URLs** (links live in Portfolio fields)
-- [ ] Skill tags match job categories you want
 - [ ] Test proposal includes portfolio link mid-letter
 - [ ] Contact form on sahibul.dev tested (Netlify Forms + email notification)
 - [x] Silent Loom feature demos on sahibul.dev (canvas, Musopen, hiQuran, Quot) — muted, 1.5× requested

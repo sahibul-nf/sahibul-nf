@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
-import { clipKey, type DemoClip } from '../lib/demo'
+import { clipKey, isImageGallery, type DemoClip } from '../lib/demo'
 import { easeOut } from '../lib/motion'
 import { DemoPlayer } from './DemoPlayer'
 
@@ -123,7 +123,7 @@ export function DemoModal({
               <div className="mb-3 flex w-full items-end justify-between gap-4">
                 <div className="min-w-0">
                   <p className="text-[11px] font-semibold tracking-[0.18em] text-cyan uppercase">
-                    Demo
+                    {session && isImageGallery(session.clips) ? 'Screenshots' : 'Demo'}
                     {hasMultiple ? ` · ${clipIndex + 1} / ${clipCount}` : null}
                   </p>
                   <h3

@@ -55,9 +55,9 @@ const contact = {
 /** Default export for quick imports — 1-page version */
 export const resumeData = {
   ...contact,
-  subtitle: 'Flutter · Golang · Supabase · Firebase · AWS',
+  subtitle: 'Flutter · Golang · Supabase · Cursor · Claude · Codex',
   summary:
-    'Full-stack Flutter engineer with 5+ years shipping production mobile apps (iOS, Android, Web), Golang APIs, and cloud systems on Supabase, Firebase, and AWS. Strong in cross-platform architecture, realtime features, PostgreSQL, Redis, CI/CD, and remote product delivery. Open to freelance and full-time remote roles.',
+    'Full-stack Flutter engineer with 5+ years shipping production apps (iOS, Android, Web), Golang APIs, and cloud systems. I own features through release for product teams and Upwork clients — using Cursor, Claude, and Codex to move faster, with automated tests to keep quality high. Open to freelance and remote roles.',
   coreCompetencies: [
     'Flutter',
     'Dart',
@@ -69,11 +69,12 @@ export const resumeData = {
     'REST APIs',
     'Realtime Systems',
     'AWS',
-    'Docker',
-    'CI/CD',
+    'Cursor',
+    'Claude',
+    'Codex',
+    'Automated Testing',
     'Mobile Architecture',
     'System Design',
-    'Automated Testing',
     'Riverpod',
     'GetX',
     'Edge Functions',
@@ -164,9 +165,9 @@ export const resumeData = {
 /** Full history — optimized for a 2-page PDF export */
 export const resumeExtended: ResumeContent = {
   ...contact,
-  subtitle: 'Mobile Development · Golang · Supabase · Firebase · AWS',
+  subtitle: 'Flutter · Golang · Supabase · Cursor · Claude · Codex',
   summary:
-    'Full-stack Flutter engineer with 5+ years of experience designing, building, and scaling cross-platform mobile apps (iOS, Android, Web), Golang REST APIs, and cloud-backed systems on Supabase, Firebase, and AWS. Experienced in end-to-end product delivery — UI architecture, realtime collaboration, edge execution, PostgreSQL, Redis caching, CI/CD, and async remote delivery. Open to freelance and full-time remote roles.',
+    'Full-stack Flutter engineer with 5+ years designing, building, and scaling cross-platform apps (iOS, Android, Web), Golang REST APIs, and cloud-backed systems. End-to-end product delivery for remote teams — realtime collaboration, edge execution, PostgreSQL, Redis, CI/CD. Ships faster with Cursor, Claude, and Codex; quality locked with automated tests. Open to freelance and full-time remote roles.',
   coreCompetencies: [
     'Flutter',
     'Dart',
@@ -223,8 +224,10 @@ export const resumeExtended: ResumeContent = {
     {
       category: 'Practices & Tools',
       items: [
+        'Cursor',
+        'Claude',
+        'Codex',
         'System Design',
-        'AI-assisted Engineering',
         'Automated Testing',
         'Git/GitHub',
         'Figma',

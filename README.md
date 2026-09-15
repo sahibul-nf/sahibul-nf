@@ -4,7 +4,7 @@
 
 **Full-Stack Flutter Engineer** · Supabase · Firebase · Golang · Aceh, Indonesia · [Open to work](mailto:sahibulnuzulfirdaus13@gmail.com)
 
-I build multi-platform Flutter products and Golang backends that hold up in production — apps, realtime features, and cloud-backed workflow tools.
+Production Flutter apps and Golang backends — owned from architecture through release. I ship faster with Cursor, Claude, and Codex, with tests to keep quality high.
 
 ### Links
 

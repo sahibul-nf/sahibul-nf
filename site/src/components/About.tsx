@@ -17,7 +17,7 @@ export function About({ onOpenResume }: { onOpenResume?: () => void }) {
               About
             </p>
             <h2 className="font-display mt-3 text-balance text-3xl font-bold tracking-tight text-ink sm:text-4xl md:text-5xl">
-              Engineer from Aceh with a product eye
+              Flutter owner for teams that need production work
             </h2>
           </motion.div>
 
@@ -49,18 +49,17 @@ export function About({ onOpenResume }: { onOpenResume?: () => void }) {
             variants={childFadeUp}
             className="text-base leading-relaxed text-muted sm:text-lg md:text-xl"
           >
-            I started in frontend web in 2018, then found my lane in Flutter and Golang backends.
-            Since 2021 I’ve shipped production apps across e-commerce, collectibles, learning tools,
-            and a node-based workflow canvas — often owning both the client and the services behind
-            it.
+            I help founders and product teams ship Flutter apps end to end — new builds, feature
+            work, refactors, widgets, Golang APIs, and canvas-style editors. Typical engagements:
+            scoped features through full product ownership on iOS, Android, and Web.
           </motion.p>
           <motion.p
             variants={childFadeUp}
             className="mt-5 text-base leading-relaxed text-muted sm:text-lg md:text-xl"
           >
-            I care about clean architecture, thoughtful UI, and APIs that stay reliable. I use
-            AI-assisted workflows with tests when it speeds delivery without lowering the bar.
-            Available for new freelance and remote work.
+            I work with Cursor, Claude, and Codex to move faster, then use tests and clean
+            architecture so the codebase stays maintainable after handoff. Based in Aceh; remote
+            across time zones. {profile.availability}.
           </motion.p>
 
           <motion.div variants={childFadeUp} className="mt-8 flex flex-wrap items-center gap-4">

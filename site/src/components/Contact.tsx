@@ -73,6 +73,10 @@ export function Contact() {
           <p className="mt-4 text-lg text-muted">
             {profile.availability}. Tell me about the product, the stack, and the timeline.
           </p>
+          <p className="mt-3 max-w-md text-base leading-relaxed text-muted">
+            Typical scope: Flutter feature work through full app + API — new products, takeovers,
+            refactors, widgets, and backend integrations.
+          </p>
           <p className="mt-3 text-sm font-semibold text-cyan-strong">{profile.responseTime}</p>
 
           <div className="mt-8 space-y-3 text-sm">

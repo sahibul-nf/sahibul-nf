@@ -24,12 +24,12 @@ I’m a full-stack Flutter engineer with 5 years of professional experience buil
 
 I take ownership from architecture through release — Flutter clients, REST services, realtime features, and cloud-backed workflows. I’ve full-built platforms like Nourdaily (Flutter content platform for the Muslim community — daily.dev-style discovery) and shipped a node-based workflow canvas (Flutter + Supabase edge execution + realtime collaboration), plus earlier marketplace and e-commerce products with third-party API integrations.
 
-I use structured AI-assisted engineering with automated tests when it helps delivery — without skipping quality.
+I ship faster with Cursor, Claude, and Codex — and lock quality with automated tests.
 
 Tech:
-• Flutter / Dart, Golang, TypeScript, Vue/Nuxt
+• Flutter / Dart, Golang, TypeScript
 • Supabase, Firebase, REST, Socket.io, Redis, PostgreSQL, AWS
-• Riverpod, GetX, system design, automated testing
+• Cursor, Claude, Codex, Riverpod, GetX, system design, automated testing
 
 Open to remote roles and freelance projects.
 Portfolio: https://sahibul.dev
@@ -91,54 +91,58 @@ Email: sahibulnuzulfirdaus13@gmail.com
 
 ### Title
 ```
-Full-Stack Flutter Engineer | Supabase, Firebase & Go
+Flutter Developer | iOS, Android, Web Apps | Supabase & Go
 ```
 
 ### Overview
 > Upwork overview: **no links / URLs** (paste text only; attach portfolio/project links in Upwork profile fields).
 
 ```
-Hi — I’m Sahibul, a full-stack Flutter engineer shipping production mobile/web apps with Supabase, Firebase, and Golang when a custom backend is the better fit.
+I ship production Flutter apps (iOS, Android, Web) and the backends behind them — owned from architecture through App Store / Play Store release.
 
-I help teams ship software that stays maintainable:
+Hire me when you need a Flutter owner, not a ticket-taker: new apps, takeovers, refactors, widgets, Golang APIs, and workflow-style editors. I move faster with Cursor, Claude, and Codex, then lock quality with automated tests and CI/CD.
 
-✓ Flutter apps (iOS / Android / Web) from feature work to release
-✓ Supabase & Firebase (auth, data, realtime, cloud/edge functions)
-✓ Canvas engines & node-based / workflow-style editors
-✓ Golang REST APIs, Redis/Postgres, and third-party integrations when BaaS isn’t enough
-✓ Practical AI-assisted delivery with tests
+What I deliver
+• Flutter iOS, Android, and Web from one codebase — Riverpod / GetX, offline-first, Figma-accurate UI
+• Supabase and Firebase (auth, realtime, RLS, storage, edge functions)
+• Golang REST APIs, PostgreSQL, Redis, and third-party marketplace APIs when BaaS is not enough
+• Node-based / visual canvas engines in Flutter Web
 
-Selected public work:
-• Node-based workflow canvas — Flutter + Supabase edge execution + realtime (client · BonkBytes; silent feature demos on sahibul.dev, no production URL)
-• Cardx — Flutter + Golang marketplace-style product (client · S2bc Studios)
-• DrugLift — Flutter MVP redesign/refactor + localization
-• Nourdaily — Flutter content platform for the Muslim community (daily.dev-style discovery)
-• hiQuran — Flutter + Supabase/Firebase
-• solo-dev-ai-kit — portable AI solo-dev workflow bootstrap
+Proof (public)
+• Workflow canvas (client) — Flutter Web + Supabase Realtime + Deno edge; 102K+ LOC, 545 tests, AWS CI/CD. Feature demos on request / sahibul.dev
+• Cardx (client) — Flutter iOS/web + Golang; live collectibles product with eBay catalog and sales tracking
+• Musopen Practice (client) — home widgets and practice-time tracking on Google Play
+• Nourdaily and hiQuran — shipped Flutter products (content platform + Quran app, 65+ GitHub stars)
 
-How I work: clear communication, clean architecture, and design-aware implementation.
-
-Tech: Flutter, Dart, Supabase, Firebase, Golang, PostgreSQL, Redis, REST, Socket.io, TypeScript, AWS
+Top Rated Plus · 5.0 · 100% Job Success. Usually reply within 24 hours.
 ```
 
-### Skill tags (priority)
-Flutter, Dart, Firebase, Supabase, Golang, REST API, PostgreSQL, Mobile App Development
+### Skill tags (priority — 8 core + optional 9th)
+```
+Flutter, Mobile App Development, Firebase, Supabase, Golang, RESTful API, iOS, Android
+```
+
+Optional 9th: **AI Coding Workflows** only — do not add five generic AI tags.
 
 ### Upwork settings
 - Experience level: **Expert**
+- Website field: `https://sahibul.dev`
 - Keep Top Rated Plus / JSS visible in the Upwork UI (don’t paste earnings/hours into proposals)
 - Public rate: set privately based on your strategy; renegotiate active contracts offline
 - Put portfolio / project URLs in Upwork’s dedicated link fields — not in the overview text
 
-### Project catalog (public only)
-1. Workflow canvas — client · BonkBytes (silent feature demos on sahibul.dev; no public product URL until the client agrees)
-2. Cardx — client · S2bc Studios (https://appcardx.com)
-3. DrugLift — Flutter MVP redesign/refactor + localization (no public demo URL; LinkedIn: use unlinked “DrugLift.com” text, not the company org page)
-4. Nourdaily — content platform · Muslim community · daily.dev-style discovery (live + demo on sahibul.dev/#demo-nourdaily)
-5. hiQuran — GitHub
-6. PukatFlow — personal Android ledger (pilot landing)
-7. solo-dev-ai-kit — GitHub
-8. Otonom — personal agent/media product (mention as personal; no public demo URL unless you add one)
+### Portfolio pin order (top 3 thumbnails)
+1. **Workflow Canvas** — client · BonkBytes (https://sahibul.dev/#demo-canvas; no production URL)
+2. **Cardx** — client · S2bc Studios (https://appcardx.com)
+3. **Musopen Practice** — client · Musopen (Google Play + demo on sahibul.dev/#demo-musopen)
+
+**Unfeature (keep published, not top 3):** Moyu, Acehnese Dictionary, daily.dev clone, Quot, Solo Dev AI Kit. Hub sahibul.dev entry OK as #4+.
+
+### Secondary project catalog
+- Nourdaily — live + demo on sahibul.dev/#demo-nourdaily
+- hiQuran — GitHub
+- DrugLift — Flutter MVP redesign (LinkedIn: unlinked “DrugLift.com” text only)
+- PukatFlow / Otonom — personal products; safe to list, no unreleased internals
 
 PukatFlow and Otonom are **personal** products, not client NDA work. Safe to list on Upwork/LinkedIn as personal builds.
 

@@ -2,13 +2,14 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import { motion } from 'framer-motion'
 import { projects } from '../data/profile'
 import type { DemoSession } from './DemoModal'
+import { demoActionLabel } from '../lib/demo'
 import { easeOut, viewportOnce } from '../lib/motion'
 import { ProjectMedia } from './ProjectMedia'
 
 const featured = projects.filter((project) => project.featured)
 const moreWork = projects.filter((project) => !project.featured)
 
-function PlayDemoBadge({ compact = false }: { compact?: boolean }) {
+function PlayDemoBadge({ compact = false, label }: { compact?: boolean; label: string }) {
   if (compact) {
     return (
       <span className="pointer-events-none absolute inset-0 flex items-center justify-center bg-ink/0 transition-colors duration-300 group-hover:bg-ink/25">
@@ -29,7 +30,7 @@ function PlayDemoBadge({ compact = false }: { compact?: boolean }) {
           aria-hidden
           className="ml-0.5 inline-block border-y-[6px] border-l-[10px] border-y-transparent border-l-foam"
         />
-        Watch demo
+        {label}
       </span>
     </span>
   )
@@ -104,7 +105,7 @@ function MoreWorkStrip({ onOpenDemo }: { onOpenDemo: (session: DemoSession) => v
         const media = (
           <div className="relative aspect-[16/10] overflow-hidden rounded-xl border border-line bg-mist">
             <ProjectMedia src={project.image} title={project.title} />
-            {hasDemos ? <PlayDemoBadge compact /> : null}
+            {hasDemos ? <PlayDemoBadge compact label={demoActionLabel(project.demos)} /> : null}
           </div>
         )
 
@@ -205,7 +206,7 @@ function ProjectLinks({
           onClick={() => onOpenDemo({ id: project.id, title: project.title, clips: project.demos })}
           className="text-muted transition-colors duration-300 hover:text-ink"
         >
-          Watch demo
+          {demoActionLabel(project.demos)}
         </button>
       ) : null}
       {project.stars ? <span className="text-muted">{project.stars}★ on GitHub</span> : null}
@@ -262,7 +263,7 @@ export function Work({ onOpenDemo }: { onOpenDemo: (session: DemoSession) => voi
                   >
                     <div className="relative aspect-[16/10] overflow-hidden bg-mist">
                       <ProjectMedia src={project.image} title={project.title} />
-                      <PlayDemoBadge />
+                      <PlayDemoBadge label={demoActionLabel(project.demos)} />
                     </div>
                   </motion.button>
                 ) : (

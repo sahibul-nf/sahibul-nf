@@ -20,7 +20,8 @@ export function Notes() {
             From clients
           </h2>
           <p className="mt-4 max-w-xl text-lg text-muted">
-            Real feedback from Upwork and direct client work.
+            Real feedback from Upwork and direct client work. Top Rated Plus · 5.0 average on
+            Upwork.
           </p>
         </motion.div>
 
@@ -46,7 +47,7 @@ export function Notes() {
                 </p>
               ) : (
                 <p className="font-display mt-4 text-2xl leading-snug font-semibold tracking-tight text-ink md:text-[1.45rem]">
-                  Five-star feedback after a year-long engagement.
+                  Five-star feedback after a year-long MVP redesign.
                 </p>
               )}
 

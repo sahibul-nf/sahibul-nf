@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { caseStudies } from '../data/profile'
+import { demoActionLabel } from '../lib/demo'
 import { easeOut, viewportOnce } from '../lib/motion'
 import type { DemoSession } from './DemoModal'
 
@@ -91,7 +92,7 @@ export function CaseStudies({ onOpenDemo }: { onOpenDemo: (session: DemoSession)
                       }
                       className="inline-flex text-cyan hover:text-foam"
                     >
-                      Watch demo →
+                      {demoActionLabel(study.demos)} →
                     </button>
                   ) : null}
                   {study.liveUrl ? (

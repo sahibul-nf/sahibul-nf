@@ -14,10 +14,26 @@ export type YoutubeClip = {
   title: string
 }
 
-export type DemoClip = LoomClip | YoutubeClip
+export type ImageClip = {
+  provider: 'image'
+  id: string
+  title: string
+  src: string
+}
+
+export type VideoClip = LoomClip | YoutubeClip
+export type DemoClip = VideoClip | ImageClip
 
 export function clipKey(clip: DemoClip) {
   return `${clip.provider}:${clip.id}`
+}
+
+export function isImageGallery(clips: readonly DemoClip[]) {
+  return clips.length > 0 && clips.every((clip) => clip.provider === 'image')
+}
+
+export function demoActionLabel(clips: readonly DemoClip[]) {
+  return isImageGallery(clips) ? 'View screens' : 'Watch demo'
 }
 
 export function youtubeEmbedUrl(videoId: string, autoplay: boolean) {
@@ -34,7 +50,7 @@ export function youtubeEmbedUrl(videoId: string, autoplay: boolean) {
   return `https://www.youtube-nocookie.com/embed/${videoId}?${params.toString()}`
 }
 
-export function demoEmbedUrl(clip: DemoClip, autoplay: boolean) {
+export function demoEmbedUrl(clip: VideoClip, autoplay: boolean) {
   switch (clip.provider) {
     case 'loom':
       return loomEmbedUrl(clip.id, autoplay)

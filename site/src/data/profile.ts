@@ -4,9 +4,10 @@ export const profile = {
   role: 'Full-Stack Flutter Engineer',
   location: 'Aceh, Indonesia',
   email: 'sahibulnuzulfirdaus13@gmail.com',
-  headline: 'I ship Flutter products and Golang backends that hold up in production.',
+  headline:
+    'Production Flutter apps and Golang backends — owned from architecture through release.',
   summary:
-    'Product-minded engineer for multi-platform apps, realtime features, and cloud-backed workflow tools. AI-assisted delivery with tests — for teams that need reliable production work.',
+    'For product teams and Upwork clients who need a Flutter owner, not a ticket-taker: iOS, Android, and Web clients, APIs, and realtime features. I ship faster with Cursor, Claude, and Codex — and lock quality with automated tests.',
   availability: 'Available for new freelance & remote work',
   responseTime: 'Usually reply within 24 hours',
   links: {
@@ -19,13 +20,46 @@ export const profile = {
   },
 } as const
 
+const cardxScreens = [
+  {
+    provider: 'image' as const,
+    id: 'home-web',
+    title: 'Home — web',
+    src: '/images/cardx/home-web.jpg',
+  },
+  {
+    provider: 'image' as const,
+    id: 'home-ios',
+    title: 'Home — iOS',
+    src: '/images/cardx/home-ios.jpg',
+  },
+  {
+    provider: 'image' as const,
+    id: 'search',
+    title: 'Marketplace search',
+    src: '/images/cardx/search.png',
+  },
+  {
+    provider: 'image' as const,
+    id: 'card-detail',
+    title: 'Card detail',
+    src: '/images/cardx/card-detail.jpg',
+  },
+  {
+    provider: 'image' as const,
+    id: 'sales-history',
+    title: 'Sales history',
+    src: '/images/cardx/sales-history.png',
+  },
+]
+
 export const projects = [
   {
     id: 'canvas',
     title: 'Node-based Workflow Canvas',
     year: '2024–26 · Client · BonkBytes',
     blurb:
-      'Real-time visual workflow platform in Flutter Web: 102K+ LOC, 18-policy canvas engine, bidirectional IaC/DBML sync, Deno edge execution, and live multi-user collaboration.',
+      'Browser-based workflow builder so non-engineers can design, run, and collaborate on cloud steps in real time — Flutter Web, Supabase Realtime, and Deno edge execution.',
     tags: ['Flutter', 'Supabase', 'Edge Functions', 'Realtime', 'AWS'],
     image: 'https://cdn.loom.com/sessions/thumbnails/54d47d1db328497a80e4727cff8859cc-9c0bf666ef43f9ef.gif',
     href: '#case-bonkbytes-canvas',
@@ -44,7 +78,7 @@ export const projects = [
     title: 'Musopen Practice App',
     year: '2024–25 · Client · Musopen',
     blurb:
-      'Flutter feature work on a classical-music practice product — home-screen widgets and practice time tracking on Android and iOS.',
+      'Shipped home-screen widgets and practice-time tracking for a live classical-music app on Google Play and the App Store.',
     tags: ['Flutter', 'iOS', 'Android', 'Widgets'],
     image: 'https://cdn.loom.com/sessions/thumbnails/3050251bf6ee4cf98be65c04597c243a-65985e06c902c47a.gif',
     href: '#demo-musopen',
@@ -63,12 +97,12 @@ export const projects = [
     title: 'Cardx',
     year: '2022–24 · Client · S2bc Studios',
     blurb:
-      'Sports-card collection product for iOS and web — Flutter clients, Golang APIs, eBay marketplace data, collections, wishlist, comments, and sales-history tracking.',
+      'Collectors catalog cards, track value over time, and browse eBay listings — Flutter iOS/web with Golang APIs, Redis caching, and sales-history crawlers at appcardx.com.',
     tags: ['Flutter', 'Golang', 'Supabase', 'Redis', 'eBay'],
-    image: '/images/cardx.jpg',
+    image: '/images/cardx/home-web.jpg',
     href: '#case-cardx',
     live: 'https://appcardx.com',
-    demos: [],
+    demos: cardxScreens,
     featured: true,
     caseStudyId: 'cardx',
     walkthroughOnRequest: false,
@@ -229,21 +263,24 @@ export const skills = [
     items: ['Supabase', 'Firebase', 'AWS', 'Docker', 'Edge Functions', 'CI/CD'],
   },
   {
+    group: 'Tools',
+    items: ['Cursor', 'Claude', 'Codex'],
+  },
+  {
     group: 'Practice',
-    items: ['System Design', 'AI-assisted Engineering', 'Automated Testing', 'TypeScript', 'Vue/Nuxt', 'Figma'],
+    items: ['System Design', 'Automated Testing', 'AI-assisted Delivery', 'TypeScript', 'Figma'],
   },
 ] as const
 
 /** Quick-scan core stack shown in About (keep short). */
 export const coreStack = [
   'Flutter',
-  'Dart',
   'Golang',
   'Supabase',
-  'Firebase',
   'PostgreSQL',
-  'Redis',
-  'AWS',
+  'Cursor',
+  'Claude',
+  'Codex',
 ] as const
 
 export const caseStudies = [
@@ -279,7 +316,7 @@ export const caseStudies = [
       'Production app at appcardx.com spanning client and API: marketplace search, collection CRUD, wishlist, comments, and hourly value tracking.',
     stack: ['Flutter', 'Golang', 'Supabase', 'Redis', 'PostgreSQL', 'eBay'],
     liveUrl: 'https://appcardx.com',
-    demos: [],
+    demos: cardxScreens,
     walkthroughOnRequest: false,
   },
 ] as const
@@ -295,14 +332,14 @@ export const testimonials = [
     quote: 'Great work.',
     rating: '5.0',
     role: 'Aaron Dunn',
-    context: 'Musopen · Upwork · 2024–2025',
+    context: 'Musopen · Upwork · widgets & practice tracking · 2024–2025',
   },
   {
     id: 'leo-gjoni',
     quote: null,
     rating: '5.0',
     role: 'Leo Gjoni',
-    context: 'DrugLift · Upwork · 2023–2024',
+    context: 'DrugLift · Upwork · year-long MVP redesign · 2023–2024',
   },
   {
     id: 'wilfried',

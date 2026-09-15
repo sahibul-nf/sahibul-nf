@@ -1,8 +1,8 @@
 # Sahibul NF
 
-> Portfolio of Sahibul Nuzul Firdaus — full-stack Flutter engineer building production mobile apps, Golang APIs, and cloud-backed systems from Aceh, Indonesia. Open for freelance and remote roles.
+> Portfolio of Sahibul Nuzul Firdaus — full-stack Flutter engineer for product teams and Upwork clients who need a Flutter owner, not a ticket-taker. Based in Aceh, Indonesia. Open for freelance and remote roles.
 
-Sahibul ships multi-platform Flutter products with Supabase, Firebase, and AWS backends. Selected work includes a 102K+ LOC workflow canvas (client), personal products PukatFlow and Otonom, Nourdaily (Muslim content platform), Cardx (collectibles), and hiQuran (65+ GitHub stars).
+Sahibul ships production Flutter apps (iOS, Android, Web), Golang APIs, and cloud-backed systems on Supabase, Firebase, and AWS. Works with Cursor, Claude, and Codex for faster delivery; automated tests for quality. Featured client work: BonkBytes workflow canvas, Musopen Practice (Play Store), Cardx (appcardx.com). Personal: Nourdaily, hiQuran (65+ GitHub stars), PukatFlow.
 
 ## Portfolio
 
