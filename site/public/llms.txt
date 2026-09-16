@@ -8,7 +8,7 @@ Sahibul ships production Flutter apps (iOS, Android, Web), Golang APIs, and clou
 
 - [Home](https://sahibul.dev/): Hero, selected work, experience, about, contact, and resume modal.
 - [Selected work](https://sahibul.dev/#work): Featured projects with stack tags and links.
-- [Case studies](https://sahibul.dev/#cases): Two flagship write-ups — BonkBytes canvas and Cardx.
+- [Case studies](https://sahibul.dev/#cases): Flagship write-ups — BonkBytes canvas, Musopen Practice, and Cardx.
 - [Experience](https://sahibul.dev/#experience): Work history from BonkBytes, Musopen, S2bc Studios, DrugLift, and earlier roles.
 - [About & skills](https://sahibul.dev/#about): Core stack, skills groups, and background.
 - [Contact](https://sahibul.dev/#contact): Email, social links, and Netlify contact form.
@@ -23,7 +23,7 @@ Sahibul ships production Flutter apps (iOS, Android, Web), Golang APIs, and clou
 
 ## Projects
 
-- [Musopen Practice](https://play.google.com/store/apps/details?id=com.musopen.practice): Client Flutter work — home widgets and practice time tracking. Demos: https://sahibul.dev/#demo-musopen
+- [Musopen Practice](https://play.google.com/store/apps/details?id=com.musopen.practice): Client Flutter work — practice companion (widgets, Dynamic Island, session timer). Demos: https://sahibul.dev/#demo-musopen · Case study: https://sahibul.dev/#case-musopen
 - [Nourdaily](https://nourdaily.com): Flutter Muslim community content platform (articles, video, audio, discussions). Demo: https://sahibul.dev/#demo-nourdaily
 - [Cardx](https://appcardx.com): Sports-card collection product (Flutter + Golang + eBay). Case study: https://sahibul.dev/#case-cardx
 - [PukatFlow](https://pukatflow.netlify.app): Personal Android trip ledger for boat operators with AI-assisted entries.

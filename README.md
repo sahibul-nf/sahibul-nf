@@ -26,7 +26,7 @@ Production Flutter apps and Golang backends — owned from architecture through 
 | Project | Stack | Links |
 | --- | --- | --- |
 | **Node-based Workflow Canvas** *(client · BonkBytes)* | Flutter · Supabase · Edge Functions · Realtime | Silent feature demos on [sahibul.dev](https://sahibul.dev/#demo-canvas) — no production URL |
-| **Musopen Practice App** *(client · Musopen)* | Flutter · iOS/Android widgets · time tracking | [Play Store](https://play.google.com/store/apps/details?id=com.musopen.practice) · [silent demos](https://sahibul.dev/#demo-musopen) |
+| **Musopen Practice App** *(client · Musopen)* | Flutter practice companion · WidgetKit / Glance / Live Activities | [Play Store](https://play.google.com/store/apps/details?id=com.musopen.practice) · [silent demos](https://sahibul.dev/#demo-musopen) |
 | **[Nourdaily](https://nourdaily.com)** | Flutter · Muslim community · content platform | [Live](https://nourdaily.com) · [demo](https://sahibul.dev/#demo-nourdaily) |
 | **[PukatFlow](https://pukatflow.netlify.app)** | Android pilot · trip ledger · AI entries · bagi hasil | Personal — [landing](https://pukatflow.netlify.app) |
 | **[hiQuran](https://github.com/sahibul-nf/hiQuran)** ★65 | Flutter · GetX · Supabase · Firebase | [Amazon](https://s.id/hiQuran-Amazon) · [silent demo](https://sahibul.dev/#demo-hiquran) |

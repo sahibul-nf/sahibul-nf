@@ -47,8 +47,8 @@ Email: sahibulnuzulfirdaus13@gmail.com
 
 **Musopen — Flutter Developer (May 2024 – Jul 2025)**
 ```
-• Shipped features, fixed production bugs, and refined UI for a classical music platform.
-• Collaborated iteratively with design/product feedback to improve day-to-day quality.
+• Shipped iOS WidgetKit and Android Glance home widgets plus Dynamic Island / Live Activities with lock-screen timer drift correction for Musopen Practice (practice companion, not a listening catalog).
+• Built the practice session engine: timer, metronome, waveform recording, S3 attachments; HTTP/2 networking and POM integration tests.
 ```
 
 **S2bc Studios — Software Developer (Nov 2022 – Dec 2024)**
@@ -111,7 +111,7 @@ What I deliver
 Proof (public)
 • Workflow canvas (client) — Flutter Web + Supabase Realtime + Deno edge; 102K+ LOC, 545 tests, AWS CI/CD. Feature demos on request / sahibul.dev
 • Cardx (client) — Flutter iOS/web + Golang; live collectibles product with eBay catalog and sales tracking
-• Musopen Practice (client) — home widgets and practice-time tracking on Google Play
+• Musopen Practice (client) — practice companion for classical musicians: native widgets, Dynamic Island, session timer (Play Store + App Store)
 • Nourdaily and hiQuran — shipped Flutter products (content platform + Quran app, 65+ GitHub stars)
 
 Top Rated Plus · 5.0 · 100% Job Success. Usually reply within 24 hours.
@@ -134,7 +134,7 @@ Optional 9th: **AI Coding Workflows** only — do not add five generic AI tags.
 ### Portfolio pin order (top 3 thumbnails)
 1. **Workflow Canvas** — client · BonkBytes (https://sahibul.dev/#demo-canvas; no production URL)
 2. **Cardx** — client · S2bc Studios (https://appcardx.com)
-3. **Musopen Practice** — client · Musopen (Google Play + demo on sahibul.dev/#demo-musopen)
+3. **Musopen Practice** — client · Musopen (practice companion — Play Store, App Store id1447342480, demo on sahibul.dev/#demo-musopen)
 
 **Unfeature (keep published, not top 3):** Moyu, Acehnese Dictionary, daily.dev clone, Quot, Solo Dev AI Kit. Hub sahibul.dev entry OK as #4+.
 

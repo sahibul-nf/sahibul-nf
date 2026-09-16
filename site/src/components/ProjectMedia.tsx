@@ -3,9 +3,10 @@ import { useState } from 'react'
 type ProjectMediaProps = {
   src: string
   title: string
+  fit?: 'cover' | 'contain'
 }
 
-export function ProjectMedia({ src, title }: ProjectMediaProps) {
+export function ProjectMedia({ src, title, fit = 'cover' }: ProjectMediaProps) {
   const [failed, setFailed] = useState(false)
 
   if (failed) {
@@ -25,16 +26,22 @@ export function ProjectMedia({ src, title }: ProjectMediaProps) {
     )
   }
 
+  const isContain = fit === 'contain'
+
   return (
     <>
       <img
         src={src}
         alt={`${title} preview`}
-        className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+        className={`h-full w-full transition-transform duration-700 ease-out group-hover:scale-[1.04] ${
+          isContain ? 'object-contain bg-foam' : 'object-cover'
+        }`}
         loading="lazy"
         onError={() => setFailed(true)}
       />
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/35 via-transparent to-transparent opacity-70 transition-opacity duration-500 group-hover:opacity-90" />
+      {isContain ? null : (
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/35 via-transparent to-transparent opacity-70 transition-opacity duration-500 group-hover:opacity-90" />
+      )}
     </>
   )
 }

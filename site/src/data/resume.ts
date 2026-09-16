@@ -96,8 +96,8 @@ export const resumeData = {
       period: 'May 2024 — Jul 2025',
       location: 'Remote',
       highlights: [
-        'Shipped cross-platform features, performance fixes, and UI refinements for a global classical music platform.',
-        'Earned a 5.0 client rating on Upwork through fast iteration with design and product stakeholders.',
+        'Shipped iOS WidgetKit and Android Glance home widgets plus Dynamic Island / Live Activities with lock-screen timer drift correction for Musopen Practice.',
+        'Built the practice session engine (timer, metronome, waveform recording, S3 attachments) and HTTP/2 networking; 5.0 Upwork rating from the client.',
       ],
     },
     {
@@ -145,6 +145,13 @@ export const resumeData = {
       stack: 'Flutter · Supabase · Edge Functions · AWS',
       summary:
         'Real-time visual orchestration platform: 102K+ LOC, 18-policy canvas, 5 Deno edge functions, 545 tests (BonkBytes).',
+    },
+    {
+      name: 'Musopen Practice',
+      stack: 'Flutter · WidgetKit · Glance · Live Activities',
+      summary:
+        'Practice companion for classical musicians: native home widgets, Dynamic Island timer, session recording.',
+      link: 'https://play.google.com/store/apps/details?id=com.musopen.practice',
     },
     {
       name: 'Nourdaily',
@@ -255,8 +262,9 @@ export const resumeExtended: ResumeContent = {
       period: 'May 2024 — Jul 2025',
       location: 'Remote',
       highlights: [
-        'Delivered cross-platform Flutter features, performance improvements, and production bug fixes for a global classical music platform.',
-        'Partnered with design and product stakeholders in fast iteration cycles; earned a 5.0 client rating on Upwork.',
+        'Shipped native home widgets (iOS WidgetKit / SwiftUI, Android Jetpack Glance) and iOS Dynamic Island / Live Activities with lock-screen timer drift correction for Musopen Practice, a practice companion for classical musicians.',
+        'Built the Flutter practice engine: count-up/count-down timer, metronome, waveform recording, and S3 session attachments; added Cronet/Cupertino HTTP/2 clients and a Page Object Model integration-test suite.',
+        'Prepared TestFlight builds; the client submitted Play Store and App Store production. 5.0 Upwork rating (Aaron Dunn).',
       ],
     },
     {
@@ -304,6 +312,13 @@ export const resumeExtended: ResumeContent = {
       stack: 'Flutter, Supabase, Edge Functions, Realtime, AWS',
       summary:
         'Real-time visual orchestration and IaC platform: 102K+ LOC, 18-policy canvas, 5 Deno edge functions, 545 automated tests, AWS CI/CD (BonkBytes).',
+    },
+    {
+      name: 'Musopen Practice',
+      stack: 'Flutter, WidgetKit, Glance, ActivityKit',
+      summary:
+        'Practice companion for classical musicians: iOS/Android home widgets, Dynamic Island Live Activities, session timer, metronome, and practice recordings.',
+      link: 'https://play.google.com/store/apps/details?id=com.musopen.practice',
     },
     {
       name: 'Nourdaily',

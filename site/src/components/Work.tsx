@@ -6,7 +6,7 @@ import { demoActionLabel } from '../lib/demo'
 import { easeOut, viewportOnce } from '../lib/motion'
 import { ProjectMedia } from './ProjectMedia'
 
-const featured = projects.filter((project) => project.featured)
+const featured: Array<(typeof projects)[number]> = projects.filter((project) => project.featured)
 const moreWork = projects.filter((project) => !project.featured)
 
 function PlayDemoBadge({ compact = false, label }: { compact?: boolean; label: string }) {
@@ -262,7 +262,11 @@ export function Work({ onOpenDemo }: { onOpenDemo: (session: DemoSession) => voi
                     }`}
                   >
                     <div className="relative aspect-[16/10] overflow-hidden bg-mist">
-                      <ProjectMedia src={project.image} title={project.title} />
+                      <ProjectMedia
+                        src={project.image}
+                        title={project.title}
+                        fit={project.id === 'musopen' ? 'contain' : 'cover'}
+                      />
                       <PlayDemoBadge label={demoActionLabel(project.demos)} />
                     </div>
                   </motion.button>
@@ -281,7 +285,11 @@ export function Work({ onOpenDemo }: { onOpenDemo: (session: DemoSession) => voi
                     }`}
                   >
                     <div className="relative aspect-[16/10] overflow-hidden bg-mist">
-                      <ProjectMedia src={project.image} title={project.title} />
+                      <ProjectMedia
+                        src={project.image}
+                        title={project.title}
+                        fit={project.id === 'musopen' ? 'contain' : 'cover'}
+                      />
                     </div>
                   </motion.a>
                 )}

@@ -33,7 +33,9 @@ export function isImageGallery(clips: readonly DemoClip[]) {
 }
 
 export function demoActionLabel(clips: readonly DemoClip[]) {
-  return isImageGallery(clips) ? 'View screens' : 'Watch demo'
+  if (isImageGallery(clips)) return 'View screens'
+  if (clips.some((clip) => clip.provider === 'image')) return 'View demo'
+  return 'Watch demo'
 }
 
 export function youtubeEmbedUrl(videoId: string, autoplay: boolean) {

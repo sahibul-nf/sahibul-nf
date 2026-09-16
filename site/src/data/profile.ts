@@ -53,6 +53,25 @@ const cardxScreens = [
   },
 ]
 
+const musopenDemos = [
+  {
+    provider: 'image' as const,
+    id: 'play-store-screens',
+    title: 'Practice, home, timer, and feed',
+    src: '/images/musopen/play-store-screens.png',
+  },
+  {
+    provider: 'loom' as const,
+    id: '3050251bf6ee4cf98be65c04597c243a',
+    title: 'Home widget & practice time',
+  },
+  {
+    provider: 'loom' as const,
+    id: 'f07c8006e6a44798a87215b638dc8d9e',
+    title: 'Android & iOS widgets',
+  },
+]
+
 export const projects = [
   {
     id: 'canvas',
@@ -75,20 +94,17 @@ export const projects = [
   },
   {
     id: 'musopen',
-    title: 'Musopen Practice App',
+    title: 'Musopen Practice',
     year: '2024–25 · Client · Musopen',
     blurb:
-      'Shipped home-screen widgets and practice-time tracking for a live classical-music app on Google Play and the App Store.',
-    tags: ['Flutter', 'iOS', 'Android', 'Widgets'],
-    image: 'https://cdn.loom.com/sessions/thumbnails/3050251bf6ee4cf98be65c04597c243a-65985e06c902c47a.gif',
-    href: '#demo-musopen',
+      'Practice companion for classical musicians — session timers, streaks, and home-screen progress. Built iOS WidgetKit, Android Glance, Dynamic Island Live Activities, and the practice engine; live on Play Store and the App Store.',
+    tags: ['Flutter', 'WidgetKit', 'Glance', 'Live Activities'],
+    image: '/images/musopen/play-store-screens.png',
+    href: '#case-musopen',
     live: 'https://play.google.com/store/apps/details?id=com.musopen.practice',
-    demos: [
-      { provider: 'loom', id: '3050251bf6ee4cf98be65c04597c243a', title: 'Home widget & practice time' },
-      { provider: 'loom', id: 'f07c8006e6a44798a87215b638dc8d9e', title: 'Android & iOS widgets' },
-    ],
+    demos: musopenDemos,
     featured: true,
-    caseStudyId: null,
+    caseStudyId: 'musopen',
     walkthroughOnRequest: false,
     stars: null,
   },
@@ -206,8 +222,8 @@ export const experience = [
     role: 'Flutter Developer',
     period: 'May 2024 — Jul 2025',
     points: [
-      'Shipped features, fixed production bugs, and refined UI for a classical music platform.',
-      'Worked iteratively with design and product feedback to improve day-to-day quality.',
+      'Shipped iOS WidgetKit and Android Glance home widgets (daily time + 7-day goal rings) and iOS Dynamic Island / Live Activities with lock-screen timer drift correction.',
+      'Built the practice session engine: count-up/count-down timer, metronome, waveform recording, and S3 attachments — plus HTTP/2 networking (Cronet / Cupertino) and Page Object Model integration tests.',
     ],
   },
   {
@@ -304,6 +320,22 @@ export const caseStudies = [
     walkthroughOnRequest: false,
   },
   {
+    id: 'musopen',
+    client: 'Musopen',
+    title: 'Musopen Practice companion app',
+    period: 'May 2024 — Jul 2025',
+    problem:
+      'Classical music students needed a dedicated practice companion — not a listening catalog — with a timer that stays accurate when the phone locks, glanceable home-screen progress, and a way to log sessions, recordings, and goals.',
+    approach:
+      'Owned native home widgets (iOS WidgetKit / SwiftUI and Android Jetpack Glance), iOS Dynamic Island and Live Activities with lock-screen drift correction, and the Flutter practice engine: count-up/count-down timer, metronome, waveform recording, and S3 attachments. Added HTTP/2 clients (Cronet / Cupertino) and a Page Object Model integration-test suite. Feed and some library UI were shared with other contractors.',
+    result:
+      'Features are live in Practice by Musopen on Google Play and the App Store. Home screen shows daily time and 7-day goal rings; sessions keep time across lock-screen sleep. No public adoption metrics.',
+    stack: ['Flutter', 'GetX', 'WidgetKit', 'Glance', 'ActivityKit'],
+    liveUrl: 'https://play.google.com/store/apps/details?id=com.musopen.practice',
+    demos: musopenDemos,
+    walkthroughOnRequest: false,
+  },
+  {
     id: 'cardx',
     client: 'S2bc Studios',
     title: 'Cardx collectibles platform',
@@ -332,7 +364,7 @@ export const testimonials = [
     quote: 'Great work.',
     rating: '5.0',
     role: 'Aaron Dunn',
-    context: 'Musopen · Upwork · widgets & practice tracking · 2024–2025',
+    context: 'Musopen Practice · Upwork · widgets, Live Activities, practice engine · 2024–2025',
   },
   {
     id: 'leo-gjoni',

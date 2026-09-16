@@ -58,7 +58,7 @@ What I deliver
 Proof (public)
 • Workflow canvas (client) — Flutter Web + Supabase Realtime + Deno edge; 102K+ LOC, 545 tests, AWS CI/CD. Feature demos on request / sahibul.dev
 • Cardx (client) — Flutter iOS/web + Golang; live collectibles product with eBay catalog and sales tracking
-• Musopen Practice (client) — home widgets and practice-time tracking on Google Play
+• Musopen Practice (client) — practice companion for classical musicians: native home widgets, Dynamic Island / Live Activities, session timer (Play Store + App Store)
 • Nourdaily and hiQuran — shipped Flutter products (content platform + Quran app, 65+ GitHub stars)
 
 Top Rated Plus · 5.0 · 100% Job Success. Usually reply within 24 hours.
@@ -185,21 +185,22 @@ Result: Production app at appcardx.com spanning client and API: marketplace sear
 
 | Field | Value |
 | --- | --- |
-| **Project title** | Musopen Practice — Home Widgets & Practice Tracking |
+| **Project title** | Musopen Practice — Native Widgets, Dynamic Island & Practice Engine |
 | **Your role** | Flutter Developer |
 | **Link** | https://play.google.com/store/apps/details?id=com.musopen.practice |
 | **Demo** | https://sahibul.dev/#demo-musopen |
+| **App Store** | https://apps.apple.com/app/id1447342480 |
 
-**Project description:**
+**Project description (≤600 chars — paste this):**
 ```
-Problem: Classical music learners needed practice-time tracking and at-a-glance progress on their home screen — inside an existing production app, without slowing core playback flows.
+Problem: Classical music students needed a practice companion (not a listening catalog) with a lock-accurate timer, home-screen progress, and session logging.
 
-Solution: Shipped Flutter home-screen widgets and practice-session tracking integrated with the Musopen Practice Android app, iterating with design and product feedback on production releases.
+Solution: Built iOS WidgetKit + Android Glance widgets, Dynamic Island / Live Activities with drift correction, and the Flutter practice engine (timer, metronome, waveform recording, S3 uploads). Added HTTP/2 clients and POM integration tests.
 
-Result: Live on Google Play — widgets and practice tracking in a shipped classical-music product used by real learners.
+Result: Live as Practice by Musopen on Google Play and the App Store. Home screen shows daily time and 7-day goal rings; sessions keep time when the phone sleeps.
 ```
 
-**Skills:** Flutter, Android, Mobile App Development
+**Skills:** Flutter, iOS, Android, Mobile App Development
 
 ---
 
@@ -283,6 +284,7 @@ The BonkBytes workflow canvas case study (#cases) is closest to [briefly tie to 
 - Paste only **public** work (GitHub, Contra, public landings, sahibul.dev).
 - Skip private client names, private production URLs, and NDA-only details unless approved.
 - Skip paper-only contracts with no shipped project work.
+- **Musopen Practice:** Features are live on Play Store + App Store. You prepared **TestFlight** uploads only — do not claim you submitted production store releases. **No PostHog access** — do not invent session/widget metrics.
 - **DrugLift:** OK to name on portfolio/Upwork. On LinkedIn, use unlinked text (e.g. DrugLift.com) — do not attach the LinkedIn company page. No GoGetGig naming.
 - **PukatFlow / Otonom:** personal products. Fine to list; don’t over-share unreleased internals.
 - Portfolio **Notes** on sahibul.dev uses real client feedback only.
