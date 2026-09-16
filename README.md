@@ -85,9 +85,9 @@ Production Flutter apps and Golang backends — owned from architecture through 
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C733%20hrs%205%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C735%20hrs%2012%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-293%20hrs%2028%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-295%20hrs%2040%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-7-blue?style=flat)
 
@@ -97,7 +97,7 @@ Production Flutter apps and Golang backends — owned from architecture through 
 
 > 📦 337.2 kB Used in GitHub's Storage 
  > 
-> 🏆 1,127 Contributions in the Year 2026
+> 🏆 1,128 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
@@ -111,15 +111,15 @@ Production Flutter apps and Golang backends — owned from architecture through 
 🌞 Morning                2038 commits        █████░░░░░░░░░░░░░░░░░░░░   19.94 % 
 🌆 Daytime                2378 commits        ██████░░░░░░░░░░░░░░░░░░░   23.27 % 
 🌃 Evening                2650 commits        ██████░░░░░░░░░░░░░░░░░░░   25.93 % 
-🌙 Night                  3154 commits        ████████░░░░░░░░░░░░░░░░░   30.86 % 
+🌙 Night                  3155 commits        ████████░░░░░░░░░░░░░░░░░   30.87 % 
 ```
 📅 **I'm Most Productive on Monday** 
 
 ```text
-Monday                   1831 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.92 % 
+Monday                   1831 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.91 % 
 Tuesday                  1476 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.44 % 
 Wednesday                1388 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.58 % 
-Thursday                 1170 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.45 % 
+Thursday                 1171 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.46 % 
 Friday                   1246 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.19 % 
 Saturday                 1525 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.92 % 
 Sunday                   1584 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.50 % 
@@ -132,47 +132,47 @@ Sunday                   1584 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     5 hrs 18 mins       █████░░░░░░░░░░░░░░░░░░░░   21.62 % 
-TypeScript               4 hrs 6 mins        ████░░░░░░░░░░░░░░░░░░░░░   16.70 % 
-Markdown                 3 hrs 43 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.18 % 
-Text                     3 hrs 9 mins        ███░░░░░░░░░░░░░░░░░░░░░░   12.87 % 
-Other                    2 hrs 40 mins       ███░░░░░░░░░░░░░░░░░░░░░░   10.90 % 
+Dart                     3 hrs 53 mins       █████░░░░░░░░░░░░░░░░░░░░   21.12 % 
+Markdown                 3 hrs               ████░░░░░░░░░░░░░░░░░░░░░   16.33 % 
+Text                     2 hrs 43 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.80 % 
+TypeScript               2 hrs 43 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.79 % 
+Other                    2 hrs 1 min         ███░░░░░░░░░░░░░░░░░░░░░░   10.99 % 
 
 🔥 Editors: 
-Cursor                   12 hrs 34 mins      █████████████░░░░░░░░░░░░   51.19 % 
-Agent                    11 hrs 59 mins      ████████████░░░░░░░░░░░░░   48.81 % 
+Agent                    10 hrs 23 mins      ██████████████░░░░░░░░░░░   56.41 % 
+Cursor                   8 hrs 1 min         ███████████░░░░░░░░░░░░░░   43.59 % 
 
 🐱‍💻 Projects: 
-otonom-agents-media      8 hrs 9 mins        ████████░░░░░░░░░░░░░░░░░   33.19 % 
-pukatflow                7 hrs 27 mins       ████████░░░░░░░░░░░░░░░░░   30.35 % 
-Unknown Project          4 hrs 7 mins        ████░░░░░░░░░░░░░░░░░░░░░   16.81 % 
-terminals                1 hr 43 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.01 % 
-postiz                   43 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.95 % 
+otonom-agents-media      6 hrs 20 mins       █████████░░░░░░░░░░░░░░░░   34.42 % 
+pukatflow                4 hrs 35 mins       ██████░░░░░░░░░░░░░░░░░░░   24.89 % 
+Unknown Project          2 hrs 53 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.71 % 
+terminals                1 hr 41 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.22 % 
+practice                 34 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.14 % 
 
 💻 Operating System: 
-Mac                      24 hrs 34 mins      █████████████████████████   100.00 % 
+Mac                      18 hrs 25 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 24 hrs 34 mins (100.0%)
+⏱ AI Coding Time: 18 hrs 22 mins (99.73%)
 
-✍️ 12,187 lines written by AI, 0 lines written by hand (100.0% AI-written)
+✍️ 8,031 lines written by AI, 0 lines written by hand (100.0% AI-written)
 
-🔤 3,256,624 Input Tokens, 3,256,624 Output Tokens
+🔤 2,701,393 Input Tokens, 2,701,393 Output Tokens
 
-💵 $58.62 Estimated AI Cost This Week
+💵 $48.63 Estimated AI Cost This Week
 
-🧠 149 AI Sessions, 2347 AI Prompts
+🧠 144 AI Sessions, 2180 AI Prompts
 
-Grok                     6,705 lines         ██████████████░░░░░░░░░░░   57.93 % 
-Composer                 4,869 lines         ███████████░░░░░░░░░░░░░░   42.07 % 
+Composer                 5,485 lines         ████████████████░░░░░░░░░   64.64 % 
+Grok                     3,001 lines         █████████░░░░░░░░░░░░░░░░   35.36 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.0% of written lines came from AI
-📚 Verbose Prompter — average 6,010 characters per prompt
-🔁 Iterative Prompter — average 16 prompts per session
+📚 Verbose Prompter — average 5,065 characters per prompt
+🔁 Iterative Prompter — average 15 prompts per session
 🚀 High AI Trust — 0.0% of changed lines were hand-edited
 ```
 
@@ -193,5 +193,5 @@ Shell                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 16/09/2026 19:17:33 UTC
+ Last Updated on 16/09/2026 22:34:04 UTC
 <!--END_SECTION:waka-->
