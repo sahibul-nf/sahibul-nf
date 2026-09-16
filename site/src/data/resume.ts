@@ -86,8 +86,8 @@ export const resumeData = {
       period: '2024 — Present',
       location: 'Remote',
       highlights: [
-        'Architected a real-time visual workflow engine across 102K+ LOC (Dart/Flutter and TypeScript), with an 18-policy canvas system, bidirectional IaC/DBML sync, and live multi-user collaboration.',
-        'Engineered secure Deno/Supabase edge execution with 38 PostgreSQL migrations, RLS, Vault, SSRF guards, and 545 automated tests in GitHub Actions CI/CD.',
+        'Architected a Flutter Web visual workflow studio (102K+ LOC) with an 18-policy canvas, 20+ node types, subflows, Deno-isolated JS sandbox, and live multi-user presence.',
+        'Built 5 Deno edge functions with SSRF guards, round-trip YAML workflow blueprints and DBML ERD sync, 38 PostgreSQL migrations (RLS, Vault), and 545 tests deploying to AWS S3/CloudFront.',
       ],
     },
     {
@@ -116,8 +116,8 @@ export const resumeData = {
       period: 'Jun 2023 — Jun 2024',
       location: 'Remote',
       highlights: [
-        'Led MVP redesign and codebase refactor aligned with an updated product vision and release roadmap.',
-        'Implemented app-wide localization with GetX and offline-friendly UX for slow mobile networks.',
+        'Redesigned the DrugLift Flutter driver app for last-mile pharmacy deliveries: 4-tab shell, design system, shimmer loaders, and Flutter 3.10.6.',
+        'Built a Hive offline sync queue for signatures, photos, and failed-delivery retries; shipped GetX English/Indonesian localization (260+ strings).',
       ],
     },
     {
@@ -144,7 +144,7 @@ export const resumeData = {
       name: 'Node-based Workflow Canvas',
       stack: 'Flutter · Supabase · Edge Functions · AWS',
       summary:
-        'Real-time visual orchestration platform: 102K+ LOC, 18-policy canvas, 5 Deno edge functions, 545 tests (BonkBytes).',
+        'Visual workflow studio in Flutter Web: 102K+ LOC, 18-policy canvas, YAML blueprints, Deno sandbox, 545 tests (BonkBytes).',
     },
     {
       name: 'Musopen Practice',
@@ -250,9 +250,9 @@ export const resumeExtended: ResumeContent = {
       period: '2024 — Present',
       location: 'Remote',
       highlights: [
-        'Architected and delivered a full-stack workflow platform with 90K+ LOC Dart/Flutter frontend and 12K+ LOC TypeScript/Deno edge backend; built an 18-policy canvas engine with bidirectional IaC/DBML sync and live multi-user collaboration.',
-        'Designed a serverless DAG orchestrator across 5 Deno microservices with script sandboxing, SSRF defense, and signed artifact generation for workflow execution.',
-        'Hardened the data layer with 38 PostgreSQL migrations, Row-Level Security for multi-tenant collaboration, and Supabase Vault for encrypted credential isolation.',
+        'Architected and delivered a full-stack visual workflow studio with 90K+ LOC Dart/Flutter frontend and 12K+ LOC TypeScript/Deno edge backend; built an 18-policy canvas engine, 20+ node types, subflows, and live multi-user presence.',
+        'Designed a serverless DAG orchestrator across 5 Deno microservices with an isolate-sandboxed JavaScript runtime, PDF artifact generation, and SSRF guards blocking private CIDRs and cloud metadata.',
+        'Built round-trip YAML workflow blueprints and DBML ERD visualization; hardened data isolation with 38 PostgreSQL migrations, Row-Level Security, and Supabase Vault.',
         'Scaled automated testing to 545 test cases and instituted a 2-stage GitHub Actions CI/CD pipeline deploying to AWS S3/CloudFront.',
       ],
     },
@@ -283,8 +283,9 @@ export const resumeExtended: ResumeContent = {
       period: 'Jun 2023 — Jun 2024',
       location: 'Remote',
       highlights: [
-        'Led a full Flutter MVP redesign and major codebase refactor aligned with an updated product vision.',
-        'Implemented app-wide localization with GetX and optimized UX for slow or intermittent mobile network conditions.',
+        'Redesigned the DrugLift Flutter driver app (Android/iOS) for last-mile pharmacy and medical-supply couriers: unified 4-tab shell, centralized theme/typography, shimmer loaders, and a Flutter 3.0 → 3.10.6 upgrade (~18k lines added / 14k deleted across 160+ files).',
+        'Built a Hive-backed offline request queue so proof-of-delivery signatures, doorstep photos, and failed-delivery reports persist and auto-retry on reconnect; added a driver-facing queue screen.',
+        'Shipped GetX localization from scratch (English / Indonesian, 260+ strings) and tightened barcode/QR scanning with a viewport overlay, debounce, and grouped-package scans.',
       ],
     },
     {
@@ -311,7 +312,7 @@ export const resumeExtended: ResumeContent = {
       name: 'Node-based Workflow Canvas',
       stack: 'Flutter, Supabase, Edge Functions, Realtime, AWS',
       summary:
-        'Real-time visual orchestration and IaC platform: 102K+ LOC, 18-policy canvas, 5 Deno edge functions, 545 automated tests, AWS CI/CD (BonkBytes).',
+        'Visual workflow studio in Flutter Web: 102K+ LOC, 18-policy canvas, YAML blueprint + DBML sync, 5 Deno edge functions, 545 tests, AWS CI/CD (BonkBytes).',
     },
     {
       name: 'Musopen Practice',

@@ -7,7 +7,7 @@ import { easeOut, viewportOnce } from '../lib/motion'
 type Status = 'idle' | 'sending' | 'success' | 'error'
 
 const WALKTHROUGH_PREFILL =
-  'I’d like a walkthrough of the workflow canvas (silent demo / architecture — no customer data).'
+  "I'd like a walkthrough of the workflow canvas — demo and architecture."
 
 export function Contact() {
   const [status, setStatus] = useState<Status>('idle')

@@ -78,8 +78,8 @@ export const projects = [
     title: 'Node-based Workflow Canvas',
     year: '2024–26 · Client · BonkBytes',
     blurb:
-      'Browser-based workflow builder so non-engineers can design, run, and collaborate on cloud steps in real time — Flutter Web, Supabase Realtime, and Deno edge execution.',
-    tags: ['Flutter', 'Supabase', 'Edge Functions', 'Realtime', 'AWS'],
+      'Visual workflow studio in the browser for technical teams — design DAG pipelines, run HTTP and JS steps in a Deno sandbox, and collaborate live. Flutter Web, Supabase Realtime, AWS.',
+    tags: ['Flutter', 'GetX', 'Deno', 'Supabase', 'AWS'],
     image: 'https://cdn.loom.com/sessions/thumbnails/54d47d1db328497a80e4727cff8859cc-9c0bf666ef43f9ef.gif',
     href: '#case-bonkbytes-canvas',
     live: null,
@@ -212,9 +212,8 @@ export const experience = [
     role: 'Full-Stack Flutter Developer',
     period: '2024 — Present',
     points: [
-      'Architecting a real-time workflow canvas (102K+ LOC) with an 18-policy diagram engine, bidirectional IaC/DBML sync, and live multi-user collaboration.',
-      'Building Supabase/Deno backend services: 38 PostgreSQL migrations, 5 edge functions, RLS, Vault, SSRF hardening, and 545 automated tests.',
-      'Maintaining GitHub Actions CI/CD with test gates on dev and AWS S3/CloudFront deploys on master.',
+      'Architected a Flutter Web visual workflow studio (102K+ LOC): 18-policy canvas, 20+ node types, subflows, local + cloud DAG execution, and live multi-user presence.',
+      'Built 5 Deno edge functions with an isolated JS sandbox, SSRF guards, round-trip YAML workflow blueprints and DBML ERD sync, 38 PostgreSQL migrations (RLS, Vault), and 545 tests with AWS S3/CloudFront CI/CD.',
     ],
   },
   {
@@ -240,9 +239,8 @@ export const experience = [
     role: 'Flutter Developer',
     period: 'Jun 2023 — Jun 2024',
     points: [
-      'Redesigned the DrugLift Flutter MVP with substantial refactoring to match the new product design.',
-      'Shipped localization as a net-new feature (GetX).',
-      'Improved and fixed bugs in existing features alongside the redesign.',
+      'Redesigned the DrugLift Flutter driver app for last-mile pharmacy deliveries: 4-tab shell, design system, shimmer loaders, Flutter 3.10.6, and more reliable QR scanning.',
+      'Built a Hive offline sync queue so signatures, photos, and failed-delivery reports persist and retry on reconnect; shipped GetX English/Indonesian localization (260+ strings).',
     ],
   },
   {
@@ -306,12 +304,12 @@ export const caseStudies = [
     title: 'Node-based workflow canvas',
     period: '2024 — Present',
     problem:
-      'The product needed a production Flutter canvas where non-engineers could design workflows, run cloud steps safely, and collaborate without fragile desktop-only tooling.',
+      'Technical teams needed a browser-based studio to design DAG workflows, run cloud steps (webhook, cron, HTTP, sandboxed JS), and collaborate live.',
     approach:
-      'Built an 18-policy Flutter Web canvas engine with bidirectional IaC/DBML sync, Supabase Realtime collaboration, and 5 Deno edge microservices with SSRF hardening and Vault-backed secrets.',
+      'Owned the Flutter Web product end to end: 18-policy canvas engine, 20+ node types including subflow, local and Deno cloud DAG execution, an isolated JS sandbox with SSRF guards, round-trip YAML workflow blueprints and DBML ERD sync, and Supabase Realtime presence. Five edge functions, Vault, and Postgres RLS.',
     result:
-      'A production workflow platform spanning 102K+ LOC with 545 automated tests, multi-tenant RLS, and CI/CD deploys to AWS.',
-    stack: ['Flutter', 'Supabase', 'Edge Functions', 'Realtime', 'AWS'],
+      'Production Flutter Web app on AWS S3/CloudFront — 102K+ LOC, 545 automated tests, and 38 PostgreSQL migrations.',
+    stack: ['Flutter', 'GetX', 'Deno', 'Supabase', 'AWS'],
     liveUrl: null,
     demos: [
       { provider: 'loom', id: '54d47d1db328497a80e4727cff8859cc', title: 'Workflow nodes' },
@@ -325,11 +323,11 @@ export const caseStudies = [
     title: 'Musopen Practice companion app',
     period: 'May 2024 — Jul 2025',
     problem:
-      'Classical music students needed a dedicated practice companion — not a listening catalog — with a timer that stays accurate when the phone locks, glanceable home-screen progress, and a way to log sessions, recordings, and goals.',
+      'Classical musicians needed a practice companion with a timer that stays accurate when the phone locks, glanceable home-screen progress, and a way to log sessions, recordings, and goals.',
     approach:
-      'Owned native home widgets (iOS WidgetKit / SwiftUI and Android Jetpack Glance), iOS Dynamic Island and Live Activities with lock-screen drift correction, and the Flutter practice engine: count-up/count-down timer, metronome, waveform recording, and S3 attachments. Added HTTP/2 clients (Cronet / Cupertino) and a Page Object Model integration-test suite. Feed and some library UI were shared with other contractors.',
+      'Owned native home widgets (iOS WidgetKit / SwiftUI and Android Jetpack Glance), iOS Dynamic Island and Live Activities with lock-screen drift correction, and the Flutter practice engine: count-up/count-down timer, metronome, waveform recording, and S3 attachments. Added HTTP/2 clients (Cronet / Cupertino) and a Page Object Model integration-test suite.',
     result:
-      'Features are live in Practice by Musopen on Google Play and the App Store. Home screen shows daily time and 7-day goal rings; sessions keep time across lock-screen sleep. No public adoption metrics.',
+      'Live as Practice by Musopen on Google Play and the App Store. Home screen shows daily time and 7-day goal rings; sessions keep time across lock-screen sleep.',
     stack: ['Flutter', 'GetX', 'WidgetKit', 'Glance', 'ActivityKit'],
     liveUrl: 'https://play.google.com/store/apps/details?id=com.musopen.practice',
     demos: musopenDemos,
@@ -341,11 +339,11 @@ export const caseStudies = [
     title: 'Cardx collectibles platform',
     period: '2022 — 2024',
     problem:
-      'Collectors needed a multi-platform product to catalog sports cards, track value over time, and browse marketplace listings without a sluggish catalog.',
+      'Collectors needed a multi-platform product to catalog sports cards, track value over time, and browse marketplace listings.',
     approach:
       'Owned Flutter iOS/web clients and Golang REST services — collections, comments, wishlist, search, and eBay Browse — with Redis caching, PostgreSQL, Supabase, and scheduled crawlers for sales history.',
     result:
-      'Production app at appcardx.com spanning client and API: marketplace search, collection CRUD, wishlist, comments, and hourly value tracking.',
+      'Live at appcardx.com: marketplace search, collection CRUD, wishlist, comments, and hourly value tracking.',
     stack: ['Flutter', 'Golang', 'Supabase', 'Redis', 'PostgreSQL', 'eBay'],
     liveUrl: 'https://appcardx.com',
     demos: cardxScreens,
@@ -371,7 +369,7 @@ export const testimonials = [
     quote: null,
     rating: '5.0',
     role: 'Leo Gjoni',
-    context: 'DrugLift · Upwork · year-long MVP redesign · 2023–2024',
+    context: 'DrugLift · Upwork · medical courier driver app redesign · 2023–2024',
   },
   {
     id: 'wilfried',

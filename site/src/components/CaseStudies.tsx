@@ -32,8 +32,7 @@ export function CaseStudies({ onOpenDemo }: { onOpenDemo: (session: DemoSession)
             How these engagements shipped
           </h2>
           <p className="mt-4 max-w-xl text-lg text-foam/70">
-            Problem → approach → result for the three client products with the most depth.
-            Everything else lives in selected work.
+            Problem, approach, and result for the three client products with the most depth.
           </p>
         </motion.div>
 

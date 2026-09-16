@@ -1,6 +1,6 @@
 # Upwork profile reference — Sahibul Nuzul Firdaus
 
-Last updated: 2026-09-15
+Last updated: 2026-09-16
 
 Living reference for Upwork profile, portfolio entries, and proposal copy.  
 Portfolio site: **https://sahibul.dev**
@@ -56,7 +56,7 @@ What I deliver
 • Node-based / visual canvas engines in Flutter Web
 
 Proof (public)
-• Workflow canvas (client) — Flutter Web + Supabase Realtime + Deno edge; 102K+ LOC, 545 tests, AWS CI/CD. Feature demos on request / sahibul.dev
+• Workflow canvas (client) — Flutter Web visual DAG studio + Deno sandbox + YAML blueprints; 102K+ LOC, 545 tests, AWS CI/CD. Feature demos on request / sahibul.dev
 • Cardx (client) — Flutter iOS/web + Golang; live collectibles product with eBay catalog and sales tracking
 • Musopen Practice (client) — practice companion for classical musicians: native home widgets, Dynamic Island / Live Activities, session timer (Play Store + App Store)
 • Nourdaily and hiQuran — shipped Flutter products (content platform + Quran app, 65+ GitHub stars)
@@ -147,13 +147,13 @@ Visit: sahibul.dev
 | **Link** | https://sahibul.dev/#demo-canvas |
 | **Related job** | BonkBytes contract (if listed on Upwork) |
 
-**Project description:**
+**Project description (≤600 chars — paste this):**
 ```
-Problem: The product needed a production Flutter canvas where non-engineers could design workflows, run cloud steps safely, and collaborate — without fragile desktop-only tooling.
+Problem: Technical teams needed a browser-based studio to design DAG workflows, run cloud steps, and collaborate live — not a Terraform clone.
 
-Solution: Built an 18-policy Flutter Web canvas engine with bidirectional IaC/DBML sync, Supabase Realtime collaboration, and Deno edge microservices with SSRF hardening and Vault-backed secrets.
+Solution: Built the Flutter Web canvas end to end: 18-policy engine, 20+ node types (HTTP, sandboxed JS, subflow, webhook, cron), Deno edge execution with SSRF guards, round-trip YAML blueprints + DBML, and Supabase Realtime presence.
 
-Result: Production workflow platform (102K+ LOC) with 545 automated tests, multi-tenant RLS, and CI/CD deploys to AWS. Silent feature demos on sahibul.dev (no production URL).
+Result: Production Flutter Web + Deno platform (102K+ LOC, 545 tests, 38 Postgres migrations, RLS, Vault) on AWS S3/CloudFront. Silent demos on sahibul.dev (no production URL).
 ```
 
 **Skills:** Flutter, Supabase, Mobile App Development, PostgreSQL
@@ -198,6 +198,28 @@ Problem: Classical music students needed a practice companion (not a listening c
 Solution: Built iOS WidgetKit + Android Glance widgets, Dynamic Island / Live Activities with drift correction, and the Flutter practice engine (timer, metronome, waveform recording, S3 uploads). Added HTTP/2 clients and POM integration tests.
 
 Result: Live as Practice by Musopen on Google Play and the App Store. Home screen shows daily time and 7-day goal rings; sessions keep time when the phone sleeps.
+```
+
+**Skills:** Flutter, iOS, Android, Mobile App Development
+
+---
+
+### Option B — Secondary: DrugLift (not top 3)
+
+| Field | Value |
+| --- | --- |
+| **Project title** | DrugLift — Flutter Medical Courier Driver App |
+| **Your role** | Flutter Developer |
+| **Link** | (omit unless you have a public store listing; do not invent Play/App Store URLs) |
+| **Related job** | DrugLift / Leo Gjoni contract (if listed on Upwork) |
+
+**Project description (≤600 chars — paste this):**
+```
+Problem: Courier drivers needed a reliable Android/iOS handheld to claim pharmacy routes, scan packages, and capture proof of delivery on unstable networks — not a patient storefront.
+
+Solution: Redesigned the Flutter driver MVP (Flutter 3.10.6, 4-tab shell). Shipped GetX English/Indonesian localization (260+ strings) and a Hive offline queue for signatures, photos, and failed-delivery retries. Tightened QR scanning (viewport, debounce, grouped packages).
+
+Result: Drivers can complete dropoffs and upload POD without a stable connection. 5.0 Upwork rating (Leo Gjoni).
 ```
 
 **Skills:** Flutter, iOS, Android, Mobile App Development
@@ -266,7 +288,7 @@ Place portfolio link in **paragraph 2–3** (after a short hook), not only at th
 ### Short insert
 ```
 Selected work & case studies: https://sahibul.dev
-Relevant example: workflow canvas (Flutter + Supabase realtime) — details and silent demo on request.
+Relevant example: visual workflow studio (Flutter Web + Deno sandbox + YAML blueprints) — details and silent demo on request.
 ```
 
 ### Slightly longer insert
@@ -284,8 +306,9 @@ The BonkBytes workflow canvas case study (#cases) is closest to [briefly tie to 
 - Paste only **public** work (GitHub, Contra, public landings, sahibul.dev).
 - Skip private client names, private production URLs, and NDA-only details unless approved.
 - Skip paper-only contracts with no shipped project work.
+- **BonkBytes Canvas:** Flutter Web visual workflow studio for technical teams (DAG pipelines, Deno JS sandbox, YAML workflow blueprints, DBML ERD). Do **not** call it Terraform/IaC for AWS, do **not** say it is for non-engineers, do **not** publish a production URL. Use verified metrics only (102K+ LOC, 545 tests, 38 migrations).
 - **Musopen Practice:** Features are live on Play Store + App Store. You prepared **TestFlight** uploads only — do not claim you submitted production store releases. **No PostHog access** — do not invent session/widget metrics.
-- **DrugLift:** OK to name on portfolio/Upwork. On LinkedIn, use unlinked text (e.g. DrugLift.com) — do not attach the LinkedIn company page. No GoGetGig naming.
+- **DrugLift:** Last-mile **pharmacy courier driver** app (Android/iOS) — not a patient portal, telehealth, rideshare, or in-app checkout. OK to name on site/Upwork. On LinkedIn, use unlinked text (e.g. DrugLift.com) — do not attach the LinkedIn company page. No GoGetGig naming. No public store URL verified — do not invent one. Engagement dates Jun 2023 – Jun 2024; active git in the last source you owned is Oct 2023 – Feb 2024. Copy reflects that handover snapshot. Optional Upwork project **below** Canvas/Cardx/Musopen.
 - **PukatFlow / Otonom:** personal products. Fine to list; don’t over-share unreleased internals.
 - Portfolio **Notes** on sahibul.dev uses real client feedback only.
 - **Do not** rebrand as “AI Engineer” or stack five AI skill tags without model/training proof.

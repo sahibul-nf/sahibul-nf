@@ -23,6 +23,7 @@ Sahibul ships production Flutter apps (iOS, Android, Web), Golang APIs, and clou
 
 ## Projects
 
+- [Workflow Canvas](https://sahibul.dev/#case-bonkbytes-canvas): Client Flutter Web visual workflow studio (DAG pipelines, Deno JS sandbox, YAML blueprints, realtime collab). Demos: https://sahibul.dev/#demo-canvas
 - [Musopen Practice](https://play.google.com/store/apps/details?id=com.musopen.practice): Client Flutter work — practice companion (widgets, Dynamic Island, session timer). Demos: https://sahibul.dev/#demo-musopen · Case study: https://sahibul.dev/#case-musopen
 - [Nourdaily](https://nourdaily.com): Flutter Muslim community content platform (articles, video, audio, discussions). Demo: https://sahibul.dev/#demo-nourdaily
 - [Cardx](https://appcardx.com): Sports-card collection product (Flutter + Golang + eBay). Case study: https://sahibul.dev/#case-cardx

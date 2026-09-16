@@ -22,7 +22,7 @@ Full-Stack Flutter Engineer | Supabase, Firebase & Go
 ```
 I’m a full-stack Flutter engineer with 5 years of professional experience building cross-platform apps and reliable backends.
 
-I take ownership from architecture through release — Flutter clients, REST services, realtime features, and cloud-backed workflows. I’ve full-built platforms like Nourdaily (Flutter content platform for the Muslim community — daily.dev-style discovery) and shipped a node-based workflow canvas (Flutter + Supabase edge execution + realtime collaboration), plus earlier marketplace and e-commerce products with third-party API integrations.
+I take ownership from architecture through release — Flutter clients, REST services, realtime features, and cloud-backed workflows. I’ve full-built platforms like Nourdaily (Flutter content platform for the Muslim community — daily.dev-style discovery) and a Flutter Web visual workflow studio (DAG pipelines, Deno sandbox, YAML blueprints, realtime collab), plus earlier marketplace and e-commerce products with third-party API integrations.
 
 I ship faster with Cursor, Claude, and Codex — and lock quality with automated tests.
 
@@ -40,9 +40,8 @@ Email: sahibulnuzulfirdaus13@gmail.com
 
 **BonkBytes — Full-Stack Flutter Developer (2024 – Present)**
 ```
-• Building a production node-based workflow canvas in Flutter with cloud execution and realtime collaboration.
-• Working across Flutter UI, Supabase-backed services, and AWS deployment.
-• Using AI-assisted workflows with automated tests to keep delivery reliable.
+• Architected a Flutter Web visual workflow studio (102K+ LOC) from an empty scaffold: 18-policy canvas, 20+ node types, subflows, and live multi-user presence.
+• Built 5 Deno edge functions with a JS isolate sandbox, SSRF guards, YAML workflow blueprints, DBML ERD sync, 38 Postgres migrations, and 545 tests on AWS S3/CloudFront.
 ```
 
 **Musopen — Flutter Developer (May 2024 – Jul 2025)**
@@ -59,9 +58,8 @@ Email: sahibulnuzulfirdaus13@gmail.com
 
 **DrugLift — Flutter Developer (Jun 2023 – Jun 2024)**
 ```
-• Redesigned the DrugLift Flutter MVP with substantial refactoring to match the new product design.
-• Shipped localization as a net-new feature (GetX).
-• Improved and fixed bugs in existing features alongside the redesign.
+• Redesigned the DrugLift Flutter driver app (last-mile pharmacy courier handheld): 4-tab shell, design system, shimmer loaders, Flutter 3.10.6.
+• Built a Hive offline sync queue for signatures, photos, and failed-delivery retries; shipped GetX English/Indonesian localization (260+ strings).
 ```
 
 **Kopwar — Software Developer (Jul 2022 – Oct 2022)**
@@ -109,7 +107,7 @@ What I deliver
 • Node-based / visual canvas engines in Flutter Web
 
 Proof (public)
-• Workflow canvas (client) — Flutter Web + Supabase Realtime + Deno edge; 102K+ LOC, 545 tests, AWS CI/CD. Feature demos on request / sahibul.dev
+• Workflow canvas (client) — Flutter Web visual DAG studio + Deno sandbox + YAML blueprints; 102K+ LOC, 545 tests, AWS CI/CD. Feature demos on request / sahibul.dev
 • Cardx (client) — Flutter iOS/web + Golang; live collectibles product with eBay catalog and sales tracking
 • Musopen Practice (client) — practice companion for classical musicians: native widgets, Dynamic Island, session timer (Play Store + App Store)
 • Nourdaily and hiQuran — shipped Flutter products (content platform + Quran app, 65+ GitHub stars)
@@ -141,7 +139,7 @@ Optional 9th: **AI Coding Workflows** only — do not add five generic AI tags.
 ### Secondary project catalog
 - Nourdaily — live + demo on sahibul.dev/#demo-nourdaily
 - hiQuran — GitHub
-- DrugLift — Flutter MVP redesign (LinkedIn: unlinked “DrugLift.com” text only)
+- DrugLift — Flutter driver app redesign + offline sync (LinkedIn: unlinked “DrugLift.com” text only; not a patient pharmacy app)
 - PukatFlow / Otonom — personal products; safe to list, no unreleased internals
 
 PukatFlow and Otonom are **personal** products, not client NDA work. Safe to list on Upwork/LinkedIn as personal builds.
