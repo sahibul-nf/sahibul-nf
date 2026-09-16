@@ -14,27 +14,25 @@ Portfolio: https://sahibul.dev
 ## LinkedIn
 
 ### Headline
+> LinkedIn: **Engineer**. Upwork title stays **Developer** (search volume).
 ```
-Full-Stack Flutter Engineer | Supabase, Firebase & Go
+Full-Stack Flutter Engineer | iOS, Android & Web | Supabase, Firebase & Go | Open to Remote
 ```
 
 ### About
 ```
-I’m a full-stack Flutter engineer with 5 years of professional experience building cross-platform apps and reliable backends.
+I’m a full-stack Flutter engineer (5 years) shipping production apps on iOS, Android, and Web — plus the backends behind them (Supabase, Firebase, Golang).
 
-I take ownership from architecture through release — Flutter clients, REST services, realtime features, and cloud-backed workflows. I’ve full-built platforms like Nourdaily (Flutter content platform for the Muslim community — daily.dev-style discovery) and a Flutter Web visual workflow studio (DAG pipelines, Deno sandbox, YAML blueprints, realtime collab), plus earlier marketplace and e-commerce products with third-party API integrations.
+I own work from architecture through release: new apps, takeovers, refactors, home-screen widgets, and Flutter Web editors. Client work includes a visual workflow studio (DAG pipelines, Deno sandbox, realtime collab), Cardx (Flutter + Go, live at appcardx.com), and Musopen Practice (WidgetKit, Glance, Live Activities — Play Store & App Store). Personal: Nourdaily, a Flutter content platform for the Muslim community.
 
-I ship faster with Cursor, Claude, and Codex — and lock quality with automated tests.
+I work remotely and async (written English, Loom, tickets). I ship faster with Cursor, Claude, and Codex, then lock quality with automated tests.
 
-Tech:
-• Flutter / Dart, Golang, TypeScript
-• Supabase, Firebase, REST, Socket.io, Redis, PostgreSQL, AWS
-• Cursor, Claude, Codex, Riverpod, GetX, system design, automated testing
+Tech: Flutter, Dart, iOS, Android, Flutter Web · Golang, TypeScript · Supabase, Firebase, PostgreSQL, Redis, REST, AWS · Riverpod, GetX
 
-Open to remote roles and freelance projects.
+Open to remote roles and freelance.
 Portfolio: https://sahibul.dev
-Email: sahibulnuzulfirdaus13@gmail.com
 ```
+> Put email in LinkedIn **Contact info**, not in About.
 
 ### Experience bullets
 
