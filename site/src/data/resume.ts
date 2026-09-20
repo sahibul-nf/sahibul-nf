@@ -264,7 +264,7 @@ export const resumeExtended: ResumeContent = {
       highlights: [
         'Shipped native home widgets (iOS WidgetKit / SwiftUI, Android Jetpack Glance) and iOS Dynamic Island / Live Activities with lock-screen timer drift correction for Musopen Practice, a practice companion for classical musicians.',
         'Built the Flutter practice engine: count-up/count-down timer, metronome, waveform recording, and S3 session attachments; added Cronet/Cupertino HTTP/2 clients and a Page Object Model integration-test suite.',
-        'Prepared TestFlight builds; the client submitted Play Store and App Store production. 5.0 Upwork rating (Aaron Dunn).',
+        'Prepared TestFlight builds; the client submitted Play Store and App Store production. 5.0 client rating on Upwork.',
       ],
     },
     {

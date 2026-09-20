@@ -219,7 +219,7 @@ Problem: Courier drivers needed a reliable Android/iOS handheld to claim pharmac
 
 Solution: Redesigned the Flutter driver MVP (Flutter 3.10.6, 4-tab shell). Shipped GetX English/Indonesian localization (260+ strings) and a Hive offline queue for signatures, photos, and failed-delivery retries. Tightened QR scanning (viewport, debounce, grouped packages).
 
-Result: Drivers can complete dropoffs and upload POD without a stable connection. 5.0 Upwork rating (Leo Gjoni).
+Result: Drivers can complete dropoffs and upload POD without a stable connection. 5.0 client rating on Upwork.
 ```
 
 **Skills:** Flutter, iOS, Android, Mobile App Development
