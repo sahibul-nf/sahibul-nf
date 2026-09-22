@@ -132,48 +132,48 @@ Sunday                   1584 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Dart                     2 hrs 35 mins       █████░░░░░░░░░░░░░░░░░░░░   21.11 % 
-Other                    1 hr 52 mins        ████░░░░░░░░░░░░░░░░░░░░░   15.19 % 
-TypeScript               1 hr 46 mins        ████░░░░░░░░░░░░░░░░░░░░░   14.40 % 
-Markdown                 1 hr 37 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.25 % 
-Python                   1 hr 36 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.05 % 
+Other                    3 hrs 27 mins       ████████░░░░░░░░░░░░░░░░░   33.19 % 
+Dart                     2 hrs 28 mins       ██████░░░░░░░░░░░░░░░░░░░   23.74 % 
+Markdown                 1 hr 24 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.57 % 
+Python                   1 hr 6 mins         ███░░░░░░░░░░░░░░░░░░░░░░   10.67 % 
+JSON                     46 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.48 % 
 
 🔥 Editors: 
-Agent                    7 hrs 6 mins        ██████████████░░░░░░░░░░░   57.68 % 
-Cursor                   5 hrs 12 mins       ███████████░░░░░░░░░░░░░░   42.32 % 
+Agent                    7 hrs 14 mins       █████████████████░░░░░░░░   69.47 % 
+Cursor                   3 hrs 10 mins       ████████░░░░░░░░░░░░░░░░░   30.53 % 
 
 🐱‍💻 Projects: 
-otonom-agents-media      4 hrs 6 mins        ████████░░░░░░░░░░░░░░░░░   33.31 % 
-pukatflow                3 hrs 8 mins        ██████░░░░░░░░░░░░░░░░░░░   25.57 % 
-Unknown Project          2 hrs 1 min         ████░░░░░░░░░░░░░░░░░░░░░   16.50 % 
-sahibul-capital          49 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.68 % 
-practice                 34 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.70 % 
+Unknown Project          3 hrs 6 mins        ███████░░░░░░░░░░░░░░░░░░   29.79 % 
+pukatflow                3 hrs               ███████░░░░░░░░░░░░░░░░░░   28.84 % 
+otonom-agents-media      2 hrs 4 mins        █████░░░░░░░░░░░░░░░░░░░░   19.86 % 
+sahibul-capital          47 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.57 % 
+practice                 34 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.55 % 
 
 💻 Operating System: 
-Mac                      12 hrs 18 mins      █████████████████████████   100.00 % 
+Mac                      10 hrs 25 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 12 hrs 2 mins (97.83%)
+⏱ AI Coding Time: 10 hrs 9 mins (97.44%)
 
-✍️ 3,299 lines written by AI, 1 lines written by hand (99.97% AI-written)
+✍️ 1,090 lines written by AI, 31 lines written by hand (97.23% AI-written)
 
-🔤 526,302 Input Tokens, 526,302 Output Tokens
+🔤 545,610 Input Tokens, 545,610 Output Tokens
 
-💵 $10.06 Estimated AI Cost This Week
+💵 $10.41 Estimated AI Cost This Week
 
-🧠 49 AI Sessions, 312 AI Prompts
+🧠 47 AI Sessions, 262 AI Prompts
 
-Composer                 3,096 lines         ███████████████████░░░░░░   74.80 % 
-Grok                     1,043 lines         ██████░░░░░░░░░░░░░░░░░░░   25.20 % 
+Composer                 1,035 lines         ██████████████████░░░░░░░   71.73 % 
+Grok                     408 lines           ███████░░░░░░░░░░░░░░░░░░   28.27 % 
 
 🔎 AI Coding Insights:
-🤖 AI-Driven — 99.97% of written lines came from AI
-📚 Verbose Prompter — average 7,180 characters per prompt
+🤖 AI-Driven — 97.23% of written lines came from AI
+📚 Verbose Prompter — average 8,785 characters per prompt
 🔁 Iterative Prompter — average 6 prompts per session
-🚀 High AI Trust — 0.05% of changed lines were hand-edited
+🚀 High AI Trust — 2.49% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Dart** 
@@ -193,5 +193,5 @@ Shell                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 22/09/2026 19:42:31 UTC
+ Last Updated on 22/09/2026 22:37:36 UTC
 <!--END_SECTION:waka-->
