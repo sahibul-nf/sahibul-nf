@@ -87,7 +87,7 @@ Production Flutter apps and Golang backends — owned from architecture through 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-4%2C740%20hrs%202%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-306%20hrs%2019%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-306%20hrs%2032%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-2-blue?style=flat)
 
@@ -132,48 +132,48 @@ Sunday                   1584 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Other                    5 hrs 53 mins       ████████████████░░░░░░░░░   65.48 % 
-Dart                     1 hr 16 mins        ████░░░░░░░░░░░░░░░░░░░░░   14.25 % 
-JSON                     45 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.42 % 
-Text                     43 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.98 % 
-Python                   12 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.39 % 
+Other                    6 hrs 4 mins        █████████████████░░░░░░░░   66.29 % 
+Dart                     1 hr 16 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.97 % 
+JSON                     45 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.26 % 
+Text                     42 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.69 % 
+Python                   12 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.35 % 
 
 🔥 Editors: 
-Agent                    5 hrs 51 mins       ████████████████░░░░░░░░░   65.13 % 
-Bot                      2 hrs 17 mins       ██████░░░░░░░░░░░░░░░░░░░   25.43 % 
-Cursor                   50 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.44 % 
+Agent                    5 hrs 49 mins       ████████████████░░░░░░░░░   63.55 % 
+Bot                      2 hrs 30 mins       ███████░░░░░░░░░░░░░░░░░░   27.32 % 
+Cursor                   50 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.13 % 
 
 🐱‍💻 Projects: 
-pukatflow                3 hrs 59 mins       ███████████░░░░░░░░░░░░░░   44.42 % 
-Unknown Project          3 hrs 49 mins       ███████████░░░░░░░░░░░░░░   42.57 % 
-agent-tools              29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.46 % 
-otonom-agents-media      27 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.03 % 
-sahibul-capital          12 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.37 % 
+Unknown Project          4 hrs               ███████████░░░░░░░░░░░░░░   43.81 % 
+pukatflow                3 hrs 59 mins       ███████████░░░░░░░░░░░░░░   43.57 % 
+agent-tools              29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.36 % 
+otonom-agents-media      27 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.93 % 
+sahibul-capital          12 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.33 % 
 
 💻 Operating System: 
-Mac                      8 hrs 59 mins       █████████████████████████   100.00 % 
+Mac                      9 hrs 9 mins        █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 8 hrs 53 mins (98.88%)
+⏱ AI Coding Time: 9 hrs 3 mins (98.9%)
 
 ✍️ 103 lines written by AI, 30 lines written by hand (77.44% AI-written)
 
-🔤 421,730 Input Tokens, 421,730 Output Tokens
+🔤 397,892 Input Tokens, 397,892 Output Tokens
 
-💵 $7.59 Estimated AI Cost This Week
+💵 $7.16 Estimated AI Cost This Week
 
-🧠 41 AI Sessions, 182 AI Prompts
+🧠 35 AI Sessions, 175 AI Prompts
 
 Grok                     59 lines            ██████████████░░░░░░░░░░░   57.28 % 
 Composer                 44 lines            ███████████░░░░░░░░░░░░░░   42.72 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 77.44% of written lines came from AI
-📚 Verbose Prompter — average 9,529 characters per prompt
-🔁 Iterative Prompter — average 4 prompts per session
+📚 Verbose Prompter — average 9,363 characters per prompt
+🔁 Iterative Prompter — average 5 prompts per session
 🚀 High AI Trust — 27.97% of changed lines were hand-edited
 ```
 
@@ -194,5 +194,5 @@ Shell                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 25/09/2026 16:17:39 UTC
+ Last Updated on 25/09/2026 23:03:53 UTC
 <!--END_SECTION:waka-->
