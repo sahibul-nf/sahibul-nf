@@ -87,7 +87,7 @@ Production Flutter apps and Golang backends — owned from architecture through 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-4%2C740%20hrs%202%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-306%20hrs%2032%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-307%20hrs%2052%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-2-blue?style=flat)
 
@@ -132,42 +132,42 @@ Sunday                   1600 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Other                    6 hrs 4 mins        ███████████████████░░░░░░   75.85 % 
-Dart                     1 hr 16 mins        ████░░░░░░░░░░░░░░░░░░░░░   16.00 % 
-JSON                     39 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.15 % 
+Other                    7 hrs 23 mins       ████████████████████░░░░░   79.43 % 
+Dart                     1 hr 15 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.56 % 
+JSON                     39 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.01 % 
 
 🔥 Editors: 
-Agent                    5 hrs 22 mins       █████████████████░░░░░░░░   67.12 % 
-Bot                      2 hrs 30 mins       ████████░░░░░░░░░░░░░░░░░   31.28 % 
-Cursor                   7 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.61 % 
+Agent                    5 hrs 20 mins       ██████████████░░░░░░░░░░░   57.41 % 
+Bot                      3 hrs 50 mins       ██████████░░░░░░░░░░░░░░░   41.36 % 
+Cursor                   6 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.23 % 
 
 🐱‍💻 Projects: 
-Unknown Project          4 hrs               █████████████░░░░░░░░░░░░   50.13 % 
-pukatflow                3 hrs 59 mins       ████████████░░░░░░░░░░░░░   49.87 % 
+Unknown Project          5 hrs 21 mins       ██████████████░░░░░░░░░░░   57.58 % 
+pukatflow                3 hrs 56 mins       ███████████░░░░░░░░░░░░░░   42.42 % 
 
 💻 Operating System: 
-Mac                      8 hrs               █████████████████████████   100.00 % 
+Mac                      9 hrs 18 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 7 hrs 54 mins (98.74%)
+⏱ AI Coding Time: 9 hrs 12 mins (99.02%)
 
 ✍️ 0 lines written by AI, 30 lines written by hand (0.0% AI-written)
 
-🔤 387,599 Input Tokens, 387,599 Output Tokens
+🔤 386,644 Input Tokens, 386,644 Output Tokens
 
-💵 $6.98 Estimated AI Cost This Week
+💵 $6.96 Estimated AI Cost This Week
 
-🧠 30 AI Sessions, 159 AI Prompts
+🧠 29 AI Sessions, 165 AI Prompts
 
 Composer                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🧑‍💻 Mostly Hands-On — 0.0% of written lines came from AI
-📚 Verbose Prompter — average 9,783 characters per prompt
-🔁 Iterative Prompter — average 5 prompts per session
+📚 Verbose Prompter — average 9,431 characters per prompt
+🔁 Iterative Prompter — average 6 prompts per session
 🔍 Hands-On Reviewer — 100.0% of changed lines were hand-edited
 ```
 
@@ -188,5 +188,5 @@ Python                   2 repos             █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 27/09/2026 16:10:23 UTC
+ Last Updated on 27/09/2026 22:47:15 UTC
 <!--END_SECTION:waka-->
