@@ -85,7 +85,7 @@ Production Flutter apps and Golang backends — owned from architecture through 
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C740%20hrs%202%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C740%20hrs%205%20mins-blue?style=flat)
 
 ![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-307%20hrs%2052%20mins-blue?style=flat)
 
@@ -95,9 +95,9 @@ Production Flutter apps and Golang backends — owned from architecture through 
 
 **🐱 My GitHub Data** 
 
-> 📦 339.2 kB Used in GitHub's Storage 
+> 📦 339.3 kB Used in GitHub's Storage 
  > 
-> 🏆 1,206 Contributions in the Year 2026
+> 🏆 1,207 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
@@ -132,42 +132,42 @@ Sunday                   1600 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Other                    5 hrs 59 mins       ███████████████████████░░   93.44 % 
-Dart                     25 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.56 % 
+Other                    4 hrs 14 mins       █████████████████████████   99.10 % 
+JSON                     2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.90 % 
 
 🔥 Editors: 
-Bot                      3 hrs 50 mins       ███████████████░░░░░░░░░░   60.00 % 
-Agent                    2 hrs 33 mins       ██████████░░░░░░░░░░░░░░░   39.98 % 
-Cursor                   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
+Bot                      3 hrs 50 mins       ██████████████████████░░░   89.76 % 
+Agent                    24 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.34 % 
+Cursor                   2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.90 % 
 
 🐱‍💻 Projects: 
-Unknown Project          3 hrs 57 mins       ███████████████░░░░░░░░░░   61.75 % 
-pukatflow                2 hrs 27 mins       ██████████░░░░░░░░░░░░░░░   38.25 % 
+Unknown Project          2 hrs 12 mins       █████████████░░░░░░░░░░░░   51.68 % 
+pukatflow                2 hrs 4 mins        ████████████░░░░░░░░░░░░░   48.32 % 
 
 💻 Operating System: 
-Mac                      6 hrs 24 mins       █████████████████████████   100.00 % 
+Mac                      4 hrs 17 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 6 hrs 24 mins (100.0%)
+⏱ AI Coding Time: 4 hrs 14 mins (99.1%)
 
-✍️ 0 lines written by AI, 30 lines written by hand (0.0% AI-written)
+✍️ 0 lines written by AI, 0 lines written by hand (0% AI-written)
 
-🔤 255,066 Input Tokens, 255,066 Output Tokens
+🔤 42,427 Input Tokens, 42,427 Output Tokens
 
-💵 $4.59 Estimated AI Cost This Week
+💵 $0.86 Estimated AI Cost This Week
 
-🧠 28 AI Sessions, 108 AI Prompts
+🧠 20 AI Sessions, 57 AI Prompts
 
 Composer                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
-🧑‍💻 Mostly Hands-On — 0.0% of written lines came from AI
-📚 Verbose Prompter — average 9,535 characters per prompt
-🔁 Iterative Prompter — average 4 prompts per session
-🔍 Hands-On Reviewer — 100.0% of changed lines were hand-edited
+🧑‍💻 Mostly Hands-On — 0% of written lines came from AI
+📚 Verbose Prompter — average 3,143 characters per prompt
+🔁 Iterative Prompter — average 3 prompts per session
+🚀 High AI Trust — 0% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Dart** 
@@ -187,5 +187,5 @@ Shell                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 29/09/2026 17:26:17 UTC
+ Last Updated on 29/09/2026 23:22:24 UTC
 <!--END_SECTION:waka-->
