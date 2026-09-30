@@ -95,9 +95,9 @@ Production Flutter apps and Golang backends — owned from architecture through 
 
 **🐱 My GitHub Data** 
 
-> 📦 339.4 kB Used in GitHub's Storage 
+> 📦 339.5 kB Used in GitHub's Storage 
  > 
-> 🏆 1,209 Contributions in the Year 2026
+> 🏆 1,213 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
@@ -132,40 +132,39 @@ Sunday                   1623 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Other                    4 hrs 14 mins       █████████████████████████   99.10 % 
-JSON                     2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.90 % 
+Other                    3 hrs 50 mins       █████████████████████████   99.01 % 
+JSON                     2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.99 % 
 
 🔥 Editors: 
-Bot                      3 hrs 50 mins       ██████████████████████░░░   89.76 % 
-Agent                    24 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.34 % 
-Cursor                   2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.90 % 
+Bot                      3 hrs 50 mins       █████████████████████████   99.01 % 
+Cursor                   2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.99 % 
 
 🐱‍💻 Projects: 
-Unknown Project          2 hrs 12 mins       █████████████░░░░░░░░░░░░   51.68 % 
-pukatflow                2 hrs 4 mins        ████████████░░░░░░░░░░░░░   48.32 % 
+pukatflow                2 hrs 4 mins        █████████████░░░░░░░░░░░░   53.28 % 
+Unknown Project          1 hr 48 mins        ████████████░░░░░░░░░░░░░   46.72 % 
 
 💻 Operating System: 
-Mac                      4 hrs 17 mins       █████████████████████████   100.00 % 
+Mac                      3 hrs 53 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 4 hrs 14 mins (99.1%)
+⏱ AI Coding Time: 3 hrs 50 mins (99.01%)
 
 ✍️ 0 lines written by AI, 0 lines written by hand (0% AI-written)
 
-🔤 42,427 Input Tokens, 42,427 Output Tokens
+🔤 0 Input Tokens, 0 Output Tokens
 
-💵 $0.86 Estimated AI Cost This Week
+💵 $0.09 Estimated AI Cost This Week
 
-🧠 20 AI Sessions, 57 AI Prompts
+🧠 13 AI Sessions, 36 AI Prompts
 
 Composer                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🧑‍💻 Mostly Hands-On — 0% of written lines came from AI
-📚 Verbose Prompter — average 3,143 characters per prompt
+📝 Concise Prompter — average 262 characters per prompt
 🔁 Iterative Prompter — average 3 prompts per session
 🚀 High AI Trust — 0% of changed lines were hand-edited
 ```
@@ -187,5 +186,5 @@ Shell                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 30/09/2026 17:24:11 UTC
+ Last Updated on 30/09/2026 23:25:38 UTC
 <!--END_SECTION:waka-->
