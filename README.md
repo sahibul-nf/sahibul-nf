@@ -95,9 +95,9 @@ Production Flutter apps and Golang backends — owned from architecture through 
 
 **🐱 My GitHub Data** 
 
-> 📦 338.8 kB Used in GitHub's Storage 
+> 📦 338.9 kB Used in GitHub's Storage 
  > 
-> 🏆 1,251 Contributions in the Year 2026
+> 🏆 1,278 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
@@ -108,21 +108,21 @@ Production Flutter apps and Golang backends — owned from architecture through 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                2229 commits        █████░░░░░░░░░░░░░░░░░░░░   20.56 % 
-🌆 Daytime                2613 commits        ██████░░░░░░░░░░░░░░░░░░░   24.10 % 
-🌃 Evening                2763 commits        ██████░░░░░░░░░░░░░░░░░░░   25.48 % 
-🌙 Night                  3239 commits        ███████░░░░░░░░░░░░░░░░░░   29.87 % 
+🌞 Morning                2229 commits        █████░░░░░░░░░░░░░░░░░░░░   20.51 % 
+🌆 Daytime                2613 commits        ██████░░░░░░░░░░░░░░░░░░░   24.04 % 
+🌃 Evening                2763 commits        ██████░░░░░░░░░░░░░░░░░░░   25.42 % 
+🌙 Night                  3264 commits        ████████░░░░░░░░░░░░░░░░░   30.03 % 
 ```
 📅 **I'm Most Productive on Monday** 
 
 ```text
-Monday                   1931 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.81 % 
-Tuesday                  1550 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.29 % 
-Wednesday                1498 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.81 % 
-Thursday                 1282 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.82 % 
-Friday                   1341 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.37 % 
-Saturday                 1573 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.51 % 
-Sunday                   1669 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.39 % 
+Monday                   1931 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.77 % 
+Tuesday                  1550 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.26 % 
+Wednesday                1498 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.78 % 
+Thursday                 1282 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.80 % 
+Friday                   1341 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.34 % 
+Saturday                 1598 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.70 % 
+Sunday                   1669 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.36 % 
 ```
 
 
@@ -132,25 +132,25 @@ Sunday                   1669 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Other                    2 hrs 14 mins       █████████████████████████   98.32 % 
-JSON                     2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.68 % 
+Other                    2 hrs 1 min         █████████████████████████   98.14 % 
+JSON                     2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.86 % 
 
 🔥 Editors: 
-Bot                      2 hrs 14 mins       █████████████████████████   98.32 % 
-Cursor                   2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.68 % 
+Bot                      2 hrs 1 min         █████████████████████████   98.14 % 
+Cursor                   2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.86 % 
 
 🐱‍💻 Projects: 
-Unknown Project          2 hrs 14 mins       █████████████████████████   98.32 % 
-pukatflow                2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.68 % 
+Unknown Project          2 hrs 1 min         █████████████████████████   98.14 % 
+pukatflow                2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.86 % 
 
 💻 Operating System: 
-Mac                      2 hrs 17 mins       █████████████████████████   100.00 % 
+Mac                      2 hrs 4 mins        █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 2 hrs 14 mins (98.32%)
+⏱ AI Coding Time: 2 hrs 1 min (98.14%)
 
 ✍️ 0 lines written by AI, 0 lines written by hand (0% AI-written)
 
@@ -158,12 +158,12 @@ Mac                      2 hrs 17 mins       ███████████�
 
 💵 $0.00 Estimated AI Cost This Week
 
-🧠 8 AI Sessions, 28 AI Prompts
+🧠 7 AI Sessions, 24 AI Prompts
 
 🔎 AI Coding Insights:
 🧑‍💻 Mostly Hands-On — 0% of written lines came from AI
-📝 Concise Prompter — average 253 characters per prompt
-🔁 Iterative Prompter — average 4 prompts per session
+📝 Concise Prompter — average 288 characters per prompt
+🔁 Iterative Prompter — average 3 prompts per session
 🚀 High AI Trust — 0% of changed lines were hand-edited
 ```
 
@@ -184,5 +184,5 @@ Shell                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 02/10/2026 17:12:24 UTC
+ Last Updated on 02/10/2026 23:31:23 UTC
 <!--END_SECTION:waka-->
