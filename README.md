@@ -87,17 +87,17 @@ Production Flutter apps and Golang backends — owned from architecture through 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-4%2C740%20hrs%205%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-307%20hrs%2052%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-310%20hrs%2034%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-3-blue?style=flat)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-7.89%20million%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-7.90%20million%20lines%20of%20code-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
-> 📦 339.2 kB Used in GitHub's Storage 
+> 📦 339.5 kB Used in GitHub's Storage 
  > 
-> 🏆 1,334 Contributions in the Year 2026
+> 🏆 1,362 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
@@ -108,21 +108,21 @@ Production Flutter apps and Golang backends — owned from architecture through 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                2328 commits        █████░░░░░░░░░░░░░░░░░░░░   20.18 % 
-🌆 Daytime                2672 commits        ██████░░░░░░░░░░░░░░░░░░░   23.16 % 
-🌃 Evening                3053 commits        ███████░░░░░░░░░░░░░░░░░░   26.46 % 
-🌙 Night                  3486 commits        ████████░░░░░░░░░░░░░░░░░   30.21 % 
+🌞 Morning                2332 commits        █████░░░░░░░░░░░░░░░░░░░░   20.10 % 
+🌆 Daytime                2680 commits        ██████░░░░░░░░░░░░░░░░░░░   23.10 % 
+🌃 Evening                3094 commits        ███████░░░░░░░░░░░░░░░░░░   26.66 % 
+🌙 Night                  3498 commits        ████████░░░░░░░░░░░░░░░░░   30.14 % 
 ```
 📅 **I'm Most Productive on Monday** 
 
 ```text
-Monday                   2014 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.45 % 
-Tuesday                  1658 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.37 % 
-Wednesday                1522 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.19 % 
-Thursday                 1353 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.73 % 
-Friday                   1433 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.42 % 
-Saturday                 1791 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.52 % 
-Sunday                   1768 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.32 % 
+Monday                   2073 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.86 % 
+Tuesday                  1664 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.34 % 
+Wednesday                1522 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.12 % 
+Thursday                 1353 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.66 % 
+Friday                   1433 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.35 % 
+Saturday                 1791 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.43 % 
+Sunday                   1768 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.24 % 
 ```
 
 
@@ -132,22 +132,39 @@ Sunday                   1768 commits        ████░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-JSON                     2 mins              █████████████████████████   100.00 % 
+Other                    2 hrs 41 mins       █████████████████████████   98.60 % 
+JSON                     2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.40 % 
 
 🔥 Editors: 
-Cursor                   2 mins              █████████████████████████   100.00 % 
+Bot                      2 hrs 41 mins       █████████████████████████   98.60 % 
+Cursor                   2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.40 % 
 
 🐱‍💻 Projects: 
-pukatflow                2 mins              █████████████████████████   100.00 % 
+Unknown Project          2 hrs 41 mins       █████████████████████████   98.60 % 
+pukatflow                2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.40 % 
 
 💻 Operating System: 
-Mac                      2 mins              █████████████████████████   100.00 % 
+Mac                      2 hrs 44 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-No AI Coding Activity Tracked This Week
+⏱ AI Coding Time: 2 hrs 41 mins (98.6%)
+
+✍️ 0 lines written by AI, 0 lines written by hand (0% AI-written)
+
+🔤 0 Input Tokens, 0 Output Tokens
+
+💵 $0.00 Estimated AI Cost This Week
+
+🧠 9 AI Sessions, 20 AI Prompts
+
+🔎 AI Coding Insights:
+🧑‍💻 Mostly Hands-On — 0% of written lines came from AI
+📝 Concise Prompter — average 64 characters per prompt
+🔁 Iterative Prompter — average 2 prompts per session
+🚀 High AI Trust — 0% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Dart** 
@@ -167,5 +184,5 @@ Shell                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 05/10/2026 11:06:14 UTC
+ Last Updated on 06/10/2026 01:14:43 UTC
 <!--END_SECTION:waka-->
