@@ -85,17 +85,17 @@ Production Flutter apps and Golang backends — owned from architecture through 
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C750%20hrs%2011%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C751%20hrs%2014%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-328%20hrs%204%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-332%20hrs%203%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-3-blue?style=flat)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-8.94%20million%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-9.07%20million%20lines%20of%20code-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
-> 📦 341.5 kB Used in GitHub's Storage 
+> 📦 341.6 kB Used in GitHub's Storage 
  > 
 > 🏆 1,574 Contributions in the Year 2026
  > 
@@ -108,21 +108,21 @@ Production Flutter apps and Golang backends — owned from architecture through 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                2943 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.94 % 
-🌆 Daytime                3530 commits        █████░░░░░░░░░░░░░░░░░░░░   21.52 % 
-🌃 Evening                5024 commits        ████████░░░░░░░░░░░░░░░░░   30.62 % 
-🌙 Night                  4908 commits        ███████░░░░░░░░░░░░░░░░░░   29.92 % 
+🌞 Morning                3004 commits        █████░░░░░░░░░░░░░░░░░░░░   18.10 % 
+🌆 Daytime                3610 commits        █████░░░░░░░░░░░░░░░░░░░░   21.75 % 
+🌃 Evening                5049 commits        ████████░░░░░░░░░░░░░░░░░   30.42 % 
+🌙 Night                  4932 commits        ███████░░░░░░░░░░░░░░░░░░   29.72 % 
 ```
 📅 **I'm Most Productive on Monday** 
 
 ```text
-Monday                   3067 commits        █████░░░░░░░░░░░░░░░░░░░░   18.70 % 
-Tuesday                  2126 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.96 % 
-Wednesday                2015 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.28 % 
-Thursday                 2219 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.53 % 
-Friday                   2319 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.14 % 
-Saturday                 2521 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.37 % 
-Sunday                   2138 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.03 % 
+Monday                   3095 commits        █████░░░░░░░░░░░░░░░░░░░░   18.65 % 
+Tuesday                  2142 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.91 % 
+Wednesday                2055 commits        ███░░░░░░░░░░░░░░░░░░░░░░   12.38 % 
+Thursday                 2252 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.57 % 
+Friday                   2343 commits        ████░░░░░░░░░░░░░░░░░░░░░   14.12 % 
+Saturday                 2545 commits        ████░░░░░░░░░░░░░░░░░░░░░   15.34 % 
+Sunday                   2163 commits        ███░░░░░░░░░░░░░░░░░░░░░░   13.03 % 
 ```
 
 
@@ -132,52 +132,52 @@ Sunday                   2138 commits        ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Markdown                 14 hrs 23 mins      █████████████░░░░░░░░░░░░   50.25 % 
-Other                    10 hrs 48 mins      █████████░░░░░░░░░░░░░░░░   37.75 % 
-Python                   1 hr 47 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.28 % 
-Text                     42 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.46 % 
-TypeScript               32 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.89 % 
+Markdown                 12 hrs 37 mins      ███████████░░░░░░░░░░░░░░   43.64 % 
+Other                    12 hrs 25 mins      ███████████░░░░░░░░░░░░░░   42.97 % 
+Python                   1 hr 26 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.99 % 
+TypeScript               1 hr 21 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.70 % 
+Text                     39 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.27 % 
 
 🔥 Editors: 
-Bot                      13 hrs 52 mins      ████████████░░░░░░░░░░░░░   48.45 % 
-Antigravity Desktop      5 hrs 9 mins        █████░░░░░░░░░░░░░░░░░░░░   18.01 % 
-Cursor                   4 hrs 52 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.03 % 
-Agent                    4 hrs 43 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.50 % 
+Bot                      14 hrs 12 mins      ████████████░░░░░░░░░░░░░   49.13 % 
+Antigravity Desktop      5 hrs 21 mins       █████░░░░░░░░░░░░░░░░░░░░   18.52 % 
+Cursor                   5 hrs 2 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.45 % 
+Agent                    4 hrs 18 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.90 % 
 
 🐱‍💻 Projects: 
-Unknown Project          9 hrs 28 mins       ████████░░░░░░░░░░░░░░░░░   33.09 % 
-content-os               8 hrs 41 mins       ████████░░░░░░░░░░░░░░░░░   30.34 % 
-otonom-agents-media      8 hrs 3 mins        ███████░░░░░░░░░░░░░░░░░░   28.13 % 
-pukatflow                1 hr 23 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.85 % 
-terminals                28 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.68 % 
+Unknown Project          10 hrs 47 mins      █████████░░░░░░░░░░░░░░░░   37.30 % 
+otonom-agents-media      8 hrs 25 mins       ███████░░░░░░░░░░░░░░░░░░   29.15 % 
+content-os               7 hrs 5 mins        ██████░░░░░░░░░░░░░░░░░░░   24.55 % 
+pukatflow                1 hr 23 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.80 % 
+terminals                29 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.69 % 
 
 💻 Operating System: 
-Mac                      28 hrs 37 mins      █████████████████████████   100.00 % 
+Mac                      28 hrs 55 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 28 hrs 37 mins (100.0%)
+⏱ AI Coding Time: 28 hrs 53 mins (99.89%)
 
-✍️ 5,851 lines written by AI, 0 lines written by hand (100.0% AI-written)
+✍️ 6,027 lines written by AI, 0 lines written by hand (100.0% AI-written)
 
 🔤 722,755 Input Tokens, 64,174 Output Tokens
 
 💵 $2.71 Estimated AI Cost This Week
 
-🧠 99 AI Sessions, 236 AI Prompts
+🧠 90 AI Sessions, 266 AI Prompts
 
-Composer                 4,674 lines         ███████████████████░░░░░░   77.63 % 
-Sonnet                   836 lines           ███░░░░░░░░░░░░░░░░░░░░░░   13.88 % 
-Grok                     511 lines           ██░░░░░░░░░░░░░░░░░░░░░░░   08.49 % 
+Composer                 4,734 lines         ███████████████████░░░░░░   75.90 % 
+Sonnet                   836 lines           ███░░░░░░░░░░░░░░░░░░░░░░   13.40 % 
+Grok                     511 lines           ██░░░░░░░░░░░░░░░░░░░░░░░   08.19 % 
+Cursor                   156 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   02.50 % 
 Opus                     0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-Gemini                   0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.0% of written lines came from AI
-📝 Concise Prompter — average 241 characters per prompt
-🔁 Iterative Prompter — average 2 prompts per session
+📝 Concise Prompter — average 336 characters per prompt
+🔁 Iterative Prompter — average 3 prompts per session
 🚀 High AI Trust — 0.0% of changed lines were hand-edited
 ```
 
@@ -198,5 +198,5 @@ Shell                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 10/10/2026 16:45:54 UTC
+ Last Updated on 10/10/2026 23:11:28 UTC
 <!--END_SECTION:waka-->
