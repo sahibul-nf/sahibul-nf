@@ -85,9 +85,9 @@ Production Flutter apps and Golang backends — owned from architecture through 
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C751%20hrs%2014%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C752%20hrs%2025%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-332%20hrs%203%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-333%20hrs%2023%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-2-blue?style=flat)
 
@@ -95,7 +95,7 @@ Production Flutter apps and Golang backends — owned from architecture through 
 
 **🐱 My GitHub Data** 
 
-> 📦 342.3 kB Used in GitHub's Storage 
+> 📦 342.4 kB Used in GitHub's Storage 
  > 
 > 🏆 1,592 Contributions in the Year 2026
  > 
@@ -132,51 +132,51 @@ Sunday                   2347 commits        ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Markdown                 12 hrs 37 mins      ███████████░░░░░░░░░░░░░░   43.64 % 
-Other                    12 hrs 25 mins      ███████████░░░░░░░░░░░░░░   42.97 % 
-Python                   1 hr 26 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.99 % 
-TypeScript               1 hr 21 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.70 % 
-Text                     39 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.27 % 
+Markdown                 12 hrs 2 mins       ███████████░░░░░░░░░░░░░░   42.57 % 
+Other                    11 hrs 27 mins      ██████████░░░░░░░░░░░░░░░   40.55 % 
+Python                   1 hr 57 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.94 % 
+TypeScript               1 hr 33 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.52 % 
+Text                     44 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.63 % 
 
 🔥 Editors: 
-Bot                      14 hrs 12 mins      ████████████░░░░░░░░░░░░░   49.13 % 
-Antigravity Desktop      5 hrs 21 mins       █████░░░░░░░░░░░░░░░░░░░░   18.52 % 
-Cursor                   5 hrs 2 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.45 % 
-Agent                    4 hrs 18 mins       ████░░░░░░░░░░░░░░░░░░░░░   14.90 % 
+Bot                      12 hrs 32 mins      ███████████░░░░░░░░░░░░░░   44.33 % 
+Cursor                   5 hrs 53 mins       █████░░░░░░░░░░░░░░░░░░░░   20.85 % 
+Antigravity Desktop      5 hrs 21 mins       █████░░░░░░░░░░░░░░░░░░░░   18.95 % 
+Agent                    4 hrs 29 mins       ████░░░░░░░░░░░░░░░░░░░░░   15.86 % 
 
 🐱‍💻 Projects: 
-Unknown Project          10 hrs 47 mins      █████████░░░░░░░░░░░░░░░░   37.30 % 
-otonom-agents-media      8 hrs 25 mins       ███████░░░░░░░░░░░░░░░░░░   29.15 % 
-content-os               7 hrs 5 mins        ██████░░░░░░░░░░░░░░░░░░░   24.55 % 
-pukatflow                1 hr 23 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.80 % 
-terminals                29 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.69 % 
+Unknown Project          9 hrs 42 mins       █████████░░░░░░░░░░░░░░░░   34.32 % 
+otonom-agents-media      9 hrs 35 mins       ████████░░░░░░░░░░░░░░░░░   33.95 % 
+content-os               6 hrs 13 mins       ██████░░░░░░░░░░░░░░░░░░░   22.03 % 
+pukatflow                1 hr 23 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.91 % 
+terminals                37 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.24 % 
 
 💻 Operating System: 
-Mac                      28 hrs 55 mins      █████████████████████████   100.00 % 
+Mac                      28 hrs 16 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 28 hrs 53 mins (99.89%)
+⏱ AI Coding Time: 28 hrs 14 mins (99.89%)
 
-✍️ 6,027 lines written by AI, 0 lines written by hand (100.0% AI-written)
+✍️ 8,002 lines written by AI, 0 lines written by hand (100.0% AI-written)
 
 🔤 722,755 Input Tokens, 64,174 Output Tokens
 
 💵 $2.71 Estimated AI Cost This Week
 
-🧠 90 AI Sessions, 266 AI Prompts
+🧠 85 AI Sessions, 252 AI Prompts
 
-Composer                 4,734 lines         ███████████████████░░░░░░   75.90 % 
-Sonnet                   836 lines           ███░░░░░░░░░░░░░░░░░░░░░░   13.40 % 
-Grok                     511 lines           ██░░░░░░░░░░░░░░░░░░░░░░░   08.19 % 
-Cursor                   156 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   02.50 % 
+Composer                 4,734 lines         ████████████████░░░░░░░░░   62.52 % 
+Cursor                   1,491 lines         █████░░░░░░░░░░░░░░░░░░░░   19.69 % 
+Sonnet                   836 lines           ███░░░░░░░░░░░░░░░░░░░░░░   11.04 % 
+Grok                     511 lines           ██░░░░░░░░░░░░░░░░░░░░░░░   06.75 % 
 Opus                     0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.0% of written lines came from AI
-📝 Concise Prompter — average 336 characters per prompt
+📝 Concise Prompter — average 346 characters per prompt
 🔁 Iterative Prompter — average 3 prompts per session
 🚀 High AI Trust — 0.0% of changed lines were hand-edited
 ```
@@ -198,5 +198,5 @@ Shell                    2 repos             █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 11/10/2026 17:11:27 UTC
+ Last Updated on 11/10/2026 23:24:53 UTC
 <!--END_SECTION:waka-->
