@@ -89,7 +89,7 @@ Production Flutter apps and Golang backends — owned from architecture through 
 
 ![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-332%20hrs%203%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-3-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-2-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-9.20%20million%20lines%20of%20code-blue?style=flat)
 
@@ -198,5 +198,5 @@ Shell                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 11/10/2026 03:11:48 UTC
+ Last Updated on 11/10/2026 10:32:31 UTC
 <!--END_SECTION:waka-->
