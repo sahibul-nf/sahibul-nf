@@ -97,7 +97,7 @@ Production Flutter apps and Golang backends — owned from architecture through 
 
 > 📦 346.3 kB Used in GitHub's Storage 
  > 
-> 🏆 1,805 Contributions in the Year 2026
+> 🏆 1,810 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
@@ -108,15 +108,15 @@ Production Flutter apps and Golang backends — owned from architecture through 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                6572 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.55 % 
+🌞 Morning                6572 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.54 % 
 🌆 Daytime                7480 commits        █████░░░░░░░░░░░░░░░░░░░░   18.83 % 
-🌃 Evening                14599 commits       █████████░░░░░░░░░░░░░░░░   36.76 % 
-🌙 Night                  11067 commits       ███████░░░░░░░░░░░░░░░░░░   27.86 % 
+🌃 Evening                14599 commits       █████████░░░░░░░░░░░░░░░░   36.75 % 
+🌙 Night                  11072 commits       ███████░░░░░░░░░░░░░░░░░░   27.87 % 
 ```
 📅 **I'm Most Productive on Thursday** 
 
 ```text
-Monday                   7007 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.64 % 
+Monday                   7012 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.65 % 
 Tuesday                  3705 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   09.33 % 
 Wednesday                3621 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   09.12 % 
 Thursday                 7566 commits        █████░░░░░░░░░░░░░░░░░░░░   19.05 % 
@@ -132,53 +132,53 @@ Sunday                   4016 commits        ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Python                   5 hrs 44 mins       ███████████░░░░░░░░░░░░░░   44.87 % 
-Other                    3 hrs 23 mins       ███████░░░░░░░░░░░░░░░░░░   26.52 % 
-Markdown                 3 hrs 11 mins       ██████░░░░░░░░░░░░░░░░░░░   24.99 % 
-TypeScript               12 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.58 % 
-Text                     5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.68 % 
+Markdown                 10 hrs 36 mins      █████████░░░░░░░░░░░░░░░░   36.35 % 
+Other                    9 hrs 31 mins       ████████░░░░░░░░░░░░░░░░░   32.63 % 
+Python                   6 hrs 58 mins       ██████░░░░░░░░░░░░░░░░░░░   23.89 % 
+TypeScript               52 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.99 % 
+INI                      38 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.21 % 
 
 🔥 Editors: 
-Claude Code              8 hrs 35 mins       █████████████████░░░░░░░░   67.06 % 
-Cursor                   1 hr 46 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.89 % 
-Bot                      1 hr 24 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.94 % 
-Agent                    28 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.71 % 
-Antigravity IDE          24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.18 % 
+Claude Code              19 hrs 4 mins       ████████████████░░░░░░░░░   65.38 % 
+Cursor                   3 hrs 54 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.37 % 
+Bot                      3 hrs 50 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.17 % 
+Agent                    1 hr 47 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.16 % 
+Antigravity IDE          24 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.40 % 
 
 🐱‍💻 Projects: 
-content-os               9 hrs 45 mins       ███████████████████░░░░░░   76.23 % 
-otonom-agents-media      1 hr 18 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.21 % 
-postiz                   59 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.73 % 
-Unknown Project          23 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.02 % 
-terminals                8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.13 % 
+content-os               20 hrs 8 mins       █████████████████░░░░░░░░   69.03 % 
+Unknown Project          2 hrs 19 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.98 % 
+postiz                   1 hr 25 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.89 % 
+sahibul-capital          1 hr 17 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.41 % 
+390587eb-b404-4a0d-bc02-656 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.23 % 
 
 💻 Operating System: 
-Mac                      12 hrs 48 mins      █████████████████████████   100.00 % 
+Mac                      29 hrs 11 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 12 hrs 44 mins (99.54%)
+⏱ AI Coding Time: 29 hrs 7 mins (99.8%)
 
-✍️ 4,073 lines written by AI, 0 lines written by hand (100.0% AI-written)
+✍️ 5,584 lines written by AI, 0 lines written by hand (100.0% AI-written)
 
-🔤 9,048,709 Input Tokens, 903,480 Output Tokens
+🔤 23,536,604 Input Tokens, 2,513,299 Output Tokens
 
-💵 $116.71 Estimated AI Cost This Week
+💵 $226.85 Estimated AI Cost This Week
 
-🧠 37 AI Sessions, 169 AI Prompts
+🧠 173 AI Sessions, 529 AI Prompts
 
-Opus                     1,817 lines         █████████████░░░░░░░░░░░░   52.93 % 
-Cursor                   1,335 lines         ██████████░░░░░░░░░░░░░░░   38.89 % 
-Sonnet                   281 lines           ██░░░░░░░░░░░░░░░░░░░░░░░   08.19 % 
+Cursor                   2,157 lines         █████████░░░░░░░░░░░░░░░░   35.16 % 
+Sonnet                   1,970 lines         ████████░░░░░░░░░░░░░░░░░   32.12 % 
+Opus                     1,817 lines         ███████░░░░░░░░░░░░░░░░░░   29.62 % 
+Haiku                    190 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   03.10 % 
 Claude-Code              0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-Gemini                   0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.0% of written lines came from AI
-📚 Verbose Prompter — average 2,059 characters per prompt
-🔁 Iterative Prompter — average 5 prompts per session
+📚 Verbose Prompter — average 3,886 characters per prompt
+🔁 Iterative Prompter — average 3 prompts per session
 🚀 High AI Trust — 0.0% of changed lines were hand-edited
 ```
 
@@ -199,5 +199,5 @@ Shell                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 18/10/2026 18:32:59 UTC
+ Last Updated on 18/10/2026 22:14:04 UTC
 <!--END_SECTION:waka-->
