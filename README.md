@@ -91,13 +91,13 @@ Production Flutter apps and Golang backends — owned from architecture through 
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue?style=flat)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-20.76%20million%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-21.11%20million%20lines%20of%20code-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
-> 📦 346.9 kB Used in GitHub's Storage 
+> 📦 347.0 kB Used in GitHub's Storage 
  > 
-> 🏆 1,843 Contributions in the Year 2026
+> 🏆 1,850 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
@@ -108,21 +108,21 @@ Production Flutter apps and Golang backends — owned from architecture through 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                6577 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.54 % 
-🌆 Daytime                7482 commits        █████░░░░░░░░░░░░░░░░░░░░   18.82 % 
-🌃 Evening                14622 commits       █████████░░░░░░░░░░░░░░░░   36.77 % 
-🌙 Night                  11081 commits       ███████░░░░░░░░░░░░░░░░░░   27.87 % 
+🌞 Morning                6694 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.55 % 
+🌆 Daytime                7579 commits        █████░░░░░░░░░░░░░░░░░░░░   18.74 % 
+🌃 Evening                14887 commits       █████████░░░░░░░░░░░░░░░░   36.81 % 
+🌙 Night                  11280 commits       ███████░░░░░░░░░░░░░░░░░░   27.89 % 
 ```
 📅 **I'm Most Productive on Thursday** 
 
 ```text
-Monday                   7044 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.72 % 
-Tuesday                  3712 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   09.34 % 
-Wednesday                3621 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   09.11 % 
-Thursday                 7566 commits        █████░░░░░░░░░░░░░░░░░░░░   19.03 % 
-Friday                   6897 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.35 % 
-Saturday                 6906 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.37 % 
-Sunday                   4016 commits        ███░░░░░░░░░░░░░░░░░░░░░░   10.10 % 
+Monday                   7176 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.74 % 
+Tuesday                  3768 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   09.32 % 
+Wednesday                3656 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   09.04 % 
+Thursday                 7705 commits        █████░░░░░░░░░░░░░░░░░░░░   19.05 % 
+Friday                   7020 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.36 % 
+Saturday                 7037 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.40 % 
+Sunday                   4078 commits        ███░░░░░░░░░░░░░░░░░░░░░░   10.08 % 
 ```
 
 
@@ -132,52 +132,52 @@ Sunday                   4016 commits        ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Markdown                 10 hrs 36 mins      █████████░░░░░░░░░░░░░░░░   36.35 % 
-Other                    9 hrs 31 mins       ████████░░░░░░░░░░░░░░░░░   32.63 % 
-Python                   6 hrs 58 mins       ██████░░░░░░░░░░░░░░░░░░░   23.89 % 
-TypeScript               52 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.99 % 
-INI                      38 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.21 % 
+Markdown                 10 hrs 24 mins      █████████░░░░░░░░░░░░░░░░   36.94 % 
+Other                    9 hrs 19 mins       ████████░░░░░░░░░░░░░░░░░   33.09 % 
+Python                   6 hrs 29 mins       ██████░░░░░░░░░░░░░░░░░░░   23.07 % 
+TypeScript               44 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.63 % 
+INI                      38 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.29 % 
 
 🔥 Editors: 
-Claude Code              19 hrs 4 mins       ████████████████░░░░░░░░░   65.38 % 
-Cursor                   3 hrs 54 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.37 % 
-Bot                      3 hrs 50 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.17 % 
-Agent                    1 hr 47 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.16 % 
-Antigravity IDE          24 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.40 % 
+Claude Code              18 hrs 36 mins      █████████████████░░░░░░░░   66.08 % 
+Bot                      3 hrs 50 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.65 % 
+Cursor                   3 hrs 30 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.47 % 
+Agent                    1 hr 38 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.81 % 
+Antigravity IDE          24 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.45 % 
 
 🐱‍💻 Projects: 
-content-os               20 hrs 8 mins       █████████████████░░░░░░░░   69.03 % 
-Unknown Project          2 hrs 19 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   07.98 % 
-postiz                   1 hr 25 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.89 % 
-sahibul-capital          1 hr 17 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   04.41 % 
-390587eb-b404-4a0d-bc02-656 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.23 % 
+content-os               19 hrs 40 mins      █████████████████░░░░░░░░   69.86 % 
+Unknown Project          2 hrs 6 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   07.50 % 
+postiz                   1 hr 25 mins        █░░░░░░░░░░░░░░░░░░░░░░░░   05.07 % 
+sahibul-capital          1 hr 6 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.93 % 
+390587eb-b404-4a0d-bc02-656 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.35 % 
 
 💻 Operating System: 
-Mac                      29 hrs 11 mins      █████████████████████████   100.00 % 
+Mac                      28 hrs 9 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 29 hrs 7 mins (99.8%)
+⏱ AI Coding Time: 28 hrs 5 mins (99.79%)
 
-✍️ 5,584 lines written by AI, 0 lines written by hand (100.0% AI-written)
+✍️ 4,887 lines written by AI, 0 lines written by hand (100.0% AI-written)
 
-🔤 23,536,604 Input Tokens, 2,513,299 Output Tokens
+🔤 23,173,961 Input Tokens, 2,427,690 Output Tokens
 
-💵 $226.85 Estimated AI Cost This Week
+💵 $224.15 Estimated AI Cost This Week
 
-🧠 173 AI Sessions, 529 AI Prompts
+🧠 167 AI Sessions, 511 AI Prompts
 
-Cursor                   2,157 lines         █████████░░░░░░░░░░░░░░░░   35.16 % 
-Sonnet                   1,970 lines         ████████░░░░░░░░░░░░░░░░░   32.12 % 
-Opus                     1,817 lines         ███████░░░░░░░░░░░░░░░░░░   29.62 % 
-Haiku                    190 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   03.10 % 
+Cursor                   2,129 lines         ██████████░░░░░░░░░░░░░░░   39.16 % 
+Opus                     1,817 lines         ████████░░░░░░░░░░░░░░░░░   33.42 % 
+Sonnet                   1,301 lines         ██████░░░░░░░░░░░░░░░░░░░   23.93 % 
+Haiku                    190 lines           █░░░░░░░░░░░░░░░░░░░░░░░░   03.49 % 
 Claude-Code              0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.0% of written lines came from AI
-📚 Verbose Prompter — average 3,886 characters per prompt
+📚 Verbose Prompter — average 3,981 characters per prompt
 🔁 Iterative Prompter — average 3 prompts per session
 🚀 High AI Trust — 0.0% of changed lines were hand-edited
 ```
@@ -199,5 +199,5 @@ Shell                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 19/10/2026 18:12:29 UTC
+ Last Updated on 19/10/2026 23:21:36 UTC
 <!--END_SECTION:waka-->
