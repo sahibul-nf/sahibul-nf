@@ -91,13 +91,13 @@ Production Flutter apps and Golang backends — owned from architecture through 
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue?style=flat)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-21.46%20million%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-21.82%20million%20lines%20of%20code-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
-> 📦 347.1 kB Used in GitHub's Storage 
+> 📦 346.9 kB Used in GitHub's Storage 
  > 
-> 🏆 1,853 Contributions in the Year 2026
+> 🏆 1,856 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
@@ -108,21 +108,21 @@ Production Flutter apps and Golang backends — owned from architecture through 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                6817 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.58 % 
-🌆 Daytime                7676 commits        █████░░░░░░░░░░░░░░░░░░░░   18.67 % 
-🌃 Evening                15152 commits       █████████░░░░░░░░░░░░░░░░   36.85 % 
-🌙 Night                  11473 commits       ███████░░░░░░░░░░░░░░░░░░   27.90 % 
+🌞 Morning                6940 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.60 % 
+🌆 Daytime                7773 commits        █████░░░░░░░░░░░░░░░░░░░░   18.60 % 
+🌃 Evening                15417 commits       █████████░░░░░░░░░░░░░░░░   36.89 % 
+🌙 Night                  11666 commits       ███████░░░░░░░░░░░░░░░░░░   27.91 % 
 ```
 📅 **I'm Most Productive on Thursday** 
 
 ```text
-Monday                   7308 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.77 % 
-Tuesday                  3824 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   09.30 % 
-Wednesday                3691 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   08.98 % 
-Thursday                 7844 commits        █████░░░░░░░░░░░░░░░░░░░░   19.08 % 
-Friday                   7143 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.37 % 
-Saturday                 7168 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.43 % 
-Sunday                   4140 commits        ███░░░░░░░░░░░░░░░░░░░░░░   10.07 % 
+Monday                   7440 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.80 % 
+Tuesday                  3880 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   09.28 % 
+Wednesday                3726 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   08.91 % 
+Thursday                 7983 commits        █████░░░░░░░░░░░░░░░░░░░░   19.10 % 
+Friday                   7266 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.38 % 
+Saturday                 7299 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.46 % 
+Sunday                   4202 commits        ███░░░░░░░░░░░░░░░░░░░░░░   10.05 % 
 ```
 
 
@@ -185,11 +185,11 @@ Claude-Code              0 lines             ░░░░░░░░░░░�
 **I Mostly Code in Dart** 
 
 ```text
-HTML                     7 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   08.43 % 
-TypeScript               5 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.02 % 
-Python                   3 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   03.61 % 
-CSS                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.41 % 
-Shell                    1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.20 % 
+HTML                     7 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   08.54 % 
+TypeScript               5 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.10 % 
+CSS                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.44 % 
+Python                   2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   02.44 % 
+Shell                    1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.22 % 
 ```
 
 
@@ -199,5 +199,5 @@ Shell                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 20/10/2026 02:54:06 UTC
+ Last Updated on 20/10/2026 09:11:54 UTC
 <!--END_SECTION:waka-->
