@@ -95,9 +95,9 @@ Production Flutter apps and Golang backends — owned from architecture through 
 
 **🐱 My GitHub Data** 
 
-> 📦 348.0 kB Used in GitHub's Storage 
+> 📦 348.1 kB Used in GitHub's Storage 
  > 
-> 🏆 1,912 Contributions in the Year 2026
+> 🏆 1,918 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
@@ -110,17 +110,17 @@ Production Flutter apps and Golang backends — owned from architecture through 
 ```text
 🌞 Morning                7215 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.69 % 
 🌆 Daytime                7973 commits        █████░░░░░░░░░░░░░░░░░░░░   18.44 % 
-🌃 Evening                15982 commits       █████████░░░░░░░░░░░░░░░░   36.97 % 
-🌙 Night                  12062 commits       ███████░░░░░░░░░░░░░░░░░░   27.90 % 
+🌃 Evening                15983 commits       █████████░░░░░░░░░░░░░░░░   36.97 % 
+🌙 Night                  12067 commits       ███████░░░░░░░░░░░░░░░░░░   27.91 % 
 ```
 📅 **I'm Most Productive on Thursday** 
 
 ```text
 Monday                   7704 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.82 % 
 Tuesday                  4002 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   09.26 % 
-Wednesday                3824 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   08.85 % 
-Thursday                 8303 commits        █████░░░░░░░░░░░░░░░░░░░░   19.21 % 
-Friday                   7512 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.38 % 
+Wednesday                3824 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   08.84 % 
+Thursday                 8304 commits        █████░░░░░░░░░░░░░░░░░░░░   19.21 % 
+Friday                   7517 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.39 % 
 Saturday                 7561 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.49 % 
 Sunday                   4326 commits        ███░░░░░░░░░░░░░░░░░░░░░░   10.01 % 
 ```
@@ -132,53 +132,53 @@ Sunday                   4326 commits        ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Markdown                 9 hrs 30 mins       ██████████░░░░░░░░░░░░░░░   41.72 % 
-Other                    6 hrs 42 mins       ███████░░░░░░░░░░░░░░░░░░   29.46 % 
-Python                   5 hrs 13 mins       ██████░░░░░░░░░░░░░░░░░░░   22.93 % 
-INI                      38 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.84 % 
-TypeScript               19 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.39 % 
+Python                   5 hrs 13 mins       █████████░░░░░░░░░░░░░░░░   37.61 % 
+Markdown                 4 hrs 56 mins       █████████░░░░░░░░░░░░░░░░   35.60 % 
+Other                    3 hrs 38 mins       ███████░░░░░░░░░░░░░░░░░░   26.21 % 
+HTML                     3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.47 % 
+JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.10 % 
 
 🔥 Editors: 
-Claude Code              14 hrs 18 mins      ████████████████░░░░░░░░░   62.85 % 
-Bot                      3 hrs 50 mins       ████░░░░░░░░░░░░░░░░░░░░░   16.88 % 
-Cursor                   3 hrs 4 mins        ███░░░░░░░░░░░░░░░░░░░░░░   13.47 % 
-Agent                    59 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.33 % 
-Antigravity IDE          24 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.79 % 
+Claude Code              10 hrs 44 mins      ███████████████████░░░░░░   77.33 % 
+Bot                      1 hr 24 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.09 % 
+Cursor                   55 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.64 % 
+Antigravity IDE          25 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.07 % 
+Codex Vscode             14 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.76 % 
 
 🐱‍💻 Projects: 
-content-os               15 hrs 20 mins      █████████████████░░░░░░░░   67.38 % 
-Unknown Project          2 hrs 6 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.24 % 
-postiz                   1 hr 25 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   06.27 % 
-390587eb-b404-4a0d-bc02-651 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.75 % 
-sahibul-capital          44 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.26 % 
+content-os               11 hrs 58 mins      ██████████████████████░░░   86.29 % 
+postiz                   59 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.13 % 
+Unknown Project          22 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.64 % 
+45dbd2f2-a81f-48c5-8764-88 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.01 % 
+otonom-agents-media      8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.00 % 
 
 💻 Operating System: 
-Mac                      22 hrs 46 mins      █████████████████████████   100.00 % 
+Mac                      13 hrs 53 mins      █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 22 hrs 42 mins (99.74%)
+⏱ AI Coding Time: 13 hrs 49 mins (99.57%)
 
-✍️ 2,992 lines written by AI, 0 lines written by hand (100.0% AI-written)
+✍️ 2,135 lines written by AI, 0 lines written by hand (100.0% AI-written)
 
-🔤 18,609,455 Input Tokens, 1,805,397 Output Tokens
+🔤 10,569,321 Input Tokens, 1,012,314 Output Tokens
 
-💵 $173.06 Estimated AI Cost This Week
+💵 $124.64 Estimated AI Cost This Week
 
-🧠 127 AI Sessions, 412 AI Prompts
+🧠 48 AI Sessions, 186 AI Prompts
 
-Opus                     1,817 lines         ███████████████░░░░░░░░░░   60.63 % 
-Sonnet                   593 lines           █████░░░░░░░░░░░░░░░░░░░░   19.79 % 
-Cursor                   397 lines           ███░░░░░░░░░░░░░░░░░░░░░░   13.25 % 
-Haiku                    190 lines           ██░░░░░░░░░░░░░░░░░░░░░░░   06.34 % 
+Opus                     1,817 lines         █████████████████████░░░░   85.11 % 
+Sonnet                   316 lines           ████░░░░░░░░░░░░░░░░░░░░░   14.80 % 
+GPT                      2 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.09 % 
 Claude-Code              0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+Gemini                   0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.0% of written lines came from AI
-📚 Verbose Prompter — average 3,941 characters per prompt
-🔁 Iterative Prompter — average 3 prompts per session
+📚 Verbose Prompter — average 3,578 characters per prompt
+🔁 Iterative Prompter — average 4 prompts per session
 🚀 High AI Trust — 0.0% of changed lines were hand-edited
 ```
 
@@ -199,5 +199,5 @@ Shell                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 22/10/2026 16:31:40 UTC
+ Last Updated on 22/10/2026 23:02:35 UTC
 <!--END_SECTION:waka-->
