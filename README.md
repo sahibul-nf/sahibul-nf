@@ -85,9 +85,9 @@ Production Flutter apps and Golang backends — owned from architecture through 
 ![Visitor](https://komarev.com/ghpvc/?username=sahibul-nf&label=Visitors+Count&color=brightgreen)
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C760%20hrs%2038%20mins-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C763%20hrs%205%20mins-blue?style=flat)
 
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-344%20hrs%2048%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-347%20hrs%2057%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue?style=flat)
 
@@ -97,7 +97,7 @@ Production Flutter apps and Golang backends — owned from architecture through 
 
 > 📦 348.2 kB Used in GitHub's Storage 
  > 
-> 🏆 1,950 Contributions in the Year 2026
+> 🏆 1,951 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
@@ -111,7 +111,7 @@ Production Flutter apps and Golang backends — owned from architecture through 
 🌞 Morning                7858 commits        ████░░░░░░░░░░░░░░░░░░░░░   16.98 % 
 🌆 Daytime                8386 commits        █████░░░░░░░░░░░░░░░░░░░░   18.12 % 
 🌃 Evening                17149 commits       █████████░░░░░░░░░░░░░░░░   37.05 % 
-🌙 Night                  12896 commits       ███████░░░░░░░░░░░░░░░░░░   27.86 % 
+🌙 Night                  12897 commits       ███████░░░░░░░░░░░░░░░░░░   27.86 % 
 ```
 📅 **I'm Most Productive on Thursday** 
 
@@ -122,7 +122,7 @@ Wednesday                4022 commits        ██░░░░░░░░░�
 Thursday                 9021 commits        █████░░░░░░░░░░░░░░░░░░░░   19.49 % 
 Friday                   8062 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.42 % 
 Saturday                 8132 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.57 % 
-Sunday                   4574 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   09.88 % 
+Sunday                   4575 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   09.88 % 
 ```
 
 
@@ -132,50 +132,49 @@ Sunday                   4574 commits        ██░░░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Other                    3 hrs 19 mins       ████████████░░░░░░░░░░░░░   48.78 % 
-Markdown                 2 hrs 13 mins       ████████░░░░░░░░░░░░░░░░░   32.48 % 
-Python                   1 hr 16 mins        █████░░░░░░░░░░░░░░░░░░░░   18.74 % 
+Markdown                 3 hrs 26 mins       ███████████████░░░░░░░░░░   58.66 % 
+Other                    1 hr 23 mins        ██████░░░░░░░░░░░░░░░░░░░   23.74 % 
+JSON                     37 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.52 % 
+Bash                     21 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.05 % 
+Python                   3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.03 % 
 
 🔥 Editors: 
-Claude Code              6 hrs 8 mins        ███████████████████████░░   90.04 % 
-Antigravity IDE          25 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.24 % 
-Codex Vscode             14 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.57 % 
-Cursor                   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.12 % 
-VS Code                  0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 % 
+Claude Code              5 hrs 15 mins       ████████████████████████░   94.34 % 
+Codex Vscode             14 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.37 % 
+Antigravity IDE          3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.14 % 
+Cursor                   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.15 % 
 
 🐱‍💻 Projects: 
-content-os               6 hrs 22 mins       ███████████████████████░░   93.36 % 
-45dbd2f2-a81f-48c5-8764-88 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.04 % 
-od-conn-test-KNAIPG      5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.42 % 
-observer-sessions        5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.24 % 
-scratch-2026-10-17-92f34c4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.00 % 
+content-os               5 hrs 22 mins       ████████████████████████░   96.44 % 
+45dbd2f2-a81f-48c5-8764-88 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.50 % 
+observer-sessions        3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.95 % 
+otonom-agents-media      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.11 % 
 
 💻 Operating System: 
-Mac                      6 hrs 49 mins       █████████████████████████   100.00 % 
+Mac                      5 hrs 34 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 6 hrs 46 mins (99.13%)
+⏱ AI Coding Time: 5 hrs 34 mins (99.84%)
 
-✍️ 168 lines written by AI, 0 lines written by hand (100.0% AI-written)
+✍️ 232 lines written by AI, 0 lines written by hand (100.0% AI-written)
 
-🔤 4,590,177 Input Tokens, 473,348 Output Tokens
+🔤 5,647,960 Input Tokens, 267,878 Output Tokens
 
-💵 $74.72 Estimated AI Cost This Week
+💵 $37.92 Estimated AI Cost This Week
 
-🧠 28 AI Sessions, 90 AI Prompts
+🧠 25 AI Sessions, 70 AI Prompts
 
-Opus                     131 lines           ███████████████████░░░░░░   77.98 % 
-Sonnet                   35 lines            █████░░░░░░░░░░░░░░░░░░░░   20.83 % 
-GPT                      2 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.19 % 
+Sonnet                   485 lines           █████████████████████████   99.18 % 
+Haiku                    2 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.41 % 
+GPT                      2 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.41 % 
 Claude-Code              0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-Haiku                    0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.0% of written lines came from AI
-📚 Verbose Prompter — average 5,173 characters per prompt
+📚 Verbose Prompter — average 8,574 characters per prompt
 🔁 Iterative Prompter — average 3 prompts per session
 🚀 High AI Trust — 0.0% of changed lines were hand-edited
 ```
@@ -197,5 +196,5 @@ Shell                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 24/10/2026 18:36:30 UTC
+ Last Updated on 24/10/2026 22:17:59 UTC
 <!--END_SECTION:waka-->
