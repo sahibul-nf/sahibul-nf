@@ -97,7 +97,7 @@ Production Flutter apps and Golang backends — owned from architecture through 
 
 > 📦 349.7 kB Used in GitHub's Storage 
  > 
-> 🏆 2,097 Contributions in the Year 2026
+> 🏆 2,101 Contributions in the Year 2026
  > 
 > 💼 Opted to Hire
  > 
@@ -110,19 +110,19 @@ Production Flutter apps and Golang backends — owned from architecture through 
 ```text
 🌞 Morning                8944 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.46 % 
 🌆 Daytime                9117 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.79 % 
-🌃 Evening                18915 commits       █████████░░░░░░░░░░░░░░░░   36.92 % 
-🌙 Night                  14260 commits       ███████░░░░░░░░░░░░░░░░░░   27.83 % 
+🌃 Evening                18915 commits       █████████░░░░░░░░░░░░░░░░   36.91 % 
+🌙 Night                  14264 commits       ███████░░░░░░░░░░░░░░░░░░   27.84 % 
 ```
 📅 **I'm Most Productive on Thursday** 
 
 ```text
-Monday                   9092 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.75 % 
+Monday                   9092 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.74 % 
 Tuesday                  4662 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   09.10 % 
 Wednesday                4342 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   08.47 % 
-Thursday                 10127 commits       █████░░░░░░░░░░░░░░░░░░░░   19.77 % 
+Thursday                 10127 commits       █████░░░░░░░░░░░░░░░░░░░░   19.76 % 
 Friday                   8927 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.42 % 
 Saturday                 9079 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.72 % 
-Sunday                   5007 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   09.77 % 
+Sunday                   5011 commits        ██░░░░░░░░░░░░░░░░░░░░░░░   09.78 % 
 ```
 
 
@@ -132,51 +132,50 @@ Sunday                   5007 commits        ██░░░░░░░░░�
 🕑︎ Time Zone: Asia/Jakarta
 
 💬 Programming Languages: 
-Other                    2 hrs 37 mins       █████████░░░░░░░░░░░░░░░░   34.93 % 
-Markdown                 2 hrs 28 mins       ████████░░░░░░░░░░░░░░░░░   32.97 % 
-Python                   1 hr 4 mins         ████░░░░░░░░░░░░░░░░░░░░░   14.30 % 
-JSON                     55 mins             ███░░░░░░░░░░░░░░░░░░░░░░   12.26 % 
-Bash                     23 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.13 % 
+Other                    2 hrs 9 mins        ████████████░░░░░░░░░░░░░   49.47 % 
+Python                   1 hr                ██████░░░░░░░░░░░░░░░░░░░   23.27 % 
+Markdown                 49 mins             █████░░░░░░░░░░░░░░░░░░░░   18.81 % 
+JSON                     18 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.01 % 
+Bash                     1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.73 % 
 
 🔥 Editors: 
-Claude Code              7 hrs 6 mins        ████████████████████████░   94.48 % 
-Opencode Cli             11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.58 % 
-Antigravity CLI          9 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.08 % 
-Antigravity IDE          3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.86 % 
+Claude Code              3 hrs 59 mins       ███████████████████████░░   91.50 % 
+Opencode Cli             11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.45 % 
+Antigravity CLI          9 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.58 % 
+Antigravity IDE          1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.46 % 
 Codex Vscode             0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🐱‍💻 Projects: 
-content-os               6 hrs 48 mins       ███████████████████████░░   90.48 % 
-scratch-2026-10-17-92f34c40 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.90 % 
-observer-sessions        2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.53 % 
-otonom-agents-media      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 % 
+content-os               3 hrs 39 mins       █████████████████████░░░░   83.72 % 
+scratch-2026-10-17-92f34c40 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.36 % 
+observer-sessions        2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.92 % 
 
 💻 Operating System: 
-Mac                      7 hrs 31 mins       █████████████████████████   100.00 % 
+Mac                      4 hrs 21 mins       █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 7 hrs 31 mins (99.88%)
+⏱ AI Coding Time: 4 hrs 21 mins (100.0%)
 
-✍️ 608 lines written by AI, 0 lines written by hand (100.0% AI-written)
+✍️ 413 lines written by AI, 0 lines written by hand (100.0% AI-written)
 
-🔤 10,066,596 Input Tokens, 455,004 Output Tokens
+🔤 5,939,248 Input Tokens, 295,960 Output Tokens
 
-💵 $76.53 Estimated AI Cost This Week
+💵 $59.78 Estimated AI Cost This Week
 
-🧠 33 AI Sessions, 95 AI Prompts
+🧠 21 AI Sessions, 54 AI Prompts
 
-Sonnet                   470 lines           ██████████████░░░░░░░░░░░   54.34 % 
-Opus                     388 lines           ███████████░░░░░░░░░░░░░░   44.86 % 
-GLM                      5 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.58 % 
-Haiku                    2 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.23 % 
+Opus                     388 lines           ███████████████████████░░   93.95 % 
+Sonnet                   20 lines            █░░░░░░░░░░░░░░░░░░░░░░░░   04.84 % 
+GLM                      5 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.21 % 
+Haiku                    0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 GPT                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 100.0% of written lines came from AI
-📚 Verbose Prompter — average 6,609 characters per prompt
+📚 Verbose Prompter — average 6,412 characters per prompt
 🔁 Iterative Prompter — average 3 prompts per session
 🚀 High AI Trust — 0.0% of changed lines were hand-edited
 ```
@@ -198,5 +197,5 @@ Shell                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/sahibul-nf/sahibul-nf/main/assets/bar_graph.png)
 
 
- Last Updated on 31/10/2026 16:43:15 UTC
+ Last Updated on 31/10/2026 23:07:07 UTC
 <!--END_SECTION:waka-->
