@@ -288,7 +288,7 @@ Place portfolio link in **paragraph 2–3** (after a short hook), not only at th
 ### Short insert
 ```
 Selected work & case studies: https://sahibul.dev
-Relevant example: visual workflow studio (Flutter Web + Deno sandbox + YAML blueprints) — details and silent demo on request.
+Relevant example: visual workflow studio (Flutter Web + Deno sandbox + YAML blueprints) — details and a short screen-recording demo on request.
 ```
 
 ### Slightly longer insert
@@ -296,7 +296,27 @@ Relevant example: visual workflow studio (Flutter Web + Deno sandbox + YAML blue
 I’m Top Rated Plus with a 5.0 rating and 100% Job Success. For a quick view of relevant delivery:
 https://sahibul.dev
 
-The BonkBytes workflow canvas case study (#cases) is closest to [briefly tie to job post]. Happy to walk through architecture and scope on a short call.
+The BonkBytes workflow canvas case study (#cases) is closest to [briefly tie to job post]. I can walk through architecture in writing or a short screen recording.
+```
+
+### Flutter hourly job (Unicorn / Plant filter) — bid $32/hr
+
+[Looking for Flutter mobile app developer](https://www.upwork.com/jobs/~022102742165440379768)
+
+```
+Unicorn
+Plant
+
+I’m a production Flutter developer for iOS and Android (Web when needed): Firebase, REST, Git, and features I can take from ticket to store-ready code.
+
+Relevant work:
+• Musopen Practice — Flutter on Play Store & App Store (session timer, home widgets, Live Activities)
+• Cardx — Flutter iOS/web + APIs, live at appcardx.com
+• More: https://sahibul.dev
+
+I’ve shipped, maintained, and refactored GetX/Riverpod apps. I can review your current codebase and send a first-week plan — written updates and short recordings so you can see progress without waiting on a meeting.
+
+Sahibul
 ```
 
 ---

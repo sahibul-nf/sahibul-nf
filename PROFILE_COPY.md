@@ -25,7 +25,7 @@ I’m a full-stack Flutter engineer (5 years) shipping production apps on iOS, A
 
 I own work from architecture through release: new apps, takeovers, refactors, home-screen widgets, and Flutter Web editors. Client work includes a visual workflow studio (DAG pipelines, Deno sandbox, realtime collab), Cardx (Flutter + Go, live at appcardx.com), and Musopen Practice (WidgetKit, Glance, Live Activities — Play Store & App Store). Personal: Nourdaily, a Flutter content platform for the Muslim community.
 
-I work remotely and async (written English, Loom, tickets). I ship faster with Cursor, Claude, and Codex, then lock quality with automated tests.
+I ship faster with Cursor, Claude, and Codex, then lock quality with automated tests.
 
 Tech: Flutter, Dart, iOS, Android, Flutter Web · Golang, TypeScript · Supabase, Firebase, PostgreSQL, Redis, REST, AWS · Riverpod, GetX
 
@@ -141,6 +141,34 @@ Optional 9th: **AI Coding Workflows** only — do not add five generic AI tags.
 - PukatFlow / Otonom — personal products; safe to list, no unreleased internals
 
 PukatFlow and Otonom are **personal** products, not client NDA work. Safe to list on Upwork/LinkedIn as personal builds.
+
+---
+
+## Himalayas / Contra / daily.dev
+
+Same communication line everywhere (do **not** say “Loom”). Keep it off the profile body — lead with shipped work. Mention written updates only as a plus (visibility), never as a constraint.
+
+**Intro (Himalayas, ≤150 chars)**
+```
+Full-stack Flutter engineer | iOS, Android & Web | Supabase, Firebase & Go. Aceh, Indonesia. https://sahibul.dev
+```
+
+**Bio**
+```
+Full-stack Flutter engineer (5 years) shipping production apps on iOS, Android, and Web — plus the backends behind them (Supabase, Firebase, Golang).
+
+I own work from architecture through release: new apps, takeovers, refactors, home-screen widgets, and Flutter Web editors. Client work includes a visual workflow studio (DAG pipelines, Deno sandbox, realtime collab), Cardx (Flutter + Go, live at appcardx.com), and Musopen Practice (WidgetKit, Glance, Live Activities — Play Store & App Store). Personal: Nourdaily, a Flutter content platform for the Muslim community.
+
+Based in Aceh, Indonesia. Open to remote roles and freelance.
+Portfolio: https://sahibul.dev
+```
+
+**What are you looking for (Himalayas)**
+```
+Remote Flutter work I can own end to end: production iOS/Android/Web apps, takeovers/refactors, home-screen widgets, Flutter Web editors, and backends (Supabase, Firebase, or Golang APIs). Open to full-time remote or freelance.
+```
+
+Contra: same bio paragraphs; website `https://sahibul.dev`. daily.dev: website + one line Flutter/Go production apps.
 
 ---
 
